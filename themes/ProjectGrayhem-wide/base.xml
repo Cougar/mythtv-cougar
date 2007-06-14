@@ -1,0 +1,32 @@
+<mythuitheme>
+
+  <window name="backgroundwindow">
+    <imagetype name="backimg">
+      <filename>background.png</filename>
+    </imagetype>
+
+    <imagetype name="logo">
+      <filename>background.png</filename>
+      <position>0,0</position>
+          <alpha>180</alpha>
+    </imagetype>
+
+    <font name="clock" face="Vera">
+         <color>#FFFFFF</color>
+         <size>18</size>
+         <size:small>18</size:small>
+         <size:big>22</size:big>
+         <bold>no</bold>
+    </font>
+
+    <clock name="clock">
+         <color>#FFFFFF</color>
+         <area>60,620,1000,50</area>
+         <font>clock</font>
+         <align>left</align>
+         <format>%DATE%, %TIME%</format>
+    </clock>
+  </window>
+
+</mythuitheme>
+
