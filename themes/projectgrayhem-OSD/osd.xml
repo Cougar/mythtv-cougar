@@ -1,9 +1,6 @@
 <mythosdtheme>
-  <!--Mythtv OSD "isthmus" by gerhard aldorf -->
-
-  <!-- Renamed to Retro-OSD by Greg Estabrooks since the original -->
-  <!-- isthmus is still included in myththemes. -->>
-
+  <!--Mythtv OSD "projectgrayhem-OSD" by Justin Hornsby -->
+  <!-- borrows heavily from other OSD themes -->
   <!-- if timeformat is set to 'FROMSETTINGS', it will use the time format
        specified in the general mythtv settings -->
   <timeformat>FROMSETTINGS</timeformat>
