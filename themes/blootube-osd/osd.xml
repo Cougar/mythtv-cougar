@@ -1,9 +1,4 @@
 <mythosdtheme>
-  <!--Mythtv OSD "isthmus" by gerhard aldorf -->
-
-  <!-- Renamed to Retro-OSD by Greg Estabrooks since the original -->
-  <!-- isthmus is still included in myththemes. -->>
-
   <!-- if timeformat is set to 'FROMSETTINGS', it will use the time format
        specified in the general mythtv settings -->
   <timeformat>FROMSETTINGS</timeformat>
@@ -120,12 +115,6 @@
 		  <area>24,400,60,30</area>
 		  <font>channelfont</font>
 		  <value>%CHANNUM%</value>
-	  </textarea>
-	  <textarea name="callsign" align="center">
-		  <multiline>no</multiline>
-		  <area>24,444,65,30</area>
-		  <font>callsignfont</font>
-		  <value>%CALLSIGN%</value>
 	  </textarea>
   </container>
 
