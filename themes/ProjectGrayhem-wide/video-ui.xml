@@ -84,7 +84,7 @@
     </font>
 
     <container name="background">
-      <image name="filler" draworder="0" fleximage="yes">
+      <image name="filler" draworder="0" fleximage="no">
         <filename>vm-background.png</filename>
         <position>0,0</position>
       </image>
@@ -544,7 +544,7 @@
 
     <container name="background2">
       <image>
-        <filename>dbackground.png</filename>
+        <filename>background.png</filename>
         <position>0,0</position>
       </image>
     </container>

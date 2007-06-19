@@ -1131,8 +1131,8 @@
         <font>info</font>
         <value>Channel Recording Priorities</value>
       </textarea>
-      <image name="filler" draworder="0" fleximage="yes">
-        <filename>dbackground.png</filename>
+      <image name="filler" draworder="0" fleximage="no>
+        <filename>background.png</filename>
         <position>0,35</position>
       </image>
       <textarea name="keyinstr" align="center" draworder="0">
@@ -1607,7 +1607,7 @@
     </font>
 
     <container name="background">
-      <image name="filler" draworder="0" fleximage="yes">
+      <image name="filler" draworder="0" fleximage="no">
         <filename>pl-background.png</filename>
         <position>0,0</position>
       </image>
@@ -1636,7 +1636,8 @@
       </listarea>
       <image name="titlelines" draworder="0" fleximage="no">
         <filename>tvplayback/tv-lbox.png</filename>
-        <position>5,5</position>
+        <position>0,5</position>
+        <staticsize>1250,425</staticsize>
       </image>
       <listarea name="bottomtitles" draworder="2">
         <area>20,230,350,170</area>
@@ -2179,7 +2180,7 @@
         <column number="4" width="20" context="-1"></column>
         <items>11</items>
 
-        <image function="selectionbar" filename="priorities/pr-selectbar.png" location="-8,-4" fleximage="yes"></image>
+        <image function="selectionbar" filename="priorities/pr-selectbar.png" location="-8,-4" fleximage="no"></image>
         <image function="uparrow" filename="shared/uparrow.png" location="1200,5"></image>
         <image function="downarrow" filename="shared/downarrow.png" location="1200,340"></image>
       </listarea>
