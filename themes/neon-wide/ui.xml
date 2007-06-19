@@ -2830,13 +2830,13 @@
 
       <richtextarea name="richtext" draworder="0">
 	<area>20,100,1200,600</area>
-	<textarea>40,110,1100,490</textarea>
+	<textarea>40,110,1100,550</textarea>
         <font>body</font>
         <value>Program Details</value>
-        <image function="uparrow-reg" filename="blank.png" location="1150,90"></image>
-        <image function="downarrow-reg" filename="blank.png" location="1150,580"></image>
-        <image function="uparrow-sel" filename="uparrow.png" location="1150,90"></image>
-        <image function="downarrow-sel" filename="downarrow.png" location="1150,580"></image>
+        <image function="uparrow-reg" filename="blank.png" location="1130,120"></image>
+        <image function="downarrow-reg" filename="blank.png" location="1130,620"></image>
+        <image function="uparrow-sel" filename="uparrow.png" location="1130,120"></image>
+        <image function="downarrow-sel" filename="downarrow.png" location="1130,620"></image>
         <backgroundreg>details/pd-lines.png</backgroundreg>
         <backgroundsel>details/pd-lines.png</backgroundsel>
       </richtextarea>
