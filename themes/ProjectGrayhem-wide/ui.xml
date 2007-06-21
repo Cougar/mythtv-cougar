@@ -1131,7 +1131,7 @@
         <font>info</font>
         <value>Channel Recording Priorities</value>
       </textarea>
-      <image name="filler" draworder="0" fleximage="no>
+      <image name="filler" draworder="0" fleximage="no">
         <filename>background.png</filename>
         <position>0,35</position>
       </image>
@@ -2431,10 +2431,10 @@
 	<textarea>40,120,1100,462</textarea>
         <font>body</font>
         <value>Program Details</value>
-        <image function="uparrow-reg" filename="blank.png" location="725,90"></image>
-        <image function="downarrow-reg" filename="blank.png" location="725,480"></image>
-        <image function="uparrow-sel" filename="uparrow.png" location="725,90"></image>
-        <image function="downarrow-sel" filename="downarrow.png" location="725,480"></image>
+        <image function="uparrow-reg" filename="blank.png" location="1150,120"></image>
+        <image function="downarrow-reg" filename="blank.png" location="1150,550"></image>
+        <image function="uparrow-sel" filename="uparrow.png" location="1150,120"></image>
+        <image function="downarrow-sel" filename="downarrow.png" location="1150,550"></image>
       </richtextarea>
 
             <!-- An "OK" button may be included but is not necessary
