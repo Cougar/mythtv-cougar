@@ -1,0 +1,17 @@
+<mythuitheme>
+
+  <window name="backgroundwindow">
+    <imagetype name="backimg">
+      <filename>background.png</filename>
+    </imagetype>
+
+    <imagetype name="logo">
+      <filename>mythlogo.png</filename>
+      <position>30,30</position>
+      <alpha>180</alpha> 
+    </imagetype>
+
+ </window>
+
+</mythuitheme>
+

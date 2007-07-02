@@ -2,15 +2,15 @@
 
   <window name="programguide">
 
-    <font name="title" face="Vera">
+    <font name="title" face="Tahoma">
       <color>#FFFFFF</color>
       <size>24</size>
-      <size:small>16</size:small>
+      <size:small>14</size:small>
       <size:big>24</size:big>
-      <bold>yes</bold>
+      <bold>no</bold>
     </font>
 
-    <font name="info" face="Vera">
+    <font name="info" face="Tahoma">
       <color>#FFFFFF</color>
       <size>16</size>
       <size:small>14</size:small>
@@ -18,7 +18,7 @@
       <bold>no</bold>
     </font>
     
-    <font name="greyinfo" face="Vera">
+    <font name="greyinfo" face="Tahoma">
       <color>#cccccc</color>
       <size>16</size>
       <size:small>14</size:small>
@@ -26,7 +26,7 @@
       <bold>no</bold>
     </font>
 
-    <font name="descinfo2" face="Vera">
+    <font name="descinfo2" face="Tahoma">
       <color>#FFFFFF</color>
       <size>16</size>
       <size:small>13</size:small>
@@ -34,7 +34,7 @@
       <bold>no</bold>
     </font>
 
-    <font name="descinfo" face="Vera">
+    <font name="descinfo" face="Tahoma">
       <color>#ffffff</color>
       <size>16</size>
       <size:small>13</size:small>
@@ -42,15 +42,15 @@
       <bold>no</bold>
     </font>
 
-    <font name="chaninfo" face="Vera">
+    <font name="chaninfo" face="Tahoma">
       <color>#ffffff</color>
-      <size>14</size>
+      <size>15</size>
       <size:small>12</size:small>
       <size:big>17</size:big>
       <bold>no</bold>
     </font>
 
-    <font name="recstatus" face="Vera">
+    <font name="recstatus" face="Tahoma">
       <color>#cccccc</color>
       <size>15</size>
       <size:small>12</size:small>
@@ -58,7 +58,7 @@
 	  <bold>no</bold>
     </font>
 
-    <font name="small" face="Vera">
+    <font name="small" face="Tahoma">
       <color>#FFFFFF</color>
       <size>16</size>
       <size:small>10</size:small>
@@ -68,14 +68,14 @@
     <container name="background">
       <image name="backup" draworder="0" fleximage="no">
         <context>0</context>
-        <position>0,470</position>
-        <filename>bgoverlay.png</filename>
+        <position>0,0</position>
+        <filename>programguide/pg-background.png</filename>
       </image>
     </container>
 
     <container name="date_info">
-      <area>40,40,200,25</area>
-      <textarea name="date" draworder="4" align="right">
+      <area>20,176,115,25</area>
+      <textarea name="date" draworder="4" align="center">
          <font>info</font>
          <area>0,0,115,25</area>
          <cutdown>no</cutdown>
@@ -83,12 +83,12 @@
     </container>
 
     <container name="chanbar">
-      <area>40,70,182,400</area>
+      <area>20,206,123,386</area>
       <bar name="chans" draworder="4">
-        <area>0,0,180,400</area>
+        <area>0,0,123,386</area>
         <textoffset>38,0</textoffset>
         <iconoffset>5,-5</iconoffset>
-        <iconsize>50,50</iconsize>
+        <iconsize>30,30</iconsize>
         <orientation>vertical</orientation>
         <align>allcenter</align>
         <font>chaninfo</font>
@@ -97,9 +97,9 @@
     </container>
 
     <container name="timebar">
-      <area>220,40,1000,30</area>
+      <area>142,175,640,31</area>
       <bar name="times" draworder="4">
-        <area>0,0,990,30</area>
+        <area>0,0,640,31</area>
         <align>allcenter</align>
         <imagefile>programguide/gg-times.png</imagefile>
         <font>descinfo</font>
@@ -107,11 +107,11 @@
     </container>
 
     <container name="guide">
-      <area>220,70,1000,400</area>
+      <area>143,206,645,386</area>
       <guidegrid name="guidegrid" draworder="4">
-        <area>0,0,1000,400</area>
+        <area>0,0,645,386</area>
         <solidcolor>#404040</solidcolor>
-        <selector type="box" color="#F0F0F0"></selector>
+        <selector type="box" color="#808080"></selector>
         <recordingcolor>#00aa00</recordingcolor>
         <conflictingcolor>#ff6600</conflictingcolor>
         <cutdown>no</cutdown>
@@ -303,7 +303,7 @@
     </container>
 
     <container name="current_info">
-      <area>1080,520,120,25</area>
+      <area>650,12,120,25</area>
       <textarea name="time" draworder="4" align="right">
         <area>0,0,120,25</area>
         <cutdown>no</cutdown>
@@ -312,32 +312,26 @@
     </container>
 
     <container name="program_info">
-      <area>40,510,1220,200</area>
+      <area>20,10,760,155</area>
       <textarea name="title" draworder="4" align="left">
-        <area>4,10,900,60</area>
+        <area>4,10,590,60</area>
         <font>title</font>
       </textarea>
       <textarea name="subtitle" draworder="6">
-        <area>4,45,1200,30</area>
+        <area>4,45,720,30</area>
         <font>info</font>
         <value>%SUBTITLE|"|"%</value>
       </textarea>
       <textarea name="description" draworder="6">
-        <area>4,70,1070,80</area>
+        <area>4,70,760,65</area>
         <font>descinfo</font>
         <multiline>yes</multiline>
 	<value>%LONGREPEAT%%STARS%%DESCRIPTION%</value>
       </textarea>
       <textarea name="recordingstatus" draworder="6" align="right">
-        <area>740,150,430,30</area>
+        <area>365,125,390,30</area>
         <font>recstatus</font>
       </textarea>
-
-      <image name="icon" draworder="2">
-          <context>0</context>
-          <position>1080,45</position>
-          <staticsize>100,100</staticsize>
-      </image>
 
     </container>
 
@@ -345,15 +339,15 @@
 
    <window name="programguide-video">
 
-    <font name="title" face="Vera">
+    <font name="title" face="Tahoma">
       <color>#FFFFFF</color>
       <dropcolor>#000000</dropcolor>
       <size>24</size>
-      <size:small>16</size:small>
-      <bold>yes</bold>
+      <size:small>14</size:small>
+      <bold>no</bold>
     </font>
 
-    <font name="info" face="Vera">
+    <font name="info" face="Tahoma">
       <color>#FFFFFF</color>
       <size>16</size>
       <size:small>13</size:small>
@@ -361,7 +355,7 @@
       <bold>no</bold>
     </font>
 
-    <font name="descinfo2" face="Vera">
+    <font name="descinfo2" face="Tahoma">
       <color>#FFFFFF</color>
       <size>13</size>
       <size:small>12</size:small>
@@ -369,7 +363,7 @@
       <bold>no</bold>
     </font>
 
-    <font name="descinfo" face="Vera">
+    <font name="descinfo" face="Tahoma">
       <color>#FFFFFF</color>
       <size>16</size>
       <size:small>12</size:small>
@@ -377,7 +371,7 @@
       <bold>no</bold>
     </font>
 
-    <font name="chaninfo" face="Vera">
+    <font name="chaninfo" face="Tahoma">
       <color>#FFFFFF</color>
       <size>15</size>
       <size:small>12</size:small>
@@ -385,7 +379,7 @@
       <bold>no</bold>
     </font>
 
-    <font name="recstatus" face="Vera">
+    <font name="recstatus" face="Tahoma">
       <color>#FFFFFF</color>
       <size>17</size>
       <size:small>12</size:small>
@@ -393,7 +387,7 @@
 
     </font>
 
-    <font name="small" face="Vera">
+    <font name="small" face="Tahoma">
       <color>#FFFFFF</color>
       <size>16</size>
       <size:big>18</size:big>
@@ -403,24 +397,28 @@
     <container name="background">
       <image name="backup" draworder="0" fleximage="no">
         <context>0</context>
-        <position>0,400</position>
-        <filename>bgoverlay.png</filename>
+        <position>0,0</position>
+        <filename>programguide/pgv-background.png</filename>
       </image>
     </container>
 
+    <container name="current_video">
+      <area>546,21,236,176</area>
+    </container>
+
     <container name="date_info">
-      <area>40,35,160,25</area>
+      <area>30,288,60,25</area>
       <textarea name="date" draworder="4" align="right">
          <font>info</font>
-         <area>0,0,160,25</area>
+         <area>0,0,60,25</area>
          <cutdown>no</cutdown>
       </textarea>
     </container>
 
     <container name="chanbar">
-      <area>40,60,175,340</area>
+      <area>20,318,123,266</area>
       <bar name="chans" draworder="4">
-        <area>0,0,170,340</area>
+        <area>0,0,123,266</area>
         <textoffset>38,0</textoffset>
         <iconoffset>5,-5</iconoffset>
         <iconsize>30,30</iconsize>
@@ -432,9 +430,9 @@
     </container>
 
     <container name="timebar">
-      <area>210,30,1010,30</area>
+      <area>142,288,640,31</area>
       <bar name="times" draworder="4">
-        <area>0,0,1010,30</area>
+        <area>0,0,640,31</area>
         <align>allcenter</align>
         <imagefile>programguide/gg-times.png</imagefile>
         <font>descinfo</font>
@@ -442,11 +440,11 @@
     </container>
 
     <container name="guide">
-      <area>215,60,1030,340</area>
+      <area>143,319,645,266</area>
       <guidegrid name="guidegrid" draworder="4">
-        <area>0,0,1030,340</area>
+        <area>0,0,645,266</area>
         <solidcolor>#404040</solidcolor>
-        <selector type="box" color="#f0f0f0"></selector>
+        <selector type="box" color="#808080"></selector>
         <recordingcolor>#00aa00</recordingcolor>
         <conflictingcolor>#ff6600</conflictingcolor>
         <textoffset>9,6</textoffset>
@@ -628,45 +626,41 @@
     </container>
 
     <container name="current_info">
-      <area>805,430,400,60</area>
-      <textarea name="time" draworder="4" align="right">
-        <area>260,20,130,30</area>
+      <area>605,201,130,82</area>
+      <textarea name="time" draworder="4" align="left">
+        <area>10,0,130,32</area>
         <font>info</font>
       </textarea>
-      <textarea name="channel" draworder="4" align="right">
-        <area>280,40,300,30</area>
+      <textarea name="channel" draworder="4" align="center">
+        <area>0,0,120,32</area>
         <font>info</font>
       </textarea>
     </container>
 
     <container name="program_info">
-      <area>40,430,810,275</area>
+      <area>20,3,514,275</area>
       <textarea name="title" draworder="4" align="left">
-        <area>0,15,800,79</area>
+        <area>4,10,504,79</area>
         <font>title</font>
       </textarea>
       <textarea name="subtitle" draworder="6">
-        <area>4,55,800,30</area>
+        <area>4,46,504,30</area>
         <font>info</font>
       </textarea>
-      <textarea name="timedate" draworder="6">
-        <area>4,85,504,30</area>
+      <!--<textarea name="timedate" draworder="6">
+        <area>4,93,504,30</area>
         <font>info</font>
-      </textarea>
+      </textarea>-->
       <textarea name="description" draworder="6">
-        <area>4,110,880,90</area>
+        <area>4,75,504,150</area>
         <font>descinfo</font>
         <multiline>yes</multiline>
         <value>%LONGREPEAT%%STARS%%DESCRIPTION%</value>
       </textarea>
       <textarea name="recordingstatus" draworder="6">
-        <area>0,200,489,30</area>
+        <area>4,234,489,30</area>
         <font>recstatus</font>
       </textarea>
-    </container>
-
-    <container name="current_video">
-      <area>900,490,344,173</area>
     </container>
 
   </window>
@@ -674,85 +668,79 @@
   <!--Upcoming Recordings-->
   <window name="conflict">
 
-    <font name="active_font" face="Vera">
+    <font name="active_font" face="Tahoma">
       <color>#ffffff</color>
       <size>15</size>
-      <size:small>15</size:small>
+      <size:small>11</size:small>
       <size:big>17</size:big>
       <bold>no</bold>
     </font>
 
-    <font name="inactive_font" face="Vera">
+    <font name="inactive_font" face="Tahoma">
       <color>#808080</color>
       <size>15</size>
-      <size:small>15</size:small>
+      <size:small>11</size:small>
       <size:big>17</size:big>
-      <bold>no</bold>
+	  <bold>no</bold>
     </font>
 
-    <font name="recording" face="Vera">
-      <color>#00aa00</color>
-      <dropcolor>#000000</dropcolor>
+    <font name="recording" face="Tahoma">
+      <color>#EE9A9A</color>
       <size>15</size>
-      <size:small>12</size:small>
+      <size:small>11</size:small>
       <size:big>17</size:big>
-      <bold>yes</bold>
-      <shadow>2,2</shadow>
+	  <bold>no</bold>
     </font>
     
-    <font name="record" face="Vera">
+    <font name="record" face="Tahoma">
       <color>#FCFF00</color>
-      <dropcolor>#000000</dropcolor>
       <size>15</size>
-      <size:small>12</size:small>
+      <size:small>11</size:small>
       <size:big>17</size:big>
-      <bold>yes</bold>
-      <shadow>2,2</shadow>
+	  <bold>no</bold>
     </font>
 
-    <font name="list-tagged" face="Vera">
-      <color>#dddd33</color>
+	<font name="list-tagged" face="Tahoma">
+  	  <color>#dddd33</color>
       <size>15</size>
-      <size:small>12</size:small>
+      <size:small>11</size:small>
       <size:big>17</size:big>
-      <bold>yes</bold>
-    </font>
+	  <bold>no</bold>
+  	</font>
 
-    <font name="norecordfnt" face="Vera">
-      <color>#a0a0a0</color>
-      <dropcolor>#000000</dropcolor>
+    <font name="norecordfnt" face="Tahoma">
+      <color>#808080</color>
       <size>15</size>
-      <size:small>12</size:small>
-      <size:big>15</size:big>
-      <bold>yes</bold>
-      <shadow>2,2</shadow>
+      <size:small>11</size:small>
+      <size:big>17</size:big>
+	  <bold>no</bold>
     </font>
 
-    <font name="conflictfnt" face="Vera">
-      <color>#cc5555</color>
+    <font name="conflictfnt" face="Tahoma">
+      <color>#ffff33</color>
       <size>15</size>
-      <size:small>12</size:small>
-      <size:big>15</size:big>
-      <bold>yes</bold>
+      <size:small>11</size:small>
+      <size:big>17</size:big>
+	  <bold>no</bold>
     </font>
 
-    <font name="currenttitle" face="Vera">
+    <font name="currenttitle" face="Tahoma">
       <color>#ffffff</color>
       <size>18</size>
       <size:small>12</size:small>
       <size:big>20</size:big>
-      <bold>yes</bold>
+      <bold>no</bold>
     </font>
 
-    <font name="title" face="Vera">
+    <font name="title" face="Tahoma">
       <color>#ffffff</color>
       <dropcolor>#000000</dropcolor>
       <size>26</size>
       <size:small>16</size:small>
-      <bold>yes</bold>
+      <bold>no</bold>
     </font>
 
-    <font name="subtitle" face="Vera">
+    <font name="subtitle" face="Tahoma">
       <color>#ffffff</color>
       <size>17</size>
       <size:small>15</size:small>
@@ -760,15 +748,15 @@
       <bold>no</bold>
     </font>
 
-    <font name="info" face="Vera">
+    <font name="info" face="Tahoma">
       <color>#CCCCCC</color>
       <size>17</size>
       <size:small>15</size:small>
       <size:big>19</size:big>
-      <bold>no</bold>
+	  <bold>no</bold>
     </font>
 
-    <font name="infob" face="Vera">
+    <font name="infob" face="Tahoma">
       <color>#ffffff</color>
       <size>17</size>
       <size:small>15</size:small>
@@ -776,15 +764,15 @@
       <bold>no</bold>
     </font>
 
-    <font name="message" face="Vera">
+    <font name="message" face="Tahoma">
       <color>#ffffff</color>
       <size>16</size>
-      <size:small>14</size:small>
+      <size:small>10</size:small>
       <size:big>18</size:big>
-      <bold>yes</bold>
+	  <bold>no</bold>
     </font>
 
-    <font name="messagegray" face="Vera">
+    <font name="messagegray" face="Tahoma">
       <color>#CCCCCC</color>
       <size>16</size>
       <size:small>10</size:small>
@@ -792,30 +780,29 @@
       <bold>no</bold>
     </font>
 
-    <font name="messageyellow" face="Vera">
+    <font name="messageyellow" face="Tahoma">
       <color>#ffff00</color>
       <size>16</size>
       <size:small>10</size:small>
       <size:big>18</size:big>
       <bold>no</bold>
-      <shadow>0,0</shadow>
     </font>
 
     <container name="background"> <!-- upcoming recordings background-->
       <image name="filler" draworder="0" fleximage="no">
-        <filename>bgoverlay.png</filename>
-        <position>0,400</position>
+        <filename>priorities/up-background.png</filename>
+        <position>0,0</position>
       </image>
 
-      <textarea name="showinstr" align="center" draworder="0">
-        <area>540,650,700,30</area>
+      <textarea name="showinstr" align="left" draworder="0">
+        <area>500,550,800,30</area>
         <font>message</font>
         <value>Show  (1) All  (2) Important</value>
       </textarea>
     </container>
 
     <container name="conflict_info">
-      <area>900,20,340,30</area>
+      <area>400,10,340,30</area>
       <textarea name="status" align="right" draworder="4">
         <area>0,0,340,30</area>
         <font>info</font>
@@ -823,22 +810,22 @@
     </container>
 
     <container name="showlevel_info">
-      <area>40,10,500,50</area>
+      <area>30,15,280,30</area>
       <textarea name="showing" draworder="4">
-        <area>0,10,205,50</area>
+        <area>0,0,105,30</area>
         <font>message</font>
         <value>Showing:</value>
       </textarea>
       <textarea name="showlevel" draworder="4">
-        <area>180,10,150,50</area>
+        <area>110,0,110,30</area>
         <font>message</font>
       </textarea>
     </container>
 
     <container name="selector">
-      <area>0,20,1240,390</area>
+      <area>0,0,800,390</area>
       <listarea name="conflictlist" draworder="4">
-        <area>40,51,1260,350</area>
+        <area>20,51,760,265</area>
         <fcnfont name="conflictfnt" function="conflictingrecording"></fcnfont>
         <fcnfont name="norecordfnt" function="disabledrecording"></fcnfont>
         <fcnfont name="active_font" function="active"></fcnfont>
@@ -848,50 +835,52 @@
         <fcnfont name="recording" function="recording"></fcnfont>
         <fcnfont name="active_font" function="selected"></fcnfont>
         <columnpadding>10</columnpadding>
-        <column number="1" width="220" context="-1"></column>
-        <column number="2" width="300" context="-1"></column>
-        <column number="3" width="570" context="-1"></column>
+        <column number="1" width="150" context="-1"></column>
+        <column number="2" width="137" context="-1"></column>
+        <column number="3" width="395" context="-1"></column>
         <column number="4" width="30" context="-1"></column>
-        <items>9</items>
-        
-        <image function="selectionbar" filename="priorities/pr-selectbar.png" location="-20,-5"></image>
-        <image function="uparrow" filename="shared/uparrow.png" location="1210,50"></image>
-        <image function="downarrow" filename="shared/downarrow.png" location="1210,350"></image>
+        <items>8</items>
+        <image function="selectionbar" filename="shared/selectbar.png" location="-10,-6"></image>
+        <image function="uparrow" filename="shared/uparrow.png" location="755,50"></image>
+        <image function="downarrow" filename="shared/downarrow.png" location="755,272"></image>
       </listarea>
+  <!--    <image name="showinglines" draworder="1" fleximage="no">
+        <filename>conflicts/con-box.png</filename>
+        <position>5,40</position>
+      </image> -->
     </container>
 
     <container name="program_info">
-      <area>20,440,1280,270</area>
+      <area>0,340,800,210</area>
       <textarea name="title" draworder="6">
-        <area>20,10,1240,40</area>
+        <area>20,0,800,40</area>
         <font>title</font>
       </textarea>
       <textarea name="subtitle" draworder="6">
-        <area>20,45,1240,30</area>
+        <area>20,38,579,30</area>
         <font>subtitle</font>
       </textarea>
       <textarea name="channel" draworder="6">
-        <area>20,80,380,30</area>
-        <font>infob</font>
+        <area>20,64,300,30</area>
+        <font>info</font>
       </textarea>
-      <textarea name="timedate" draworder="6">
-        <area>400,80,440,30</area>
-        <font>infob</font>
+      <textarea name="timedate" draworder="6" align="right">
+        <area>320,64,460,30</area>
+        <font>info</font>
       </textarea>
       <textarea name="description" draworder="6">
         <value>%LONGREPEAT%%STARS%%DESCRIPTION%</value>
-        <area>20,120,1200,100</area>
+        <area>20, 94,760,140</area>
         <font>infob</font>
         <multiline>yes</multiline>
       </textarea>
-
     </container>
 
     <container name="status_info">
-      <area>20,650,480,30</area>
+      <area>20,550,480,30</area>
       <textarea name="recordingstatus" align="left" draworder="6">
-        <area>20,0,480,30</area>
-        <font>infob</font>
+        <area>0,0,480,30</area>
+        <font>info</font>
       </textarea>
     </container>
 
@@ -919,168 +908,169 @@
 
   </window>
 
+
 <window name="schdiff">
 
-    <font name="list-active" face="Vera">
+    <font name="active_font" face="Tahoma">
       <color>#ffffff</color>
       <size>16</size>
       <size:small>11</size:small>
       <bold>no</bold>
     </font>
 
-    <font name="list-inactive" face="Vera">
+    <font name="inactive_font" face="Tahoma">
+      <color>#9999cc</color>
+      <size>16</size>
+      <size:small>11</size:small>
+      <bold>no</bold>
+    </font>
+
+    <font name="record_font" face="Tahoma">
+      <color>#F7862B</color>
+      <size>16</size>
+      <size:small>11</size:small>
+      <bold>no</bold>
+    </font>
+
+    <font name="recording_font" face="Tahoma">
+      <color>#FF33FF</color>
+      <size>16</size>
+      <size:small>11</size:small>
+      <bold>no</bold>
+    </font>
+
+    <font name="norecordfnt" face="Tahoma">
       <color>#999999</color>
       <size>16</size>
       <size:small>11</size:small>
       <bold>no</bold>
     </font>
 
-    <font name="list-recording" face="Vera">
-      <color>#00FF00</color>
-      <dropcolor>#000000</dropcolor>
-      <size>16</size>
-      <size:small>11</size:small>
-      <bold>no</bold>
-      <shadow>2,2</shadow>
-    </font>
-
-    <font name="list-record" face="Vera">
-      <color>#FF33FF</color>
-      <dropcolor>#000000</dropcolor>
-      <size>16</size>
-      <size:small>11</size:small>
-      <bold>no</bold>
-      <shadow>2,2</shadow>
-    </font>
-
-    <font name="list-norecord" face="Vera">
-      <color>#aaaaaa</color>
+    <font name="conflict_font" face="Tahoma">
+      <color>#ffff33</color>
       <size>16</size>
       <size:small>11</size:small>
       <bold>no</bold>
     </font>
 
-    <font name="list-conflict" face="Vera">
-      <color>#cc0000</color>
-      <dropcolor>#000000</dropcolor>
-      <size>16</size>
-      <size:small>11</size:small>
-      <bold>no</bold>
-      <shadow>2,2</shadow>
-    </font>
-
-    <font name="list-selected" face="Vera">
-      <color>#00ffff</color>
+    <font name="currenttitle" face="Tahoma">
+      <color>#ffff33</color>
       <size>18</size>
       <size:small>12</size:small>
       <bold>no</bold>
     </font>
 
-    <font name="title" face="Vera">
-      <color>#FFFFFF</color>
-      <size>24</size>
-      <size:small>16</size:small>
-      <size:big>24</size:big>
-      <bold>no</bold>
-    </font>
-
-    <font name="info" face="Vera">
-      <color>#FFFFFF</color>
-      <size>16</size>
-      <size:small>14</size:small>
-      <size:big>18</size:big>
-      <bold>no</bold>
-    </font>
-
-    <font name="recstatus" face="Vera">
-      <color>#00FF00</color>
+    <font name="title" face="Tahoma">
+      <color>#ffffff</color>
       <dropcolor>#000000</dropcolor>
-      <size>16</size>
-      <size:small>14</size:small>
-      <size:big>18</size:big>
+      <size>27</size>
+      <size:small>13</size:small>
+      <shadow>3,3</shadow>
       <bold>no</bold>
-      <shadow>2,2</shadow>
     </font>
-   
-    <font name="yeltitle" face="Vera">
-      <color>#FFFF00</color>
-      <size>24</size>
-      <size:small>16</size:small>
-      <size:big>24</size:big>
+
+    <font name="info" face="Tahoma">
+      <color>#ffffff</color>
+      <size>17</size>
+      <size:small>8</size:small>
+      <shadow>1,1</shadow>
+      <bold>no</bold>
+    </font>
+
+    <font name="message" face="Tahoma">
+      <color>#ffffff</color>
+      <size>16</size>
+      <size:small>10</size:small>
+      <shadow>1,1</shadow>
+      <bold>no</bold>
+    </font>
+
+    <font name="messagegray" face="Tahoma">
+      <color>#999999</color>
+      <size>16</size>
+      <size:small>10</size:small>
+      <shadow>1,1</shadow>
+      <bold>no</bold>
+    </font>
+
+    <font name="messageyellow" face="Tahoma">
+      <color>#ffff33</color>
+      <size>16</size>
+      <size:small>10</size:small>
+      <shadow>1,1</shadow>
       <bold>no</bold>
     </font>
 
     <container name="background">
-      <area>0,0,1280,720</area>
       <textarea name="sched" draworder="0">
-        <area>40,10,500,40</area>
-        <font>title</font>
+        <area>20,10,400,40</area>
+        <font>info</font>
         <value>Preview Schedule Changes:</value>
       </textarea>
-      <textarea name="view" align="left" draworder="0">
-        <area>40,50,800,40</area>
-        <font>yeltitle</font>
+      <textarea name="view" align="right" draworder="0">
+        <area>400,10,380,30</area>
+        <font>info</font>
       </textarea>
     </container>
 
     <container name="selector">
-      <area>0,100,1280,360</area>
+      <area>0,39,800,290</area>
       <listarea name="conflictlist" draworder="4">
-        <area>40,12,1200,350</area>
-        <fcnfont name="list-conflict" function="conflictingrecording"></fcnfont>
-        <fcnfont name="list-norecord" function="disabledrecording"></fcnfont>
-        <fcnfont name="list-active" function="active"></fcnfont>
-        <fcnfont name="list-inactive" function="inactive"></fcnfont>
-        <fcnfont name="list-record" function="record"></fcnfont>
-        <fcnfont name="list-recording" function="recording"></fcnfont>
-        <fcnfont name="list-selected" function="selected"></fcnfont>
+        <area>20,12,760,265</area>
+        <fcnfont name="conflict_font" function="conflictingrecording"></fcnfont>
+        <fcnfont name="norecordfnt" function="disabledrecording"></fcnfont>
+        <fcnfont name="active_font" function="active"></fcnfont>
+        <fcnfont name="inactive_font" function="inactive"></fcnfont>
+        <fcnfont name="record_font" function="record"></fcnfont>
+        <fcnfont name="recording_font" function="recording"></fcnfont>
+        <fcnfont name="active_font" function="selected"></fcnfont>
         <columnpadding>10</columnpadding>
-        <column number="1" width="165" context="-1"></column>
-	<column number="2" width="210" context="-1"></column>
-	<column number="3" width="690" context="-1"></column>
+        <column number="1" width="160" context="-1"></column>
+        <column number="2" width="120" context="-1"></column>
+        <column number="3" width="370" context="-1"></column>
         <column number="4" width="20" context="-1"></column>
         <column number="5" width="20" context="-1"></column>
         <items>9</items>
-        
-        <image function="selectionbar" filename="priorities/pr-selectbar.png" location="-10,-2"></image>
-        <image function="uparrow" filename="shared/uparrow.png" location="1240,12"></image>
-        <image function="downarrow" filename="shared/downarrow.png" location="1240,310"></image>
+        <image function="selectionbar" filename="shared/selectbar.png" location="-14,-5"></image>
+        <image function="uparrow" filename="shared/uparrow.png" location="755,22"></image>
+        <image function="downarrow" filename="shared/downarrow.png" location="755,230"></image>
       </listarea>
-     <!-- <image name="showinglines" draworder="5" fleximage="no">
-        <filename>priorities/pr-box.png</filename>
-        <position>20,0</position>
-      </image> -->
+      <image name="showinglines" draworder="5" fleximage="no">
+        <filename>sch-back.png</filename>
+        <position>0,0</position>
+      </image>
     </container>
 
     <container name="program_info">
-      <area>40,535,1200,210</area>
+      <area>0,360,800,210</area>
       <textarea name="title" draworder="6">
-        <area>0,0,730,40</area>
+        <area>20,0,800,40</area>
         <font>title</font>
       </textarea>
       <textarea name="channel" draworder="6">
-        <area>0,45,160,30</area>
+        <area>20,40,160,30</area>
         <font>info</font>
       </textarea>
       <textarea name="timedate" draworder="6">
-        <area>175,45,420,30</area>
+        <area>200,40,420,30</area>
         <font>info</font>
       </textarea>
       <textarea name="subdescr" draworder="6">
-        <area>0,75,1200,150</area>
+        <area>20,70,720,140</area>
         <font>info</font>
         <multiline>yes</multiline>
-        <value>%SUBTITLE|"|"%%REPEAT%%STARS%%DESCRIPTION%</value>
+        <value>%SUBTITLE|"|"%%STARS%%DESCRIPTION%</value>
       </textarea>
     </container>
 
- <container name="status_info">
-      <area>300,500,480,30</area>
+    <container name="status_info">
+      <area>300,330,480,30</area>
       <textarea name="recordingstatus" align="right" draworder="6">
         <area>0,0,480,30</area>
-        <font>recstatus</font>
+        <font>message</font>
       </textarea>
     </container>
+ 
 
    <container name="norecordings_list">
       <textarea name="msg" align="center" draworder="8">
@@ -1095,7 +1085,7 @@
 
   <window name="recprioritychannels">
 
-    <font name="active_font" face="Vera">
+    <font name="active_font" face="Tahoma">
       <color>#ffffff</color>
       <size>15</size>
       <size:small>13</size:small>
@@ -1103,7 +1093,7 @@
       <bold>no</bold>
     </font>
 
-    <font name="inactive_font" face="Vera">
+    <font name="inactive_font" face="Tahoma">
       <color>#9999cc</color>
       <size>15</size>
       <size:small>13</size:small>
@@ -1111,7 +1101,7 @@
       <bold>no</bold>
     </font>
 
-    <font name="currenttitle" face="Vera">
+    <font name="currenttitle" face="Tahoma">
       <color>#ffff33</color>
       <size>18</size>
       <size:small>16</size:small>
@@ -1119,7 +1109,7 @@
       <bold>no</bold>
     </font>
 
-    <font name="title" face="Vera">
+    <font name="title" face="Tahoma">
       <color>#ffffff</color>
       <dropcolor>#000000</dropcolor>
       <size>24</size>
@@ -1127,18 +1117,18 @@
       <bold>no</bold>
     </font>
 
-    <font name="info" face="Vera">
+    <font name="info" face="Tahoma">
       <color>#ffffff</color>
       <size>17</size>
       <size:small>15</size:small>
       <bold>no</bold>
     </font>
 
-    <font name="message" face="Vera">
+    <font name="message" face="Tahoma">
       <color>#ffffff</color>
       <size>16</size>
-      <size:small>18</size:small>
-      <size:big>20</size:big>
+      <size:small>14</size:small>
+      <size:big>18</size:big>
       <bold>no</bold>
     </font>
 
@@ -1160,7 +1150,7 @@
     </container>
 
     <container name="selector">
-     <area>20,39,1260,375</area>
+     <area>0,39,800,375</area>
       <listarea name="recprioritylist" draworder="4">
         <area>20,12,760,330</area>
         <fcnfont name="active_font" function="active"></fcnfont>
@@ -1171,20 +1161,18 @@
         <column number="2" width="17" context="-1"></column>
         <column number="3" width="75" context="-1"></column>
         <items>9</items>
-        
-        <image function="selectionbar" filename="priorities/pr-selectbar.png" location="-6,-2"></image>
-
+        <image function="selectionbar" filename="shared/selectbar.png" location="-6,-2"></image>
         <image function="uparrow" filename="shared/uparrow.png" location="750,5"></image>
         <image function="downarrow" filename="shared/downarrow.png" location="750,320"></image>
       </listarea>
-    <!--  <image name="showinglines" draworder="5" fleximage="no">
+      <image name="showinglines" draworder="5" fleximage="no">
         <filename>priorities/pr-box.png</filename>
         <position>0,0</position>
-      </image> -->
+      </image>
     </container>
 
     <container name="channel_info">
-      <area>20,414,800,240</area>
+      <area>0,414,800,240</area>
       <image name="icon" draworder="6">
         <position>20,0</position>
            <filename>blankicon.jpg</filename>
@@ -1242,7 +1230,7 @@
   <!--Set Priorities-->
   <window name="recpriorityprograms">
 
-    <font name="active_font" face="Vera">
+    <font name="active_font" face="Tahoma">
       <color>#ffffff</color>
       <size>15</size>
 	  <bold>no</bold>
@@ -1251,7 +1239,7 @@
       <bold>no</bold>
     </font>
 
-    <font name="inactive_font" face="Vera">
+    <font name="inactive_font" face="Tahoma">
       <color>#9999cc</color>
       <size>15</size>
 	  <bold>no</bold>
@@ -1260,7 +1248,7 @@
       <bold>no</bold>
     </font>
 
-    <font name="currenttitle" face="Vera">
+    <font name="currenttitle" face="Tahoma">
       <color>#ffffff</color>
       <size>15</size>
       <size:small>13</size:small>
@@ -1268,7 +1256,7 @@
 	  <bold>no</bold>
     </font>
 
-    <font name="title" face="Vera">
+    <font name="title" face="Tahoma">
       <color>#ffffff</color>
       <size>24</size>
       <size:small>20</size:small>
@@ -1276,27 +1264,23 @@
       <bold>no</bold>
     </font>
     
-    <font name="recording" face="Vera">
-      <color>#00FF00</color>
-      <dropcolor>#000000</dropcolor>
+    <font name="recording" face="Tahoma">
+      <color>#EE9A9A</color>
       <size>15</size>
       <size:small>13</size:small>
       <size:big>17</size:big>
 	  <bold>no</bold>
-      <shadow>2,2</shadow>
     </font>
     
-    <font name="record" face="Vera">
-      <color>#00FF00</color>
-      <dropcolor>#000000</dropcolor>
+    <font name="record" face="Tahoma">
+      <color>#FCFF00</color>
       <size>15</size>
       <size:small>13</size:small>
       <size:big>17</size:big>
 	  <bold>no</bold>
-      <shadow>2,2</shadow>
     </font>
 
-    <font name="subtitle" face="Vera">
+    <font name="subtitle" face="Tahoma">
       <color>#ffffff</color>
       <size>17</size>
       <size:small>15</size:small>
@@ -1304,7 +1288,7 @@
       <bold>no</bold>
     </font>
 
-    <font name="info" face="Vera">
+    <font name="info" face="Tahoma">
       <color>#ffffff</color>
       <size>17</size>
       <size:small>15</size:small>
@@ -1312,7 +1296,7 @@
 	  <bold>no</bold>
     </font>
 
-    <font name="tinyinfo" face="Vera">
+    <font name="tinyinfo" face="Tahoma">
       <color>#CCCCCC</color>
       <size>10</size>
       <size:small>8</size:small>
@@ -1320,7 +1304,7 @@
       <bold>no</bold>
     </font>
 
-    <font name="grayinfo" face="Vera">
+    <font name="grayinfo" face="Tahoma">
       <color>#CCCCCC</color>
       <size>17</size>
       <size:small>15</size:small>
@@ -1328,7 +1312,7 @@
       <bold>no</bold>
     </font>
 
-    <font name="yellowinfo" face="Vera">
+    <font name="yellowinfo" face="Tahoma">
       <color>#ffff33</color>
       <size>17</size>
       <size:small>15</size:small>
@@ -1336,47 +1320,47 @@
       <bold>no</bold>
     </font>
 
-    <font name="message" face="Vera">
+    <font name="message" face="Tahoma">
       <color>#ffffff</color>
       <size>15</size>
-      <size:small>15</size:small>
-      <size:big>19</size:big>
+      <size:small>13</size:small>
+      <size:big>17</size:big>
 	  <bold>no</bold>
     </font>
 
     <container name="background">
       <image name="backgroundimg" draworder="0" fleximage="no">
-        <filename>bgoverlay.png</filename>
-        <position>0,400</position>
+        <filename>priorities/pr-background.png</filename>
+        <position>0,0</position>
       </image>
 
       <textarea name="sched" draworder="0">
-        <area>40,20,1240,40</area>
+        <area>20,10,800,40</area>
         <font>info</font>
         <value>Program Recording Priorities</value>
       </textarea>
       <textarea name="recprioritylabel" draworder="0">
-        <area>1055,25,800,40</area>
+        <area>621,20,800,40</area>
         <font>tinyinfo</font>
         <value>Priority</value>
       </textarea>
       <textarea name="finalrecprioritylabel" draworder="0">
-        <area>1125,25,160,40</area>
+        <area>690,20,800,40</area>
         <font>tinyinfo</font>
         <value>Final Priority</value>
       </textarea>
 
       <textarea name="keyinstr" align="center" draworder="0">
-        <area>40,640,1240,30</area>
+        <area>0,566,800,30</area>
         <font>message</font>
         <value>(1) Sort by Title    (2) Sort by Priority    (4) Sort by Type</value>
       </textarea>
     </container>
 
     <container name="selector">
-      <area>0,60,1280,375</area>
+      <area>0,39,800,375</area>
       <listarea name="recprioritylist" draworder="4">
-        <area>50,15,1250,330</area>
+        <area>20,12,760,330</area>
         <fcnfont name="active_font" function="active"></fcnfont>
         <fcnfont name="inactive_font" function="inactive"></fcnfont>
         <fcnfont name="active_font" function="selected"></fcnfont>
@@ -1384,25 +1368,20 @@
         <fcnfont name="record" function="record"></fcnfont>   
         <columnpadding>1</columnpadding>
         <column number="1" width="35" context="-1"></column>
-        <column number="2" width="985" context="-1"></column>
+        <column number="2" width="570" context="-1"></column>
         <column number="3" width="17" context="-1"></column>
         <column number="4" width="65" context="-1"></column>
         <column number="5" width="17" context="-1"></column>
         <column number="6" width="50" context="-1"></column>
         <items>11</items>
-
-        <image function="selectionbar" filename="priorities/pr-selectbar.png" location="-10,-4"></image>
-        <image function="uparrow" filename="shared/uparrow.png" location="1200,10"></image>
-        <image function="downarrow" filename="shared/downarrow.png" location="1200,325"></image>
+        <image function="selectionbar" filename="shared/selectbar.png" location="-10,-6"></image>
+        <image function="uparrow" filename="shared/uparrow.png" location="750,10"></image>
+        <image function="downarrow" filename="shared/downarrow.png" location="750,305"></image>
       </listarea>
-   <!--   <image name="showinglines" draworder="3" fleximage="no">
-        <filename>priorities/pr-box.png</filename>
-        <position>0,2</position>
-      </image> -->
     </container>
 
     <container name="program_info">
-      <area>20,450,800,240</area>
+      <area>0,410,800,240</area>
       <textarea name="title" draworder="6">
         <area>20,0,800,50</area>
         <font>title</font>
@@ -1421,20 +1400,20 @@
         <font>info</font>
       </textarea>
       <textarea name="typebracketA" draworder="6">
-        <area>640,70,100,30</area>
+        <area>620,70,100,30</area>
         <font>grayinfo</font>
         <value>[</value>
       </textarea>
       <textarea name="typesign" draworder="6">
-        <area>660,70,100,30</area>
+        <area>630,70,100,30</area>
         <font>info</font>
       </textarea>
       <textarea name="typerecpriority" draworder="6">
-        <area>680,70,100,30</area>
+        <area>643,70,100,30</area>
         <font>info</font>
       </textarea>
       <textarea name="typebracketB" draworder="6">
-        <area>700,70,100,30</area>
+        <area>668,70,100,30</area>
         <font>grayinfo</font>
         <value>]</value>
       </textarea>
@@ -1448,20 +1427,20 @@
         <font>info</font>
       </textarea>
       <textarea name="channelbracketA" draworder="6">
-        <area>640,100,100,30</area>
+        <area>620,100,100,30</area>
         <font>grayinfo</font>
         <value>[</value>
       </textarea>
       <textarea name="channelsign" draworder="6">
-        <area>660,100,100,30</area>
+        <area>630,100,100,30</area>
         <font>info</font>
       </textarea>
       <textarea name="channelrecpriority" draworder="6">
-        <area>680,100,100,30</area>
+        <area>643,100,100,30</area>
         <font>info</font>
       </textarea>
       <textarea name="channelbracketB" draworder="6">
-        <area>700,100,100,30</area>
+        <area>668,100,100,30</area>
         <font>grayinfo</font>
         <value>]</value>
       </textarea>
@@ -1475,32 +1454,32 @@
         <font>info</font>
       </textarea>
       <textarea name="recprioritybracketA" draworder="6">
-        <area>640,130,100,30</area>
+        <area>620,130,100,30</area>
         <font>grayinfo</font>
         <value>[</value>
       </textarea>
       <textarea name="recprioritysign" draworder="6">
-        <area>660,130,100,30</area>
+        <area>630,130,100,30</area>
         <font>info</font>
       </textarea>
       <textarea name="recpriorityB" draworder="6">
-        <area>680,130,100,30</area>
+        <area>643,130,100,30</area>
         <font>info</font>
       </textarea>
       <textarea name="recprioritybracketB" draworder="6">
-        <area>700,130,100,30</area>
+        <area>668,130,100,30</area>
         <font>grayinfo</font>
-        <value>] = </value>
+        <value>]  = </value>
       </textarea>
       <textarea name="finalrecpriority" draworder="6">
-        <area>740,130,150,30</area>
+        <area>709,130,150,30</area>
         <font>yellowinfo</font>
       </textarea>
     </container>
 
     <container name="norecordings_list">
       <textarea name="msg" align="center" draworder="8">
-         <area>0,110,1280,70</area>
+         <area>0,110,800,70</area>
          <font>info</font>
          <value>You Haven't Scheduled Any Programs To Be Recorded</value>
          <multiline>yes</multiline>
@@ -1509,7 +1488,7 @@
 
     <container name="norecordings_info">
       <textarea name="topline" align="center" draworder="8">
-         <area>20,40,1260,30</area>
+         <area>20,40,760,30</area>
          <font>info</font>
          <value>To schedule a recording, exit this screen and</value>
       </textarea>
@@ -1525,115 +1504,104 @@
   <!--Watch Recordings-->
   <window name="playback">
 
-    <font name="active" face="Vera">
+    <font name="active" face="Tahoma">
       <color>#cccccc</color>
       <size>15</size>
-      <size:big>18</size:big>
+      <size:big>20</size:big>
       <size:small>13</size:small>
-      <bold>yes</bold>
     </font>
     
-    <font name="activesel" face="Vera">
+    <font name="activesel" face="Tahoma">
       <color>#ffffff</color>
       <size>15</size>
-      <size:big>18</size:big>
+      <size:big>20</size:big>
       <size:small>13</size:small>
-      <bold>yes</bold>
     </font>
 
-    <font name="tagged" face="Vera">
+    <font name="tagged" face="Tahoma">
       <color>#ffff00</color>
       <size>15</size>
-      <size:big>18</size:big>
+      <size:big>20</size:big>
       <size:small>13</size:small>
-      <bold>yes</bold>
     </font>
 
-    <font name="inactive" face="Vera">
-      <color>#aaaaaa</color>
+    <font name="inactive" face="Tahoma">
+      <color>#808080</color>
       <size>15</size>
-      <size:big>18</size:big>
+      <size:big>20</size:big>
       <size:small>13</size:small>
-      <bold>yes</bold>
     </font>
 
-    <font name="recording" face="Vera">
+    <font name="recording" face="Tahoma">
       <color>#00EE00</color>
-      <dropcolor>#000000</dropcolor>
       <size>15</size>
       <size:small>13</size:small>
-      <size:big>18</size:big>
-      <bold>yes</bold>
-      <shadow>2,2</shadow>
+      <size:big>20</size:big>
+	  <bold>no</bold>
     </font>
     
-    <font name="record" face="Vera">
+    <font name="record" face="Tahoma">
       <color>#FCFF00</color>
-      <dropcolor>#000000</dropcolor>
       <size>15</size>
       <size:small>13</size:small>
-      <size:big>18</size:big>
-      <bold>yes</bold>
-      <shadow>2,2</shadow>
+      <size:big>20</size:big>
+	  <bold>no</bold>
     </font>
     
-    <font name="overunderrecfont" face="Vera">
+    <font name="overunderrecfont" face="Tahoma">
       <color>#ffffAA</color>
-      <dropcolor>#000000</dropcolor>
       <size>15</size>
-      <size:big>18</size:big>
+      <size:big>20</size:big>
       <size:small>13</size:small>
-      <shadow>2,2</shadow>
-      <bold>yes</bold>
     </font>
 
-    <font name="currenttitle" face="Vera">
+    <font name="currenttitle" face="Tahoma">
       <color>#ffffff</color>
       <size>16</size>
-      <size:big>20</size:big>
+      <size:big>22</size:big>
       <size:small>14</size:small>
-      <bold>yes</bold>
+	  <bold>no</bold>
     </font>
 
-    <font name="title" face="Vera">
+    <font name="title" face="Tahoma">
       <color>#FFFFFF</color>
       <dropcolor>#000000</dropcolor>
       <size>24</size>
       <size:big>26</size:big>
-      <size:small>18</size:small>
-      <bold>yes</bold>
+      <size:small>14</size:small>
+      <bold>no</bold>
     </font>
 
-    <font name="subtitle" face="Vera">
+    <font name="subtitle" face="Tahoma">
       <color>#FFFFFF</color>
       <size>17</size>
-      <size:big>18</size:big>
+      <size:big>20</size:big>
       <size:small>13</size:small>
-      <bold>yes</bold>
+      <bold>no</bold>
     </font>
 
-    <font name="info" face="Vera">
+    <font name="info" face="Tahoma">
       <color>#ffffff</color>
       <size>17</size>
-      <size:big>18</size:big>
+      <size:big>20</size:big>
       <size:small>10</size:small>
-      <bold>yes</bold>
+	  <bold>no</bold>
     </font>
     
-    <font name="greyfont" face="Vera">
+    <font name="greyfont" face="Tahoma">
       <color>#CCCCCC</color>
       <size>17</size>
-      <size:big>18</size:big>
+      <size:big>20</size:big>
       <size:small>10</size:small>
-      <bold>yes</bold>
+	  <bold>no</bold>
     </font>
 
-    <font name="message" face="Vera">
+    <font name="message" face="Tahoma">
       <color>#FFFFFF</color>
       <size>17</size>
-      <size:big>18</size:big>
-      <size:small>16</size:small>
-      <bold>yes</bold>
+      <size:big>20</size:big>
+      <size:small>12</size:small>
+	  <bold>no</bold>
     </font>
 
     <container name="background">
@@ -1641,36 +1609,35 @@
         <filename>pl-background.png</filename>
         <position>0,0</position>
       </image>
-      <textarea name="messagedel" draworder="0" align="left">
-        <area>40,20,1240,35</area>
+      <textarea name="messagedel" draworder="0" align="hcenter">
+        <area>20,10,760,35</area>
         <font>message</font>
         <value>Select a recording to permanently erase.</value>
         <context>1</context>
       </textarea>
       <textarea name="messageplay" draworder="0" align="hcenter">
-        <area>40,20,1240,35</area>
+        <area>20,10,760,35</area>
         <font>message</font>
         <value>Select a recording to watch.</value>
         <context>0</context>
       </textarea>
-
     </container>
 
     <container name="selector">
-      <area>20,40,1280,400</area>
+      <area>0,40,800,365</area>
       <listarea name="toptitles" draworder="2">
-        <area>20,20,340,170</area>
+        <area>20,0,195,125</area>
         <fcnfont name="active" function="active"></fcnfont>
         <fcnfont name="activesel" function="selected"></fcnfont>
         <fcnfont name="inactive" function="inactive"></fcnfont>
         <items>4</items>
       </listarea>
-      <image name="titlelines" draworder="0" fleximage="no">
+      <image name="titlelines" draworder="3" fleximage="no">
         <filename>tvplayback/tv-lbox.png</filename>
-        <position>0,185</position>
+        <position>3,0</position>
       </image>
       <listarea name="bottomtitles" draworder="2">
-        <area>20,230,340,170</area>
+        <area>20,172,195,125</area>
         <fcnfont name="active" function="active"></fcnfont>
         <fcnfont name="activesel" function="selected"></fcnfont>
         <fcnfont name="inactive" function="inactive"></fcnfont>
@@ -1679,7 +1646,7 @@
         <items>4</items>
       </listarea>
       <listarea name="showing" draworder="4">
-        <area>420,23,900,380</area>
+        <area>255,15,700,290</area>
         <fcnfont name="recording" function="recording"></fcnfont>
         <fcnfont name="overunderrecfont" function="overunderrecording"></fcnfont>
         <fcnfont name="active" function="active"></fcnfont>
@@ -1688,33 +1655,32 @@
         <fcnfont name="record" function="record"></fcnfont>
         <fcnfont name="tagged" function="tagged"></fcnfont>
         <columnpadding>10</columnpadding>
-        <column number="1" width="530" context="-1"></column>
-        <column number="2" width="110" context="-1"></column>
+        <column number="1" width="360" context="-1"></column>
+        <column number="2" width="55" context="-1"></column>
         <column number="3" width="110" context="0"></column>
         <column number="4" width="100" context="1"></column>
-        <items>9</items>
+        <items>8</items>
         <image function="selectionbar" filename="tvplayback/tv-selectbar.png" location="-10,-5"></image>
-        <image function="uparrow" filename="shared/uparrow.png" location="1200,15"></image>
-        <image function="downarrow" filename="shared/downarrow.png" location="1200,360"></image>
+        <image function="uparrow" filename="shared/uparrow.png" location="752,0"></image>
+        <image function="downarrow" filename="shared/downarrow.png" location="752,275"></image>
       </listarea>
-
       <textarea name="current" draworder="6">
-        <area>30,190,340,40</area>
+        <area>20,131,185,40</area>
         <font>currenttitle</font>
       </textarea>
     </container>
 
     <container name="group_info">
       <context>0</context>
-      <area>40,460,1240,240</area>
+      <area>0,360,799,240</area>
 
       <textarea name="title" draworder="6">
-        <area>15,12,1000,45</area>
+        <area>15,12,779,45</area>
         <font>title</font>
       </textarea>
       <textarea name="description" draworder="6">
-        <area>20,50,1260,90</area>
-        <altarea>25,50,1260,90</altarea>
+        <area>20,50,600,120</area>
+        <altarea>25,50,600,120</altarea>
         <font>info</font>
         <multiline>yes</multiline>
       </textarea>
@@ -1722,32 +1688,32 @@
 
     <container name="program_info_play">
       <context>0</context>
-      <area>20,460,1280,270</area>
+      <area>0,350,800,230</area>
       <textarea name="title" draworder="6">
-        <area>20,0,900,40</area>
-        <altarea>20,0,580,40</altarea>
+        <area>25,14,580,40</area>
+        <altarea>20,5,580,40</altarea>
         <font>title</font>
       </textarea>
 
       <textarea name="subtitle" draworder="6">
-        <area>20,40,1260,40</area>
+        <area>20,47,600,40</area>
         <font>subtitle</font>
         <multiline>yes</multiline>
       </textarea>
 
       <textarea name="channel" draworder="6">
-        <area>20,74,800,30</area>
+        <area>20,74,180,30</area>
         <font>greyfont</font>
       </textarea>
 
       <textarea name="timedate" draworder="6">
-        <area>380,110,540,30</area>
+        <area>210,74,440,30</area>
         <font>greyfont</font>
       </textarea>
 
       <textarea name="description" draworder="6">
-        <area>20,150,1000,100</area>
-        <altarea>20,140,1000,200</altarea>
+        <area>20,140,762,100</area>
+        <altarea>20,140,760,100</altarea>
         <font>info</font>
 	<multiline>yes</multiline>
 	<value>%LONGREPEAT%%STARS%%DESCRIPTION%</value>
@@ -1769,68 +1735,44 @@
         <filename>type/cutlist.png</filename>
         <position>148,106</position>
       </image>
-
+      <image name="watched" draworder="6">
+        <filename>type/watched.png</filename>
+        <position>180,106</position>
+      </image>
       <image name="processing" draworder="6">
         <filename>type/processing.png</filename>
         <position>20,106</position>
       </image>
 
-      <image name="stereo" draworder="6"> 
-        <filename>type/stereo.png</filename> 
-        <position>181,106</position> 
-      </image> 
-
-      <image name="cc" draworder="6"> 
-        <filename>type/cc.png</filename> 
-        <position>213,106</position> 
-      </image> 
- 
-      <image name="hdtv" draworder="6"> 
-        <filename>type/hd.png</filename> 
-        <position>245,106</position> 
-      </image>
-      
-      <image name="watched" draworder="6">
-          <filename>type/watched.png</filename>
-          <position>302,106</position>
-      </image>
-
-      <!--
-      <image name="preserved" draworder="6">
-        <filename>preserved.png</filename>
-        <position>289,106</position>
-      </image>
-      -->
-
     </container>
 
     <container name="program_info_del">
       <context>1</context>
-      <area>20,460,1000,270</area>
+      <area>0,345,800,300</area>
       <textarea name="title" draworder="6">
-        <area>20,0,640,40</area>
-        <altarea>20,5,640,40</altarea>
+        <area>25,15,580,40</area>
+        <altarea>20,15,580,40</altarea>
         <font>title</font>
       </textarea>
 
       <textarea name="subtitle" draworder="6">
-        <area>20,47,600,40</area>
+        <area>25,45,600,40</area>
         <font>subtitle</font>
         <multiline>yes</multiline>
       </textarea>
 
       <textarea name="channel" draworder="6">
-        <area>20,74,370,30</area>
+        <area>25,75,160,30</area>
         <font>greyfont</font>
       </textarea>
 
       <textarea name="timedate" draworder="6">
-        <area>400,74,440,30</area>
+        <area>210,75,440,30</area>
         <font>greyfont</font>
       </textarea>
       <textarea name="description" draworder="6">
-        <area>20,110,980,70</area>
-        <altarea>20,110,1255,70</altarea>
+        <area>25,110,610,100</area>
+        <altarea>25,110,610,125</altarea>
         <font>info</font>
 	<multiline>yes</multiline>
 	<value>%LONGREPEAT%%STARS%%DESCRIPTION%</value>
@@ -1839,7 +1781,7 @@
     </container>
 
     <container name="video">
-      <area>1020,470,220,165</area>
+      <area>620,364,160,120</area>
     </container>
 
     <!-- Confirm delete and legend help popup -->
@@ -1850,365 +1792,14 @@
 
     <container name="usage">
       <context>1</context>
-      <area>10,660,1260,50</area>
+      <area>10,550,790,50</area>
       <statusbar name="usedbar" draworder="5">
         <container fleximage="yes">container.png</container>
 		<fill>progress-filler.png</fill>
         <position>20,0</position>
       </statusbar>
       <textarea name="freereport" draworder="6">
-        <area>430,5,400,30</area>
-        <font>info</font>
-      </textarea>
-    </container>
-
-    <container name="norecordings_list">
-      <textarea name="msg" align="center" draworder="8">
-         <area>200,140,600,30</area>
-         <font>info</font>
-         <value>Sorry, No Recordings Available</value>
-      </textarea>
-    </container>
-
-    <container name="norecordings_info">
-      <textarea name="topline" align="center" draworder="8">
-         <area>20,80,580,30</area>
-         <font>info</font>
-         <value>To schedule a recording, exit this screen and</value>
-      </textarea>
-      <textarea name="botline" align="center" draworder="8">
-         <area>20,110,580,30</area>
-         <font>info</font>
-         <value>Select 'Schedule a Recording' from the Main Menu</value>
-      </textarea>
-    </container>
-
-  </window>
-
- <window name="playback-video">
-
-<font name="active" face="Vera">
-      <color>#cccccc</color>
-      <size>15</size>
-      <size:big>20</size:big>
-      <size:small>13</size:small>
-      <bold>yes</bold>
-    </font>
-
-    <font name="activesel" face="Vera">
-      <color>#ffffff</color>
-      <size>15</size>
-      <size:big>20</size:big>
-      <size:small>13</size:small>
-      <bold>yes</bold>
-    </font>
-
-    <font name="tagged" face="Vera">
-      <color>#ffff00</color>
-      <size>15</size>
-      <size:big>20</size:big>
-      <size:small>13</size:small>
-      <bold>yes</bold>
-    </font>
-
-    <font name="inactive" face="Vera">
-      <color>#aaaaaa</color>
-      <size>15</size>
-      <size:big>20</size:big>
-      <size:small>13</size:small>
-      <bold>yes</bold>
-    </font>
-
-    <font name="recording" face="Vera">
-      <color>#00EE00</color>
-      <dropcolor>#000000</dropcolor>
-      <size>15</size>
-      <size:small>13</size:small>
-      <size:big>20</size:big>
-      <bold>yes</bold>
-      <shadow>2,2</shadow>
-    </font>
-
-    <font name="record" face="Vera">
-      <color>#FCFF00</color>
-      <dropcolor>#000000</dropcolor>
-      <size>15</size>
-      <size:small>13</size:small>
-      <size:big>20</size:big>
-      <bold>yes</bold>
-      <shadow>2,2</shadow>
-    </font>
-
-    <font name="overunderrecfont" face="Vera">
-      <color>#ffffAA</color>
-      <dropcolor>#000000</dropcolor>
-      <size>15</size>
-      <size:big>20</size:big>
-      <size:small>13</size:small>
-      <bold>yes</bold>
-      <shadow>2,2</shadow>
-    </font>
-
-    <font name="currenttitle" face="Vera">
-      <color>#ffffff</color>
-      <size>16</size>
-      <size:big>22</size:big>
-      <size:small>14</size:small>
-      <bold>yes</bold>
-    </font>
-
-    <font name="title" face="Vera">
-      <color>#FFFFFF</color>
-      <dropcolor>#000000</dropcolor>
-      <size>24</size>
-      <size:big>26</size:big>
-      <size:small>14</size:small>
-      <bold>yes</bold>
-    </font>
-    
-    <font name="subtitle" face="Vera">
-      <color>#FFFFFF</color>
-      <size>17</size>
-      <size:big>20</size:big>
-      <size:small>13</size:small>
-      <bold>yes</bold>
-    </font>
-
-    <font name="info" face="Vera">
-      <color>#ffffff</color>
-      <size>17</size>
-      <size:big>20</size:big>
-      <size:small>10</size:small>
-          <bold>yes</bold>
-    </font>
-
-    <font name="greyfont" face="Vera">
-      <color>#CCCCCC</color>
-      <size>17</size>
-      <size:big>20</size:big>
-      <size:small>10</size:small>
-      <bold>yes</bold>
-    </font>
-
-    <font name="message" face="Vera">
-      <color>#FFFFFF</color>
-      <size>17</size>
-      <size:big>20</size:big>
-      <size:small>16</size:small>
-      <bold>yes</bold>
-    </font>
-   
-    <container name="background">
-      <image name="filler" draworder="0" fleximage="yes">
-        <filename>playback-videobg.png</filename>
-        <position>0,0</position>
-      </image>
-
-      <textarea name="messagedel" draworder="0" align="left">
-        <area>40,20,1240,35</area>
-        <font>message</font>
-        <value>Select a recording to permanently erase.</value>
-        <context>1</context>
-      </textarea>
-      <textarea name="messageplay" draworder="0" align="hcenter">
-        <area>40,20,1240,35</area>
-        <font>message</font>
-        <value>Select a recording to watch.</value>
-        <context>0</context>
-      </textarea>
-    </container>
-
-    <container name="selector">
-      <area>20,340,1260,360</area>
-
-      <listarea name="toptitles" draworder="2">
-        <area>20,30,340,150</area>
-        <fcnfont name="active" function="active"></fcnfont>
-        <fcnfont name="activesel" function="selected"></fcnfont>
-        <fcnfont name="inactive" function="inactive"></fcnfont>
-        <items>4</items>
-      </listarea>
-      <image name="titlelines" draworder="0" fleximage="no">
-        <filename>tvplayback/tv-lbox.png</filename>
-        <position>5,-7</position>
-      </image>
-      <listarea name="bottomtitles" draworder="2">
-        <area>20,220,340,150</area>
-        <fcnfont name="active" function="active"></fcnfont>
-        <fcnfont name="activesel" function="selected"></fcnfont>
-        <fcnfont name="inactive" function="inactive"></fcnfont>
-        <fcnfont name="record" function="record"></fcnfont>
-        <fcnfont name="recording" function="recording"></fcnfont>
-        <items>4</items>
-      </listarea>
-      <listarea name="showing" draworder="4">
-        <area>420,23,800,360</area>
-        <fcnfont name="recording" function="recording"></fcnfont>
-        <fcnfont name="overunderrecfont" function="overunderrecording"></fcnfont>
-        <fcnfont name="active" function="active"></fcnfont>
-        <fcnfont name="activesel" function="selected"></fcnfont>
-        <fcnfont name="inactive" function="inactive"></fcnfont>
-        <fcnfont name="record" function="record"></fcnfont>
-        <fcnfont name="tagged" function="tagged"></fcnfont>
-        <columnpadding>10</columnpadding>
-        <column number="1" width="550" context="-1"></column>
-        <column number="2" width="110" context="-1"></column>
-        <column number="3" width="110" context="0"></column>
-        <column number="4" width="150" context="1"></column>
-        <items>9</items>
-        <image function="selectionbar" filename="tvplayback/tv-selectbar.png" location="-10,-5"></image>
-        <image function="uparrow" filename="shared/uparrow.png" location="1200,15"></image>
-        <image function="downarrow" filename="shared/downarrow.png" location="1200,360"></image>
-      </listarea>
-
-      <textarea name="current" draworder="6">
-        <area>30,180,340,40</area>
-        <font>currenttitle</font>
-      </textarea>
-    </container>
-
-    <container name="group_info">
-      <context>0</context>
-      <area>40,40,750,240</area>
-
-      <textarea name="title" draworder="6">
-        <area>15,12,779,45</area>
-        <font>title</font>
-      </textarea>
-      <textarea name="description" draworder="6">
-        <area>20,50,800,90</area>
-        <altarea>25,50,800,90</altarea>
-        <font>info</font>
-        <multiline>yes</multiline>
-      </textarea>
-    </container>
-
-    <container name="program_info_play">
-      <context>0</context>
-      <area>20,40,1280,270</area>
-      <textarea name="title" draworder="6">
-        <area>20,0,900,40</area>
-        <altarea>20,0,580,40</altarea>
-        <font>title</font>
-      </textarea>
-      
-      <textarea name="subtitle" draworder="6">
-        <area>20,40,1260,40</area>
-        <font>subtitle</font>
-        <multiline>yes</multiline>
-      </textarea>
-
-      <textarea name="channel" draworder="6">
-        <area>20,74,800,30</area>
-        <font>greyfont</font>
-      </textarea>
-
-      <textarea name="timedate" draworder="6">
-        <area>285,110,540,30</area>
-        <font>greyfont</font>
-      </textarea>
-
-      <textarea name="description" draworder="6">
-        <area>20,150,800,100</area>
-        <altarea>20,140,800,200</altarea>
-        <font>info</font>
-        <multiline>yes</multiline>
-        <value>%LONGREPEAT%%STARS%%DESCRIPTION%</value>
-        </textarea>
-
-      <image name="commflagged" draworder="6">
-        <filename>type/commflagged.png</filename>
-        <position>84,106</position>
-      </image>
-      <image name="autoexpire" draworder="6">
-        <filename>type/autoexpire.png</filename>
-        <position>52,106</position>
-      </image>
-      <image name="bookmark" draworder="6">
-        <filename>type/bookmark.png</filename>
-        <position>116,106</position>
-      </image>
-      <image name="cutlist" draworder="6">
-        <filename>type/cutlist.png</filename>
-        <position>148,106</position>
-      </image>
-
-      <image name="processing" draworder="6">
-        <filename>type/processing.png</filename>
-        <position>20,106</position>
-      </image>
-
-      <image name="stereo" draworder="6">
-        <filename>type/stereo.png</filename>
-        <position>181,106</position>
-      </image>
-
-     <image name="cc" draworder="6">
-        <filename>type/cc.png</filename>
-        <position>213,106</position>
-      </image>
-
-      <image name="hdtv" draworder="6">
-        <filename>type/hd.png</filename>
-        <position>245,106</position>
-      </image>
-
-    </container>
-
-    <container name="program_info_del">
-      <context>1</context>
-      <area>20,460,1000,270</area>
-      <textarea name="title" draworder="6">
-        <area>20,0,640,40</area>
-        <altarea>20,5,640,40</altarea>
-        <font>title</font>
-      </textarea>
-
-      <textarea name="subtitle" draworder="6">
-        <area>20,47,600,40</area>
-        <font>subtitle</font>
-        <multiline>yes</multiline>
-      </textarea>
-
-      <textarea name="channel" draworder="6">
-        <area>20,74,370,30</area>
-        <font>greyfont</font>
-      </textarea>
-
-      <textarea name="timedate" draworder="6">
-        <area>400,74,440,30</area>
-        <font>greyfont</font>
-      </textarea>
-      <textarea name="description" draworder="6">
-        <area>20,110,980,70</area>
-        <altarea>20,110,1255,70</altarea>
-        <font>info</font>
-        <multiline>yes</multiline>
-        <value>%LONGREPEAT%%STARS%%DESCRIPTION%</value>
-      </textarea>
-
-    </container>
-
-    <container name="video">
-      <area>870,40,325,182</area>
-    </container>
-
- <!-- Confirm delete and legend help popup -->
-    <popup name="confirmdelete">
-      <foreground>#ffffff</foreground>
-      <highlight>#ffffff</highlight>
-    </popup>
-
-    <container name="usage">
-      <context>1</context>
-      <area>10,660,1260,50</area>
-      <statusbar name="usedbar" draworder="5">
-        <container fleximage="yes">container.png</container>
-                <fill>progress-filler.png</fill>
-        <position>20,0</position>
-      </statusbar>
-      <textarea name="freereport" draworder="6">
-        <area>430,5,400,30</area>
+        <area>430,3,370,30</area>
         <font>info</font>
       </textarea>
     </container>
@@ -2238,198 +1829,185 @@
 
   <window name="programfind">
 
-    <font name="active" face="Vera">
+    <font name="active" face="Tahoma">
       <color>#ffffff</color>
       <size>18</size>
-      <size:small>14</size:small>
-      <bold>yes</bold>
-    </font>
-
-    <font name="inactive" face="Vera">
-      <color>#808080</color>
-      <size>18</size>
-      <size:small>14</size:small>
-      <bold>yes</bold>
-    </font>
-
-    <font name="recording" face="Vera">
-      <color>#00FF00</color>
-      <dropcolor>#000000</dropcolor>
-      <size>18</size>
-      <size:small>14</size:small>
-	  <bold>yes</bold>
-      <shadow>2,2</shadow>
-    </font>
-    
-    <font name="record" face="Vera">
-      <color>#00FF00</color>
-      <dropcolor>#000000</dropcolor>
-      <size>18</size>
-      <size:small>14</size:small>
-	  <bold>yes</bold>
-      <shadow>2,2</shadow>
-    </font>
-
-    <font name="titleinfo" face="Vera">
-      <color>#ffffff</color>
-      <dropcolor>#000000</dropcolor>
-      <size>24</size>
-      <size:small>14</size:small>
-      <bold>yes</bold>
-    </font>
-
-    <font name="subtitle" face="Vera">
-      <color>#ffffff</color>
-      <size>17</size>
-      <size:small>14</size:small>
+      <size:small>11</size:small>
       <bold>no</bold>
     </font>
 
-    <font name="info" face="Vera">
-      <color>#ffffff</color>
-      <size>17</size>
-      <size:small>14</size:small>
-      <bold>yes</bold>
+    <font name="inactive" face="Tahoma">
+      <color>#808080</color>
+      <size>18</size>
+      <size:small>11</size:small>
+      <bold>no</bold>
     </font>
 
-    <font name="infos" face="Vera">
-      <color>#ffffff</color>
-      <size>16</size>
-      <size:small>14</size:small>
-      <bold>yes</bold>
+    <font name="recording" face="Tahoma">
+      <color>#EE9A9A</color>
+      <size>18</size>
+      <size:small>11</size:small>
+	  <bold>no</bold>
+    </font>
+    
+    <font name="record" face="Tahoma">
+      <color>#FCFF00</color>
+      <size>18</size>
+      <size:small>11</size:small>
+	  <bold>no</bold>
     </font>
 
-    <font name="timedate" face="Vera">
-      <color>#CCCCCC</color>
-      <size>16</size>
-      <size:small>14</size:small>
-      <bold>yes</bold>
-    </font>
-
-    <font name="descinfo" face="Vera">
+    <font name="titleinfo" face="Tahoma">
       <color>#ffffff</color>
-      <size>17</size>
+      <dropcolor>#000000</dropcolor>
+      <size>24</size>
       <size:small>12</size:small>
-      <bold>yes</bold>
+      <bold>no</bold>
     </font>
 
-    <font name="info_y" face="Vera">
+    <font name="subtitle" face="Tahoma">
       <color>#ffffff</color>
-      <size>17</size>
-      <size:small>14</size:small>
-      <bold>yes</bold>
-    </font>
-
-    <font name="recinfo" face="Vera">
-      <color>#CCCCCC</color>
       <size>17</size>
       <size:small>13</size:small>
       <bold>no</bold>
     </font>
 
-    <font name="channel" face="Vera">
-      <color>#CCCCCC</color>
+    <font name="info" face="Tahoma">
+      <color>#ffffff</color>
       <size>17</size>
-      <size:small>14</size:small>
-      <bold>yes</bold>
+      <size:small>10</size:small>
+      <bold>no</bold>
     </font>
 
-    <font name="legend" face="Vera">
+    <font name="infos" face="Tahoma">
+      <color>#ffffff</color>
+      <size>16</size>
+      <size:small>10</size:small>
+      <bold>no</bold>
+    </font>
+
+    <font name="timedate" face="Tahoma">
       <color>#CCCCCC</color>
-      <size>14</size>
+      <size>16</size>
+      <size:small>10</size:small>
+      <bold>no</bold>
+    </font>
+
+    <font name="descinfo" face="Tahoma">
+      <color>#ffffff</color>
+      <size>17</size>
+      <size:small>9</size:small>
+      <bold>no</bold>
+    </font>
+
+    <font name="info_y" face="Tahoma">
+      <color>#ffffff</color>
+      <size>17</size>
+      <size:small>10</size:small>
+      <bold>no</bold>
+    </font>
+
+    <font name="recinfo" face="Tahoma">
+      <color>#CCCCCC</color>
+      <size>17</size>
+      <size:small>10</size:small>
+      <bold>no</bold>
+    </font>
+
+    <font name="channel" face="Tahoma">
+      <color>#CCCCCC</color>
+      <size>17</size>
       <size:small>14</size:small>
       <bold>no</bold>
     </font>
 
-    <container name="background">
+    <container name="background"> <!-- background for the program finder goes here -->
      <image name="filler" draworder="0" fleximage="no">
-        <filename>bgoverlay.png</filename>
-        <position>0,440</position>
+        <filename>programfind/pf-background.png</filename>
+        <position>0,0</position>
       </image>
       <textarea name="prgrambar" align="center">
-        <area>0,10,1280,30</area>
-        <font>legend</font>
+        <area>0,565,800,30</area>
+        <font>info</font>
         <value>(4) Program Guide   **(6) Program Finder **</value>
         <context>1</context>
       </textarea>
     </container>
 
- <container name="selector">
-      <area>20,20,1280,465</area>
+    <container name="selector">
+      <area>25,254,770,310</area>
       <listarea name="alphabet" draworder="2">
-        <area>20,24,65,400</area>
+        <area>23,8,65,295</area>
         <fcnfont name="active" function="active"></fcnfont>
         <fcnfont name="active" function="selected"></fcnfont>
         <fcnfont name="inactive" function="inactive"></fcnfont>
-        <items>11</items>
-        <image function="selectionbar" filename="programfind/progfind_sel1.png" location="-7,-3"></image>
+        <items>9</items>
+        <image function="selectionbar" filename="programfind/progfind_sel1.png" location="-7,0"></image>
       </listarea>
       <listarea name="shows" draworder="2">
-        <area>80,24,800,400</area>
+        <area>80,8,380,295</area>
         <fcnfont name="active" function="active"></fcnfont>
         <fcnfont name="active" function="selected"></fcnfont>
         <fcnfont name="inactive" function="inactive"></fcnfont>
-        <column number="1" width="800" context="-1"></column>
-        <items>11</items>
-        <image function="selectionbar" filename="programfind/progfind_sel2.png" location="-5,-3"></image>
+        <column number="1" width="365" context="-1"></column>
+        <items>9</items>
+        <image function="selectionbar" filename="programfind/progfind_sel2.png" location="-7,0"></image>
       </listarea>
       <listarea name="times" draworder="2">
-        <area>885,24,330,400</area>
+        <area>470,8,280,295</area>
         <fcnfont name="active" function="active"></fcnfont>
         <fcnfont name="active" function="selected"></fcnfont>
         <fcnfont name="inactive" function="inactive"></fcnfont>
-        <fcnfont name="record" function="record"></fcnfont>
         <fcnfont name="recording" function="recording"></fcnfont>
-        <items>11</items>
-        <image function="selectionbar" filename="programfind/progfind_sel3.png" location="-10,-5"></image>
+        <fcnfont name="record" function="record"></fcnfont>
+        <items>9</items>
+        <image function="selectionbar" filename="programfind/progfind_sel3.png" location="-7,0"></image>
       </listarea>
-
       <image name="lines" draworder="5" fleximage="no">
         <filename>programfind/pflines.png</filename>
-        <position>0,5</position>
+        <position>5,-10</position>
       </image>
-
     </container>
 
     <container name="program_info">
-      <area>40,480,1200,220</area>
+      <area>25,15,750,220</area>
       <textarea name="title" draworder="6">
-        <area>10,0,1200,45</area>
+        <area>10,0,700,45</area>
         <font>titleinfo</font>
       </textarea>
       <textarea name="subtitle" draworder="6">
-        <area>10,35,1245,35</area>
+        <area>10,35,700,35</area>
         <font>subtitle</font>
       </textarea>
-      <textarea name="timedate" draworder="6" align="left">
-        <area>10,165,940,27</area>
+      <textarea name="timedate" draworder="6" align="right">
+        <area>300,165,440,27</area>
         <font>timedate</font>
       </textarea>
-      <textarea name="channel" draworder="6" align="left">
-        <area>10,190,940,40</area>
+      <textarea name="channel" draworder="6" align="right">
+        <area>300,190,440,40</area>
         <font>channel</font>
       </textarea>
       <textarea name="description" draworder="6">
-        <area>10,65,1170,90</area>
+        <area>10,65,725,90</area>
         <font>descinfo</font>
         <multiline>yes</multiline>
         <value>%LONGREPEAT%%STARS%%DESCRIPTION%</value>
       </textarea>
-      <textarea name="recordingstatus" draworder="6" align="right">
-        <area>800,190,380,35</area>
+      <textarea name="recordingstatus" draworder="6">
+        <area>10,176,500,35</area>
         <font>recinfo</font>
       </textarea>
     </container>
 
     <container name="help_info_1">
-      <area>40,25,1200,220</area>
+      <area>25,25,750,220</area>
       <textarea name="selectinfo" draworder="6">
         <area>10,5,500,30</area>
         <font>info</font>
         <value>Select a letter...</value>
       </textarea>
       <textarea name="pickinfo" draworder="6">
-        <area>10,65,1170,120</area>
+        <area>10,75,720,120</area>
         <font>info</font>
         <value>Pick the letter in which the show starts with, then press SELECT or the right arrow</value>
         <multiline>yes</multiline>
@@ -2437,14 +2015,14 @@
     </container>
 
     <container name="help_info_2">
-      <area>40,25,1200,220</area>
+      <area>25,25,750,220</area>
       <textarea name="selectprog" draworder="6">
-        <area>10,5,1170,30</area>
+        <area>10,5,500,30</area>
         <font>info</font>
         <value>Select a program...</value>
       </textarea>
       <textarea name="pickprog" draworder="6">
-        <area>10,65,1170,120</area>
+        <area>10,75,720,120</area>
         <font>info</font>
         <value>Select the title of the program you wish to find. When finished return with the left arrow key. Press SELECT to schedule a recording.</value>
         <multiline>yes</multiline>
@@ -2452,14 +2030,14 @@
     </container>
 
     <container name="noprograms">
-      <area>40,25,1200,220</area>
+      <area>25,25,750,220</area>
       <textarea name="noprog" draworder="6">
-        <area>10,5,1190,30</area>
+        <area>10,5,500,30</area>
         <font>info</font>
         <value>No Programs</value>
       </textarea>
       <textarea name="research" draworder="6">
-        <area>10,75,1245,120</area>
+        <area>10,75,500,120</area>
         <font>info</font>
         <value>There are no available programs under this search. Please select another search.</value>
         <multiline>yes</multiline>
@@ -2468,91 +2046,87 @@
 
   </window>
 
-  <!-- Previously recorded screen -->
+  <!-- -->
   <window name="programlist">
 
-    <font name="active_font" face="Vera">
+    <font name="active_font" face="Tahoma">
       <color>#ffffff</color>
       <size>15</size>
       <size:small>12</size:small>
-      <bold>yes</bold>
+      <bold>no</bold>
     </font>
 
-    <font name="inactive_font" face="Vera">
+    <font name="inactive_font" face="Tahoma">
       <color>#FFFFFF</color>
       <size>15</size>
       <size:small>12</size:small>
-      <bold>yes</bold>
+      <bold>no</bold>
     </font>
 
-    <font name="recording" face="Vera">
-      <color>#00FF00</color>
-      <dropcolor>#000000</dropcolor>
+    <font name="recording" face="Tahoma">
+      <color>#EE9A9A</color>
       <size>15</size>
       <size:small>11</size:small>
-	  <bold>yes</bold>
-      <shadow>2,2</shadow>
+	  <bold>no</bold>
     </font>
     
-    <font name="record" face="Vera">
-      <color>#00FF00</color>
-      <dropcolor>#000000</dropcolor>
+    <font name="record" face="Tahoma">
+      <color>#FCFF00</color>
       <size>15</size>
       <size:small>11</size:small>
-	  <bold>yes</bold>
-      <shadow>2,2</shadow>
+	  <bold>no</bold>
     </font>
 
-    <font name="conflict_font" face="Vera">
+    <font name="conflict_font" face="Tahoma">
       <color>#ffff33</color>
       <size>15</size>
       <size:small>12</size:small>
-      <bold>yes</bold>
+      <bold>no</bold>
     </font>
 
-    <font name="title" face="Vera">
+    <font name="title" face="Tahoma">
       <color>#FFFFFF</color>
       <size>24</size>
       <size:small>14</size:small>
-      <bold>yes</bold>
+      <bold>no</bold>
     </font>
 
-    <font name="subtitle" face="Vera">
+    <font name="subtitle" face="Tahoma">
       <color>#FFFFFF</color>
       <size>17</size>
       <size:small>13</size:small>
       <bold>no</bold>
     </font>
 
-    <font name="info" face="Vera">
+    <font name="info" face="Tahoma">
       <color>#ffffff</color>
       <size>17</size>
-      <size:small>14</size:small>
-      <bold>yes</bold>
+      <size:small>12</size:small>
+      <bold>no</bold>
     </font>
 
-    <font name="greyinfo" face="Vera">
+    <font name="greyinfo" face="Tahoma">
       <color>#CCCCCC</color>
       <size>16</size>
       <size:small>12</size:small>
       <bold>no</bold>
     </font>
 
-    <font name="message" face="Vera">
+    <font name="message" face="Tahoma">
       <color>#ffffff</color>
       <size>17</size>
-      <size:small>14</size:small>
-      <bold>yes</bold>
+      <size:small>12</size:small>
+      <bold>no</bold>
     </font>
 
-    <container name="background"> <!-- Previously recorded background -->
+    <container name="background"> <!-- This is the Previously Recorded screen background -->
       <image name="backgroundimg" draworder="0" fleximage="no">
-        <filename>bgoverlay.png</filename>
-        <position>0,465</position>
+        <filename>priorities/pr-background.png</filename>
+        <position>0,0</position>
       </image>
 
        <textarea name="sched" draworder="0">
-        <area>40,20,750,30</area>
+        <area>20,10,750,30</area>
         <font>info</font>
         <value>Program Listings</value>
       </textarea>
@@ -2560,17 +2134,17 @@
     </container>
 
     <container name="view">
-      <area>40,20,1240,30</area>
-      <textarea name="curview" draworder="4" align="center">
-        <area>40,0,1240,30</area>
+      <area>300,10,460,30</area>
+      <textarea name="curview" draworder="4" align="right">
+        <area>0,0,460,30</area>
         <font>info</font>
       </textarea>
     </container>
 
     <container name="selector">
-      <area>20,51,1280,430</area>
+      <area>0,51,800,330</area>
       <listarea name="proglist" draworder="5">
-        <area>20,10,1260,420</area>
+        <area>18,6,780,320</area>
         <fcnfont name="active_font" function="active"></fcnfont>
         <fcnfont name="inactive_font" function="inactive"></fcnfont>
         <fcnfont name="active_font" function="selected"></fcnfont>
@@ -2578,22 +2152,21 @@
         <fcnfont name="record" function="record"></fcnfont>
         <fcnfont name="conflict_font" function="conflicting"></fcnfont>
         <columnpadding>5</columnpadding>
-        <column number="1" width="270" context="-1"></column>
-        <column number="2" width="260" context="-1"></column>
-        <column number="3" width="600" context="-1"></column>
+        <column number="1" width="155" context="-1"></column>
+        <column number="2" width="140" context="-1"></column>
+        <column number="3" width="400" context="-1"></column>
         <column number="4" width="20" context="-1"></column>
         <items>11</items>
-
-        <image function="selectionbar" filename="priorities/pr-selectbar.png" location="-8,-4" fleximage="yes"></image>
-        <image function="uparrow" filename="shared/uparrow.png" location="1200,5"></image>
-        <image function="downarrow" filename="shared/downarrow.png" location="1200,390"></image>
+        <image function="selectionbar" filename="shared/selectbar.png" location="-8,-4" fleximage="yes"></image>
+        <image function="uparrow" filename="shared/uparrow.png" location="752,4"></image>
+        <image function="downarrow" filename="shared/downarrow.png" location="752,285"></image>
       </listarea>
     </container>
 
     <container name="program_info">
-      <area>20,500,1240,200</area>
+      <area>0,390,780,290</area>
       <textarea name="title" draworder="7">
-        <area>20,10,730,50</area>
+        <area>20,0,730,50</area>
         <font>title</font>
       </textarea>
 
@@ -2603,15 +2176,15 @@
       </textarea>
 
       <textarea name="channel" draworder="8" align="right">
-        <area>700,40,370,30</area>
-        <font>info</font>
+        <area>365,35,370,30</area>
+        <font>greyinfo</font>
       </textarea>
       <textarea name="timedate" draworder="6" align="right">
-        <area>390,167,670,30</area>
+        <area>390,167,370,30</area>
         <font>greyinfo</font>
       </textarea>
       <textarea name="description" draworder="6">
-        <area>20,70,1200,100</area>
+        <area>20,70,760,100</area>
         <font>info</font>
 	<multiline>yes</multiline>
 	<value>%LONGREPEAT%%STARS%%DESCRIPTION%</value>
@@ -2636,7 +2209,7 @@
 
   <window name="recording_options">
 
-    <font name="active_font" face="Vera">
+    <font name="active_font" face="Tahoma">
       <color>#ffffff</color>
       <size:big>19</size:big>
       <size>17</size>
@@ -2644,7 +2217,15 @@
       <bold>no</bold>
     </font>
 
-    <font name="infob" face="Vera">
+    <font name="enabled_state_0_font" face="Tahoma">
+      <color>#ffffff</color>
+      <size:big>22</size:big>
+      <size>17</size>
+      <size:small>11</size:small>
+      <bold>no</bold>
+    </font>
+
+    <font name="infob" face="Tahoma">
       <color>#ffffff</color>
       <size:big>17</size:big>
       <size>15</size>
@@ -2652,106 +2233,105 @@
       <bold>no</bold>
     </font>
 
-    <font name="inactive_font" face="Vera">
-      <color>#aaaaaa</color>
+    <font name="inactive_font" face="Tahoma">
+      <color>#888888</color>
       <size:big>19</size:big>
       <size>17</size>
       <size:small>15</size:small>
       <bold>no</bold>
     </font>
 
-    <font name="currenttitle" face="Vera">
+    <font name="currenttitle" face="Tahoma">
       <color>#ffff33</color>
       <size>15</size>
       <size:small>12</size:small>
       <bold>no</bold>
     </font>
 
-    <font name="title" face="Vera">
+    <font name="title" face="Tahoma">
       <color>#ffffff</color>
       <size>24</size>
       <size:small>14</size:small>
       <bold>no</bold>
     </font>
 
-    <font name="subtitle" face="Vera">
+    <font name="subtitle" face="Tahoma">
       <color>#ffffff</color>
       <size>17</size>
       <size:small>12</size:small>
       <bold>no</bold>
     </font>
 
-    <font name="info" face="Vera">
+    <font name="info" face="Tahoma">
       <color>#ffffff</color>
       <size>17</size>
-      <size:small>14</size:small>
+      <size:small>10</size:small>
       <bold>no</bold>
     </font>
 
-    <font name="tinyinfo" face="Vera">
+    <font name="tinyinfo" face="Tahoma">
       <color>#cccccc</color>
       <size>10</size>
       <size:small>8</size:small>
       <bold>no</bold>
     </font>
 
-    <font name="grayinfo" face="Vera">
+    <font name="grayinfo" face="Tahoma">
       <color>#CCCCCC</color>
       <size>17</size>
       <size:small>10</size:small>
       <bold>no</bold>
     </font>
 
-    <font name="yellowinfo" face="Vera">
+    <font name="yellowinfo" face="Tahoma">
       <color>#ffff33</color>
       <size>17</size>
       <size:small>10</size:small>
       <bold>no</bold>
     </font>
 
-    <font name="message" face="Vera">
+    <font name="message" face="Tahoma">
       <color>#ffffff</color>
       <size>15</size>
-      <size:small>14</size:small>
+      <size:small>10</size:small>
       <bold>no</bold>
     </font>
 
-    <container name="background"> <!-- record options background goes here -->
+    <container name="background">
       <image name="backgroundimg" draworder="0" fleximage="no">
-        <filename>bgoverlay.png</filename>
-        <position>0,370</position>
+        <filename>recordoptions/ro-background.png</filename>
+        <position>0,0</position>
       </image>
     </container>
 
     <container name="selector">
-      <area>0,20,1280,350</area>
+      <area>0,300,800,300</area>
       <listarea name="menu_list" draworder="4">
-        <area>80,20,1140,350</area>
+        <area>20,10,760,274</area>
         <fcnfont name="active_font" function="active"></fcnfont>
         <fcnfont name="inactive_font" function="inactive"></fcnfont>
         <fcnfont name="inactive_font" function="disabled"></fcnfont>
         <fcnfont name="active_font" function="selected"></fcnfont>
-        <fcnfont name="active_font" function="enabled_state_0"></fcnfont>
+        <fcnfont name="enabled_state_0_font" function="enabled_state_0"></fcnfont>
         <columnpadding>1</columnpadding>
-        <column number="1" width="1140" context="-1"></column>
+        <column number="1" width="745" context="-1"></column>
         <items>8</items>
-
-        <image function="selectionbar" filename="priorities/pr-selectbar.png" location="-20,-2"></image>
-        <image function="uparrow" filename="shared/uparrow.png" location="1240,0"></image>
-        <image function="downarrow" filename="shared/downarrow.png" location="1240,245"></image>
-        <image function="rightarrow" filename="shared/rightarrow.png" location="-5,-2"></image>
+        <image function="selectionbar" filename="recordoptions/ro-selectbar.png" location="-6,-2"></image>
+        <image function="uparrow" filename="shared/uparrow.png" location="755,15"></image>
+        <image function="downarrow" filename="shared/downarrow.png" location="755,235"></image>
+        <image function="rightarrow" filename="shared/rightarrow.png" location="1,-2"></image>
         <image function="leftarrow" filename="shared/leftarrow.png" location="-5,-2"></image>
       </listarea>
     </container>
 
     <container name="program_info">
-      <area>20,420,1260,280</area>
+      <area>0,20,800,210</area>
       <textarea name="title" draworder="6">
-        <area>20,0,1260,40</area>
+        <area>20,0,800,40</area>
         <font>title</font>
       </textarea>
       <textarea name="subtitle" draworder="6">
-        <area>20,38,1200,30</area>
+        <area>20,38,579,30</area>
         <font>subtitle</font>
       </textarea>
       <textarea name="infotime" draworder="6" align="right">
@@ -2778,59 +2358,50 @@
         <value>Description:</value>
       </textarea>
       <textarea name="description" draworder="6">
-        <area>180,125,1000,170</area>
+        <area>180,125,600,120</area>
         <font>info</font>
         <multiline>yes</multiline>
       </textarea>
-
     </container>
 
   </window>
 
-<window name="progdetails">
+  <window name="progdetails">
 
-      <font name="heading" face="Vera">
-          <color>#ffffdd</color>
-          <size>24</size>
-          <size:small>16</size:small>
-          <size:big>24</size:big>
-          <bold>no</bold>
-      </font>
-
-      <font name="body" face="Vera">
-          <color>#ffffff</color>
-          <size>16</size>
-          <size:small>14</size:small>
-          <size:big>24</size:big>
-          <bold>no</bold>
-      </font>
+   <font name="info" face="Tahoma">
+      <color>#FFFFFF</color>
+      <size>16</size>
+      <size:small>14</size:small>
+      <size:big>18</size:big>
+      <bold>no</bold>
+   </font>
 
     <container name="main_display">
-      <area>40,0,1240,720</area>
+      <area>0,0,800,600</area>
       <textarea name="title" draworder="0">
-        <area>20,30,1200,40</area>
-        <font>heading</font>
+        <area>50,30,720,40</area>
+        <font>info</font>
         <value>Program Details:</value>
       </textarea>
 
       <richtextarea name="richtext" draworder="0">
-	<area>20,80,1200,600</area>
-	<textarea>40,90,1100,540</textarea>
-        <font>body</font>
+        <area>40,60,730,530</area>
+        <textarea>65,70,640,460</textarea>
+        <font>info</font>
         <value>Program Details</value>
-        <image function="uparrow-reg" filename="blank.png" location="1150,90"></image>
-        <image function="downarrow-reg" filename="blank.png" location="1150,580"></image>
-        <image function="uparrow-sel" filename="uparrow.png" location="1150,90"></image>
-        <image function="downarrow-sel" filename="downarrow.png" location="1150,580"></image>
-        <backgroundreg>details/pd-lines.png</backgroundreg>
-        <backgroundsel>details/pd-lines.png</backgroundsel>
+        <image function="uparrow-reg" filename="blank.png" location="720,90"></image>
+        <image function="downarrow-reg" filename="blank.png" location="720,500"></image>
+        <image function="uparrow-sel" filename="shared/uparrow.png" location="720,90"></image>
+        <image function="downarrow-sel" filename="shared/downarrow.png" location="720,500"></image>
+        <backgroundreg>pd-background.png</backgroundreg>
+        <backgroundsel>pd-background.png</backgroundsel>
       </richtextarea>
 
             <!-- An "OK" button may be included but is not necessary
 
       <textbutton name="ok_button" draworder="1">
         <position>81,535</position>
-        <font>buttons</font>
+        <font>info</font>
         <image function="on" filename="mw_text_button_on.png"></image>
         <image function="off" filename="mw_text_button_off.png"></image>
         <image function="pushed" filename="mw_text_button_pushed.png"></image>
@@ -2838,5 +2409,6 @@
             -->
     </container>
   </window>
-
 </mythuitheme>
+
+

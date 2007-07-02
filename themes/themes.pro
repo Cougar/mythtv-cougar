@@ -11,7 +11,7 @@ CONFIG -= moc qt
 
 themes.path = $${PREFIX}/share/mythtv/themes/
 themes.files  = ProjectGrayhem ProjectGrayhem-wide ProjectGrayhem-OSD
-themes.files += blootube-osd blootube-wide blootubelite-wide
+themes.files += blootube-osd blootube-wide blootubelite-wide blootube
 themes.files += neon-wide
 
 INSTALLS += themes
