@@ -1138,7 +1138,7 @@
         <font>info</font>
         <value>Channel Recording Priorities</value>
       </textarea>
-      <image name="filler" draworder="0" fleximage="yes">
+      <image name="filler" draworder="0" fleximage="no">
         <filename>dbackground.png</filename>
         <position>0,35</position>
       </image>
@@ -1605,7 +1605,7 @@
     </font>
 
     <container name="background">
-      <image name="filler" draworder="0" fleximage="yes">
+      <image name="filler" draworder="0" fleximage="no">
         <filename>pl-background.png</filename>
         <position>0,0</position>
       </image>
@@ -1794,7 +1794,7 @@
       <context>1</context>
       <area>10,550,790,50</area>
       <statusbar name="usedbar" draworder="5">
-        <container fleximage="yes">container.png</container>
+        <container fleximage="no">container.png</container>
 		<fill>progress-filler.png</fill>
         <position>20,0</position>
       </statusbar>
@@ -1951,7 +1951,7 @@
         <fcnfont name="inactive" function="inactive"></fcnfont>
         <column number="1" width="365" context="-1"></column>
         <items>9</items>
-        <image function="selectionbar" filename="programfind/progfind_sel2.png" location="-7,0"></image>
+        <image function="selectionbar" filename="programfind/progfind_sel2.png" location="-7,-2"></image>
       </listarea>
       <listarea name="times" draworder="2">
         <area>470,8,280,295</area>
@@ -1961,7 +1961,7 @@
         <fcnfont name="recording" function="recording"></fcnfont>
         <fcnfont name="record" function="record"></fcnfont>
         <items>9</items>
-        <image function="selectionbar" filename="programfind/progfind_sel3.png" location="-7,0"></image>
+        <image function="selectionbar" filename="programfind/progfind_sel3.png" location="0,-2"></image>
       </listarea>
       <image name="lines" draworder="5" fleximage="no">
         <filename>programfind/pflines.png</filename>
@@ -2157,7 +2157,7 @@
         <column number="3" width="400" context="-1"></column>
         <column number="4" width="20" context="-1"></column>
         <items>11</items>
-        <image function="selectionbar" filename="shared/selectbar.png" location="-8,-4" fleximage="yes"></image>
+        <image function="selectionbar" filename="shared/selectbar.png" location="-8,-4" fleximage="no"></image>
         <image function="uparrow" filename="shared/uparrow.png" location="752,4"></image>
         <image function="downarrow" filename="shared/downarrow.png" location="752,285"></image>
       </listarea>
@@ -2316,7 +2316,7 @@
         <columnpadding>1</columnpadding>
         <column number="1" width="745" context="-1"></column>
         <items>8</items>
-        <image function="selectionbar" filename="recordoptions/ro-selectbar.png" location="-6,-2"></image>
+        <image function="selectionbar" filename="shared/selectbar.png" location="-6,-2"></image>
         <image function="uparrow" filename="shared/uparrow.png" location="755,15"></image>
         <image function="downarrow" filename="shared/downarrow.png" location="755,235"></image>
         <image function="rightarrow" filename="shared/rightarrow.png" location="1,-2"></image>

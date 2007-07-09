@@ -145,7 +145,7 @@
         -->
 
         <container name="background">
-         <!--   <image name="filler" draworder="0" fleximage="yes">
+         <!--   <image name="filler" draworder="0" fleximage="no">
                 <filename>music/musicbg.png</filename>
                 <position>0,0</position>
             </image>
@@ -222,7 +222,7 @@
                 An image that go "on top" of the list bins
             -->
 
-            <!--<image name="showinglines" draworder="2" fleximage="yes">
+            <!--<image name="showinglines" draworder="2" fleximage="no">
                 <context>1</context>
                 <filename>music/mm-showings.png</filename>
                 <position>-5,0</position>

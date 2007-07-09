@@ -89,7 +89,7 @@
     </font>
 
     <container name="background">
-      <image name="filler" draworder="0" fleximage="yes">
+      <image name="filler" draworder="0" fleximage="no">
         <filename>cr-background.png</filename>
         <position>0,285</position>
         <staticsize>800,290</staticsize>
