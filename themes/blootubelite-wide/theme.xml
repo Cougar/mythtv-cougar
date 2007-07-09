@@ -830,5 +830,17 @@
    <offset>0,0</offset>
  </buttondef>
 
+<buttondef name="MOVIETIMES">
+   <image>text-blank.png</image>
+   <watermarkimage>watermark/mythmovies.png</watermarkimage>
+   <offset>0,0</offset>
+</buttondef>
+
+<buttondef name="SETTINGS_MOVIETIMES">
+   <image>text-blank.png</image>
+   <watermarkimage>watermark/mythmovies.png</watermarkimage>
+   <offset>0,0</offset>
+</buttondef>
+
 </myththeme>
 
