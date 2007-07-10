@@ -260,11 +260,11 @@
     </slider>
     <editarrow name="left">
       <filename>cut_end.png</filename>
-      <area>30,397,580,65</area>
+      <area>30,395,580,65</area>
     </editarrow>
     <editarrow name="right">
       <filename>cut_start.png</filename>
-      <area>30,397,580,65</area>
+      <area>30,395,580,65</area>
     </editarrow>
     <textarea name="timedisplay">
       <area>30,424,100,60</area>
