@@ -1,0 +1,20 @@
+<theme>
+    <name>blootube-wide</name>
+    <aspect>wide</aspect>
+    <author>
+        <name>Justin Hornsby</name>
+        <email>justin.hornsby@gmail.com</email>
+    </author>
+
+    <version>
+        <major>1</major>
+        <minor>1</minor>
+    </version>
+
+    <detail>
+        <thumbnail name="Main Menu">preview.jpg</thumbnail>
+        <description>blootube-wide is a theme which uses very large graphics associated with every menu entry.  
+Beware, this theme requires a lot more memory than other themes due to its use of very big images</description>
+        <errata>N/A</errata>
+    </detail>
+</theme>

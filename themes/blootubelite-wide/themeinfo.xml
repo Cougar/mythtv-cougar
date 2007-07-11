@@ -1,0 +1,20 @@
+<theme>
+    <name>blootubelite-wide</name>
+    <aspect>wide</wide>
+    <author>
+        <name>Justin Hornsby</name>
+        <email>justin.hornsby@gmail.com</email>
+    </author>
+
+    <version>
+        <major>1</major>
+        <minor>1</minor>
+    </version>
+
+    <detail>
+        <thumbnail name="Main Menu">preview.jpg</thumbnail>
+        <description>blootubelite-wide is a blue theme adapted from blootube-wide.  It uses much 
+smaller menu images & is therefore less memory intensive than blootube-wide</description>
+        <errata>N/A</errata>
+    </detail>
+</theme>
