@@ -10,6 +10,10 @@ INCLUDE SCREENSHOTS if at all possible.
 
 Changelog:
 
+13 July 2007
+------------
+Fixed  issues in mythvideo's file type associations screen
+
 21 May 2007
 -----------
 Updated programme guide arrows.. more purdee ;)

@@ -19,6 +19,10 @@ Juski
 Feel free to comment on this theme and report any issues you find to 
 justin.hornsby(at)gmail(dot)com
 
+13 July 2007
+------------
+Fixed up some issues with mythvideo's file type association screen
+
 09 June 2007
 ------------
 Added some missing icons to ui.xml

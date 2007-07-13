@@ -10,6 +10,10 @@ INCLUDE SCREENSHOTS if at all possible.
 
 Changelog:
 
+13 July 2007
+------------
+Fixed  issues in mythvideo's file type associations screen
+
 14 June 2007
 ------------
 REVAMP!  Shiny new graphics & a new look for lots of areas.  Too many changes to list here.  Not quite finished, but bear with me.
