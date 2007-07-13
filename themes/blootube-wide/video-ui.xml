@@ -939,10 +939,10 @@
         
         <container name="associations">
  
-            <area>10,10,1250,700</area>
+            <area>10,10,1270,700</area>
  
             <textarea name="title" draworder="0" align="center">
-                <area>10,20,760,50</area>
+                <area>10,20,1260,50</area>
                 <font>title</font>
                 <value>MythVideo File Associations</value>
             </textarea>
@@ -972,7 +972,7 @@
             </textarea>
 
             <selector name="extension_select" draworder="0">
-                <area>400,195,200,40</area>
+                <area>400,195,206,40</area>
                 <font>display</font>
                 <image function="on" filename="shared/mv_leftright_on.png"></image>
                 <image function="off" filename="shared/mv_leftright_off.png"></image>
@@ -980,29 +980,29 @@
             </selector>
 
             <blackhole name="command_hack" draworder="0">
-                <area>400,255,300,40</area>
+                <area>400,255,303,40</area>
             </blackhole>
 
             <checkbox name="default_check" draworder="0">
-                <position>400,315</position>
-                <image function="checked" filename="mv_checked.png"></image>
-                <image function="unchecked" filename="mv_unchecked.png"></image>
-                <image function="checked_high" filename="mv_checked_high.png"></image>
-                <image function="unchecked_high" filename="mv_unchecked_high.png"></image>
+                <position>400,318</position>
+                <image function="checked" filename="shared/mv_checked.png"></image>
+                <image function="unchecked" filename="shared/mv_unchecked.png"></image>
+                <image function="checked_high" filename="shared/mv_checked_high.png"></image>
+                <image function="unchecked_high" filename="shared/mv_unchecked_high.png"></image>
             </checkbox>      
 
             <checkbox name="ignore_check" draworder="0">
-                <position>400,375</position>
-                <image function="checked" filename="mv_checked.png"></image>
-                <image function="unchecked" filename="mv_unchecked.png"></image>
-                <image function="checked_high" filename="mv_checked_high.png"></image>
-                <image function="unchecked_high" filename="mv_unchecked_high.png"></image>
+                <position>400,378</position>
+                <image function="checked" filename="shared/mv_checked.png"></image>
+                <image function="unchecked" filename="shared/mv_unchecked.png"></image>
+                <image function="checked_high" filename="shared/mv_checked_high.png"></image>
+                <image function="unchecked_high" filename="shared/mv_unchecked_high.png"></image>
             </checkbox>      
 
             <textbutton name="done_button" draworder="0">
                 <position>700,550</position>
                 <font>display</font>
-                <image function="on" filename="shared/mv_large_text_button_on.png"></image>
+                <image function="on" filename="shared/mv_pushbutton_on.png"></image>
                 <image function="off" filename="shared/mv_pushbutton_off.png"></image>
                 <image function="pushed" filename="shared/mv_pushbutton_pushed.png"></image>
             </textbutton>

@@ -40,7 +40,7 @@
     <normal>button_off.png</normal>
     <active>button_on.png</active>
     <text>
-      <area>20,13,0,0</area>
+      <area>20,11,0,0</area>
       <color>white</color>
       <fontname>Vera</fontname>
       <fontsize>21</fontsize>
