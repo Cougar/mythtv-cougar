@@ -639,9 +639,9 @@
 	            <textbutton name="done_button" draworder="0">
 	                <position>350,540</position>
 	                <font>display</font>
-	                <image function="on" filename="text_button_on.png"></image>
-	                <image function="off" filename="text_button_off.png"></image>
-	                <image function="pushed" filename="text_button_pushed.png"></image>
+	                <image function="on" filename="music/music_button_on.png"></image>
+	                <image function="off" filename="music/music_button_off.png"></image>
+	                <image function="pushed" filename="music/music_button_pushed.png"></image>
 	            </textbutton>
   	 
   	       </container>
