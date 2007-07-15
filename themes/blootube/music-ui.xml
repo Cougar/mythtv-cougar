@@ -157,12 +157,12 @@
 	     -->
             <image name="track_info_background" draworder="0" fleximage="no">
                 <filename>music/track_info.png</filename>
-                <position>17,300</position>
+                <position>23,305</position>
             </image>
-            <!--<image name="music/mm_blackhole_border" draworder="0" fleximage="no">
+            <!-- <image name="music/mm_blackhole_border" draworder="0" fleximage="no">
                 <filename>music/mm_blackhole_border.png</filename>
                 <position>130,330</position>
-            </image>-->
+            </image> -->
 
         </container>
 
@@ -170,7 +170,7 @@
             The view of playlists; tracks at the top
         -->
         <container name="musicselector">
-            <area>0,10,800,310</area>
+            <area>0,10,800,300</area>
             <!--
                 First appearance of a managedtreelist
                 I'll explain as we go
@@ -183,7 +183,7 @@
                     regular area, but is only used if the user has
                     ShowWholeTree set to false.
                 -->
-                <area>35,0,762,300</area>
+                <area>35,0,762,290</area>
                 <!--
                     An image to show the current navigation node
                 -->
@@ -205,13 +205,13 @@
                         not 0 to #-1
                 -->
                 <bin number="1">
-                    <area>25,0,150,290</area>
+                    <area>25,0,150,280</area>
                     <fcnfont name="active" function="active"></fcnfont>
                     <fcnfont name="inactive" function="inactive"></fcnfont>
                     <fcnfont name="selected" function="selected"></fcnfont>
                 </bin>
                 <bin number="2">
-                    <area>200,0,535,290</area>
+                    <area>200,0,535,280</area>
                     <fcnfont name="active" function="active"></fcnfont>
                     <fcnfont name="selected" function="selected"></fcnfont>
                     <fcnfont name="inactive" function="inactive"></fcnfont>
@@ -222,20 +222,20 @@
                 An image that go "on top" of the list bins
             -->
 
-            <!--<image name="showinglines" draworder="2" fleximage="no">
+            <!-- <image name="showinglines" draworder="2" fleximage="no">
                 <context>1</context>
                 <filename>music/mm-showings.png</filename>
                 <position>-5,0</position>
-            </image>-->
+            </image> -->
 
             <!--
                 An image for when we're waiting for data
             -->
-            <!--<image name="music/mm_box" draworder="0" fleximage="no">
+            <!-- <image name="music/mm_box" draworder="0" fleximage="no">
                 <context>0</context>
                 <filename>music/mm_box.png</filename>
                 <position>0,0</position>
-            </image>-->
+            </image> -->
             <textarea name="waiting_text" draworder="1" align="center">
                 <context>0</context>
                 <font>currenttitle</font>
@@ -255,12 +255,12 @@
                 An image for when we're only showing the last bin
                 (ie. just the active playlist)
             -->
-
+<!--
             <image name="music/mm_box" draworder="0" fleximage="no">
                 <context>2</context>
                 <filename>music/mm_box.png</filename>
                 <position>20,0</position>
-            </image>
+            </image> -->
         </container>
 
         <!--
@@ -272,7 +272,7 @@
 
             <textarea name="title_text" draworder="1" align="left">
                 <font>currenttitle</font>
-                <area>190,0,650,34</area>
+                <area>190,0,550,34</area>
                 <cutdown>yes</cutdown>
             </textarea>
 
@@ -296,18 +296,18 @@
 
             <textarea name="current_visualization_text" draworder="1" align="right">
                 <font>infotext2</font>
-                <area>450,100,240,25</area>
+                <area>450,100,270,25</area>
                 <cutdown>no</cutdown>
             </textarea>
 
             <textarea name="info_text" draworder="1" align="left">
                 <font>infotext</font>
-                <area>190,120,250,25</area>
+                <area>190,120,270,25</area>
             </textarea>
 
             <textarea name="time_text" draworder="1" align="right">
                 <font>infotext2</font>
-                <area>450,125,240,25</area>
+                <area>450,120,270,25</area>
             </textarea>
 
             <blackhole name="visual_blackhole">
@@ -321,7 +321,7 @@
         -->
 
         <container name="volumedisplay">
-            <area>700,313,40,150</area>
+            <area>725,310,40,150</area>
             <statusbar name="volume_status" draworder="-1" whitespace="5">
                 <container fleximage="no">music/music-progress_background.png</container>
                 <fill>music/music-progress_foreground.png</fill>
@@ -341,7 +341,7 @@
                 <position>15,0</position>
                 <image function="on" filename="music/music_button_on.png"></image>
                 <image function="off" filename="music/music_button_off.png"></image>
-                <image function="pushed" filename="music/music_button_on.png"></image>
+                <image function="pushed" filename="music/music_button_pushed.png"></image>
                 <font>buttons</font>
             </textbutton>
 
@@ -349,7 +349,7 @@
                 <position>210,0</position>
                 <image function="on" filename="music/music_button_on.png"></image>
                 <image function="off" filename="music/music_button_off.png"></image>
-                <image function="pushed" filename="music/music_button_on.png"></image>
+                <image function="pushed" filename="music/music_button_pushed.png"></image>
                 <font>buttons</font>
             </textbutton>
 
@@ -357,7 +357,7 @@
                 <position>405,0</position>
                 <image function="on" filename="music/music_button_on.png"></image>
                 <image function="off" filename="music/music_button_off.png"></image>
-                <image function="pushed" filename="music/music_button_on.png"></image>
+                <image function="pushed" filename="music/music_button_pushed.png"></image>
                 <font>buttons</font>
             </textbutton>
 
@@ -365,56 +365,56 @@
                 <position>600,0</position>
                 <image function="on" filename="music/music_button_on.png"></image>
                 <image function="off" filename="music/music_button_off.png"></image>
-                <image function="pushed" filename="music/music_button_on.png"></image>
+                <image function="pushed" filename="music/music_button_pushed.png"></image>
                 <font>buttons</font>
             </textbutton>
 
             <pushbutton name="prev_button" draworder="0">
                 <position>220,50</position>
                 <image function="on" filename="music/music_prev_button_on.png"></image>
-                <image function="off" filename="music/music_prev_button_on.png"></image>
+                <image function="off" filename="music/music_prev_button_off.png"></image>
                 <image function="pushed" filename="music/music_prev_button_pushed.png"></image>
             </pushbutton>
 
             <pushbutton name="rew_button" draworder="0">
                 <position>270,50</position>
                 <image function="on" filename="music/music_rew_button_on.png"></image>
-                <image function="off" filename="music/music_rew_button_on.png"></image>
+                <image function="off" filename="music/music_rew_button_off.png"></image>
                 <image function="pushed" filename="music/music_rew_button_pushed.png"></image>
             </pushbutton>
 
             <pushbutton name="pause_button" draworder="0">
                 <position>320,50</position>
                 <image function="on" filename="music/music_pause_button_on.png"></image>
-                <image function="off" filename="music/music_pause_button_on.png"></image>
+                <image function="off" filename="music/music_pause_button_off.png"></image>
                 <image function="pushed" filename="music/music_pause_button_pushed.png"></image>
             </pushbutton>
 
             <pushbutton name="play_button" draworder="0">
                 <position>370,50</position>
                 <image function="on" filename="music/music_play_button_on.png"></image>
-                <image function="off" filename="music/music_play_button_on.png"></image>
+                <image function="off" filename="music/music_play_button_off.png"></image>
                 <image function="pushed" filename="music/music_play_button_pushed.png"></image>
             </pushbutton>
 
             <pushbutton name="stop_button" draworder="0">
                 <position>420,50</position>
                 <image function="on" filename="music/music_stop_button_on.png"></image>
-                <image function="off" filename="music/music_stop_button_on.png"></image>
+                <image function="off" filename="music/music_stop_button_off.png"></image>
                 <image function="pushed" filename="music/music_stop_button_pushed.png"></image>
             </pushbutton>
 
             <pushbutton name="ff_button" draworder="0">
                 <position>470,50</position>
                 <image function="on" filename="music/music_ff_button_on.png"></image>
-                <image function="off" filename="music/music_ff_button_on.png"></image>
+                <image function="off" filename="music/music_ff_button_off.png"></image>
                 <image function="pushed" filename="music/music_ff_button_pushed.png"></image>
             </pushbutton>
 
             <pushbutton name="next_button" draworder="0">
                 <position>520,50</position>
                 <image function="on" filename="music/music_next_button_on.png"></image>
-                <image function="off" filename="music/music_next_button_on.png"></image>
+                <image function="off" filename="music/music_next_button_off.png"></image>
                 <image function="pushed" filename="music/music_next_button_pushed.png"></image>
             </pushbutton>
 

@@ -5,6 +5,8 @@
         <email>justin.hornsby@gmail.com</email>
     </author>
 
+    <baseres>800x600</baseres>
+
     <version>
         <major>1</major>
         <minor>1</minor>
