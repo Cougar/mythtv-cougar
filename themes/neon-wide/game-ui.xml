@@ -48,6 +48,12 @@
             <filename>bgoverlay.png</filename> 
             <position>0,380</position>
         </image>  -->
+
+     <image name="header" draworder="0" fleximage="no">
+        <filename>bg_header.png</filename>
+        <position>0,0</position>
+     </image>
+
     </container>
 
     <container name="gameselector">
