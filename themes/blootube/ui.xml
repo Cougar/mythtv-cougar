@@ -677,7 +677,7 @@
     </font>
 
     <font name="inactive_font" face="Tahoma">
-      <color>#808080</color>
+      <color>#aaaaaa</color>
       <size>15</size>
       <size:small>11</size:small>
       <size:big>17</size:big>
@@ -709,7 +709,7 @@
   	</font>
 
     <font name="norecordfnt" face="Tahoma">
-      <color>#808080</color>
+      <color>#aaaaaa</color>
       <size>15</size>
       <size:small>11</size:small>
       <size:big>17</size:big>
@@ -919,7 +919,7 @@
     </font>
 
     <font name="inactive_font" face="Tahoma">
-      <color>#9999cc</color>
+      <color>#aaaaaa</color>
       <size>16</size>
       <size:small>11</size:small>
       <bold>no</bold>
@@ -1094,7 +1094,7 @@
     </font>
 
     <font name="inactive_font" face="Tahoma">
-      <color>#9999cc</color>
+      <color>#aaaaaa</color>
       <size>15</size>
       <size:small>13</size:small>
       <size:big>17</size:big>
@@ -1240,7 +1240,7 @@
     </font>
 
     <font name="inactive_font" face="Tahoma">
-      <color>#9999cc</color>
+      <color>#aaaaaa</color>
       <size>15</size>
 	  <bold>no</bold>
       <size:small>13</size:small>
@@ -1526,7 +1526,7 @@
     </font>
 
     <font name="inactive" face="Tahoma">
-      <color>#808080</color>
+      <color>#aaaaaa</color>
       <size>15</size>
       <size:big>20</size:big>
       <size:small>13</size:small>
@@ -1837,7 +1837,7 @@
     </font>
 
     <font name="inactive" face="Tahoma">
-      <color>#808080</color>
+      <color>#aaaaaa</color>
       <size>18</size>
       <size:small>11</size:small>
       <bold>no</bold>
@@ -2057,7 +2057,7 @@
     </font>
 
     <font name="inactive_font" face="Tahoma">
-      <color>#FFFFFF</color>
+      <color>#aaaaaa</color>
       <size>15</size>
       <size:small>12</size:small>
       <bold>no</bold>
@@ -2234,7 +2234,7 @@
     </font>
 
     <font name="inactive_font" face="Tahoma">
-      <color>#888888</color>
+      <color>#aaaaaa</color>
       <size:big>19</size:big>
       <size>17</size>
       <size:small>15</size:small>
