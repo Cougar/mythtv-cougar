@@ -1152,7 +1152,7 @@
         <value>Channel Recording Priorities</value>
       </textarea>
 
-      <image name="filler" draworder="0" fleximage="yes">
+      <image name="filler" draworder="0" fleximage="no">
         <filename>background.png</filename>
         <position>0,35</position>
       </image>
@@ -1643,7 +1643,7 @@
     </font>
 
     <container name="background">
-      <image name="filler" draworder="0" fleximage="yes">
+      <image name="filler" draworder="0" fleximage="no">
         <filename>background.png</filename>
         <position>0,0</position>
       </image>
@@ -1863,7 +1863,7 @@
       <context>1</context>
       <area>10,248,1260,50</area>
       <statusbar name="usedbar" draworder="5">
-        <container fleximage="yes">container.png</container>
+        <container fleximage="no">container.png</container>
 		<fill>progress-filler.png</fill>
         <position>20,0</position>
       </statusbar>
@@ -2004,7 +2004,7 @@
     </font>
    
     <container name="background">
-      <image name="filler" draworder="0" fleximage="yes">
+      <image name="filler" draworder="0" fleximage="no">
         <filename>background.png</filename>
         <position>0,0</position>
       </image>
@@ -2213,7 +2213,7 @@
       <context>1</context>
       <area>10,660,1260,50</area>
       <statusbar name="usedbar" draworder="5">
-        <container fleximage="yes">container.png</container>
+        <container fleximage="no">container.png</container>
                 <fill>progress-filler.png</fill>
         <position>20,0</position>
       </statusbar>
@@ -2590,7 +2590,7 @@
         <column number="4" width="20" context="-1"></column>
         <items>10</items>
 
-        <image function="selectionbar" filename="shared/selectbar.png" location="-8,-4" fleximage="yes"></image>
+        <image function="selectionbar" filename="shared/selectbar.png" location="-8,-4" fleximage="no"></image>
         <image function="uparrow" filename="shared/uparrow.png" location="1170,20"></image>
         <image function="downarrow" filename="shared/downarrow.png" location="1170,340"></image>
       </listarea>
