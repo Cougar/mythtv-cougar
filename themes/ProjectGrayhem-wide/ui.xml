@@ -1814,7 +1814,7 @@
       <context>1</context>
       <area>10,655,1260,50</area>
       <statusbar name="usedbar" draworder="5">
-        <container fleximage="yes">container.png</container>
+        <container fleximage="no">container.png</container>
 		<fill>progress-filler.png</fill>
         <position>20,0</position>
       </statusbar>
