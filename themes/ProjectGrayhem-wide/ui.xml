@@ -1665,7 +1665,7 @@
         <items>9</items>
         <image function="selectionbar" filename="tvplayback/tv-selectbar.png" location="-10,-5"></image>
         <image function="uparrow" filename="shared/uparrow.png" location="1200,15"></image>
-        <image function="downarrow" filename="shared/downarrow.png" location="1200,360"></image>
+        <image function="downarrow" filename="shared/downarrow.png" location="1200,355"></image>
       </listarea>
 
       <textarea name="current" draworder="6">
@@ -1745,6 +1745,16 @@
         <position>20,106</position>
       </image>
 
+      <image name="mono" draworder="6"> 
+        <filename>type/mono.png</filename> 
+        <position>181,106</position> 
+      </image> 
+
+      <image name="dolby" draworder="6"> 
+        <filename>type/dd.png</filename> 
+        <position>181,106</position> 
+      </image> 
+
       <image name="stereo" draworder="6"> 
         <filename>type/stereo.png</filename> 
         <position>181,106</position> 
@@ -1754,11 +1764,22 @@
         <filename>type/cc.png</filename> 
         <position>213,106</position> 
       </image> 
+
+      <image name="subtitles" draworder="6"> 
+        <filename>type/subs.png</filename> 
+        <position>213,106</position> 
+      </image> 
  
       <image name="hdtv" draworder="6"> 
         <filename>type/hd.png</filename> 
         <position>245,106</position> 
       </image>
+
+      <image name="widescreen" draworder="6"> 
+        <filename>type/wide.png</filename> 
+        <position>245,106</position> 
+      </image>
+
       <image name="watched" draworder="6">
            <filename>type/watched.png</filename>
            <position>277,106</position>
