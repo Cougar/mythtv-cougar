@@ -550,7 +550,7 @@
 
     <container name="background2">
       <image>
-        <filename>dbackground.png</filename>
+        <filename>background.png</filename>
         <position>0,0</position>
       </image>
     </container>

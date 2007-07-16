@@ -3,7 +3,7 @@ str BackgroundColor=#4040f0
 # Color of lines, text, etc
 str ForegroundColor=white
 # Pixmap to use for the background
-str BackgroundPixmap=dbackground.png
+str BackgroundPixmap=background.png
 
 # Colors for the different program categories
 str Cat_Comedy=DarkOrchid
@@ -43,7 +43,7 @@ str ActiveButtonText=#FFFFFF
 str ActiveBase=#000020
 str ActiveBackground=#000010
 str ActiveShadow=#000000
-str ActiveHighlight=#0000F0
+str ActiveHighlight=#0066FF
 str ActiveHighlightedText=#FFFFFF
 
 str InactiveForeground=#FFFFFF

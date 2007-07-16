@@ -43,7 +43,7 @@ str ActiveButtonText=#FFFFFF
 str ActiveBase=#000020
 str ActiveBackground=#000010
 str ActiveShadow=#000000
-str ActiveHighlight=#46c46
+str ActiveHighlight=#0066FF
 str ActiveHighlightedText=#FFFFFF
 
 str InactiveForeground=#FFFFFF
