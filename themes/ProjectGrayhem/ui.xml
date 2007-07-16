@@ -1011,7 +1011,7 @@
         <area>400,10,380,30</area>
         <font>info</font>
       </textarea>
-      <image name="filler" draworder="0" fleximage="yes">
+      <image name="filler" draworder="0" fleximage="no">
         <filename>conflicts/con-box.png</filename>
         <position>0,39</position>
       </image>
@@ -1142,8 +1142,8 @@
         <font>info</font>
         <value>Channel Recording Priorities</value>
       </textarea>
-      <image name="filler" draworder="0" fleximage="yes">
-        <filename>dbackground.png</filename>
+      <image name="filler" draworder="0" fleximage="no">
+        <filename>background.png</filename>
         <position>0,35</position>
       </image>
       <textarea name="keyinstr" align="center" draworder="0">
@@ -1613,8 +1613,8 @@
     </font>
 
     <container name="background">
-      <image name="filler" draworder="0" fleximage="yes">
-        <filename>background.png</filename>
+      <image name="filler" draworder="0" fleximage="no">
+        <filename>playbackground.png</filename>
         <position>0,0</position>
       </image>
       <textarea name="messagedel" draworder="0" align="hcenter">
@@ -1672,7 +1672,7 @@
         <image function="uparrow" filename="shared/uparrow.png" location="752,15"></image>
         <image function="downarrow" filename="shared/downarrow.png" location="752,235"></image>
       </listarea>
-     <!-- <image name="showinglines" draworder="5" fleximage="yes">
+     <!-- <image name="showinglines" draworder="5" fleximage="no">
         <filename>tvplaybackbox.png</filename>
         <position>0,3</position>
         </image> -->
@@ -1818,7 +1818,7 @@
       <context>1</context>
       <area>10,550,790,50</area>
       <statusbar name="usedbar" draworder="5">
-        <container fleximage="yes">container.png</container>
+        <container fleximage="no">container.png</container>
 		<fill>progress-filler.png</fill>
         <position>20,0</position>
       </statusbar>
@@ -2185,7 +2185,7 @@
         <column number="3" width="400" context="-1"></column>
         <column number="4" width="20" context="-1"></column>
         <items>11</items>
-        <image function="selectionbar" filename="shared/selectbar.png" location="-8,-4" fleximage="yes"></image>
+        <image function="selectionbar" filename="shared/selectbar.png" location="-8,-4" fleximage="no"></image>
         <image function="uparrow" filename="shared/uparrow.png" location="752,4"></image>
         <image function="downarrow" filename="shared/downarrow.png" location="752,285"></image>
       </listarea>
