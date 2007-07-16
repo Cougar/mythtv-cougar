@@ -1139,7 +1139,7 @@
         <value>Channel Recording Priorities</value>
       </textarea>
       <image name="filler" draworder="0" fleximage="no">
-        <filename>dbackground.png</filename>
+        <filename>background.png</filename>
         <position>0,35</position>
       </image>
       <textarea name="keyinstr" align="center" draworder="0">
