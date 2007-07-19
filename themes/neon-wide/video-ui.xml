@@ -732,9 +732,9 @@
     </container>
 
     <container name="info">
-      <area>10,10,1270,500</area>
+      <area>10,10,1270,575</area>
       <textarea name="title" draworder="4" align="hcenter">
-        <area>20,16,760,100</area>
+        <area>30,16,1240,100</area>
         <font>leadfnt</font>
 	<multiline>yes</multiline>
       </textarea>
