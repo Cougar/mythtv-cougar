@@ -1750,13 +1750,18 @@
         <position>181,106</position> 
       </image> 
 
-      <image name="dolby" draworder="6"> 
-        <filename>type/dd.png</filename> 
+      <image name="stereo" draworder="6"> 
+        <filename>type/stereo.png</filename> 
         <position>181,106</position> 
       </image> 
 
-      <image name="stereo" draworder="6"> 
-        <filename>type/stereo.png</filename> 
+      <image name="surround" draworder="6"> 
+        <filename>surround.png</filename> 
+        <position>181,106</position> 
+      </image> 
+
+      <image name="dolby" draworder="6"> 
+        <filename>type/dd.png</filename> 
         <position>181,106</position> 
       </image> 
 
@@ -1769,14 +1774,19 @@
         <filename>type/subs.png</filename> 
         <position>213,106</position> 
       </image> 
+
+      <image name="onscreensub" draworder="6"> 
+        <filename>subs_onscreen.png</filename> 
+        <position>213,106</position> 
+      </image> 
  
-      <image name="hdtv" draworder="6"> 
-        <filename>type/hd.png</filename> 
+      <image name="widescreen" draworder="6"> 
+        <filename>type/wide.png</filename> 
         <position>245,106</position> 
       </image>
 
-      <image name="widescreen" draworder="6"> 
-        <filename>type/wide.png</filename> 
+      <image name="hdtv" draworder="6"> 
+        <filename>type/hd.png</filename> 
         <position>245,106</position> 
       </image>
 
