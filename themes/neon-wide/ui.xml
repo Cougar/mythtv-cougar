@@ -2450,8 +2450,8 @@
         <multiline>yes</multiline>
         <value>%LONGREPEAT%%STARS%%DESCRIPTION%</value>
       </textarea>
-      <textarea name="recordingstatus" draworder="6">
-        <area>1000,190,270,35</area>
+      <textarea name="recordingstatus" draworder="6" align="right">
+        <area>800,190,380,35</area>
         <font>recinfo</font>
       </textarea>
     </container>
