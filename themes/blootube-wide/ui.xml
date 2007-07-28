@@ -654,7 +654,7 @@
         <font>info</font>
       </textarea>
       <textarea name="description" draworder="6">
-        <area>4,110,880,90</area>
+        <area>4,110,800,90</area>
         <font>descinfo</font>
         <multiline>yes</multiline>
         <value>%LONGREPEAT%%STARS%%DESCRIPTION%</value>
