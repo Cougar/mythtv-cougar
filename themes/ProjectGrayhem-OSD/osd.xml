@@ -10,7 +10,7 @@
   
   <font name="channelfont">
 	  <color>125</color>
-	  <filename>VeraBd.ttf</filename> 
+	  <!-- <filename>VeraBd.ttf</filename> --> 
 	  <size>22</size>
 	  <size:small>18</size:small>
 	  <shadow>2,2</shadow>
@@ -18,7 +18,7 @@
   
   <font name="callsignfont">
 	<color>200</color>
-	<filename>Vera.ttf</filename>
+	<!-- <filename>Vera.ttf</filename> -->
 	<size>10</size>
 	<size:small>10</size:small>
         <size:big>12</size:big>
@@ -26,40 +26,40 @@
 
   <font name="infofont">
 	<color>255</color>
-	<filename>Vera.ttf</filename>
+	<!-- <filename>Vera.ttf</filename> -->
 	<size>12</size>
 	<size:small>10</size:small>
         <size:big>14</size:big>
   </font>
   <font name="notify">
 	  <color>255</color>
-	  <filename>Vera.ttf</filename>
+	  <!-- <filename>Vera.ttf</filename> -->
 	  <size>14</size>
 	  <size:small>12</size:small>
   </font>
   <font name="infofontgray">
 	<color>128</color>
-	<filename>Vera.ttf</filename>
+	<!-- <filename>Vera.ttf</filename> -->
 	<size>15</size>
 	<size:small>13</size:small>
   </font>
   <font name="smallfont">
 	  <color>255</color>
-	  <filename>Vera.ttf</filename>
+	  <!-- <filename>Vera.ttf</filename> -->
 	  <size>12</size>
 	  <size:small>12</size:small>
   </font>
   
   <font name="titlefont" face="Vera">
 	<color normal="#FFFFFF">255</color>
-	<filename>VeraBd.ttf</filename> 
+	<!-- <filename>VeraBd.ttf</filename> --> 
 	<size>16</size>
 	<size:small>14</size:small>
   </font>
   
   <font name="grayfont">
     	<color>175</color>
-    	<filename>Vera.ttf</filename>
+    	<!-- <filename>Vera.ttf</filename> -->
     	<size>10</size>
     	<size:small>10</size:small>
         <size:big>12</size:big>
@@ -68,14 +68,14 @@
  
   <font name="timefont">
     	<color>255</color>
-    	<filename>Vera.ttf</filename>
+    	<!-- <filename>Vera.ttf</filename> -->
     	<size>14</size>
     	<size:small>12</size:small>
   </font>
 
   <font name="settings">
 	<color>255</color>
-    	<filename>Vera.ttf</filename>
+    	<!-- <filename>Vera.ttf</filename> -->
     	<size>16</size>
     	<size:small>14</size:small>
   </font>
