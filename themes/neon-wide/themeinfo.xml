@@ -1,0 +1,22 @@
+<theme>
+    <name>neon-wide</name>
+    <aspect>wide</wide>
+    <author>
+        <name>Justin Hornsby</name>
+        <email>justin.hornsby@gmail.com</email>
+    </author>
+
+    <baseres>1280x720</baseres>
+
+    <version>
+        <major>1</major>
+        <minor>1</minor>
+    </version>
+
+    <detail>
+        <thumbnail name="Main Menu">preview.jpg</thumbnail>
+        <description>neon-wide is a dark, shiny theme originally inspired by a certain fruity TV box</description>
+        <errata>N/A</errata>
+    </detail>
+</theme>
+
