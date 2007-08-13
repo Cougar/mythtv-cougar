@@ -1,6 +1,6 @@
 <theme>
     <name>blootube-wide</name>
-    <aspect>wide</aspect>
+    <aspect>16:9</aspect>
     <author>
         <name>Justin Hornsby</name>
         <email>justin.hornsby@gmail.com</email>
