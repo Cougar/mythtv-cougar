@@ -1,10 +1,16 @@
-<theme>
+<themeinfo>
     <name>blootube-wide</name>
     <aspect>16:9</aspect>
     <author>
         <name>Justin Hornsby</name>
         <email>justin.hornsby@gmail.com</email>
     </author>
+
+    <!-- The Theme Types (Required) -->
+    <types>
+        <!-- Type. Legal Values are one or more of: UI, OSD and Menu -->
+        <type>UI</type>
+    </types>
 
     <baseres>1280x720</baseres>
 
@@ -14,9 +20,9 @@
     </version>
 
     <detail>
-        <thumbnail name="Main Menu">preview.jpg</thumbnail>
+        <thumbnail name="preview">preview.jpg</thumbnail>
         <description>blootube-wide is a theme which uses very large graphics associated with every menu entry.  
 Beware, this theme requires a lot more memory than other themes due to its use of very big images</description>
         <errata>N/A</errata>
     </detail>
-</theme>
+</themeinfo>

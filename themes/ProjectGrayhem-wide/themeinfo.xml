@@ -1,10 +1,16 @@
-<theme>
+<themeinfo>
     <name>ProjectGrayhem-wide</name>
     <aspect>16:9</aspect>
     <author>
         <name>Justin Hornsby</name>
         <email>justin.hornsby@gmail.com</email>
     </author>
+
+    <!-- The Theme Types (Required) -->
+    <types>
+        <!-- Type. Legal Values are one or more of: UI, OSD and Menu -->
+        <type>UI</type>
+    </types>
 
     <baseres>1280x720</baseres>
 
@@ -14,9 +20,9 @@
     </version>
 
     <detail>
-        <thumbnail name="Main Menu">preview.jpg</thumbnail>
+        <thumbnail name="preview">preview.jpg</thumbnail>
         <description>ProjectGrayhem-wide is a dark, shiny theme originally inspired by XBMC's ProjectMayhem 
-skin.  Adapted from ProjectGrayhem & made w i d e</description>
+skin.  Adapted from ProjectGrayhem &amp; made w i d e</description>
         <errata>N/A</errata>
     </detail>
-</theme>
+</themeinfo>

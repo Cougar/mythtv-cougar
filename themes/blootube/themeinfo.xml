@@ -1,10 +1,17 @@
-<theme>
+<themeinfo>
     <name>blootube</name>
     <author>
         <name>Justin Hornsby</name>
         <email>justin.hornsby@gmail.com</email>
     </author>
 
+    <!-- The Theme Types (Required) -->
+    <types>
+        <!-- Type. Legal Values are one or more of: UI, OSD and Menu -->
+        <type>UI</type>
+    </types>
+
+    <aspect>4:3</aspect>
     <baseres>800x600</baseres>
 
     <version>
@@ -13,8 +20,8 @@
     </version>
 
     <detail>
-        <thumbnail name="Main Menu">preview.jpg</thumbnail>
+        <thumbnail name="preview">preview.jpg</thumbnail>
         <description>blootube is a unique blue theme adapted from blootube-wide</description>
         <errata>N/A</errata>
     </detail>
-</theme>
+</themeinfo>
