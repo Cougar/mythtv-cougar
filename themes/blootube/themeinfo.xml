@@ -20,7 +20,11 @@
     </version>
 
     <detail>
-        <thumbnail name="preview">preview.jpg</thumbnail>
+        <thumbnail name="preview1">preview.jpg</thumbnail>
+        <thumbnail name="watch_recordings">bt2.jpg</thumbnail>
+        <thumbnail name="MythVideo">bt3.jpg</thumbnail>
+        <thumbnail name="MythMusic">bt4.jpg</thumbnail>
+        <thumbnail name="EPG">bt5.jpg</thumbnail>
         <description>blootube is a unique blue theme adapted from blootube-wide</description>
         <errata>N/A</errata>
     </detail>
