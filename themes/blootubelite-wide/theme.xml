@@ -748,6 +748,24 @@
     <offset>0,0</offset>
   </buttondef>
 
+  <buttondef name="NETFLIX_QUEUE">
+    <image>text-blank.png</image>
+    <watermarkimage>watermark/netflix.png</watermarkimage>
+    <offset>0,0</offset>
+  </buttondef>
+
+  <buttondef name="NETFLIX_BROWSE">
+    <image>text-blank.png</image>
+    <watermarkimage>watermark/netflix.png</watermarkimage>
+    <offset>0,0</offset>
+  </buttondef>
+
+  <buttondef name="NETFLIX_HISTORY">
+    <image>text-blank.png</image>
+    <watermarkimage>watermark/netflix.png</watermarkimage>
+    <offset>0,0</offset>
+  </buttondef>
+
 <!-- MYTHARCHIVE -->
 
   <buttondef name="ARCHIVE">
