@@ -594,6 +594,12 @@
     <offset>0,0</offset>
   </buttondef>
 
+  <buttondef name="TV_SETTINGS_PLAYBACK_OSD">
+    <image>text-blank.png</image>
+     <watermarkimage>watermark/tv.png</watermarkimage>
+    <offset>0,0</offset>
+  </buttondef>
+
 <!-- ##############################-->
 <!-- ########  tvmenu.xml  ########-->
 <!-- ##############################-->
