@@ -20,7 +20,7 @@
     </version>
 
     <detail>
-        <thumbnail name="preview1">preview.jpg</thumbnail>
+        <thumbnail name="preview">preview.jpg</thumbnail>
         <thumbnail name="watch_recordings">bt2.jpg</thumbnail>
         <thumbnail name="MythVideo">bt3.jpg</thumbnail>
         <thumbnail name="MythMusic">bt4.jpg</thumbnail>
