@@ -2,45 +2,45 @@
 
   <window name="status">
 
-    <font name="active" face="Arial">
+    <font name="active" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>17</size>
       <bold>yes</bold>
     </font>
 
-    <font name="title" face="Arial">
+    <font name="title" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>18</size>
       <bold>yes</bold>
       <shadow>2,2</shadow>
     </font>
 
-    <font name="selected" face="Arial">
+    <font name="selected" face="Bitstream Vera Sans">
       <color>#ffff33</color>
       <size>17</size>
       <bold>yes</bold>
       <shadow>2,1</shadow>
     </font>
 
-    <font name="status" face="Arial">
+    <font name="status" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>14</size>
       <bold>yes</bold>
     </font>
 
-    <font name="status_selected" face="Arial">
+    <font name="status_selected" face="Bitstream Vera Sans">
       <color>#ffff33</color>
       <size>14</size>
       <bold>yes</bold>
     </font>
 
-    <font name="status_error" face="Arial">
+    <font name="status_error" face="Bitstream Vera Sans">
       <color>#ff0000</color>
       <size>14</size>
       <bold>yes</bold>
     </font>
 
-    <font name="status_warning" face="Arial">
+    <font name="status_warning" face="Bitstream Vera Sans">
       <color>#ff8429</color>
       <size>14</size>
       <bold>yes</bold>

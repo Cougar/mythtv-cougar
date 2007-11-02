@@ -2,7 +2,7 @@
 
   <window name="programguide">
 
-    <font name="title" face="Tahoma">
+    <font name="title" face="Bitstream Vera Sans">
       <color>#FFFFFF</color>
       <size>24</size>
       <size:small>14</size:small>
@@ -10,7 +10,7 @@
       <bold>no</bold>
     </font>
 
-    <font name="info" face="Tahoma">
+    <font name="info" face="Bitstream Vera Sans">
       <color>#FFFFFF</color>
       <size>16</size>
       <size:small>14</size:small>
@@ -18,7 +18,7 @@
       <bold>no</bold>
     </font>
     
-    <font name="greyinfo" face="Tahoma">
+    <font name="greyinfo" face="Bitstream Vera Sans">
       <color>#cccccc</color>
       <size>16</size>
       <size:small>14</size:small>
@@ -26,7 +26,7 @@
       <bold>no</bold>
     </font>
 
-    <font name="descinfo2" face="Tahoma">
+    <font name="descinfo2" face="Bitstream Vera Sans">
       <color>#FFFFFF</color>
       <size>16</size>
       <size:small>13</size:small>
@@ -34,7 +34,7 @@
       <bold>no</bold>
     </font>
 
-    <font name="descinfo" face="Tahoma">
+    <font name="descinfo" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>16</size>
       <size:small>13</size:small>
@@ -42,7 +42,7 @@
       <bold>no</bold>
     </font>
 
-    <font name="chaninfo" face="Tahoma">
+    <font name="chaninfo" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>15</size>
       <size:small>12</size:small>
@@ -50,7 +50,7 @@
       <bold>no</bold>
     </font>
 
-    <font name="recstatus" face="Tahoma">
+    <font name="recstatus" face="Bitstream Vera Sans">
       <color>#cccccc</color>
       <size>15</size>
       <size:small>12</size:small>
@@ -58,7 +58,7 @@
 	  <bold>no</bold>
     </font>
 
-    <font name="small" face="Tahoma">
+    <font name="small" face="Bitstream Vera Sans">
       <color>#FFFFFF</color>
       <size>16</size>
       <size:small>10</size:small>
@@ -339,7 +339,7 @@
 
    <window name="programguide-video">
 
-    <font name="title" face="Tahoma">
+    <font name="title" face="Bitstream Vera Sans">
       <color>#FFFFFF</color>
       <dropcolor>#000000</dropcolor>
       <size>24</size>
@@ -347,7 +347,7 @@
       <bold>no</bold>
     </font>
 
-    <font name="info" face="Tahoma">
+    <font name="info" face="Bitstream Vera Sans">
       <color>#FFFFFF</color>
       <size>16</size>
       <size:small>13</size:small>
@@ -355,7 +355,7 @@
       <bold>no</bold>
     </font>
 
-    <font name="descinfo2" face="Tahoma">
+    <font name="descinfo2" face="Bitstream Vera Sans">
       <color>#FFFFFF</color>
       <size>13</size>
       <size:small>12</size:small>
@@ -363,7 +363,7 @@
       <bold>no</bold>
     </font>
 
-    <font name="descinfo" face="Tahoma">
+    <font name="descinfo" face="Bitstream Vera Sans">
       <color>#FFFFFF</color>
       <size>16</size>
       <size:small>12</size:small>
@@ -371,7 +371,7 @@
       <bold>no</bold>
     </font>
 
-    <font name="chaninfo" face="Tahoma">
+    <font name="chaninfo" face="Bitstream Vera Sans">
       <color>#FFFFFF</color>
       <size>15</size>
       <size:small>12</size:small>
@@ -379,7 +379,7 @@
       <bold>no</bold>
     </font>
 
-    <font name="recstatus" face="Tahoma">
+    <font name="recstatus" face="Bitstream Vera Sans">
       <color>#FFFFFF</color>
       <size>17</size>
       <size:small>12</size:small>
@@ -387,7 +387,7 @@
 
     </font>
 
-    <font name="small" face="Tahoma">
+    <font name="small" face="Bitstream Vera Sans">
       <color>#FFFFFF</color>
       <size>16</size>
       <size:big>18</size:big>
@@ -668,7 +668,7 @@
   <!--Upcoming Recordings-->
   <window name="conflict">
 
-    <font name="active_font" face="Tahoma">
+    <font name="active_font" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>15</size>
       <size:small>11</size:small>
@@ -676,7 +676,7 @@
       <bold>no</bold>
     </font>
 
-    <font name="inactive_font" face="Tahoma">
+    <font name="inactive_font" face="Bitstream Vera Sans">
       <color>#aaaaaa</color>
       <size>15</size>
       <size:small>11</size:small>
@@ -684,7 +684,7 @@
 	  <bold>no</bold>
     </font>
 
-    <font name="recording" face="Tahoma">
+    <font name="recording" face="Bitstream Vera Sans">
       <color>#EE9A9A</color>
       <size>15</size>
       <size:small>11</size:small>
@@ -692,7 +692,7 @@
 	  <bold>no</bold>
     </font>
     
-    <font name="record" face="Tahoma">
+    <font name="record" face="Bitstream Vera Sans">
       <color>#FCFF00</color>
       <size>15</size>
       <size:small>11</size:small>
@@ -700,7 +700,7 @@
 	  <bold>no</bold>
     </font>
 
-	<font name="list-tagged" face="Tahoma">
+	<font name="list-tagged" face="Bitstream Vera Sans">
   	  <color>#dddd33</color>
       <size>15</size>
       <size:small>11</size:small>
@@ -708,7 +708,7 @@
 	  <bold>no</bold>
   	</font>
 
-    <font name="norecordfnt" face="Tahoma">
+    <font name="norecordfnt" face="Bitstream Vera Sans">
       <color>#C0C0C0</color>
       <size>15</size>
       <size:small>11</size:small>
@@ -716,7 +716,7 @@
 	  <bold>no</bold>
     </font>
 
-    <font name="conflictfnt" face="Tahoma">
+    <font name="conflictfnt" face="Bitstream Vera Sans">
       <color>#ffff33</color>
       <size>15</size>
       <size:small>11</size:small>
@@ -724,7 +724,7 @@
 	  <bold>no</bold>
     </font>
 
-    <font name="currenttitle" face="Tahoma">
+    <font name="currenttitle" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>18</size>
       <size:small>12</size:small>
@@ -732,7 +732,7 @@
       <bold>no</bold>
     </font>
 
-    <font name="title" face="Tahoma">
+    <font name="title" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <dropcolor>#000000</dropcolor>
       <size>26</size>
@@ -740,7 +740,7 @@
       <bold>no</bold>
     </font>
 
-    <font name="subtitle" face="Tahoma">
+    <font name="subtitle" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>17</size>
       <size:small>15</size:small>
@@ -748,7 +748,7 @@
       <bold>no</bold>
     </font>
 
-    <font name="info" face="Tahoma">
+    <font name="info" face="Bitstream Vera Sans">
       <color>#CCCCCC</color>
       <size>17</size>
       <size:small>15</size:small>
@@ -756,7 +756,7 @@
 	  <bold>no</bold>
     </font>
 
-    <font name="infob" face="Tahoma">
+    <font name="infob" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>17</size>
       <size:small>15</size:small>
@@ -764,7 +764,7 @@
       <bold>no</bold>
     </font>
 
-    <font name="message" face="Tahoma">
+    <font name="message" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>16</size>
       <size:small>10</size:small>
@@ -772,7 +772,7 @@
 	  <bold>no</bold>
     </font>
 
-    <font name="messagegray" face="Tahoma">
+    <font name="messagegray" face="Bitstream Vera Sans">
       <color>#CCCCCC</color>
       <size>16</size>
       <size:small>10</size:small>
@@ -780,7 +780,7 @@
       <bold>no</bold>
     </font>
 
-    <font name="messageyellow" face="Tahoma">
+    <font name="messageyellow" face="Bitstream Vera Sans">
       <color>#ffff00</color>
       <size>16</size>
       <size:small>10</size:small>
@@ -911,56 +911,56 @@
 
 <window name="schdiff">
 
-    <font name="active_font" face="Tahoma">
+    <font name="active_font" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>16</size>
       <size:small>11</size:small>
       <bold>no</bold>
     </font>
 
-    <font name="inactive_font" face="Tahoma">
+    <font name="inactive_font" face="Bitstream Vera Sans">
       <color>#aaaaaa</color>
       <size>16</size>
       <size:small>11</size:small>
       <bold>no</bold>
     </font>
 
-    <font name="record_font" face="Tahoma">
+    <font name="record_font" face="Bitstream Vera Sans">
       <color>#F7862B</color>
       <size>16</size>
       <size:small>11</size:small>
       <bold>no</bold>
     </font>
 
-    <font name="recording_font" face="Tahoma">
+    <font name="recording_font" face="Bitstream Vera Sans">
       <color>#FF33FF</color>
       <size>16</size>
       <size:small>11</size:small>
       <bold>no</bold>
     </font>
 
-    <font name="norecordfnt" face="Tahoma">
+    <font name="norecordfnt" face="Bitstream Vera Sans">
       <color>#999999</color>
       <size>16</size>
       <size:small>11</size:small>
       <bold>no</bold>
     </font>
 
-    <font name="conflict_font" face="Tahoma">
+    <font name="conflict_font" face="Bitstream Vera Sans">
       <color>#ffff33</color>
       <size>16</size>
       <size:small>11</size:small>
       <bold>no</bold>
     </font>
 
-    <font name="currenttitle" face="Tahoma">
+    <font name="currenttitle" face="Bitstream Vera Sans">
       <color>#ffff33</color>
       <size>18</size>
       <size:small>12</size:small>
       <bold>no</bold>
     </font>
 
-    <font name="title" face="Tahoma">
+    <font name="title" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <dropcolor>#000000</dropcolor>
       <size>27</size>
@@ -969,7 +969,7 @@
       <bold>no</bold>
     </font>
 
-    <font name="info" face="Tahoma">
+    <font name="info" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>17</size>
       <size:small>8</size:small>
@@ -977,7 +977,7 @@
       <bold>no</bold>
     </font>
 
-    <font name="message" face="Tahoma">
+    <font name="message" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>16</size>
       <size:small>10</size:small>
@@ -985,7 +985,7 @@
       <bold>no</bold>
     </font>
 
-    <font name="messagegray" face="Tahoma">
+    <font name="messagegray" face="Bitstream Vera Sans">
       <color>#999999</color>
       <size>16</size>
       <size:small>10</size:small>
@@ -993,7 +993,7 @@
       <bold>no</bold>
     </font>
 
-    <font name="messageyellow" face="Tahoma">
+    <font name="messageyellow" face="Bitstream Vera Sans">
       <color>#ffff33</color>
       <size>16</size>
       <size:small>10</size:small>
@@ -1089,7 +1089,7 @@
 
   <window name="recprioritychannels">
 
-    <font name="active_font" face="Tahoma">
+    <font name="active_font" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>15</size>
       <size:small>13</size:small>
@@ -1097,7 +1097,7 @@
       <bold>no</bold>
     </font>
 
-    <font name="inactive_font" face="Tahoma">
+    <font name="inactive_font" face="Bitstream Vera Sans">
       <color>#aaaaaa</color>
       <size>15</size>
       <size:small>13</size:small>
@@ -1105,7 +1105,7 @@
       <bold>no</bold>
     </font>
 
-    <font name="currenttitle" face="Tahoma">
+    <font name="currenttitle" face="Bitstream Vera Sans">
       <color>#ffff33</color>
       <size>18</size>
       <size:small>16</size:small>
@@ -1113,7 +1113,7 @@
       <bold>no</bold>
     </font>
 
-    <font name="title" face="Tahoma">
+    <font name="title" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <dropcolor>#000000</dropcolor>
       <size>24</size>
@@ -1121,14 +1121,14 @@
       <bold>no</bold>
     </font>
 
-    <font name="info" face="Tahoma">
+    <font name="info" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>17</size>
       <size:small>15</size:small>
       <bold>no</bold>
     </font>
 
-    <font name="message" face="Tahoma">
+    <font name="message" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>16</size>
       <size:small>14</size:small>
@@ -1234,7 +1234,7 @@
   <!--Set Priorities-->
   <window name="recpriorityprograms">
 
-    <font name="active_font" face="Tahoma">
+    <font name="active_font" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>15</size>
 	  <bold>no</bold>
@@ -1243,7 +1243,7 @@
       <bold>no</bold>
     </font>
 
-    <font name="inactive_font" face="Tahoma">
+    <font name="inactive_font" face="Bitstream Vera Sans">
       <color>#aaaaaa</color>
       <size>15</size>
 	  <bold>no</bold>
@@ -1252,7 +1252,7 @@
       <bold>no</bold>
     </font>
 
-    <font name="currenttitle" face="Tahoma">
+    <font name="currenttitle" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>15</size>
       <size:small>13</size:small>
@@ -1260,7 +1260,7 @@
 	  <bold>no</bold>
     </font>
 
-    <font name="title" face="Tahoma">
+    <font name="title" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>24</size>
       <size:small>20</size:small>
@@ -1268,7 +1268,7 @@
       <bold>no</bold>
     </font>
     
-    <font name="recording" face="Tahoma">
+    <font name="recording" face="Bitstream Vera Sans">
       <color>#EE9A9A</color>
       <size>15</size>
       <size:small>13</size:small>
@@ -1276,7 +1276,7 @@
 	  <bold>no</bold>
     </font>
     
-    <font name="record" face="Tahoma">
+    <font name="record" face="Bitstream Vera Sans">
       <color>#FCFF00</color>
       <size>15</size>
       <size:small>13</size:small>
@@ -1284,7 +1284,7 @@
 	  <bold>no</bold>
     </font>
 
-    <font name="subtitle" face="Tahoma">
+    <font name="subtitle" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>17</size>
       <size:small>15</size:small>
@@ -1292,7 +1292,7 @@
       <bold>no</bold>
     </font>
 
-    <font name="info" face="Tahoma">
+    <font name="info" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>17</size>
       <size:small>15</size:small>
@@ -1300,7 +1300,7 @@
 	  <bold>no</bold>
     </font>
 
-    <font name="tinyinfo" face="Tahoma">
+    <font name="tinyinfo" face="Bitstream Vera Sans">
       <color>#CCCCCC</color>
       <size>10</size>
       <size:small>8</size:small>
@@ -1308,7 +1308,7 @@
       <bold>no</bold>
     </font>
 
-    <font name="grayinfo" face="Tahoma">
+    <font name="grayinfo" face="Bitstream Vera Sans">
       <color>#CCCCCC</color>
       <size>17</size>
       <size:small>15</size:small>
@@ -1316,7 +1316,7 @@
       <bold>no</bold>
     </font>
 
-    <font name="yellowinfo" face="Tahoma">
+    <font name="yellowinfo" face="Bitstream Vera Sans">
       <color>#ffff33</color>
       <size>17</size>
       <size:small>15</size:small>
@@ -1324,7 +1324,7 @@
       <bold>no</bold>
     </font>
 
-    <font name="message" face="Tahoma">
+    <font name="message" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>15</size>
       <size:small>13</size:small>
@@ -1512,35 +1512,35 @@
   <!--Watch Recordings-->
   <window name="playback">
 
-    <font name="active" face="Tahoma">
+    <font name="active" face="Bitstream Vera Sans">
       <color>#cccccc</color>
       <size>15</size>
       <size:big>20</size:big>
       <size:small>13</size:small>
     </font>
     
-    <font name="activesel" face="Tahoma">
+    <font name="activesel" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>15</size>
       <size:big>20</size:big>
       <size:small>13</size:small>
     </font>
 
-    <font name="tagged" face="Tahoma">
+    <font name="tagged" face="Bitstream Vera Sans">
       <color>#ffff00</color>
       <size>15</size>
       <size:big>20</size:big>
       <size:small>13</size:small>
     </font>
 
-    <font name="inactive" face="Tahoma">
+    <font name="inactive" face="Bitstream Vera Sans">
       <color>#aaaaaa</color>
       <size>15</size>
       <size:big>20</size:big>
       <size:small>13</size:small>
     </font>
 
-    <font name="recording" face="Tahoma">
+    <font name="recording" face="Bitstream Vera Sans">
       <color>#00EE00</color>
       <size>15</size>
       <size:small>13</size:small>
@@ -1548,7 +1548,7 @@
 	  <bold>no</bold>
     </font>
     
-    <font name="record" face="Tahoma">
+    <font name="record" face="Bitstream Vera Sans">
       <color>#FCFF00</color>
       <size>15</size>
       <size:small>13</size:small>
@@ -1556,14 +1556,14 @@
 	  <bold>no</bold>
     </font>
     
-    <font name="overunderrecfont" face="Tahoma">
+    <font name="overunderrecfont" face="Bitstream Vera Sans">
       <color>#ffffAA</color>
       <size>15</size>
       <size:big>20</size:big>
       <size:small>13</size:small>
     </font>
 
-    <font name="currenttitle" face="Tahoma">
+    <font name="currenttitle" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>16</size>
       <size:big>22</size:big>
@@ -1571,7 +1571,7 @@
 	  <bold>no</bold>
     </font>
 
-    <font name="title" face="Tahoma">
+    <font name="title" face="Bitstream Vera Sans">
       <color>#FFFFFF</color>
       <dropcolor>#000000</dropcolor>
       <size>24</size>
@@ -1580,7 +1580,7 @@
       <bold>no</bold>
     </font>
 
-    <font name="subtitle" face="Tahoma">
+    <font name="subtitle" face="Bitstream Vera Sans">
       <color>#FFFFFF</color>
       <size>17</size>
       <size:big>20</size:big>
@@ -1588,7 +1588,7 @@
       <bold>no</bold>
     </font>
 
-    <font name="info" face="Tahoma">
+    <font name="info" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>17</size>
       <size:big>20</size:big>
@@ -1596,7 +1596,7 @@
 	  <bold>no</bold>
     </font>
     
-    <font name="greyfont" face="Tahoma">
+    <font name="greyfont" face="Bitstream Vera Sans">
       <color>#CCCCCC</color>
       <size>17</size>
       <size:big>20</size:big>
@@ -1604,7 +1604,7 @@
 	  <bold>no</bold>
     </font>
 
-    <font name="message" face="Tahoma">
+    <font name="message" face="Bitstream Vera Sans">
       <color>#FFFFFF</color>
       <size>17</size>
       <size:big>20</size:big>
@@ -1877,35 +1877,35 @@
 
   <window name="programfind">
 
-    <font name="active" face="Tahoma">
+    <font name="active" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>18</size>
       <size:small>11</size:small>
       <bold>no</bold>
     </font>
 
-    <font name="inactive" face="Tahoma">
+    <font name="inactive" face="Bitstream Vera Sans">
       <color>#aaaaaa</color>
       <size>18</size>
       <size:small>11</size:small>
       <bold>no</bold>
     </font>
 
-    <font name="recording" face="Tahoma">
+    <font name="recording" face="Bitstream Vera Sans">
       <color>#EE9A9A</color>
       <size>18</size>
       <size:small>11</size:small>
 	  <bold>no</bold>
     </font>
     
-    <font name="record" face="Tahoma">
+    <font name="record" face="Bitstream Vera Sans">
       <color>#FCFF00</color>
       <size>18</size>
       <size:small>11</size:small>
 	  <bold>no</bold>
     </font>
 
-    <font name="titleinfo" face="Tahoma">
+    <font name="titleinfo" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <dropcolor>#000000</dropcolor>
       <size>24</size>
@@ -1913,56 +1913,56 @@
       <bold>no</bold>
     </font>
 
-    <font name="subtitle" face="Tahoma">
+    <font name="subtitle" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>17</size>
       <size:small>13</size:small>
       <bold>no</bold>
     </font>
 
-    <font name="info" face="Tahoma">
+    <font name="info" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>17</size>
       <size:small>10</size:small>
       <bold>no</bold>
     </font>
 
-    <font name="infos" face="Tahoma">
+    <font name="infos" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>16</size>
       <size:small>10</size:small>
       <bold>no</bold>
     </font>
 
-    <font name="timedate" face="Tahoma">
+    <font name="timedate" face="Bitstream Vera Sans">
       <color>#CCCCCC</color>
       <size>16</size>
       <size:small>10</size:small>
       <bold>no</bold>
     </font>
 
-    <font name="descinfo" face="Tahoma">
+    <font name="descinfo" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>17</size>
       <size:small>9</size:small>
       <bold>no</bold>
     </font>
 
-    <font name="info_y" face="Tahoma">
+    <font name="info_y" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>17</size>
       <size:small>10</size:small>
       <bold>no</bold>
     </font>
 
-    <font name="recinfo" face="Tahoma">
+    <font name="recinfo" face="Bitstream Vera Sans">
       <color>#CCCCCC</color>
       <size>17</size>
       <size:small>10</size:small>
       <bold>no</bold>
     </font>
 
-    <font name="channel" face="Tahoma">
+    <font name="channel" face="Bitstream Vera Sans">
       <color>#CCCCCC</color>
       <size>17</size>
       <size:small>14</size:small>
@@ -2101,70 +2101,70 @@
   <!-- -->
   <window name="programlist">
 
-    <font name="active_font" face="Tahoma">
+    <font name="active_font" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>15</size>
       <size:small>12</size:small>
       <bold>no</bold>
     </font>
 
-    <font name="inactive_font" face="Tahoma">
+    <font name="inactive_font" face="Bitstream Vera Sans">
       <color>#aaaaaa</color>
       <size>15</size>
       <size:small>12</size:small>
       <bold>no</bold>
     </font>
 
-    <font name="recording" face="Tahoma">
+    <font name="recording" face="Bitstream Vera Sans">
       <color>#EE9A9A</color>
       <size>15</size>
       <size:small>11</size:small>
 	  <bold>no</bold>
     </font>
     
-    <font name="record" face="Tahoma">
+    <font name="record" face="Bitstream Vera Sans">
       <color>#FCFF00</color>
       <size>15</size>
       <size:small>11</size:small>
 	  <bold>no</bold>
     </font>
 
-    <font name="conflict_font" face="Tahoma">
+    <font name="conflict_font" face="Bitstream Vera Sans">
       <color>#ffff33</color>
       <size>15</size>
       <size:small>12</size:small>
       <bold>no</bold>
     </font>
 
-    <font name="title" face="Tahoma">
+    <font name="title" face="Bitstream Vera Sans">
       <color>#FFFFFF</color>
       <size>24</size>
       <size:small>14</size:small>
       <bold>no</bold>
     </font>
 
-    <font name="subtitle" face="Tahoma">
+    <font name="subtitle" face="Bitstream Vera Sans">
       <color>#FFFFFF</color>
       <size>17</size>
       <size:small>13</size:small>
       <bold>no</bold>
     </font>
 
-    <font name="info" face="Tahoma">
+    <font name="info" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>17</size>
       <size:small>12</size:small>
       <bold>no</bold>
     </font>
 
-    <font name="greyinfo" face="Tahoma">
+    <font name="greyinfo" face="Bitstream Vera Sans">
       <color>#CCCCCC</color>
       <size>16</size>
       <size:small>12</size:small>
       <bold>no</bold>
     </font>
 
-    <font name="message" face="Tahoma">
+    <font name="message" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>17</size>
       <size:small>12</size:small>
@@ -2265,7 +2265,7 @@
 
   <window name="recording_options">
 
-    <font name="active_font" face="Tahoma">
+    <font name="active_font" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size:big>19</size:big>
       <size>17</size>
@@ -2273,7 +2273,7 @@
       <bold>no</bold>
     </font>
 
-    <font name="enabled_state_0_font" face="Tahoma">
+    <font name="enabled_state_0_font" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size:big>22</size:big>
       <size>17</size>
@@ -2281,7 +2281,7 @@
       <bold>no</bold>
     </font>
 
-    <font name="infob" face="Tahoma">
+    <font name="infob" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size:big>17</size:big>
       <size>15</size>
@@ -2289,7 +2289,7 @@
       <bold>no</bold>
     </font>
 
-    <font name="inactive_font" face="Tahoma">
+    <font name="inactive_font" face="Bitstream Vera Sans">
       <color>#aaaaaa</color>
       <size:big>19</size:big>
       <size>17</size>
@@ -2297,56 +2297,56 @@
       <bold>no</bold>
     </font>
 
-    <font name="currenttitle" face="Tahoma">
+    <font name="currenttitle" face="Bitstream Vera Sans">
       <color>#ffff33</color>
       <size>15</size>
       <size:small>12</size:small>
       <bold>no</bold>
     </font>
 
-    <font name="title" face="Tahoma">
+    <font name="title" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>24</size>
       <size:small>14</size:small>
       <bold>no</bold>
     </font>
 
-    <font name="subtitle" face="Tahoma">
+    <font name="subtitle" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>17</size>
       <size:small>12</size:small>
       <bold>no</bold>
     </font>
 
-    <font name="info" face="Tahoma">
+    <font name="info" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>17</size>
       <size:small>10</size:small>
       <bold>no</bold>
     </font>
 
-    <font name="tinyinfo" face="Tahoma">
+    <font name="tinyinfo" face="Bitstream Vera Sans">
       <color>#cccccc</color>
       <size>10</size>
       <size:small>8</size:small>
       <bold>no</bold>
     </font>
 
-    <font name="grayinfo" face="Tahoma">
+    <font name="grayinfo" face="Bitstream Vera Sans">
       <color>#CCCCCC</color>
       <size>17</size>
       <size:small>10</size:small>
       <bold>no</bold>
     </font>
 
-    <font name="yellowinfo" face="Tahoma">
+    <font name="yellowinfo" face="Bitstream Vera Sans">
       <color>#ffff33</color>
       <size>17</size>
       <size:small>10</size:small>
       <bold>no</bold>
     </font>
 
-    <font name="message" face="Tahoma">
+    <font name="message" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>15</size>
       <size:small>10</size:small>
@@ -2428,7 +2428,7 @@
 
   <window name="progdetails">
 
-   <font name="info" face="Tahoma">
+   <font name="info" face="Bitstream Vera Sans">
       <color>#FFFFFF</color>
       <size>16</size>
       <size:small>14</size:small>

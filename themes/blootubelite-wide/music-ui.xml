@@ -8,12 +8,12 @@
 <mythuitheme>
     <!-- music selection screen -->
     <window name="music_select">
-      <font name="active" face="Vera">
+      <font name="active" face="Bitstream Vera Sans">
          <color>#ffffff</color>
          <size>17</size>
       </font>
 
-      <font name="inactive" face="Vera">
+      <font name="inactive" face="Bitstream Vera Sans">
         <color>#9999cc</color>
         <size>17</size>
       </font>
@@ -91,50 +91,50 @@
         <!--
             First, define all the fonts we need on this screen
         -->
-        <font name="active" face="Vera">
+        <font name="active" face="Bitstream Vera Sans">
             <color>#ffffff</color>
             <size>17</size>
 	    <bold>yes</bold>
         </font>
 
-        <font name="inactive" face="Vera">
+        <font name="inactive" face="Bitstream Vera Sans">
             <color>#9999cc</color>
             <size>17</size>
 	    <bold>yes</bold>
         </font>
 
-        <font name="selected" face="Vera">
+        <font name="selected" face="Bitstream Vera Sans">
             <color>#ffff00</color>
             <size>18</size>
 	    <bold>yes</bold>
         </font>
 
-        <font name="currenttitle" face="Vera">
+        <font name="currenttitle" face="Bitstream Vera Sans">
             <color>#FFFFFF</color>
             <size>20</size>
             <bold>yes</bold>
 	    <bold>yes</bold>
         </font>
 
-        <font name="currentartist" face="Vera">
+        <font name="currentartist" face="Bitstream Vera Sans">
             <color>#ffffff</color>
             <size>18</size>
             <bold>yes</bold>
         </font>
 
-        <font name="infotext" face="Vera">
+        <font name="infotext" face="Bitstream Vera Sans">
             <color>#cccccc</color>
             <size>16</size>
 	    <bold>yes</bold>
         </font>
 
-        <font name="infotext2" face="Vera">
+        <font name="infotext2" face="Bitstream Vera Sans">
             <color>#cccccc</color>
             <size>16</size>
             <bold>yes</bold>
         </font>
 
-        <font name="buttons" face="Vera">
+        <font name="buttons" face="Bitstream Vera Sans">
             <color>#FFFFFF</color>
             <size>10</size>
             <bold>yes</bold>
@@ -441,19 +441,19 @@
 	
   <window name="edit_metadata">
   	 
-  	         <font name="title" face="Vera">
+  	         <font name="title" face="Bitstream Vera Sans">
   	             <color>#ffffff</color>
   	             <size>24</size>
   	             <bold>yes</bold>
   	         </font>
   	 
-  	         <font name="labels" face="Vera">
+  	         <font name="labels" face="Bitstream Vera Sans">
   	             <color>#999999</color>
   	             <size>18</size>
   	             <bold>no</bold>
   	         </font>
   	 
-  	         <font name="display" face="Vera">
+  	         <font name="display" face="Bitstream Vera Sans">
   	             <color>#ffffff</color>
   	             <size>18</size>
   	             <bold>yes</bold>

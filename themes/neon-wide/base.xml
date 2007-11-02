@@ -17,7 +17,7 @@
 			<position>0,0</position>
     </imagetype>
 
-    <font name="clock" face="Vera">
+    <font name="clock" face="Bitstream Vera Sans">
          <color>#FFFFFF</color>
          <size>18</size>
          <size:small>18</size:small>

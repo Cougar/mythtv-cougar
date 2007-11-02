@@ -2,25 +2,25 @@
 
   <window name="gametree">
 
-    <font name="active" face="Trebuchet MS">
+    <font name="active" face="Bitstream Vera Sans">
         <color>#ffffff</color>
         <size>18</size>
         <bold>yes</bold>
     </font>
 
-    <font name="inactive" face="Trebuchet MS">
+    <font name="inactive" face="Bitstream Vera Sans">
         <color>#9999cc</color>
         <size>18</size>
         <bold>yes</bold>
     </font>
 
-    <font name="selectable" face="Trebuchet MS">
+    <font name="selectable" face="Bitstream Vera Sans">
         <color>#8cdeff</color>
         <size>18</size>
         <bold>yes</bold>
     </font>
 
-    <font name="largetitle" face="Trebuchet MS">
+    <font name="largetitle" face="Bitstream Vera Sans">
         <color>#ffffff</color>
         <dropcolor>#000000</dropcolor>
         <size>32</size>
@@ -28,7 +28,7 @@
         <bold>yes</bold>
     </font>
 
-    <font name="infofont" face="Trebuchet MS">
+    <font name="infofont" face="Bitstream Vera Sans">
         <color>#ffffff</color>
         <size>18</size>
         <bold>yes</bold>

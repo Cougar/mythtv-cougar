@@ -10,47 +10,47 @@
         </image>
     </container>
 
-    <font name="active_font" face="Vera">
+    <font name="active_font" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>16</size>
       <bold>no</bold>
     </font>
 
-    <font name="labels" face="Vera">
+    <font name="labels" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>16</size>
       <shadow>1,1</shadow>
       <bold>no</bold>
     </font>
 
-    <font name="keysfont" face="Vera">
+    <font name="keysfont" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>12</size>
       <shadow>1,1</shadow>
       <bold>no</bold>
     </font>
 
-    <font name="directorfnt" face="Vera">
+    <font name="directorfnt" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>18</size>
       <shadow>1,1</shadow>
       <bold>no</bold>
     </font>
 
-    <font name="moviedata" face="Vera">
+    <font name="moviedata" face="Bitstream Vera Sans">
       <color>#a0a0a0</color>
       <size>16</size>
       <shadow>1,1</shadow>
       <bold>no</bold>
     </font>
 
-    <font name="inactive_font" face="Vera">
+    <font name="inactive_font" face="Bitstream Vera Sans">
       <color>#9999cc</color>
       <size>16</size>
       <bold>no</bold>
     </font>
 
-    <font name="bigtitle" face="Vera">
+    <font name="bigtitle" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <dropcolor>#000000</dropcolor>
       <size>50</size>
@@ -58,7 +58,7 @@
       <bold>no</bold>
     </font>
 
-    <font name="titlefnt" face="Vera">
+    <font name="titlefnt" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <dropcolor>#000000</dropcolor>
       <shadow>1,1</shadow>
@@ -66,7 +66,7 @@
       <bold>no</bold>
     </font>
 
-    <font name="leadfnt" face="Vera">
+    <font name="leadfnt" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <dropcolor>#000000</dropcolor>
       <shadow>1,1</shadow>
@@ -74,14 +74,14 @@
       <bold>no</bold>
     </font>
 
-    <font name="info" face="Vera">
+    <font name="info" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>17</size>
       <shadow>1,1</shadow>
       <bold>no</bold>
     </font>
 
-    <font name="message" face="Vera">
+    <font name="message" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>16</size>
       <shadow>1,1</shadow>
@@ -313,47 +313,47 @@
 
   <window name="browser">
 
-    <font name="active_font" face="Vera">
+    <font name="active_font" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>16</size>
       <bold>no</bold>
     </font>
 
-    <font name="directorfnt" face="Vera">
+    <font name="directorfnt" face="Bitstream Vera Sans">
       <color>#a0a0a0</color>
       <size>16</size>
       <shadow>1,1</shadow>
       <bold>no</bold>
     </font>
 
-    <font name="labels" face="Vera">
+    <font name="labels" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>16</size>
       <shadow>1,1</shadow>
       <bold>no</bold>
     </font>
 
-    <font name="moviedata" face="Vera">
+    <font name="moviedata" face="Bitstream Vera Sans">
       <color>#a0a0a0</color>
       <size>15</size>
       <shadow>1,1</shadow>
       <bold>no</bold>
     </font>
 
-    <font name="plotfnt" face="Vera">
+    <font name="plotfnt" face="Bitstream Vera Sans">
       <color>#a0a0a0</color>
       <size>15</size>
       <shadow>1,1</shadow>
       <bold>no</bold>
     </font>
 
-    <font name="inactive_font" face="Vera">
+    <font name="inactive_font" face="Bitstream Vera Sans">
       <color>#9999cc</color>
       <size>16</size>
       <bold>no</bold>
     </font>
 
-    <font name="bigtitle" face="Vera">
+    <font name="bigtitle" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <dropcolor>#000000</dropcolor>
       <size>50</size>
@@ -361,7 +361,7 @@
       <bold>no</bold>
     </font>
 
-    <font name="titlefnt" face="Vera">
+    <font name="titlefnt" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <dropcolor>#000000</dropcolor>
       <shadow>1,1</shadow>
@@ -369,7 +369,7 @@
       <bold>no</bold>
     </font>
 
-    <font name="leadfnt" face="Vera">
+    <font name="leadfnt" face="Bitstream Vera Sans">
       <color>#a0a0a0</color>
       <dropcolor>#000000</dropcolor>
       <shadow>2,2</shadow>
@@ -377,21 +377,21 @@
       <bold>no</bold>
     </font>
 
-    <font name="info" face="Vera">
+    <font name="info" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>17</size>
       <shadow>1,1</shadow>
       <bold>no</bold>
     </font>
 
-    <font name="helptext" face="Vera">
+    <font name="helptext" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>15</size>
       <shadow>1,1</shadow>
       <bold>no</bold>
     </font>
 
-    <font name="message" face="Vera">
+    <font name="message" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>16</size>
       <shadow>1,1</shadow>
@@ -516,37 +516,37 @@
 
   <window name="gallery">
 
-    <font name="active" face="Vera">
+    <font name="active" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>16</size>
       <bold>no</bold>
     </font>
 
-    <font name="inactive" face="Vera">
+    <font name="inactive" face="Bitstream Vera Sans">
       <color>#9999cc</color>
       <size>16</size>
       <bold>no</bold>
     </font>
 
-    <font name="title" face="Vera">
+    <font name="title" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>20</size>
       <bold>no</bold>
     </font>
 
-    <font name="menu" face="Vera">
+    <font name="menu" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>20</size>
       <bold>no</bold>
     </font>
 
-    <font name="subtitle" face="Vera">
+    <font name="subtitle" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>16</size>
       <bold>no</bold>
     </font>
 
-    <font name="icontitle" face="Vera">
+    <font name="icontitle" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>20</size>
       <bold>no</bold>
@@ -620,40 +620,40 @@
 
   <window name="selected">
 
-    <font name="active_font" face="Vera">
+    <font name="active_font" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>16</size>
       <bold>no</bold>
     </font>
 
-    <font name="labels" face="Vera">
+    <font name="labels" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>16</size>
       <shadow>1,1</shadow>
       <bold>no</bold>
     </font>
 
-    <font name="moviedata" face="Vera">
+    <font name="moviedata" face="Bitstream Vera Sans">
       <color>#a0a0a0</color>
       <size>15</size>
       <shadow>1,1</shadow>
       <bold>no</bold>
     </font>
 
-    <font name="plotfnt" face="Vera">
+    <font name="plotfnt" face="Bitstream Vera Sans">
       <color>#a0a0a0</color>
       <size>15</size>
       <shadow>1,1</shadow>
       <bold>no</bold>
     </font>
 
-    <font name="inactive_font" face="Vera">
+    <font name="inactive_font" face="Bitstream Vera Sans">
       <color>#9999cc</color>
       <size>16</size>
       <bold>no</bold>
     </font>
 
-    <font name="bigtitle" face="Vera">
+    <font name="bigtitle" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <dropcolor>#000000</dropcolor>
       <size>50</size>
@@ -661,7 +661,7 @@
       <bold>no</bold>
     </font>
 
-    <font name="titlefnt" face="Vera">
+    <font name="titlefnt" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <dropcolor>#000000</dropcolor>
       <shadow>1,1</shadow>
@@ -669,7 +669,7 @@
       <bold>no</bold>
     </font>
 
-    <font name="leadfnt" face="Vera">
+    <font name="leadfnt" face="Bitstream Vera Sans">
       <color>#a0a0a0</color>
       <dropcolor>#000000</dropcolor>
       <shadow>2,2</shadow>
@@ -677,14 +677,14 @@
       <bold>no</bold>
     </font>
 
-    <font name="info" face="Vera">
+    <font name="info" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>17</size>
       <shadow>1,1</shadow>
       <bold>no</bold>
     </font>
 
-    <font name="message" face="Vera">
+    <font name="message" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>16</size>
       <shadow>1,1</shadow>
@@ -783,24 +783,24 @@
 
   <window name="videotree">
 
-        <font name="active" face="Vera">
+        <font name="active" face="Bitstream Vera Sans">
             <color>#ffffff</color>
             <size>18</size>
             <bold>no</bold>
         </font>
         
-        <font name="inactive" face="Vera">
+        <font name="inactive" face="Bitstream Vera Sans">
             <color>#9999cc</color>
             <size>18</size>
             <bold>no</bold>
         </font>
         
-        <font name="selectable" face="Vera">
+        <font name="selectable" face="Bitstream Vera Sans">
             <color>#8cdeff</color>
             <size>18</size>
             <bold>no</bold>
         </font>
-        <font name="largetitle" face="Vera">
+        <font name="largetitle" face="Bitstream Vera Sans">
             <color>#ffffff</color>
             <dropcolor>#000000</dropcolor>
             <size>20</size>
@@ -808,7 +808,7 @@
             <bold>no</bold>
         </font>
         
-        <font name="labelfont" face="Vera">
+        <font name="labelfont" face="Bitstream Vera Sans">
             <color>#ffffff</color>
             <dropcolor>#000000</dropcolor>
             <size>16</size>
@@ -816,7 +816,7 @@
             <bold>no</bold>
         </font>
         
-        <font name="infofont" face="Vera">
+        <font name="infofont" face="Bitstream Vera Sans">
             <color>#a0a0a0</color>
             <size>16</size>
             <bold>no</bold>
@@ -907,7 +907,7 @@
 
     <window name="file_associations">
 
-        <font name="title" face="Vera">
+        <font name="title" face="Bitstream Vera Sans">
             <color>#ffffff</color>
             <dropcolor>#000000</dropcolor>
             <size>18</size>
@@ -915,7 +915,7 @@
             <bold>no</bold>
         </font>
         
-        <font name="display" face="Vera">
+        <font name="display" face="Bitstream Vera Sans">
             <color>#ffffff</color>
             <dropcolor>#000000</dropcolor>
             <size>16</size>
@@ -1017,7 +1017,7 @@
 
     <window name="edit_metadata">
 
-        <font name="title" face="Vera">
+        <font name="title" face="Bitstream Vera Sans">
             <color>#ffffff</color>
             <dropcolor>#000000</dropcolor>
             <size>18</size>
@@ -1025,7 +1025,7 @@
             <bold>no</bold>
         </font>
         
-        <font name="display" face="Vera">
+        <font name="display" face="Bitstream Vera Sans">
             <color>#ffffff</color>
             <dropcolor>#000000</dropcolor>
             <size>16</size>
@@ -1180,7 +1180,7 @@
             And there has to be a managedtreelist called file_browser.
     -->
     <window name="file_chooser">
-        <font name="chooser_font" face="Vera">
+        <font name="chooser_font" face="Bitstream Vera Sans">
             <color>#ffffff</color>
             <size>18</size>
             <shadow>1,1</shadow>
@@ -1229,7 +1229,7 @@
         
     <window name="filter">
 
-    <font name="title" face="Vera">
+    <font name="title" face="Bitstream Vera Sans">
         <color>#ffffff</color>
         <dropcolor>#000000</dropcolor>
         <size>18</size>
@@ -1237,7 +1237,7 @@
         <bold>no</bold>
     </font>
 
-	<font name="display" face="Vera">
+	<font name="display" face="Bitstream Vera Sans">
 		<color>#ffffff</color>
 		<dropcolor>#000000</dropcolor>
 		<size>16</size>

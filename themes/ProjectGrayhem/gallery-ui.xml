@@ -2,19 +2,19 @@
 
   <window name="gallery">
 
-    <font name="active" face="Arial">
+    <font name="active" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>16</size>
       <bold>yes</bold>
     </font>
 
-    <font name="inactive" face="Arial">
+    <font name="inactive" face="Bitstream Vera Sans">
       <color>#909090</color>
       <size>16</size>
       <bold>yes</bold>
     </font>
 
-  <font name="title" face="Arial">
+  <font name="title" face="Bitstream Vera Sans">
       <color>#c0c0c0</color>
       <dropcolor>#000000</dropcolor>
       <shadow>4,4</shadow>
@@ -22,7 +22,7 @@
       <size>24</size>
       <bold>yes</bold>
     </font>
-  <font name="menu" face="Arial">
+  <font name="menu" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>16</size>
       <bold>yes</bold>

@@ -2,7 +2,7 @@
 
   <window name="programguide">
 
-    <font name="title" face="Vera">
+    <font name="title" face="Bitstream Vera Sans">
       <color>#FFFFFF</color>
       <size>24</size>
       <size:small>16</size:small>
@@ -10,7 +10,7 @@
       <bold>yes</bold>
     </font>
 
-    <font name="info" face="Vera">
+    <font name="info" face="Bitstream Vera Sans">
       <color>#FFFFFF</color>
       <size>16</size>
       <size:small>14</size:small>
@@ -18,7 +18,7 @@
       <bold>no</bold>
     </font>
     
-    <font name="greyinfo" face="Vera">
+    <font name="greyinfo" face="Bitstream Vera Sans">
       <color>#cccccc</color>
       <size>16</size>
       <size:small>14</size:small>
@@ -26,7 +26,7 @@
       <bold>no</bold>
     </font>
 
-    <font name="descinfo2" face="Vera">
+    <font name="descinfo2" face="Bitstream Vera Sans">
       <color>#FFFFFF</color>
       <size>16</size>
       <size:small>13</size:small>
@@ -34,7 +34,7 @@
       <bold>no</bold>
     </font>
 
-    <font name="descinfo" face="Vera">
+    <font name="descinfo" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>16</size>
       <size:small>13</size:small>
@@ -42,7 +42,7 @@
       <bold>no</bold>
     </font>
 
-    <font name="chaninfo" face="Vera">
+    <font name="chaninfo" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>14</size>
       <size:small>12</size:small>
@@ -50,7 +50,7 @@
       <bold>no</bold>
     </font>
 
-    <font name="recstatus" face="Vera">
+    <font name="recstatus" face="Bitstream Vera Sans">
       <color>#cccccc</color>
       <size>15</size>
       <size:small>12</size:small>
@@ -58,7 +58,7 @@
 	  <bold>no</bold>
     </font>
 
-    <font name="small" face="Vera">
+    <font name="small" face="Bitstream Vera Sans">
       <color>#FFFFFF</color>
       <size>16</size>
       <size:small>10</size:small>
@@ -345,7 +345,7 @@
 
    <window name="programguide-video">
 
-    <font name="title" face="Vera">
+    <font name="title" face="Bitstream Vera Sans">
       <color>#FFFFFF</color>
       <dropcolor>#000000</dropcolor>
       <size>24</size>
@@ -353,7 +353,7 @@
       <bold>yes</bold>
     </font>
 
-    <font name="info" face="Vera">
+    <font name="info" face="Bitstream Vera Sans">
       <color>#FFFFFF</color>
       <size>16</size>
       <size:small>13</size:small>
@@ -361,7 +361,7 @@
       <bold>no</bold>
     </font>
 
-    <font name="descinfo2" face="Vera">
+    <font name="descinfo2" face="Bitstream Vera Sans">
       <color>#FFFFFF</color>
       <size>13</size>
       <size:small>12</size:small>
@@ -369,7 +369,7 @@
       <bold>no</bold>
     </font>
 
-    <font name="descinfo" face="Vera">
+    <font name="descinfo" face="Bitstream Vera Sans">
       <color>#FFFFFF</color>
       <size>16</size>
       <size:small>12</size:small>
@@ -377,7 +377,7 @@
       <bold>no</bold>
     </font>
 
-    <font name="chaninfo" face="Vera">
+    <font name="chaninfo" face="Bitstream Vera Sans">
       <color>#FFFFFF</color>
       <size>15</size>
       <size:small>12</size:small>
@@ -385,7 +385,7 @@
       <bold>no</bold>
     </font>
 
-    <font name="recstatus" face="Vera">
+    <font name="recstatus" face="Bitstream Vera Sans">
       <color>#FFFFFF</color>
       <size>17</size>
       <size:small>12</size:small>
@@ -393,7 +393,7 @@
 
     </font>
 
-    <font name="small" face="Vera">
+    <font name="small" face="Bitstream Vera Sans">
       <color>#FFFFFF</color>
       <size>16</size>
       <size:big>18</size:big>
@@ -674,7 +674,7 @@
   <!--Upcoming Recordings-->
   <window name="conflict">
 
-    <font name="active_font" face="Vera">
+    <font name="active_font" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>15</size>
       <size:small>15</size:small>
@@ -682,7 +682,7 @@
       <bold>no</bold>
     </font>
 
-    <font name="inactive_font" face="Vera">
+    <font name="inactive_font" face="Bitstream Vera Sans">
       <color>#aaaaaa</color>
       <size>15</size>
       <size:small>15</size:small>
@@ -690,7 +690,7 @@
       <bold>no</bold>
     </font>
 
-    <font name="recording" face="Vera">
+    <font name="recording" face="Bitstream Vera Sans">
       <color>#00aa00</color>
       <dropcolor>#000000</dropcolor>
       <size>15</size>
@@ -700,7 +700,7 @@
       <shadow>2,2</shadow>
     </font>
     
-    <font name="record" face="Vera">
+    <font name="record" face="Bitstream Vera Sans">
       <color>#FCFF00</color>
       <dropcolor>#000000</dropcolor>
       <size>15</size>
@@ -710,7 +710,7 @@
       <shadow>2,2</shadow>
     </font>
 
-    <font name="list-tagged" face="Vera">
+    <font name="list-tagged" face="Bitstream Vera Sans">
       <color>#dddd33</color>
       <size>15</size>
       <size:small>12</size:small>
@@ -718,7 +718,7 @@
       <bold>yes</bold>
     </font>
 
-    <font name="norecordfnt" face="Vera">
+    <font name="norecordfnt" face="Bitstream Vera Sans">
       <color>#a0a0a0</color>
       <dropcolor>#000000</dropcolor>
       <size>15</size>
@@ -728,7 +728,7 @@
       <shadow>2,2</shadow>
     </font>
 
-    <font name="conflictfnt" face="Vera">
+    <font name="conflictfnt" face="Bitstream Vera Sans">
       <color>#cc5555</color>
       <size>15</size>
       <size:small>12</size:small>
@@ -736,7 +736,7 @@
       <bold>yes</bold>
     </font>
 
-    <font name="currenttitle" face="Vera">
+    <font name="currenttitle" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>18</size>
       <size:small>12</size:small>
@@ -744,7 +744,7 @@
       <bold>yes</bold>
     </font>
 
-    <font name="title" face="Vera">
+    <font name="title" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <dropcolor>#000000</dropcolor>
       <size>26</size>
@@ -752,7 +752,7 @@
       <bold>yes</bold>
     </font>
 
-    <font name="subtitle" face="Vera">
+    <font name="subtitle" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>17</size>
       <size:small>15</size:small>
@@ -760,7 +760,7 @@
       <bold>no</bold>
     </font>
 
-    <font name="info" face="Vera">
+    <font name="info" face="Bitstream Vera Sans">
       <color>#CCCCCC</color>
       <size>17</size>
       <size:small>15</size:small>
@@ -768,7 +768,7 @@
       <bold>no</bold>
     </font>
 
-    <font name="infob" face="Vera">
+    <font name="infob" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>17</size>
       <size:small>15</size:small>
@@ -776,7 +776,7 @@
       <bold>no</bold>
     </font>
 
-    <font name="message" face="Vera">
+    <font name="message" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>16</size>
       <size:small>14</size:small>
@@ -784,7 +784,7 @@
       <bold>yes</bold>
     </font>
 
-    <font name="messagegray" face="Vera">
+    <font name="messagegray" face="Bitstream Vera Sans">
       <color>#CCCCCC</color>
       <size>16</size>
       <size:small>10</size:small>
@@ -792,7 +792,7 @@
       <bold>no</bold>
     </font>
 
-    <font name="messageyellow" face="Vera">
+    <font name="messageyellow" face="Bitstream Vera Sans">
       <color>#ffff00</color>
       <size>16</size>
       <size:small>10</size:small>
@@ -921,21 +921,21 @@
 
 <window name="schdiff">
 
-    <font name="list-active" face="Vera">
+    <font name="list-active" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>16</size>
       <size:small>11</size:small>
       <bold>no</bold>
     </font>
 
-    <font name="list-inactive" face="Vera">
+    <font name="list-inactive" face="Bitstream Vera Sans">
       <color>#aaaaaa</color>
       <size>16</size>
       <size:small>11</size:small>
       <bold>no</bold>
     </font>
 
-    <font name="list-recording" face="Vera">
+    <font name="list-recording" face="Bitstream Vera Sans">
       <color>#00FF00</color>
       <dropcolor>#000000</dropcolor>
       <size>16</size>
@@ -944,7 +944,7 @@
       <shadow>2,2</shadow>
     </font>
 
-    <font name="list-record" face="Vera">
+    <font name="list-record" face="Bitstream Vera Sans">
       <color>#FF33FF</color>
       <dropcolor>#000000</dropcolor>
       <size>16</size>
@@ -953,14 +953,14 @@
       <shadow>2,2</shadow>
     </font>
 
-    <font name="list-norecord" face="Vera">
+    <font name="list-norecord" face="Bitstream Vera Sans">
       <color>#aaaaaa</color>
       <size>16</size>
       <size:small>11</size:small>
       <bold>no</bold>
     </font>
 
-    <font name="list-conflict" face="Vera">
+    <font name="list-conflict" face="Bitstream Vera Sans">
       <color>#cc0000</color>
       <dropcolor>#000000</dropcolor>
       <size>16</size>
@@ -969,14 +969,14 @@
       <shadow>2,2</shadow>
     </font>
 
-    <font name="list-selected" face="Vera">
+    <font name="list-selected" face="Bitstream Vera Sans">
       <color>#00ffff</color>
       <size>18</size>
       <size:small>12</size:small>
       <bold>no</bold>
     </font>
 
-    <font name="title" face="Vera">
+    <font name="title" face="Bitstream Vera Sans">
       <color>#FFFFFF</color>
       <size>24</size>
       <size:small>16</size:small>
@@ -984,7 +984,7 @@
       <bold>no</bold>
     </font>
 
-    <font name="info" face="Vera">
+    <font name="info" face="Bitstream Vera Sans">
       <color>#FFFFFF</color>
       <size>16</size>
       <size:small>14</size:small>
@@ -992,7 +992,7 @@
       <bold>no</bold>
     </font>
 
-    <font name="recstatus" face="Vera">
+    <font name="recstatus" face="Bitstream Vera Sans">
       <color>#00FF00</color>
       <dropcolor>#000000</dropcolor>
       <size>16</size>
@@ -1002,7 +1002,7 @@
       <shadow>2,2</shadow>
     </font>
    
-    <font name="yeltitle" face="Vera">
+    <font name="yeltitle" face="Bitstream Vera Sans">
       <color>#FFFF00</color>
       <size>24</size>
       <size:small>16</size:small>
@@ -1095,7 +1095,7 @@
 
   <window name="recprioritychannels">
 
-    <font name="active_font" face="Vera">
+    <font name="active_font" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>15</size>
       <size:small>13</size:small>
@@ -1103,7 +1103,7 @@
       <bold>no</bold>
     </font>
 
-    <font name="inactive_font" face="Vera">
+    <font name="inactive_font" face="Bitstream Vera Sans">
       <color>#aaaaaa</color>
       <size>15</size>
       <size:small>13</size:small>
@@ -1111,7 +1111,7 @@
       <bold>no</bold>
     </font>
 
-    <font name="currenttitle" face="Vera">
+    <font name="currenttitle" face="Bitstream Vera Sans">
       <color>#ffff33</color>
       <size>18</size>
       <size:small>16</size:small>
@@ -1119,7 +1119,7 @@
       <bold>no</bold>
     </font>
 
-    <font name="title" face="Vera">
+    <font name="title" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <dropcolor>#000000</dropcolor>
       <size>24</size>
@@ -1127,14 +1127,14 @@
       <bold>no</bold>
     </font>
 
-    <font name="info" face="Vera">
+    <font name="info" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>17</size>
       <size:small>15</size:small>
       <bold>no</bold>
     </font>
 
-    <font name="message" face="Vera">
+    <font name="message" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>16</size>
       <size:small>18</size:small>
@@ -1242,7 +1242,7 @@
   <!--Set Priorities-->
   <window name="recpriorityprograms">
 
-    <font name="active_font" face="Vera">
+    <font name="active_font" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>15</size>
 	  <bold>no</bold>
@@ -1251,7 +1251,7 @@
       <bold>no</bold>
     </font>
 
-    <font name="inactive_font" face="Vera">
+    <font name="inactive_font" face="Bitstream Vera Sans">
       <color>#aaaaaa</color>
       <size>15</size>
 	  <bold>no</bold>
@@ -1260,7 +1260,7 @@
       <bold>no</bold>
     </font>
 
-    <font name="currenttitle" face="Vera">
+    <font name="currenttitle" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>15</size>
       <size:small>13</size:small>
@@ -1268,7 +1268,7 @@
 	  <bold>no</bold>
     </font>
 
-    <font name="title" face="Vera">
+    <font name="title" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>24</size>
       <size:small>20</size:small>
@@ -1276,7 +1276,7 @@
       <bold>no</bold>
     </font>
     
-    <font name="recording" face="Vera">
+    <font name="recording" face="Bitstream Vera Sans">
       <color>#00FF00</color>
       <dropcolor>#000000</dropcolor>
       <size>15</size>
@@ -1286,7 +1286,7 @@
       <shadow>2,2</shadow>
     </font>
     
-    <font name="record" face="Vera">
+    <font name="record" face="Bitstream Vera Sans">
       <color>#00FF00</color>
       <dropcolor>#000000</dropcolor>
       <size>15</size>
@@ -1296,7 +1296,7 @@
       <shadow>2,2</shadow>
     </font>
 
-    <font name="subtitle" face="Vera">
+    <font name="subtitle" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>17</size>
       <size:small>15</size:small>
@@ -1304,7 +1304,7 @@
       <bold>no</bold>
     </font>
 
-    <font name="info" face="Vera">
+    <font name="info" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>17</size>
       <size:small>15</size:small>
@@ -1312,7 +1312,7 @@
 	  <bold>no</bold>
     </font>
 
-    <font name="tinyinfo" face="Vera">
+    <font name="tinyinfo" face="Bitstream Vera Sans">
       <color>#CCCCCC</color>
       <size>10</size>
       <size:small>8</size:small>
@@ -1320,7 +1320,7 @@
       <bold>no</bold>
     </font>
 
-    <font name="grayinfo" face="Vera">
+    <font name="grayinfo" face="Bitstream Vera Sans">
       <color>#CCCCCC</color>
       <size>17</size>
       <size:small>15</size:small>
@@ -1328,7 +1328,7 @@
       <bold>no</bold>
     </font>
 
-    <font name="yellowinfo" face="Vera">
+    <font name="yellowinfo" face="Bitstream Vera Sans">
       <color>#ffff33</color>
       <size>17</size>
       <size:small>15</size:small>
@@ -1336,7 +1336,7 @@
       <bold>no</bold>
     </font>
 
-    <font name="message" face="Vera">
+    <font name="message" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>15</size>
       <size:small>15</size:small>
@@ -1525,7 +1525,7 @@
   <!--Watch Recordings-->
   <window name="playback">
 
-    <font name="active" face="Vera">
+    <font name="active" face="Bitstream Vera Sans">
       <color>#cccccc</color>
       <size>15</size>
       <size:big>18</size:big>
@@ -1533,7 +1533,7 @@
       <bold>yes</bold>
     </font>
     
-    <font name="activesel" face="Vera">
+    <font name="activesel" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>15</size>
       <size:big>18</size:big>
@@ -1541,7 +1541,7 @@
       <bold>yes</bold>
     </font>
 
-    <font name="tagged" face="Vera">
+    <font name="tagged" face="Bitstream Vera Sans">
       <color>#ffff00</color>
       <size>15</size>
       <size:big>18</size:big>
@@ -1549,7 +1549,7 @@
       <bold>yes</bold>
     </font>
 
-    <font name="inactive" face="Vera">
+    <font name="inactive" face="Bitstream Vera Sans">
       <color>#aaaaaa</color>
       <size>15</size>
       <size:big>18</size:big>
@@ -1557,7 +1557,7 @@
       <bold>yes</bold>
     </font>
 
-    <font name="recording" face="Vera">
+    <font name="recording" face="Bitstream Vera Sans">
       <color>#00EE00</color>
       <dropcolor>#000000</dropcolor>
       <size>15</size>
@@ -1567,7 +1567,7 @@
       <shadow>2,2</shadow>
     </font>
     
-    <font name="record" face="Vera">
+    <font name="record" face="Bitstream Vera Sans">
       <color>#FCFF00</color>
       <dropcolor>#000000</dropcolor>
       <size>15</size>
@@ -1577,7 +1577,7 @@
       <shadow>2,2</shadow>
     </font>
     
-    <font name="overunderrecfont" face="Vera">
+    <font name="overunderrecfont" face="Bitstream Vera Sans">
       <color>#ffffAA</color>
       <dropcolor>#000000</dropcolor>
       <size>15</size>
@@ -1587,7 +1587,7 @@
       <bold>yes</bold>
     </font>
 
-    <font name="currenttitle" face="Vera">
+    <font name="currenttitle" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>16</size>
       <size:big>20</size:big>
@@ -1595,7 +1595,7 @@
       <bold>yes</bold>
     </font>
 
-    <font name="title" face="Vera">
+    <font name="title" face="Bitstream Vera Sans">
       <color>#FFFFFF</color>
       <dropcolor>#000000</dropcolor>
       <size>24</size>
@@ -1604,7 +1604,7 @@
       <bold>yes</bold>
     </font>
 
-    <font name="subtitle" face="Vera">
+    <font name="subtitle" face="Bitstream Vera Sans">
       <color>#FFFFFF</color>
       <size>17</size>
       <size:big>18</size:big>
@@ -1612,7 +1612,7 @@
       <bold>yes</bold>
     </font>
 
-    <font name="info" face="Vera">
+    <font name="info" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>17</size>
       <size:big>18</size:big>
@@ -1620,7 +1620,7 @@
       <bold>yes</bold>
     </font>
     
-    <font name="greyfont" face="Vera">
+    <font name="greyfont" face="Bitstream Vera Sans">
       <color>#CCCCCC</color>
       <size>17</size>
       <size:big>18</size:big>
@@ -1628,7 +1628,7 @@
       <bold>yes</bold>
     </font>
 
-    <font name="message" face="Vera">
+    <font name="message" face="Bitstream Vera Sans">
       <color>#FFFFFF</color>
       <size>17</size>
       <size:big>18</size:big>
@@ -1917,7 +1917,7 @@
 
  <window name="playback-video">
 
-<font name="active" face="Vera">
+<font name="active" face="Bitstream Vera Sans">
       <color>#cccccc</color>
       <size>15</size>
       <size:big>20</size:big>
@@ -1925,7 +1925,7 @@
       <bold>yes</bold>
     </font>
 
-    <font name="activesel" face="Vera">
+    <font name="activesel" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>15</size>
       <size:big>20</size:big>
@@ -1933,7 +1933,7 @@
       <bold>yes</bold>
     </font>
 
-    <font name="tagged" face="Vera">
+    <font name="tagged" face="Bitstream Vera Sans">
       <color>#ffff00</color>
       <size>15</size>
       <size:big>20</size:big>
@@ -1941,7 +1941,7 @@
       <bold>yes</bold>
     </font>
 
-    <font name="inactive" face="Vera">
+    <font name="inactive" face="Bitstream Vera Sans">
       <color>#aaaaaa</color>
       <size>15</size>
       <size:big>20</size:big>
@@ -1949,7 +1949,7 @@
       <bold>yes</bold>
     </font>
 
-    <font name="recording" face="Vera">
+    <font name="recording" face="Bitstream Vera Sans">
       <color>#00EE00</color>
       <dropcolor>#000000</dropcolor>
       <size>15</size>
@@ -1959,7 +1959,7 @@
       <shadow>2,2</shadow>
     </font>
 
-    <font name="record" face="Vera">
+    <font name="record" face="Bitstream Vera Sans">
       <color>#FCFF00</color>
       <dropcolor>#000000</dropcolor>
       <size>15</size>
@@ -1969,7 +1969,7 @@
       <shadow>2,2</shadow>
     </font>
 
-    <font name="overunderrecfont" face="Vera">
+    <font name="overunderrecfont" face="Bitstream Vera Sans">
       <color>#ffffAA</color>
       <dropcolor>#000000</dropcolor>
       <size>15</size>
@@ -1979,7 +1979,7 @@
       <shadow>2,2</shadow>
     </font>
 
-    <font name="currenttitle" face="Vera">
+    <font name="currenttitle" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>16</size>
       <size:big>22</size:big>
@@ -1987,7 +1987,7 @@
       <bold>yes</bold>
     </font>
 
-    <font name="title" face="Vera">
+    <font name="title" face="Bitstream Vera Sans">
       <color>#FFFFFF</color>
       <dropcolor>#000000</dropcolor>
       <size>24</size>
@@ -1996,7 +1996,7 @@
       <bold>yes</bold>
     </font>
     
-    <font name="subtitle" face="Vera">
+    <font name="subtitle" face="Bitstream Vera Sans">
       <color>#FFFFFF</color>
       <size>17</size>
       <size:big>20</size:big>
@@ -2004,7 +2004,7 @@
       <bold>yes</bold>
     </font>
 
-    <font name="info" face="Vera">
+    <font name="info" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>17</size>
       <size:big>20</size:big>
@@ -2012,7 +2012,7 @@
           <bold>yes</bold>
     </font>
 
-    <font name="greyfont" face="Vera">
+    <font name="greyfont" face="Bitstream Vera Sans">
       <color>#CCCCCC</color>
       <size>17</size>
       <size:big>20</size:big>
@@ -2020,7 +2020,7 @@
       <bold>yes</bold>
     </font>
 
-    <font name="message" face="Vera">
+    <font name="message" face="Bitstream Vera Sans">
       <color>#FFFFFF</color>
       <size>17</size>
       <size:big>20</size:big>
@@ -2268,21 +2268,21 @@
 
   <window name="programfind">
 
-    <font name="active" face="Vera">
+    <font name="active" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>18</size>
       <size:small>14</size:small>
       <bold>yes</bold>
     </font>
 
-    <font name="inactive" face="Vera">
+    <font name="inactive" face="Bitstream Vera Sans">
       <color>#aaaaaa</color>
       <size>18</size>
       <size:small>14</size:small>
       <bold>yes</bold>
     </font>
 
-    <font name="recording" face="Vera">
+    <font name="recording" face="Bitstream Vera Sans">
       <color>#00FF00</color>
       <dropcolor>#000000</dropcolor>
       <size>18</size>
@@ -2291,7 +2291,7 @@
       <shadow>2,2</shadow>
     </font>
     
-    <font name="record" face="Vera">
+    <font name="record" face="Bitstream Vera Sans">
       <color>#00FF00</color>
       <dropcolor>#000000</dropcolor>
       <size>18</size>
@@ -2300,7 +2300,7 @@
       <shadow>2,2</shadow>
     </font>
 
-    <font name="titleinfo" face="Vera">
+    <font name="titleinfo" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <dropcolor>#000000</dropcolor>
       <size>24</size>
@@ -2308,63 +2308,63 @@
       <bold>yes</bold>
     </font>
 
-    <font name="subtitle" face="Vera">
+    <font name="subtitle" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>17</size>
       <size:small>14</size:small>
       <bold>no</bold>
     </font>
 
-    <font name="info" face="Vera">
+    <font name="info" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>17</size>
       <size:small>14</size:small>
       <bold>yes</bold>
     </font>
 
-    <font name="infos" face="Vera">
+    <font name="infos" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>16</size>
       <size:small>14</size:small>
       <bold>yes</bold>
     </font>
 
-    <font name="timedate" face="Vera">
+    <font name="timedate" face="Bitstream Vera Sans">
       <color>#CCCCCC</color>
       <size>16</size>
       <size:small>14</size:small>
       <bold>yes</bold>
     </font>
 
-    <font name="descinfo" face="Vera">
+    <font name="descinfo" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>17</size>
       <size:small>12</size:small>
       <bold>yes</bold>
     </font>
 
-    <font name="info_y" face="Vera">
+    <font name="info_y" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>17</size>
       <size:small>14</size:small>
       <bold>yes</bold>
     </font>
 
-    <font name="recinfo" face="Vera">
+    <font name="recinfo" face="Bitstream Vera Sans">
       <color>#CCCCCC</color>
       <size>17</size>
       <size:small>13</size:small>
       <bold>no</bold>
     </font>
 
-    <font name="channel" face="Vera">
+    <font name="channel" face="Bitstream Vera Sans">
       <color>#CCCCCC</color>
       <size>17</size>
       <size:small>14</size:small>
       <bold>yes</bold>
     </font>
 
-    <font name="legend" face="Vera">
+    <font name="legend" face="Bitstream Vera Sans">
       <color>#CCCCCC</color>
       <size>14</size>
       <size:small>14</size:small>
@@ -2501,21 +2501,21 @@
   <!-- Previously recorded screen -->
   <window name="programlist">
 
-    <font name="active_font" face="Vera">
+    <font name="active_font" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>15</size>
       <size:small>12</size:small>
       <bold>yes</bold>
     </font>
 
-    <font name="inactive_font" face="Vera">
+    <font name="inactive_font" face="Bitstream Vera Sans">
       <color>#aaaaaa</color>
       <size>15</size>
       <size:small>12</size:small>
       <bold>yes</bold>
     </font>
 
-    <font name="recording" face="Vera">
+    <font name="recording" face="Bitstream Vera Sans">
       <color>#00FF00</color>
       <dropcolor>#000000</dropcolor>
       <size>15</size>
@@ -2524,7 +2524,7 @@
       <shadow>2,2</shadow>
     </font>
     
-    <font name="record" face="Vera">
+    <font name="record" face="Bitstream Vera Sans">
       <color>#00FF00</color>
       <dropcolor>#000000</dropcolor>
       <size>15</size>
@@ -2533,42 +2533,42 @@
       <shadow>2,2</shadow>
     </font>
 
-    <font name="conflict_font" face="Vera">
+    <font name="conflict_font" face="Bitstream Vera Sans">
       <color>#ffff33</color>
       <size>15</size>
       <size:small>12</size:small>
       <bold>yes</bold>
     </font>
 
-    <font name="title" face="Vera">
+    <font name="title" face="Bitstream Vera Sans">
       <color>#FFFFFF</color>
       <size>24</size>
       <size:small>14</size:small>
       <bold>yes</bold>
     </font>
 
-    <font name="subtitle" face="Vera">
+    <font name="subtitle" face="Bitstream Vera Sans">
       <color>#FFFFFF</color>
       <size>17</size>
       <size:small>13</size:small>
       <bold>no</bold>
     </font>
 
-    <font name="info" face="Vera">
+    <font name="info" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>17</size>
       <size:small>14</size:small>
       <bold>yes</bold>
     </font>
 
-    <font name="greyinfo" face="Vera">
+    <font name="greyinfo" face="Bitstream Vera Sans">
       <color>#CCCCCC</color>
       <size>16</size>
       <size:small>12</size:small>
       <bold>no</bold>
     </font>
 
-    <font name="message" face="Vera">
+    <font name="message" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>17</size>
       <size:small>14</size:small>
@@ -2666,7 +2666,7 @@
 
   <window name="recording_options">
 
-    <font name="active_font" face="Vera">
+    <font name="active_font" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size:big>19</size:big>
       <size>17</size>
@@ -2674,7 +2674,7 @@
       <bold>no</bold>
     </font>
 
-    <font name="infob" face="Vera">
+    <font name="infob" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size:big>17</size:big>
       <size>15</size>
@@ -2682,7 +2682,7 @@
       <bold>no</bold>
     </font>
 
-    <font name="inactive_font" face="Vera">
+    <font name="inactive_font" face="Bitstream Vera Sans">
       <color>#aaaaaa</color>
       <size:big>19</size:big>
       <size>17</size>
@@ -2690,56 +2690,56 @@
       <bold>no</bold>
     </font>
 
-    <font name="currenttitle" face="Vera">
+    <font name="currenttitle" face="Bitstream Vera Sans">
       <color>#ffff33</color>
       <size>15</size>
       <size:small>12</size:small>
       <bold>no</bold>
     </font>
 
-    <font name="title" face="Vera">
+    <font name="title" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>24</size>
       <size:small>14</size:small>
       <bold>no</bold>
     </font>
 
-    <font name="subtitle" face="Vera">
+    <font name="subtitle" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>17</size>
       <size:small>12</size:small>
       <bold>no</bold>
     </font>
 
-    <font name="info" face="Vera">
+    <font name="info" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>17</size>
       <size:small>14</size:small>
       <bold>no</bold>
     </font>
 
-    <font name="tinyinfo" face="Vera">
+    <font name="tinyinfo" face="Bitstream Vera Sans">
       <color>#cccccc</color>
       <size>10</size>
       <size:small>8</size:small>
       <bold>no</bold>
     </font>
 
-    <font name="grayinfo" face="Vera">
+    <font name="grayinfo" face="Bitstream Vera Sans">
       <color>#CCCCCC</color>
       <size>17</size>
       <size:small>10</size:small>
       <bold>no</bold>
     </font>
 
-    <font name="yellowinfo" face="Vera">
+    <font name="yellowinfo" face="Bitstream Vera Sans">
       <color>#ffff33</color>
       <size>17</size>
       <size:small>10</size:small>
       <bold>no</bold>
     </font>
 
-    <font name="message" face="Vera">
+    <font name="message" face="Bitstream Vera Sans">
       <color>#ffffff</color>
       <size>15</size>
       <size:small>14</size:small>
@@ -2819,7 +2819,7 @@
 
 <window name="progdetails">
 
-      <font name="heading" face="Vera">
+      <font name="heading" face="Bitstream Vera Sans">
           <color>#ffffdd</color>
           <size>24</size>
           <size:small>16</size:small>
@@ -2827,7 +2827,7 @@
           <bold>no</bold>
       </font>
 
-      <font name="body" face="Vera">
+      <font name="body" face="Bitstream Vera Sans">
           <color>#ffffff</color>
           <size>16</size>
           <size:small>14</size:small>
