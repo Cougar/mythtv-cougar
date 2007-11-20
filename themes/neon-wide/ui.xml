@@ -2404,6 +2404,8 @@
         <fcnfont name="active" function="active"></fcnfont>
         <fcnfont name="active" function="selected"></fcnfont>
         <fcnfont name="inactive" function="inactive"></fcnfont>
+        <fcnfont name="record" function="record"></fcnfont>
+        <fcnfont name="recording" function="recording"></fcnfont>
         <column number="1" width="800" context="-1"></column>
         <items>11</items>
         <image function="selectionbar" filename="programfind/progfind_sel2.png" location="-5,-3"></image>

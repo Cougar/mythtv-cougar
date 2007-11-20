@@ -1949,6 +1949,8 @@
         <fcnfont name="active" function="active"></fcnfont>
         <fcnfont name="active" function="selected"></fcnfont>
         <fcnfont name="inactive" function="inactive"></fcnfont>
+        <fcnfont name="recording" function="recording"></fcnfont>
+        <fcnfont name="record" function="record"></fcnfont>
         <column number="1" width="365" context="-1"></column>
         <items>9</items>
         <image function="selectionbar" filename="programfind/progfind_sel2.png" location="-7,-2"></image>
