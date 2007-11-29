@@ -5,12 +5,6 @@
       <filename>background.png</filename>
     </imagetype>
 
-<!--    <imagetype name="logo">
-      <filename>background.png</filename>
-      <position>0,0</position>
-          <alpha>180</alpha>
-    </imagetype>
--->
     <font name="clock" face="Bitstream Vera Sans">
          <color>#FFFFFF</color>
          <size>18</size>

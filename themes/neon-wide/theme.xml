@@ -1,7 +1,6 @@
 <myththeme>
 
   <background style="normal">
-    <image>background.png</image>
     <buttonarea>620,100,540,520</buttonarea>
     <buttonspread>no</buttonspread>
     <visiblerowlimit>8</visiblerowlimit>
