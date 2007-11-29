@@ -548,8 +548,8 @@
       <bold>no</bold>
     </font>
 
-    <container name="background2">
-      <image>
+    <container name="background">
+      <image name="filler" draworder="0" fleximage="no">
         <filename>background.png</filename>
         <position>0,0</position>
       </image>
