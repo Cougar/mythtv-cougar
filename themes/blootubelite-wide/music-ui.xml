@@ -315,7 +315,7 @@
 
             <textarea name="time_text" draworder="1" align="left">
                 <font>infotext2</font>
-                <area>400,115,185,25</area>
+                <area>450,115,185,25</area>
             </textarea>
 
             <blackhole name="visual_blackhole">
@@ -338,7 +338,7 @@
             </statusbar>
         </container>
         <container name="progressindicator">
-            <area>380,580,365,40</area>
+            <area>450,580,365,40</area>
             <statusbar name="progress_bar" draworder="5" whitespace="5">
                 <container fleximage="no">music/musicprogbackgnd.png</container>
                 <fill>music/musicprogforegnd.png</fill>
