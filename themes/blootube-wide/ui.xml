@@ -1637,7 +1637,7 @@
     </font>
 
     <container name="background">
-      <image name="filler" draworder="0" fleximage="yes">
+      <image name="filler" draworder="0" fleximage="no">
         <filename>pl-background.png</filename>
         <position>0,0</position>
       </image>
