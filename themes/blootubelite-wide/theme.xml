@@ -859,7 +859,7 @@
    <offset>0,0</offset>
 </buttondef>
 
-<buttondef name="SETTINGS_MOVIETIMES">
+<buttondef name="SETTINGS_MOVIETIME">
    <image>text-blank.png</image>
    <watermarkimage>watermark/mythmovies.png</watermarkimage>
    <offset>0,0</offset>
