@@ -282,19 +282,6 @@
       </textarea>
     </container>
 
-    <container name="playwait">
-      <area>0,0,1280,720</area>
-      <textarea name="ld1" draworder="0">
-        <area>68,140,350,90</area>
-        <font>bigtitle</font>
-        <value>loading...</value>
-      </textarea>
-      <textarea name="title" draworder="0" align="center">
-        <area>0,320,800,60</area>
-        <font>titlefnt</font>
-      </textarea>
-    </container>
-
     <container name="novideos_info">
       <textarea name="msg" align="center" draworder="8">
          <area>0,110,800,70</area>
