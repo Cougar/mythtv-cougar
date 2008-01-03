@@ -1088,70 +1088,70 @@
             -->
 
             <remoteedit name="title" draworder="0">
-                <area>310,95,300,40</area>
+                <area>360,95,300,40</area>
                 <font>display</font>
             </remoteedit>
 
 	    <selector name="category_select" draworder="0">
-		<area>310,145,300,40</area>
+		<area>360,145,300,40</area>
 		<font>display</font>
-		<image function="on" filename="mv_leftright_on.png"></image>
-		<image function="off" filename="mv_leftright_off.png"></image>
-		<image function="pushed" filename="mv_leftright_pushed.png"></image>
+		<image function="on" filename="shared/mv_leftright_on.png"></image>
+		<image function="off" filename="shared/mv_leftright_off.png"></image>
+		<image function="pushed" filename="shared/mv_leftright_pushed.png"></image>
 	    </selector>
 
             <selector name="level_select" draworder="0">
-                <area>310,195,300,40</area>
+                <area>360,195,300,40</area>
                 <font>display</font>
-                <image function="on" filename="mv_leftright_on.png"></image>
-                <image function="off" filename="mv_leftright_off.png"></image>
-                <image function="pushed" filename="mv_leftright_pushed.png"></image>
+                <image function="on" filename="shared/mv_leftright_on.png"></image>
+                <image function="off" filename="shared/mv_leftright_off.png"></image>
+                <image function="pushed" filename="shared/mv_leftright_pushed.png"></image>
             </selector>
 
             <checkbox name="child_check" draworder="0">
-                <position>310,245</position>
-                <image function="checked" filename="mv_checked.png"></image>
-                <image function="unchecked" filename="mv_unchecked.png"></image>
-                <image function="checked_high" filename="mv_checked_high.png"></image>
-                <image function="unchecked_high" filename="mv_unchecked_high.png"></image>
+                <position>360,245</position>
+                <image function="checked" filename="shared/mv_checked.png"></image>
+                <image function="unchecked" filename="shared/mv_unchecked.png"></image>
+                <image function="checked_high" filename="shared/mv_checked_high.png"></image>
+                <image function="unchecked_high" filename="shared/mv_unchecked_high.png"></image>
             </checkbox>
 
             <selector name="child_select" draworder="0">
-                <area>310,295,250,40</area>
+                <area>360,295,250,40</area>
                 <font>display</font>
-                <image function="on" filename="mv_leftright_on.png"></image>
-                <image function="off" filename="mv_leftright_off.png"></image>
-                <image function="pushed" filename="mv_leftright_pushed.png"></image>
+                <image function="on" filename="shared/mv_leftright_on.png"></image>
+                <image function="off" filename="shared/mv_leftright_off.png"></image>
+                <image function="pushed" filename="shared/mv_leftright_pushed.png"></image>
             </selector>
 
             <checkbox name="browse_check" draworder="0">
-                <position>310,345</position>
-                <image function="checked" filename="mv_checked.png"></image>
-                <image function="unchecked" filename="mv_unchecked.png"></image>
-                <image function="checked_high" filename="mv_checked_high.png"></image>
-                <image function="unchecked_high" filename="mv_unchecked_high.png"></image>
+                <position>360,345</position>
+                <image function="checked" filename="shared/mv_checked.png"></image>
+                <image function="unchecked" filename="shared/mv_unchecked.png"></image>
+                <image function="checked_high" filename="shared/mv_checked_high.png"></image>
+                <image function="unchecked_high" filename="shared/mv_unchecked_high.png"></image>
             </checkbox>      
 
             <pushbutton name="coverart_button" draworder="0">
-                <position>310,395</position>
-                <image function="on" filename="mv_blankbutton_on.png"></image>
-                <image function="off" filename="mv_blankbutton_off.png"></image>
-                <image function="pushed" filename="mv_blankbutton_pushed.png"></image>
+                <position>360,395</position>
+                <image function="on" filename="shared/mv_unchecked_high.png"></image>
+                <image function="off" filename="shared/mv_unchecked.png"></image>
+                <image function="pushed" filename="shared/mv_unchecked_high.png"></image>
             </pushbutton>
 
             <textarea name="coverart_text" draworder="0" align="left">
-                <area>350,400,250,40</area>
+                <area>400,400,250,40</area>
                 <font>display</font>
                 <value>/path/to/the/thing.jpg</value>
             </textarea>
 
             <remoteedit name="player" draworder="0">
-                <area>310,445,300,40</area>
+                <area>360,445,300,40</area>
                 <font>display</font>
             </remoteedit>
 
             <textbutton name="done_button" draworder="0">
-                <position>310,505</position>
+                <position>360,505</position>
                 <font>display</font>
                 <image function="on" filename="mv_large_text_button_on.png"></image>
                 <image function="off" filename="mv_large_text_button_off.png"></image>
