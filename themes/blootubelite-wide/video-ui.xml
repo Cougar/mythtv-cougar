@@ -84,7 +84,7 @@
     </font>
 
     <container name="background">
-      <image name="filler" draworder="0" fleximage="yes">
+      <image name="filler" draworder="0" fleximage="no">
         <filename>cr-background.png</filename>
         <position>0,285</position>
         <staticsize>1220,405</staticsize>
@@ -259,7 +259,7 @@
         <image function="uparrow" filename="uparrow.png" location="350,15"></image>
         <image function="downarrow" filename="downarrow.png" location="350,330"></image>
       </listarea>
-      <image name="showinglines" draworder="3" fleximage="yes">
+      <image name="showinglines" draworder="3" fleximage="no">
         <filename>mv-mselect.png</filename>
         <position>0,0</position>
       </image>
@@ -1141,7 +1141,7 @@
                 <image function="checked" filename="shared/mv_checked.png"></image>
                 <image function="unchecked" filename="shared/mv_unchecked.png"></image>
                 <image function="checked_high" filename="shared/mv_checked_high.png"></image>
-                <image function="unchecked_high" filename="mv_unchecked_high.png"></image>
+                <image function="unchecked_high" filename="shared/mv_unchecked_high.png"></image>
             </checkbox>      
 
             <pushbutton name="coverart_button" draworder="0">
