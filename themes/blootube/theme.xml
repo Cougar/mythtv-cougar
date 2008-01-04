@@ -290,10 +290,16 @@
     <offset>0,0</offset>
   </buttondef>
 
+  <buttondef name="SETTINGS_WEATHER">
+    <image>text-blank.png</image>
+     <watermarkimage>watermark/weather.png</watermarkimage>
+    <offset>0,0</offset>
+  </buttondef>
+
   <buttondef name="WEATHER_SETTINGS_GENERAL">
-      <image>text-blank.png</image>
-      <watermarkimage>watermark/weather.png</watermarkimage>
-      <offset>0,0</offset>
+     <image>text-blank.png</image>
+     <watermarkimage>watermark/weather.png</watermarkimage>
+     <offset>0,0</offset>
   </buttondef>
 
   <buttondef name="WEATHER_SETTINGS_SCREEN">
