@@ -195,6 +195,24 @@
     <offset>0,0</offset>
   </buttondef>
 
+   <buttondef name="WEATHER_SETTINGS_GENERAL">
+       <image>text-blank.png</image>
+       <watermarkimage>watermark/weather.png</watermarkimage>
+       <offset>0,0</offset>
+   </buttondef>
+
+   <buttondef name="WEATHER_SETTINGS_SCREEN">
+      <image>text-blank.png</image>
+      <watermarkimage>watermark/weather.png</watermarkimage>
+      <offset>0,0</offset>
+   </buttondef>
+
+   <buttondef name="WEATHER_SETTINGS_SOURCE">
+      <image>text-blank.png</image>
+      <watermarkimage>watermark/weather.png</watermarkimage>
+      <offset>0,0</offset>
+   </buttondef>
+
   <buttondef name="NEWS">
     <image>text-blank.png</image>
      <watermarkimage>watermark/news.png</watermarkimage>
