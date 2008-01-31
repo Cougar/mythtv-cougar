@@ -276,10 +276,10 @@
         <value>Enter IMDB #</value>
         <area>0,15,360,25</area>
       </textarea>
-      <textarea name="numhold" draworder="7" align="center">
+      <remoteedit name="numhold" draworder="7" align="center">
         <font>titlefnt</font>
         <area>0,57,360,50</area>
-      </textarea>
+      </remoteedit>
     </container>
 
     <container name="novideos_info">
