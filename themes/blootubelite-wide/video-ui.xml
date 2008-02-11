@@ -688,7 +688,7 @@
     </container>
 
     <container name="info">
-      <area>10,10,1270,500</area>
+      <area>10,10,1270,710</area>
       <textarea name="title" draworder="4" align="hcenter">
         <area>20,16,760,100</area>
         <font>leadfnt</font>
@@ -741,7 +741,7 @@
         <font>moviedata</font>
       </textarea>
       <image name="coverart" draworder="5" fleximage="no">
-        <position>20,180</position>
+        <position>20,160</position>
         <staticsize>250,385</staticsize>
       </image>
     </container>
