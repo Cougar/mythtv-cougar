@@ -11,7 +11,7 @@
       <alpha>180</alpha>
     </imagetype>
 -->
-    <font name="small" base="medium">
+    <font name="small" face="Bitstream Vera Sans">
       <color>#FFFFFF</color>
       <size>14</size>
       <size:small>12</size:small>
@@ -19,7 +19,7 @@
       <bold>yes</bold>
     </font>
 
-    <font name="medium" base="medium">
+    <font name="medium" face="Bitstream Vera Sans">
       <color>#FFFFFF</color>
       <size>16</size>
       <size:small>14</size:small>
@@ -27,7 +27,7 @@
       <bold>yes</bold>
     </font>
 
-    <font name="large" base="medium">
+    <font name="large" face="Bitstream Vera Sans">
       <color>#FFFFFF</color>
       <size>20</size>
       <size:small>18</size:small>
@@ -35,7 +35,7 @@
       <bold>yes</bold>
     </font>
 
-    <font name="clock"  base="medium">
+    <font name="clock"  face="Bitstream Vera Sans">
         <color>#FFFFFF</color>
         <size>22</size>
         <size:small>18</size:small>
