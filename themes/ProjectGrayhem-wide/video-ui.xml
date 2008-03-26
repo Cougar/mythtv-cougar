@@ -222,7 +222,7 @@
     </container>
     
     <container name="inetwait">
-      <area>0,0,800,600</area>
+      <area>0,0,1000,600</area>
       <textarea name="ld1" draworder="0">
         <area>68,140,350,90</area>
         <font>titlefnt</font>
@@ -240,16 +240,16 @@
     </container>
 
     <container name="moviesel">
-      <area>207,100,377,400</area>
+      <area>207,100,604,411</area>
       <listarea name="listing" draworder="4">
-        <area>12,15,359,370</area>
+        <area>12,26,570,370</area>
         <fcnfont name="active_font" function="active"></fcnfont>
         <fcnfont name="inactive_font" function="inactive"></fcnfont>
         <fcnfont name="active_font" function="selected"></fcnfont>
         <columnpadding>10</columnpadding>
-        <column number="1" width="355" context="-1"></column>
+        <column number="1" width="570" context="-1"></column>
         <items>11</items>
-        <image function="selectionbar" filename="shared/selectbar.png" location="-14,-5"></image>
+        <image function="selectionbar" filename="shared/popup-selectbar.png" location="-4,-5"></image>
         <image function="uparrow" filename="uparrow.png" location="350,15"></image>
         <image function="downarrow" filename="downarrow.png" location="350,330"></image>
       </listarea>
@@ -272,7 +272,7 @@
       </textarea>
       <remoteedit name="numhold" draworder="7" align="center">
         <font>titlefnt</font>
-        <area>0,57,360,50</area>
+        <area>7,57,339,50</area>
       </remoteedit>
     </container>
 
