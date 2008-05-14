@@ -93,7 +93,7 @@
     <container name="info">
       <area>0,0,1280,280</area>
       <textarea name="title" draworder="4">
-        <area>20,10,1100,80</area>
+        <area>20,10,1250,80</area>
         <font>leadfnt</font>
       </textarea>
       <textarea name="dirlbl" draworder="4">
@@ -165,7 +165,7 @@
         <value>Filename:</value>
       </textarea>
       <textarea name="filename" draworder="4">
-        <area>170,195,600,35</area>
+        <area>170,195,1000,35</area>
         <font>moviedata</font>
       </textarea>
       <textarea name="cvflbl" draworder="4">
@@ -174,7 +174,7 @@
         <value>Cover File:</value>
       </textarea>
       <textarea name="coverfile" draworder="4">
-        <area>170,225,600,35</area>
+        <area>170,225,1000,35</area>
         <font>moviedata</font>
       </textarea>
       <textarea name="imdblbl" draworder="4">
