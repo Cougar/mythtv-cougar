@@ -240,22 +240,23 @@
     </container>
 
     <container name="moviesel">
-      <area>207,100,604,411</area>
+      <area>200,100,800,500</area>
       <listarea name="listing" draworder="4">
-        <area>12,26,570,370</area>
+        <area>50,50,600,370</area>
         <fcnfont name="active_font" function="active"></fcnfont>
         <fcnfont name="inactive_font" function="inactive"></fcnfont>
         <fcnfont name="active_font" function="selected"></fcnfont>
         <columnpadding>10</columnpadding>
         <column number="1" width="570" context="-1"></column>
         <items>11</items>
-        <image function="selectionbar" filename="shared/popup-selectbar.png" location="-4,-5"></image>
-        <image function="uparrow" filename="uparrow.png" location="350,15"></image>
-        <image function="downarrow" filename="downarrow.png" location="350,330"></image>
+        <image function="selectionbar" filename="shared/mv_selectionbar2.png" location="-4,-5"></image>
+        <image function="uparrow" filename="shared/uparrow.png" location="375,15"></image>
+        <image function="downarrow" filename="shared/downarrow.png" location="375,420"></image>
       </listarea>
       <image name="showinglines" draworder="3" fleximage="no">
         <filename>mv-mselect.png</filename>
         <position>0,0</position>
+        <staticsize>800,500</staticsize>
       </image>
     </container>
 
@@ -1019,10 +1020,10 @@
 
     <container name="editing_container">
 
-            <area>10,10,1100,680</area>
+            <area>10,10,1250,680</area>
  
             <textarea name="title" draworder="0" align="center">
-                <area>10,10,1100,50</area>
+                <area>10,10,1250,50</area>
                 <font>title</font>
                 <value>Edit Video Information</value>
             </textarea>
@@ -1056,13 +1057,13 @@
             </textarea>
 
             <textarea name="child_text" draworder="0" align="right">
-                <area>50,300,250,40</area>
+                <area>20,300,280,40</area>
                 <font>display</font>
                 <value>File to Always Play Next:</value>
             </textarea>
 
             <textarea name="browse_text" draworder="0" align="right">
-                <area>50,350,250,40</area>
+                <area>20,350,280,40</area>
                 <font>display</font>
                 <value>Include while Browsing:</value>
             </textarea>
@@ -1074,7 +1075,7 @@
             </textarea>
 
             <textarea name="player_text" draworder="0" align="right">
-                <area>50,445,250,40</area>
+                <area>20,445,285,40</area>
                 <font>display</font>
                 <value>Unique Player Command:</value>
             </textarea>
@@ -1084,12 +1085,12 @@
             -->
 
             <remoteedit name="title" draworder="0">
-                <area>310,95,300,40</area>
+                <area>310,95,900,40</area>
                 <font>display</font>
             </remoteedit>
 
 	    <selector name="category_select" draworder="0">
-		<area>310,145,300,40</area>
+		<area>310,145,900,40</area>
 		<font>display</font>
 		<image function="on" filename="shared/mv_leftright_on.png"></image>
 		<image function="off" filename="shared/mv_leftright_off.png"></image>
@@ -1113,7 +1114,7 @@
             </checkbox>
 
             <selector name="child_select" draworder="0">
-                <area>310,295,250,40</area>
+                <area>310,295,900,40</area>
                 <font>display</font>
                 <image function="on" filename="shared/mv_leftright_on.png"></image>
                 <image function="off" filename="shared/mv_leftright_off.png"></image>
@@ -1136,18 +1137,18 @@
             </pushbutton>
 
             <textarea name="coverart_text" draworder="0" align="left">
-                <area>350,400,250,40</area>
+                <area>350,400,875,40</area>
                 <font>display</font>
                 <value>/path/to/the/thing.jpg</value>
             </textarea>
 
             <remoteedit name="player" draworder="0">
-                <area>310,445,300,40</area>
+                <area>310,445,900,40</area>
                 <font>display</font>
             </remoteedit>
 
             <textbutton name="done_button" draworder="0">
-                <position>310,505</position>
+                <position>475,515</position>
                 <font>display</font>
                 <image function="on" filename="shared/mv_large_text_button_on.png"></image>
                 <image function="off" filename="shared/mv_large_text_button_off.png"></image>
