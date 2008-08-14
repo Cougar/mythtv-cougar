@@ -1100,7 +1100,7 @@
 				<value>Rating:</value>
 			</textarea>
 			<repeatedimage name="rating_image" draworder="1" fleximage="no">
-				<filename>ui/rating.png</filename>
+				<filename>music/music_rating.png</filename>
 				<position>410,298</position>
 				<orientation>LeftToRight</orientation>
 			</repeatedimage>
@@ -1472,7 +1472,7 @@
 				<value>Rating:</value>
 			</textarea>
 			<repeatedimage name="rating_image" draworder="1" fleximage="no">
-				<filename>ui/rating.png</filename>
+				<filename>music/music_rating.png</filename>
 				<position>410,190</position>
 				<orientation>LeftToRight</orientation>
 			</repeatedimage>
