@@ -647,19 +647,19 @@
   	    </window>
 <window name="miniplayer"> 
 
-    <font name="currenttitle" face="Bitsream Vera Sans"> 
+    <font name="currenttitle" face="Bitstream Vera Sans"> 
         <color>#ffffff</color> 
         <size>16</size> 
         <bold>yes</bold> 
     </font> 
 
-    <font name="currentartist" face="Bitsream Vera Sans"> 
+    <font name="currentartist" face="Bitstream Vera Sans"> 
         <color>#ffffff</color> 
         <size>12</size> 
         <bold>yes</bold> 
     </font>
 
-    <font name="infotext" face="Bitsream Vera Sans">
+    <font name="infotext" face="Bitstream Vera Sans">
         <color>#ffffff</color>
         <size>10</size>
         <bold>yes</bold>
