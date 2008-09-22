@@ -51,7 +51,7 @@
 	  <shadow>2,2</shadow>
   </font>
   
-  <font name="titlefont" face="Vera">
+  <font name="titlefont" face="Bitstream Vera Sans">
 	<color normal="#FFFFFF">255</color>
 	<!-- <filename>VeraBd.ttf</filename> --> 
 	<size>16</size>
