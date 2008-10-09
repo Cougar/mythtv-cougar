@@ -4,13 +4,7 @@
     <imagetype name="backimg">
       <filename>background.png</filename>
     </imagetype>
-<!--
-    <imagetype name="logo">
-      <filename>mythlogo.png</filename>
-      <position>900,570</position>
-      <alpha>180</alpha>
-    </imagetype>
--->
+
     <font name="small" face="Bitstream Vera Sans">
       <color>#FFFFFF</color>
       <size>14</size>
@@ -47,8 +41,6 @@
       <area>570,60,500,40</area>
       <font>clock</font>
       <format>%DATE%, %TIME%</format>
-<!--      <colonflash>yes</colonflash>
-      <secondflash>yes</secondflash> -->
       <align>left</align>
       <alpha>100</alpha>
   </clock>
