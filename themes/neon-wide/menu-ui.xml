@@ -141,7 +141,7 @@
         </state>
     </statetype>
 
-    <buttonlist2 name="menu">
+    <buttonlist name="menu">
         <area>620,90,560,520</area>
         <layout>vertical</layout>
         <spacing>10</spacing>
@@ -181,7 +181,7 @@
                 </imagetype>
             </state>
         </statetype>
-    </buttonlist2>
+    </buttonlist>
 
     <!-- ####################################-->
     <!-- ########  dvd_settings.xml  ########-->
@@ -371,7 +371,7 @@
                 <filename>watermark/music.png</filename>
             </imagetype>
         </state>
- 
+
         <state name="SETTINGS_VIDEO">
             <imagetype name="watermark">
                 <filename>watermark/video.png</filename>
@@ -639,414 +639,414 @@
                 <filename>watermark/words.png</filename>
             </imagetype>
         </state>
-        
+
         <state name="TV_SEARCH_PEOPLE">
             <imagetype name="watermark">
                 <filename>watermark/people.png</filename>
             </imagetype>
         </state>
-        
+
         <state name="TV_SEARCH_POWER">
             <imagetype name="watermark">
                 <filename>watermark/advanced.png</filename>
             </imagetype>
         </state>
-        
+
         <!-- ################################-->
         <!-- ########  tv_lists.xml  ########-->
         <!-- ################################-->
-        
+
         <state name="TV_SEARCH_NEW_TITLES">
             <imagetype name="watermark">
                 <filename>watermark/upcoming.png</filename>
             </imagetype>
         </state>
-        
+
         <state name="TV_SEARCH_MOVIES">
             <imagetype name="watermark">
                 <filename>watermark/video.png</filename>
             </imagetype>
         </state>
-        
+
         <state name="TV_SEARCH_CATEGORIES">
             <imagetype name="watermark">
                 <filename>watermark/categories.png</filename>
             </imagetype>
         </state>
-        
+
         <state name="TV_SEARCH_CHANNELS">
             <imagetype name="watermark">
                 <filename>watermark/channels.png</filename>
             </imagetype>
         </state>
-        
+
         <state name="TV_SEARCH_TIMES">
             <imagetype name="watermark">
                 <filename>watermark/schedule.png</filename>
             </imagetype>
         </state>
-        
+
         <state name="TV_SEARCH_DESCRIPTIONS">
             <imagetype name="watermark">
                 <filename>watermark/search.png</filename>
             </imagetype>
         </state>
-        
+
         <state name="TV_SEARCH_LISTINGS">
             <imagetype name="watermark">
                 <filename>watermark/schedule.png</filename>
             </imagetype>
         </state>
-        
-        
+
+
         <!-- ###################################-->
         <!-- ########  tv_settings.xml  ########-->
         <!-- ###################################-->
-        
+
         <state name="TV_SETTINGS_GENERAL">
             <imagetype name="watermark">
                 <filename>watermark/tv.png</filename>
             </imagetype>
         </state>
-        
+
         <state name="TV_SETTINGS_PROGRAM_GUIDE">
             <imagetype name="watermark">
                 <filename>watermark/schedule.png</filename>
             </imagetype>
         </state>
-        
+
         <state name="TV_SETTINGS_PLAYBACK">
             <imagetype name="watermark">
                 <filename>watermark/watchrecordings.png</filename>
             </imagetype>
         </state>
-        
+
         <state name="TV_SETTINGS_RECORDING_PROFILES">
             <imagetype name="watermark">
                 <filename>watermark/schedule.png</filename>
             </imagetype>
         </state>
-        
+
         <state name="TV_SETTINGS_RECPRIORITIES">
             <imagetype name="watermark">
                 <filename>watermark/priorities.png</filename>
             </imagetype>
         </state>
-        
+
         <state name="TV_SETTINGS_PLAYBACK_GROUPS">
             <imagetype name="watermark">
                 <filename>watermark/pgroups.png</filename>
             </imagetype>
         </state>
-        
-        
-        
-        
+
+
+
+
         <state name="TV_SETTINGS_PLAYBACK_OSD">
             <imagetype name="watermark">
                 <filename>watermark/tv.png</filename>
             </imagetype>
         </state>
-        
+
         <!-- ##############################-->
         <!-- ########  tvmenu.xml  ########-->
         <!-- ##############################-->
-        
+
         <state name="TV_WATCH_TV">
             <imagetype name="watermark">
                 <filename>watermark/tv.png</filename>
             </imagetype>
         </state>
-        
+
         <state name="TV_SCHEDULE_RECORDINGS">
             <imagetype name="watermark">
                 <filename>watermark/schedule.png</filename>
             </imagetype>
         </state>
-        
+
         <state name="TV_WATCH_RECORDINGS">
             <imagetype name="watermark">
                 <filename>watermark/watchrecordings.png</filename>
             </imagetype>
         </state>
-        
+
         <state name="TV_DELETE">
             <imagetype name="watermark">
                 <filename>watermark/delete.png</filename>
             </imagetype>
         </state>
-        
+
         <state name="TV_PREVIOUS">
             <imagetype name="watermark">
                 <filename>watermark/watchrecordings.png</filename>
             </imagetype>
         </state>
-        
+
         <state name="TV_STATUS">
             <imagetype name="watermark">
                 <filename>watermark/status.png</filename>
             </imagetype>
         </state>
-        
+
         <!-- ######################################-->
         <!-- ########  video_settings.xml  ########-->
         <!-- ######################################-->
-        
+
         <state name="VIDEO_SETTINGS_GENERAL">
             <imagetype name="watermark">
                 <filename>watermark/video.png</filename>
             </imagetype>
         </state>
-        
+
         <state name="VIDEO_SETTINGS_PLAYER">
             <imagetype name="watermark">
                 <filename>watermark/video.png</filename>
             </imagetype>
         </state>
-        
+
         <state name="VIDEO_FILE_TYPES">
             <imagetype name="watermark">
                 <filename>watermark/video.png</filename>
             </imagetype>
         </state>
-        
+
         <!-- #################################-->
         <!-- ########  videomenu.xml  ########-->
         <!-- #################################-->
-        
+
         <state name="VIDEO_BROWSER">
             <imagetype name="watermark">
                 <filename>watermark/video.png</filename>
             </imagetype>
         </state>
-        
+
         <state name="VIDEO_LIST">
             <imagetype name="watermark">
                 <filename>watermark/video.png</filename>
             </imagetype>
         </state>
-        
+
         <state name="VIDEO_MANAGER">
             <imagetype name="watermark">
                 <filename>watermark/video.png</filename>
             </imagetype>
         </state>
-        
+
         <!-- ###########################################-->
         <!-- ########  AltMenus Specific Icons  ########-->
         <!-- ###########################################-->
-        
+
         <state name="TV_UPCOMING_RECORDINGS">
             <imagetype name="watermark">
                 <filename>watermark/upcoming.png</filename>
             </imagetype>
         </state>
-        
+
         <state name="SETTINGS_MEDIA">
             <imagetype name="watermark">
                 <filename>watermark/video.png</filename>
             </imagetype>
         </state>
-        
+
         <state name="SETTINGS_INFO_CENTER">
             <imagetype name="watermark">
                 <filename>watermark/info.png</filename>
             </imagetype>
         </state>
-        
+
         <state name="MENU_MEDIA_LIBRARY">
             <imagetype name="watermark">
                 <filename>watermark/library.png</filename>
             </imagetype>
         </state>
-        
+
         <state name="MENU_MANAGE_RECORDINGS">
             <imagetype name="watermark">
                 <filename>watermark/watchrecordings.png</filename>
             </imagetype>
         </state>
-        
+
         <state name="MENU_INFO_CENTER">
             <imagetype name="watermark">
                 <filename>watermark/info.png</filename>
             </imagetype>
         </state>
-        
+
         <state name="MENU_OPTICAL_DISKS">
             <imagetype name="watermark">
                 <filename>watermark/discs.png</filename>
             </imagetype>
         </state>
-        
+
         <state name="MENU_UTILITIES_SETUP">
             <imagetype name="watermark">
                 <filename>watermark/setup.png</filename>
             </imagetype>
         </state>
-        
+
         <state name="SETUP_FRONTEND">
             <imagetype name="watermark">
                 <filename>watermark/setup.png</filename>
             </imagetype>
         </state>
-        
+
         <state name="SETUP_BACKEND">
             <imagetype name="watermark">
                 <filename>watermark/setup.png</filename>
             </imagetype>
         </state>
-        
+
         <state name="SETUP_MENU">
             <imagetype name="watermark">
                 <filename>watermark/setup.png</filename>
             </imagetype>
         </state>
-        
+
         <state name="NETFLIX">
             <imagetype name="watermark">
                 <filename>watermark/netflix.png</filename>
             </imagetype>
         </state>
-        
+
         <state name="SETTINGS_NETFLIX">
             <imagetype name="watermark">
                 <filename>watermark/netflix.png</filename>
             </imagetype>
         </state>
-        
+
         <state name="NETFLIX_QUEUE">
             <imagetype name="watermark">
                 <filename>watermark/netflix.png</filename>
             </imagetype>
         </state>
-        
+
         <state name="NETFLIX_BROWSE">
             <imagetype name="watermark">
                 <filename>watermark/netflix.png</filename>
             </imagetype>
         </state>
-        
+
         <state name="NETFLIX_HISTORY">
             <imagetype name="watermark">
                 <filename>watermark/netflix.png</filename>
             </imagetype>
         </state>
-        
-        
+
+
         <!-- MYTHARCHIVE -->
-        
+
         <state name="ARCHIVE">
             <imagetype name="watermark">
                 <filename>watermark/export.png</filename>
             </imagetype>
         </state>
-        
+
         <state name="SETTINGS_ARCHIVE">
             <imagetype name="watermark">
                 <filename>watermark/export.png</filename>
             </imagetype>
         </state>
-        
+
         <state name="ARCHIVE_FINDER">
             <imagetype name="watermark">
                 <filename>watermark/search.png</filename>
             </imagetype>
         </state>
-        
+
         <state name="ARCHIVE_EXPORT_VIDEO">
             <imagetype name="watermark">
                 <filename>watermark/export.png</filename>
             </imagetype>
         </state>
-        
+
         <state name="ARCHIVE_IMPORT_VIDEO">
             <imagetype name="watermark">
                 <filename>watermark/import.png</filename>
             </imagetype>
         </state>
-        
+
         <state name="ARCHIVE_SELECT_RECORDINGS">
             <imagetype name="watermark">
                 <filename>watermark/archive.png</filename>
             </imagetype>
         </state>
-        
+
         <state name="ARCHIVE_SELECT_VIDEOS">
             <imagetype name="watermark">
                 <filename>watermark/archive.png</filename>
             </imagetype>
         </state>
-        
+
         <state name="ARCHIVE_SELECT_FILES">
             <imagetype name="watermark">
                 <filename>watermark/archive.png</filename>
             </imagetype>
         </state>
-        
+
         <state name="ARCHIVE_CREATE_DVD">
             <imagetype name="watermark">
                 <filename>watermark/archive.png</filename>
             </imagetype>
         </state>
-        
+
         <state name="ARCHIVE_CREATE_ARCHIVE">
             <imagetype name="watermark">
                 <filename>watermark/archive.png</filename>
             </imagetype>
         </state>
-        
+
         <state name="ARCHIVE_ENCODE_VIDEO">
             <imagetype name="watermark">
                 <filename>watermark/archive.png</filename>
             </imagetype>
         </state>
-        
+
         <!-- ZONEMINDER -->
-        
+
         <state name="ZONEMINDER">
             <imagetype name="watermark">
                 <filename>watermark/cctv.png</filename>
             </imagetype>
         </state>
-        
+
         <state name="SETTINGS_ZONEMINDER">
             <imagetype name="watermark">
                 <filename>watermark/cctv.png</filename>
             </imagetype>
         </state>
-        
+
         <!-- MINIMYTH -->
-        
+
         <state name="MINIMYTH_GAME_SAVE">
             <imagetype name="watermark">
                 <filename>watermark/game.png</filename>
             </imagetype>
         </state>
-        
+
         <state name="MINIMYTH_GAME_RESTORE">
             <imagetype name="watermark">
                 <filename>watermark/game.png</filename>
             </imagetype>
         </state>
-        
+
         <state name="MINIMYTH_THEMECACHE_SAVE">
             <imagetype name="watermark">
                 <filename>watermark/appearance.png</filename>
             </imagetype>
         </state>
-        
+
         <state name="MINIMYTH_CODECS_SAVE">
             <imagetype name="watermark">
                 <filename>watermark/setup.png</filename>
             </imagetype>
         </state>
-        
+
         <state name="MOVIETIMES">
             <imagetype name="watermark">
                 <filename>watermark/mythmovies.png</filename>
             </imagetype>
         </state>
-        
+
         <state name="SETTINGS_MOVIETIME">
             <imagetype name="watermark">
                 <filename>watermark/mythmovies.png</filename>

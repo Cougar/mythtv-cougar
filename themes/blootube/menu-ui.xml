@@ -132,8 +132,8 @@
                 </imagetype>
             </state>
         </statetype>
-        
-        <buttonlist2 name="menu">
+
+        <buttonlist name="menu">
             <area>330,140,430,370</area>
             <layout>vertical</layout>
             <spacing>0</spacing>
@@ -173,11 +173,11 @@
                     </imagetype>
                 </state>
             </statetype>
-        </buttonlist2>
-        
+        </buttonlist>
+
         <statetype name="watermarks">
             <position>20,145</position>
-            
+
             <!-- BEGIN ARCHIVE -->
             <state name="ARCHIVE">
                 <imagetype name="watermark">
@@ -191,11 +191,11 @@
             <state name="ARCHIVE_SELECT_RECORDINGS" from="ARCHIVE" />
             <state name="ARCHIVE_SELECT_VIDEOS" from="ARCHIVE" />
             <state name="ARCHIVE_SELECT_FILES" from="ARCHIVE" />
-            <state name="ARCHIVE_CREATE_DVD" from="ARCHIVE" />    
+            <state name="ARCHIVE_CREATE_DVD" from="ARCHIVE" />
             <state name="ARCHIVE_CREATE_ARCHIVE" from="ARCHIVE" />
             <state name="ARCHIVE_ENCODE_VIDEO" from="ARCHIVE" />
             <!-- END ARCHIVE -->
-            
+
             <!-- BEGIN DVD -->
             <state name="DVD">
                 <imagetype name="watermark">
@@ -211,13 +211,13 @@
             </state>
             <state name="DVD_SETTINGS_GENERAL" from="DVD" />
             <!-- END DVD -->
-            
+
             <state name="EJECT">
                 <imagetype name="watermark">
                     <filename>watermark/eject.png</filename>
                 </imagetype>
             </state>
-            
+
             <!-- BEGIN FM -->
             <state name="FM">
                 <imagetype name="watermark">
@@ -226,7 +226,7 @@
             </state>
             <state name="SETTINGS_FM" from="FM" />
             <!-- END FM -->
-            
+
             <!-- BEGIN GAME -->
             <state name="GAME">
                 <imagetype name="watermark">
@@ -237,7 +237,7 @@
             <state name="GAME_SETTINGS_GENERAL" from="GAME" />
             <state name="GAME_SCAN" from="GAME" />
             <!-- END GAME -->
-            
+
             <!-- BEGIN IMAGES -->
             <state name="IMAGES">
                 <imagetype name="watermark">
@@ -246,7 +246,7 @@
             </state>
             <state name="SETTINGS_IMAGES" from="IMAGES" />
             <!-- END IMAGES -->
-            
+
             <!-- BEGIN INFO CENTRE -->
             <state name="MENU_INFO_CENTER">
                 <imagetype name="watermark">
@@ -255,13 +255,13 @@
             </state>
             <state name="SETTINGS_INFO_CENTER" from="MENU_INFO_CENTER" />
             <!-- END INFO CENTRE -->
-            
+
             <state name="MENU_MEDIA_LIBRARY">
                 <imagetype name="watermark">
                     <filename>watermark/library.png</filename>
                 </imagetype>
             </state>
-            
+
             <!-- BEGIN MOVIETIMES -->
             <state name="MOVIETIMES">
                 <imagetype name="watermark">
@@ -270,7 +270,7 @@
             </state>
             <state name="SETTINGS_MOVIETIME" from="MOVIETIMES" />
             <!-- END MOVIETIMES -->
-            
+
             <!-- BEGIN MUSIC -->
             <state name="MUSIC">
                 <imagetype name="watermark">
@@ -286,7 +286,7 @@
             <state name="MUSIC_SCAN" from="MUSIC" />
             <state name="SETTINGS_MUSIC" from="MUSIC" />
             <!-- END MUSIC -->
-            
+
             <!-- BEGIN NETFLIX -->
             <state name="NETFLIX">
                 <imagetype name="watermark">
@@ -298,7 +298,7 @@
             <state name="NETFLIX_BROWSE" from="NETFLIX" />
             <state name="NETFLIX_HISTORY" from="NETFLIX" />
             <!-- END NETFLIX -->
-            
+
             <!-- BEGIN NEWS -->
             <state name="NEWS">
                 <imagetype name="watermark">
@@ -307,51 +307,51 @@
             </state>
             <state name="SETTINGS_NEWS" from="NEWS" />
             <!-- END NEWS -->
-            
+
             <!-- BEGIN PHONE -->
             <state name="PHONE">
                 <imagetype name="watermark">
                     <filename>watermark/phone.png</filename>
                 </imagetype>
             </state>
-            
+
             <state name="SCREENSETUPWIZARD">
                 <imagetype name="watermark">
                     <filename>watermark/appearance.png</filename>
                 </imagetype>
             </state>
-            
+
             <state name="SETUP">
                 <imagetype name="watermark">
                     <filename>watermark/setup.png</filename>
                 </imagetype>
             </state>
-            
+
             <state name="SHUTDOWN">
                 <imagetype name="watermark">
                     <filename>watermark/shutdown.png</filename>
                 </imagetype>
             </state>
-            
+
             <state name="TV">
                 <imagetype name="watermark">
                     <filename>watermark/tv.png</filename>
                 </imagetype>
             </state>
-            
+
             <state name="VCD_PLAY">
                 <imagetype name="watermark">
                     <filename>watermark/dvd.png</filename>
                 </imagetype>
             </state>
-            
+
             <!-- BEGIN VIDEO -->
             <state name="VIDEO">
                 <imagetype name="watermark">
                     <filename>watermark/videos.png</filename>
                 </imagetype>
             </state>
-            <state name="VIDEO_GALLERY" from="VIDEO" />    
+            <state name="VIDEO_GALLERY" from="VIDEO" />
             <state name="VIDEO_BROWSER" from="VIDEO" />
             <state name="VIDEO_LIST" from="VIDEO" />
             <state name="VIDEO_SETTINGS_GENERAL" from="VIDEO" />
@@ -360,7 +360,7 @@
             <state name="VIDEO_MANAGER" from="VIDEO" />
             <state name="SETTINGS_VIDEO" from="VIDEO" />
             <!-- END VIDEO -->
-            
+
             <!-- BEGIN WEATHER -->
             <state name="WEATHER">
                 <imagetype name="watermark">
@@ -372,7 +372,7 @@
             <state name="WEATHER_SETTINGS_SCREEN" from="WEATHER" />
             <state name="WEATHER_SETTINGS_SOURCE" from="WEATHER" />
             <!-- END WEATHER -->
-            
+
             <!-- BEGIN WEBPAGE -->
             <state name="WEBPAGE">
                 <imagetype name="watermark">
@@ -381,19 +381,19 @@
             </state>
             <state name="SETTINGS_WEBPAGE" from="WEBPAGE" />
             <!-- END WEBPAGE -->
-            
+
             <state name="SETTINGS_APPEARANCE">
                 <imagetype name="watermark">
                     <filename>watermark/appearance.png</filename>
                 </imagetype>
             </state>
-            
+
             <state name="SETTINGS_GENERAL" from="SETUP" />
-            
+
             <state name="SETTINGS_TV" from="TV" />
-            
+
             <state name="SETTINGS_XBOX" from="SETUP" />
-            
+
             <!-- BEGIN MYTHTV-SETUP -->
             <state name="SETUP_GENERAL" from="SETUP" />
             <state name="SETUP_STORAGE_GROUPS" from="SETUP" />
@@ -402,14 +402,14 @@
             <state name="SETUP_INPUT_CONNECTIONS" from="SETUP" />
             <state name="SETUP_CHANNEL_EDITOR" from="SETUP" />
             <!-- END MYTHTV-SETUP -->
-            
+
             <state name="SETUP_KEYS">
                 <imagetype name="watermark">
                     <filename>watermark/keys.png</filename>
                 </imagetype>
             </state>
             <state name="SETTINGS_MEDIA" from="VIDEO" />
-            
+
             <!-- BEGIN TV -->
             <state name="TV_CONFLICTS">
                 <imagetype name="watermark">
@@ -467,7 +467,7 @@
                 </imagetype>
             </state>
             <!-- END TV -->
-            
+
             <!-- BEGIN TV SEARCH -->
             <state name="TV_SEARCH_CATEGORIES">
                 <imagetype name="watermark">
@@ -535,7 +535,7 @@
                 </imagetype>
             </state>
             <!-- END TV SEARCH -->
-            
+
             <!-- BEGIN TV SETTINGS -->
             <state name="TV_SETTINGS_GENERAL">
                 <imagetype name="watermark">
@@ -550,7 +550,7 @@
             <state name="TV_SETTINGS_PLAYBACK_GROUPS">
                 <imagetype name="watermark">
                     <filename>watermark/pgroups.png</filename>
-                </imagetype>    
+                </imagetype>
             </state>
             <state name="TV_SETTINGS_PLAYBACK_OSD" from="TV" />
             <state name="TV_SETTINGS_PROGRAM_GUIDE">
@@ -569,45 +569,45 @@
                 </imagetype>
             </state>
             <!-- END TV SETTINGS -->
-            
+
             <state name="TV_STATUS">
                 <imagetype name="watermark">
                     <filename>watermark/tv_status.png</filename>
                 </imagetype>
             </state>
-            
+
             <state name="TV_UPCOMING_RECORDINGS">
                 <imagetype name="watermark">
                     <filename>watermark/tv_upcoming.png</filename>
                 </imagetype>
             </state>
-            
+
             <state name="TV_WATCH_RECORDINGS">
                 <imagetype name="watermark">
                     <filename>watermark/tv_playback.png</filename>
                 </imagetype>
             </state>
-            
+
             <state name="TV_WATCH_TV" from="TV" />
-            
+
             <state name="MENU_MANAGE_RECORDINGS">
                 <imagetype name="watermark">
                     <filename>watermark/tv_playback.png</filename>
                 </imagetype>
             </state>
-            
+
             <state name="MENU_OPTICAL_DISKS">
                 <imagetype name="watermark">
                     <filename>watermark/cd.png</filename>
                 </imagetype>
             </state>
-            
+
             <state name="MENU_UTILITIES_SETUP">
                 <imagetype name="watermark">
                     <filename>watermark/setup.png</filename>
                 </imagetype>
             </state>
-            
+
             <state name="SETUP_BACKEND">
                 <imagetype name="watermark">
                     <filename>watermark/setup.png</filename>
@@ -623,7 +623,7 @@
                     <filename>watermark/setup.png</filename>
                 </imagetype>
             </state>
-            
+
             <!-- BEGIN ZONEMINDER -->
             <state name="ZONEMINDER">
                 <imagetype name="watermark">
