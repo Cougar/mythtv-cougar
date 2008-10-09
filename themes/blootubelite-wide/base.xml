@@ -29,22 +29,6 @@
       <bold>yes</bold>
     </font>
 
-    <font name="clock"  face="Bitstream Vera Sans">
-        <color>#FFFFFF</color>
-        <size>22</size>
-        <size:small>18</size:small>
-        <size:big>22</size:big>
-        <bold>no</bold>
-    </font>
-
-  <clock name="clock">
-      <area>570,60,500,40</area>
-      <font>clock</font>
-      <format>%DATE%, %TIME%</format>
-      <align>left</align>
-      <alpha>100</alpha>
-  </clock>
-
   </window>
 
 </mythuitheme>
