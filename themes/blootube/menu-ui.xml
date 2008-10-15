@@ -137,6 +137,7 @@
             <area>330,140,430,370</area>
             <layout>vertical</layout>
             <spacing>0</spacing>
+            <wrapstyle>selection</wrapstyle>
             <buttonarea>20,0,410,300</buttonarea>
             <statetype name="buttonitem">
                 <state name="active">
