@@ -12,10 +12,10 @@
         </font>
 
         <clock name="clock">
-            <area>40,660,1200,40</area>
+            <area>570,60,500,40</area>
             <font>clock</font>
             <format>%DATE%, %TIME%</format>
-            <align>center</align>
+            <align>left</align>
             <alpha>255</alpha>
         </clock>
 
@@ -135,11 +135,11 @@
         </statetype>
 
         <buttonlist name="menu">
-            <area>600,180,540,500</area>
+            <area>600,140,540,650</area>
             <layout>vertical</layout>
             <spacing>10</spacing>
             <wrapstyle>selection</wrapstyle>
-            <buttonarea>20,40,536,400</buttonarea>
+            <buttonarea>20,40,536,500</buttonarea>
             <statetype name="buttonitem">
                 <state name="active">
                     <area>0,0,500,50</area>
