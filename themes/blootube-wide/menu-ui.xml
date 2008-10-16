@@ -161,14 +161,14 @@
             <statetype name="upscrollarrow">
                 <position>20,0</position>
                 <showempty>yes</showempty>
-                <state type="full">
+	        <state type="full">
                     <imagetype name="upon">
                         <filename>shared/uparrow.png</filename>
                     </imagetype>
                 </state>
             </statetype>
             <statetype name="downscrollarrow">
-                <position>20,400</position>
+                <position>20,520</position>
                 <showempty>yes</showempty>
                 <state type="full">
                     <imagetype name="dnon">
