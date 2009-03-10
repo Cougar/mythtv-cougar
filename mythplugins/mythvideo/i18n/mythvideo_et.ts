@@ -1,6 +1,8 @@
-<!DOCTYPE TS><TS>
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS><TS version="1.1" language="et">
+<defaultcodec></defaultcodec>
 <context>
-    <name></name>
+    <name>@default</name>
     <message>
         <source>G</source>
         <comment>PL 1 default search string.</comment>
@@ -74,19 +76,19 @@
     </message>
     <message>
         <source>No jobs and nothing else to do. You could rip a DVD.</source>
-        <translation type="unfinished"></translation>
+        <translation>Töid pole. Võid DVD-d rippida.</translation>
     </message>
     <message>
         <source>No jobs and nothing else to do. You could rip a disc if you like.</source>
-        <translation type="unfinished"></translation>
+        <translation>Töid pole. Võid rippida kui soovid.</translation>
     </message>
     <message>
         <source>New Rip</source>
-        <translation type="unfinished"></translation>
+        <translation>Uus rip</translation>
     </message>
     <message>
         <source>Cancel Job</source>
-        <translation type="unfinished"></translation>
+        <translation>Töö katkestamine</translation>
     </message>
 </context>
 <context>
@@ -343,7 +345,7 @@
     </message>
     <message>
         <source>No Cover</source>
-        <translation type="unfinished">Kaanepilt puudub</translation>
+        <translation>Kaanepilt puudub</translation>
     </message>
     <message>
         <source>Could not retrieve poster</source>
@@ -380,7 +382,7 @@
     </message>
     <message>
         <source>^(The |A |An )</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>All</source>
@@ -652,35 +654,35 @@ DVD seadet pole määratud.</translation>
     </message>
     <message>
         <source>Default Video Player</source>
-        <translation type="unfinished"></translation>
+        <translation>Vaikimisi videomängija</translation>
     </message>
     <message>
         <source>Remove DVD Bookmarks Older then (days)</source>
-        <translation type="unfinished"></translation>
+        <translation>Kustuta DVD järjehoidjad, mis on vanemad kui (päevades)</translation>
     </message>
     <message>
         <source>Delete DVD Bookmarks that are older then the Number of days specified</source>
-        <translation type="unfinished"></translation>
+        <translation>Kustuta DVD järjehoidjad, mis on vanemad kui päevades antud number</translation>
     </message>
     <message>
         <source>Enable DVD Bookmark Support</source>
-        <translation type="unfinished"></translation>
+        <translation>Kasuta DVD järjehoidjaid</translation>
     </message>
     <message>
         <source>DVD Bookmark Prompt</source>
-        <translation type="unfinished"></translation>
+        <translation>DVD järjehoidja viip</translation>
     </message>
     <message>
         <source>Display a prompt to choose whether to play the DVD from the beginning or from the bookmark</source>
-        <translation type="unfinished"></translation>
+        <translation>Algusest või järjehoidjast alates DVD mängimiseks küsimise viip</translation>
     </message>
     <message>
         <source>This can be any command to launch a DVD  player (e.g. MPlayer, ogle, etc.). If present, %d will be substituted for the DVD device (e.g. /dev/dvd).</source>
-        <translation type="unfinished"></translation>
+        <translation>Suvaline käsk, mis käivitab DVD mängija (nt. MPlayer, ogle, jne.). DVD seadme nime (nt. /dev/dvd) või asendada %d.</translation>
     </message>
     <message>
         <source>General Settings (%1/%2)</source>
-        <translation type="unfinished"></translation>
+        <translation>Üldised sätted (%1/%2)</translation>
     </message>
     <message>
         <source>NR</source>
@@ -688,187 +690,191 @@ DVD seadet pole määratud.</translation>
     </message>
     <message>
         <source>No files found</source>
-        <translation type="unfinished"></translation>
+        <translation>Faile ei leitud</translation>
     </message>
     <message>
         <source>Unknown Prefix</source>
-        <translation type="unfinished"></translation>
+        <translation>Tundmatu prefiks</translation>
     </message>
     <message>
         <source>videos</source>
-        <translation type="unfinished"></translation>
+        <translation>videod</translation>
     </message>
     <message>
         <source>Searching for video files</source>
-        <translation type="unfinished"></translation>
+        <translation>Videofailide otsimine</translation>
     </message>
     <message>
         <source>No to all</source>
-        <translation type="unfinished"></translation>
+        <translation>Mitte ükski</translation>
     </message>
     <message>
         <source>Yes to all</source>
-        <translation type="unfinished"></translation>
+        <translation>Kõik</translation>
     </message>
     <message>
         <source>File Missing</source>
-        <translation type="unfinished"></translation>
+        <translation>fail puudub</translation>
     </message>
     <message>
         <source>%1 appears to be missing.
 Remove it from the database?</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 puudub.
+Kas kustutada ka andmebaasist?</translation>
     </message>
     <message>
         <source>Updating video database</source>
-        <translation type="unfinished"></translation>
+        <translation>Video andmebaasi uuendamine</translation>
     </message>
     <message>
         <source>Verifying video files</source>
-        <translation type="unfinished"></translation>
+        <translation>Videofailide kontroll</translation>
     </message>
     <message>
         <source>No rating available.</source>
-        <translation type="unfinished">Reiting puudub.</translation>
+        <translation>Reiting puudub.</translation>
     </message>
     <message>
         <source>minutes</source>
-        <translation type="unfinished">minutit</translation>
+        <translation>minutit</translation>
     </message>
     <message>
         <source>Setting this value to all numbers will make your life much easier.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ainult numbrite kasutamine teeb edaspidi selle sisestamise palju lihtsamaks.</translation>
     </message>
     <message>
         <source>Parental Level 4 PIN</source>
-        <translation type="unfinished"></translation>
+        <translation>4. vanemliku taseme kood</translation>
     </message>
     <message>
         <source>This PIN is used to enter Parental Control Level 4 as well as the Video Manager.</source>
-        <translation type="unfinished"></translation>
+        <translation>Selle koodiga saab aktiveerida 4. vanemliku taseme, mis annab ligipääsu ka videohaldusele.</translation>
     </message>
     <message>
         <source>Parental Level 3 PIN</source>
-        <translation type="unfinished"></translation>
+        <translation>3. vanemliku taseme kood</translation>
     </message>
     <message>
         <source>This PIN is used to enter Parental Control Level 3.</source>
-        <translation type="unfinished"></translation>
+        <translation>Selle koodiga saab aktiveerida 3. vanemliku taseme.</translation>
     </message>
     <message>
         <source>Parental Level 2 PIN</source>
-        <translation type="unfinished"></translation>
+        <translation>2. vanemliku taseme kood</translation>
     </message>
     <message>
         <source>This PIN is used to enter Parental Control Level 2.</source>
-        <translation type="unfinished"></translation>
+        <translation>Selle koodiga saab aktiveerida 2. vanemliku taseme.</translation>
     </message>
     <message>
         <source>Video Tree remembers last selected position</source>
-        <translation type="unfinished"></translation>
+        <translation>Video kataloog jätab meelde viimati valitud asukoha</translation>
     </message>
     <message>
         <source>If set, the current position in the Video Tree is persistent.</source>
-        <translation type="unfinished"></translation>
+        <translation>Märkimisel peetakse video kataloogi asukohta alati meeles.</translation>
     </message>
     <message>
         <source>Directories that hold videos</source>
-        <translation type="unfinished"></translation>
+        <translation>Videofailide kataloog</translation>
     </message>
     <message>
         <source>Multiple directories can be separated by &apos;:&apos;. Each directory must exist and be readable by the user running MythVideo.</source>
-        <translation type="unfinished"></translation>
+        <translation>Mitme kataloogi kasutamisel tuleb need eraldada kooloniga. Kõik kataloogid peavad eksisteerima ning olema MythVideo kasutajale loetavad.</translation>
     </message>
     <message>
         <source>DVD Drive Speed</source>
-        <translation type="unfinished"></translation>
+        <translation>DVD seadme kiirus</translation>
     </message>
     <message>
         <source>Set DVD Drive Speed during DVD Playback. Speed is in multiples of 177KB/s</source>
-        <translation type="unfinished"></translation>
+        <translation>DVD sedame kiirus filmide mahamängimisel. Kiirus on 177 KB/sek kordaja</translation>
     </message>
     <message>
         <source>Let transcode determine frame rate</source>
-        <translation type="unfinished"></translation>
+        <translation>Transkodeerija määrab kaadrisageduse</translation>
     </message>
     <message>
         <source>If set, transcode will determine the frame rate automatically. If not set, 23.976 is assumed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Märkimisel llubatakse transkodeerijal määrata kaadrisagedus automaatselt. Vastasel juhul eeldatakse 23.976.</translation>
     </message>
     <message>
         <source>Enable automatic Parental Level from rating</source>
-        <translation type="unfinished"></translation>
+        <translation>Kasuta reitingut vanemliku taseme määramiseks</translation>
     </message>
     <message>
         <source>If enabled, searches will automatically set the Parental Level to the one matching the rating below.</source>
-        <translation type="unfinished"></translation>
+        <translation>Märkimisel seatakse vanemlik tase reitingu alusel automaatselt.</translation>
     </message>
     <message>
         <source>Level %1</source>
-        <translation type="unfinished">Tase %1</translation>
+        <translation>Tase %1</translation>
     </message>
     <message>
         <source>Ratings containing these strings (separated by :) will be assigned to Parental Level %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Alljärgnevaid sõnu (eraldatud koolonitega) sisaldavad reitingud määravad vanemlikuks tasemeks %1.</translation>
     </message>
     <message>
         <source>Theme Error: browser/playwait has an invalid area.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kujunduse viga: browser/playwait asukoht vigane.</translation>
     </message>
     <message>
         <source>Theme Error: browser/novideos_info has an invalid area.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kujunduse viga: browser/novideos_info asukoht vigane.</translation>
     </message>
     <message>
         <source>Manually Enter Video #</source>
-        <translation type="unfinished"></translation>
+        <translation>Sisesta käsitsi video nr.</translation>
     </message>
     <message>
         <source>Manually Enter Video Title</source>
-        <translation type="unfinished"></translation>
+        <translation>Sisesta käsitsi video pealkiri</translation>
     </message>
     <message>
         <source>Reset Entry</source>
-        <translation type="unfinished"></translation>
+        <translation>Tühista andmed</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished">Tühista</translation>
+        <translation>Tühista</translation>
     </message>
     <message>
         <source>Command</source>
-        <translation type="unfinished"></translation>
+        <translation>Käsk</translation>
     </message>
     <message>
         <source>%1 failed</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 ebaõnnestus</translation>
     </message>
     <message>
         <source>%1
 
 Check VideoManager Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>%1
+
+Kontrolli videohalduse sätteid</translation>
     </message>
     <message>
         <source>Fetching poster for %1 (%2)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 plakati tõmbamine (%2)</translation>
     </message>
     <message>
         <source>A poster exists for this item but could not be retrieved within the timeout period.
 </source>
-        <translation type="unfinished"></translation>
+        <translation>Plakat on küll olemas kuid ei suuda mõistliku ajaga alla laadida.
+</translation>
     </message>
     <message>
         <source>OK</source>
-        <translation type="unfinished"></translation>
+        <translation>OK</translation>
     </message>
     <message>
         <source>Theme Error: selected/playwait has an invalid area.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kujunduse viga: selected/playwait asukoht vigane.</translation>
     </message>
     <message>
         <source>None defined</source>
-        <translation type="unfinished"></translation>
+        <translation>Midagi pole kirjeldatud</translation>
     </message>
 </context>
 <context>
@@ -1170,7 +1176,7 @@ Check VideoManager Settings</source>
     </message>
     <message>
         <source>Begin Ripping</source>
-        <translation type="unfinished"></translation>
+        <translation>Alusta rippimist</translation>
     </message>
 </context>
 <context>
@@ -1209,7 +1215,7 @@ Check VideoManager Settings</source>
     </message>
     <message>
         <source>View Cast</source>
-        <translation type="unfinished"></translation>
+        <translation>Vaata näitlejaid</translation>
     </message>
 </context>
 <context>
@@ -1240,7 +1246,7 @@ Check VideoManager Settings</source>
     </message>
     <message>
         <source>OK</source>
-        <translation type="unfinished"></translation>
+        <translation>OK</translation>
     </message>
 </context>
 <context>
@@ -1298,7 +1304,7 @@ Check VideoManager Settings</source>
     </message>
     <message>
         <source>View Cast</source>
-        <translation type="unfinished"></translation>
+        <translation>Vaata näitlejaid</translation>
     </message>
 </context>
 <context>
@@ -1423,58 +1429,58 @@ Check VideoManager Settings</source>
     </message>
     <message>
         <source>View Cast</source>
-        <translation type="unfinished"></translation>
+        <translation>Vaata näitlejaid</translation>
     </message>
 </context>
 <context>
     <name>mythvideo_videomanager::VideoManagerImp</name>
     <message>
         <source>Select action:</source>
-        <translation type="unfinished">Vali tegevus:</translation>
+        <translation>Vali tegevus:</translation>
     </message>
     <message>
         <source>Edit Metadata</source>
-        <translation type="unfinished">Muuda metaandmeid</translation>
+        <translation>Muuda metaandmeid</translation>
     </message>
     <message>
         <source>Search</source>
-        <translation type="unfinished"></translation>
+        <translation>Otsi</translation>
     </message>
     <message>
         <source>Manually Enter Video #</source>
-        <translation type="unfinished"></translation>
+        <translation>Sisesta käsitsi video nr.</translation>
     </message>
     <message>
         <source>Manually Enter Video Title</source>
-        <translation type="unfinished"></translation>
+        <translation>Sisesta käsitsi video pealkiri</translation>
     </message>
     <message>
         <source>Reset Metadata</source>
-        <translation type="unfinished">Tühista metainfo</translation>
+        <translation>Tühista metainfo</translation>
     </message>
     <message>
         <source>Toggle Browseable</source>
-        <translation type="unfinished">Muuda lehitsevust</translation>
+        <translation>Muuda lehitsevust</translation>
     </message>
     <message>
         <source>Remove Video</source>
-        <translation type="unfinished">Eemalda video</translation>
+        <translation>Eemalda video</translation>
     </message>
     <message>
         <source>Filter Display</source>
-        <translation type="unfinished">Filtri vaade</translation>
+        <translation>Filtri vaade</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished">Tühista</translation>
+        <translation>Tühista</translation>
     </message>
     <message>
         <source>Delete this file?</source>
-        <translation type="unfinished">Kustuta see fail?</translation>
+        <translation>Kustuta see fail?</translation>
     </message>
     <message>
         <source>delete failed</source>
-        <translation type="unfinished">kustutamine ebaõnnestus</translation>
+        <translation>kustutamine ebaõnnestus</translation>
     </message>
 </context>
 </TS>
