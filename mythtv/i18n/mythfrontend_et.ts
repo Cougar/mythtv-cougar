@@ -1,81 +1,82 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS><TS version="1.1">
+<!DOCTYPE TS><TS version="1.1" language="et">
+<defaultcodec></defaultcodec>
 <context>
-    <name></name>
+    <name>@default</name>
     <message>
         <location filename="../libs/libmythtv/jobqueue.h" line="20"/>
         <source>Unknown</source>
-        <translation type="unfinished">tundmatu</translation>
+        <translation>tundmatu</translation>
     </message>
     <message>
         <location filename="../libs/libmythtv/jobqueue.h" line="21"/>
         <source>Queued</source>
-        <translation type="unfinished">Järjekorras</translation>
+        <translation>Järjekorras</translation>
     </message>
     <message>
         <location filename="../libs/libmythtv/jobqueue.h" line="22"/>
         <source>Pending</source>
-        <translation type="unfinished">Ootel</translation>
+        <translation>Ootel</translation>
     </message>
     <message>
         <location filename="../libs/libmythtv/jobqueue.h" line="23"/>
         <source>Starting</source>
-        <translation type="unfinished">Alustamine</translation>
+        <translation>Käivitamine</translation>
     </message>
     <message>
         <location filename="../libs/libmythtv/jobqueue.h" line="24"/>
         <source>Running</source>
-        <translation type="unfinished">Käivitatud</translation>
+        <translation>Käivitatud</translation>
     </message>
     <message>
         <location filename="../libs/libmythtv/jobqueue.h" line="25"/>
         <source>Stopping</source>
-        <translation type="unfinished">Peatamine</translation>
+        <translation>Peatamine</translation>
     </message>
     <message>
         <location filename="../libs/libmythtv/jobqueue.h" line="26"/>
         <source>Paused</source>
-        <translation type="unfinished">Peatatud</translation>
+        <translation>Peatatud</translation>
     </message>
     <message>
         <location filename="../libs/libmythtv/jobqueue.h" line="27"/>
         <source>Retrying</source>
-        <translation type="unfinished">Kordamine</translation>
+        <translation>Kordamine</translation>
     </message>
     <message>
         <location filename="../libs/libmythtv/jobqueue.h" line="28"/>
         <source>Erroring</source>
-        <translation type="unfinished">Vea tekkimine</translation>
+        <translation>Vea tekkimine</translation>
     </message>
     <message>
         <location filename="../libs/libmythtv/jobqueue.h" line="29"/>
         <source>Aborting</source>
-        <translation type="unfinished">Katkestamine</translation>
+        <translation>Katkestamine</translation>
     </message>
     <message>
         <location filename="../libs/libmythtv/jobqueue.h" line="34"/>
         <source>Done (Invalid status!)</source>
-        <translation type="unfinished">Tehtud (vigane olek!)</translation>
+        <translation>Tehtud (vigane olek!)</translation>
     </message>
     <message>
         <location filename="../libs/libmythtv/jobqueue.h" line="35"/>
         <source>Finished</source>
-        <translation type="unfinished">Lõpetatud</translation>
+        <translation>Lõpetatud</translation>
     </message>
     <message>
         <location filename="../libs/libmythtv/jobqueue.h" line="36"/>
         <source>Aborted</source>
-        <translation type="unfinished">Katkestatud</translation>
+        <translation>Katkestatud</translation>
     </message>
     <message>
         <location filename="../libs/libmythtv/jobqueue.h" line="37"/>
         <source>Errored</source>
-        <translation type="unfinished">Tekkinud on viga</translation>
+        <translation>Tekkinud on viga</translation>
     </message>
     <message>
         <location filename="../libs/libmythtv/jobqueue.h" line="38"/>
         <source>Cancelled</source>
-        <translation type="unfinished">Tühistatud</translation>
+        <translation>Tühistatud</translation>
     </message>
 </context>
 <context>
@@ -83,27 +84,27 @@
     <message>
         <location filename="../libs/libmyth/backendselect.cpp" line="180"/>
         <source>Please select default Myth Backend Server</source>
-        <translation type="unfinished"></translation>
+        <translation>Vali vaikimisi MythTV tasutaserver</translation>
     </message>
     <message>
         <location filename="../libs/libmyth/backendselect.cpp" line="183"/>
         <source>OK</source>
-        <translation type="unfinished">Valmis</translation>
+        <translation>Valmis</translation>
     </message>
     <message>
         <location filename="../libs/libmyth/backendselect.cpp" line="184"/>
         <source>Cancel</source>
-        <translation type="unfinished">Tühista</translation>
+        <translation>Tühista</translation>
     </message>
     <message>
         <location filename="../libs/libmyth/backendselect.cpp" line="185"/>
         <source>Configure Manually</source>
-        <translation type="unfinished"></translation>
+        <translation>Sea käsitsi</translation>
     </message>
     <message>
         <location filename="../libs/libmyth/backendselect.cpp" line="187"/>
         <source>Search</source>
-        <translation type="unfinished">Otsi</translation>
+        <translation>Otsi</translation>
     </message>
 </context>
 <context>
@@ -199,27 +200,27 @@
     <message>
         <location filename="../libs/libmythtv/videosource.cpp" line="2333"/>
         <source>Create Input Group</source>
-        <translation type="unfinished"></translation>
+        <translation>Loo sisendite grupp</translation>
     </message>
     <message>
         <location filename="../libs/libmythtv/videosource.cpp" line="2334"/>
         <source>Enter new group name</source>
-        <translation type="unfinished"></translation>
+        <translation>Uue grupi nimi</translation>
     </message>
     <message>
         <location filename="../libs/libmythtv/videosource.cpp" line="2365"/>
         <source>Error</source>
-        <translation type="unfinished"></translation>
+        <translation>Viga</translation>
     </message>
     <message>
         <location filename="../libs/libmythtv/videosource.cpp" line="2345"/>
         <source>Sorry, this Input Group name can not be blank.</source>
-        <translation type="unfinished"></translation>
+        <translation>Grupil peab olema nimi.</translation>
     </message>
     <message>
         <location filename="../libs/libmythtv/videosource.cpp" line="2366"/>
         <source>Sorry, this Input Group name is already in use.</source>
-        <translation type="unfinished"></translation>
+        <translation>See grupi nimi on juba kasutusel!</translation>
     </message>
 </context>
 <context>
@@ -235,7 +236,7 @@
     <message>
         <location filename="../libs/libmythtv/channeleditor.cpp" line="253"/>
         <source>Channels</source>
-        <translation type="unfinished">Kanalid</translation>
+        <translation>Kanalid</translation>
     </message>
     <message>
         <location filename="../libs/libmythtv/channeleditor.cpp" line="428"/>
@@ -285,42 +286,42 @@
     <message>
         <location filename="../libs/libmythtv/channeleditor.cpp" line="333"/>
         <source>Are you sure you would like to delete ALL channels?</source>
-        <translation type="unfinished"></translation>
+        <translation>Oled sa kindel, et soovid kustutada KÕIK kanalid?</translation>
     </message>
     <message>
         <location filename="../libs/libmythtv/channeleditor.cpp" line="335"/>
         <source>Are you sure you would like to delete all unassigned channels?</source>
-        <translation type="unfinished"></translation>
+        <translation>Oled sa kindel, et soovid kustutada kõik kasutamata kanalid?</translation>
     </message>
     <message>
         <location filename="../libs/libmythtv/channeleditor.cpp" line="337"/>
         <source>Are you sure you would like to delete the channels on %1?</source>
-        <translation type="unfinished"></translation>
+        <translation>Oled sa kindel, et soovid kustutada kõik &quot;%1&quot; kanalid?</translation>
     </message>
     <message>
         <location filename="../libs/libmythtv/channeleditor.cpp" line="516"/>
         <source>Cancel</source>
-        <translation type="unfinished">Tühista</translation>
+        <translation>Tühista</translation>
     </message>
     <message>
         <location filename="../libs/libmythtv/channeleditor.cpp" line="517"/>
         <source>Download all icons..</source>
-        <translation type="unfinished"></translation>
+        <translation>Lae alla kõik ikoonid..</translation>
     </message>
     <message>
         <location filename="../libs/libmythtv/channeleditor.cpp" line="518"/>
         <source>Rescan for missing icons..</source>
-        <translation type="unfinished"></translation>
+        <translation>Otsi puuduvaid ikoone..</translation>
     </message>
     <message>
         <location filename="../libs/libmythtv/channeleditor.cpp" line="520"/>
         <source>Download icon for </source>
-        <translation type="unfinished"></translation>
+        <translation>Lae alla ikoonid kanalile</translation>
     </message>
     <message>
         <location filename="../libs/libmythtv/channeleditor.cpp" line="499"/>
         <source>Add some channels first!</source>
-        <translation type="unfinished"></translation>
+        <translation>Esmali lisa mõned kanalid!</translation>
     </message>
 </context>
 <context>
@@ -328,17 +329,17 @@
     <message>
         <location filename="../programs/mythfrontend/channelrecpriority.cpp" line="173"/>
         <source>Channel Options</source>
-        <translation type="unfinished">Kanalite valikud</translation>
+        <translation>Kanalite valikud</translation>
     </message>
     <message>
         <location filename="../programs/mythfrontend/channelrecpriority.cpp" line="189"/>
         <source>Edit Channel</source>
-        <translation type="unfinished"></translation>
+        <translation>Redigeeri kanalit</translation>
     </message>
     <message>
         <location filename="../programs/mythfrontend/channelrecpriority.cpp" line="190"/>
         <source>Program List</source>
-        <translation type="unfinished"></translation>
+        <translation>Programmide nimekiri</translation>
     </message>
 </context>
 <context>
@@ -346,12 +347,12 @@
     <message>
         <location filename="../libs/libmythtv/channelscan/channelscanner_gui.cpp" line="64"/>
         <source>Scanning</source>
-        <translation type="unfinished">Skaneerimine</translation>
+        <translation>Skaneerimine</translation>
     </message>
     <message>
         <location filename="../libs/libmythtv/channelscan/channelscanner_gui.cpp" line="177"/>
         <source>ScanWizard</source>
-        <translation type="unfinished">Skaneerimise nõustaja</translation>
+        <translation>Skaneerimise nõustaja</translation>
     </message>
 </context>
 <context>
@@ -584,32 +585,32 @@
     <message>
         <location filename="../libs/libmythtv/customedit.cpp" line="46"/>
         <source>stored search</source>
-        <translation type="unfinished"></translation>
+        <translation>salvestatud otsing</translation>
     </message>
     <message>
         <location filename="../libs/libmythtv/customedit.cpp" line="48"/>
         <source>Add</source>
-        <translation type="unfinished"></translation>
+        <translation>Lisa</translation>
     </message>
     <message>
         <location filename="../libs/libmythtv/customedit.cpp" line="132"/>
         <source>Match this series</source>
-        <translation type="unfinished"></translation>
+        <translation>Leia see seeria</translation>
     </message>
     <message>
         <location filename="../libs/libmythtv/customedit.cpp" line="143"/>
         <source>Match words in the subtitle</source>
-        <translation type="unfinished"></translation>
+        <translation>Leia alampealkirjas olevatest sõnadest</translation>
     </message>
     <message>
         <location filename="../libs/libmythtv/customedit.cpp" line="252"/>
         <source>Only shows marked as widescreen</source>
-        <translation type="unfinished"></translation>
+        <translation>Ainult laierkraan formaat</translation>
     </message>
     <message>
         <location filename="../libs/libmythtv/customedit.cpp" line="256"/>
         <source>Exclude H.264 encoded streams (EIT only)</source>
-        <translation type="unfinished"></translation>
+        <translation>Jäta välja H.264 kodeeritud striimid (EIT)</translation>
     </message>
 </context>
 <context>
@@ -617,87 +618,87 @@
     <message>
         <location filename="../programs/mythfrontend/custompriority.cpp" line="104"/>
         <source>&lt;New priority rule&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;Uus prioriteedi reegel&gt;</translation>
     </message>
     <message>
         <location filename="../programs/mythfrontend/custompriority.cpp" line="150"/>
         <source>Modify priority for an input (Input priority)</source>
-        <translation type="unfinished"></translation>
+        <translation>Muuda sisendi prioriteeti</translation>
     </message>
     <message>
         <location filename="../programs/mythfrontend/custompriority.cpp" line="152"/>
         <source>Modify priority for all inputs on a card</source>
-        <translation type="unfinished"></translation>
+        <translation>Muuda kaardi kõikide sisendite prioriteeti</translation>
     </message>
     <message>
         <location filename="../programs/mythfrontend/custompriority.cpp" line="154"/>
         <source>Modify priority for every card on a host</source>
-        <translation type="unfinished"></translation>
+        <translation>Muuda selle serveri kõikide kaartide prioriteeti</translation>
     </message>
     <message>
         <location filename="../programs/mythfrontend/custompriority.cpp" line="156"/>
         <source>Only one specific channel ID (Channel priority)</source>
-        <translation type="unfinished"></translation>
+        <translation>Ainult kindel kanali ID (kanali prioriteet)</translation>
     </message>
     <message>
         <location filename="../programs/mythfrontend/custompriority.cpp" line="158"/>
         <source>Only a certain channel number</source>
-        <translation type="unfinished"></translation>
+        <translation>Ainult etteantud kanali number</translation>
     </message>
     <message>
         <location filename="../programs/mythfrontend/custompriority.cpp" line="160"/>
         <source>Only channels that carry a specific station</source>
-        <translation type="unfinished"></translation>
+        <translation>Ainult kindlat telejaama näitavad kanalid</translation>
     </message>
     <message>
         <location filename="../programs/mythfrontend/custompriority.cpp" line="162"/>
         <source>Match related callsigns</source>
-        <translation type="unfinished">Leia vastastikuses seoses olevad kutsungid</translation>
+        <translation>Leia vastastikuses seoses olevad kutsungid</translation>
     </message>
     <message>
         <location filename="../programs/mythfrontend/custompriority.cpp" line="164"/>
         <source>Only channels marked as commercial free</source>
-        <translation type="unfinished">Ainult reklaamivabad kanalid</translation>
+        <translation>Ainult reklaamivabad kanalid</translation>
     </message>
     <message>
         <location filename="../programs/mythfrontend/custompriority.cpp" line="167"/>
         <source>Modify priority for a station on an input</source>
-        <translation type="unfinished"></translation>
+        <translation>Muuda ühe sisendi ühe kanali prioriteeti</translation>
     </message>
     <message>
         <location filename="../programs/mythfrontend/custompriority.cpp" line="169"/>
         <source>Priority for all matching titles</source>
-        <translation type="unfinished"></translation>
+        <translation>Kõigi vastavate pealkirjade prioriteet</translation>
     </message>
     <message>
         <location filename="../programs/mythfrontend/custompriority.cpp" line="171"/>
         <source>Only shows marked as HDTV</source>
-        <translation type="unfinished">Ainult HDTV saated</translation>
+        <translation>Ainult HDTV saated</translation>
     </message>
     <message>
         <location filename="../programs/mythfrontend/custompriority.cpp" line="173"/>
         <source>Close Captioned priority</source>
-        <translation type="unfinished"></translation>
+        <translation>Teleteksti olemasolu prioriteet</translation>
     </message>
     <message>
         <location filename="../programs/mythfrontend/custompriority.cpp" line="175"/>
         <source>New episodes only</source>
-        <translation type="unfinished">Ainult uued episoodid</translation>
+        <translation>Ainult uued episoodid</translation>
     </message>
     <message>
         <location filename="../programs/mythfrontend/custompriority.cpp" line="177"/>
         <source>Modify unidentified episodes</source>
-        <translation type="unfinished"></translation>
+        <translation>Muuda tundmatuid episoode</translation>
     </message>
     <message>
         <location filename="../programs/mythfrontend/custompriority.cpp" line="179"/>
         <source>First showing of each episode</source>
-        <translation type="unfinished">Iga episoodi esimene saade</translation>
+        <translation>Iga episoodi esimene saade</translation>
     </message>
     <message>
         <location filename="../programs/mythfrontend/custompriority.cpp" line="181"/>
         <source>Last showing of each episode</source>
-        <translation type="unfinished">Iga episoodi viimane saade</translation>
+        <translation>Iga episoodi viimane saade</translation>
     </message>
     <message>
         <location filename="../programs/mythfrontend/custompriority.cpp" line="183"/>
@@ -707,42 +708,42 @@
     <message>
         <location filename="../programs/mythfrontend/custompriority.cpp" line="185"/>
         <source>Priority for a category</source>
-        <translation type="unfinished"></translation>
+        <translation>Kategooriaga prioriteet</translation>
     </message>
     <message>
         <location filename="../programs/mythfrontend/custompriority.cpp" line="188"/>
         <source>Priority for a category type</source>
-        <translation type="unfinished"></translation>
+        <translation>Muuda kategooria tüüpi</translation>
     </message>
     <message>
         <location filename="../programs/mythfrontend/custompriority.cpp" line="191"/>
         <source>Modify priority by star rating (0.0 to 1.0 for movies only)</source>
-        <translation type="unfinished"></translation>
+        <translation>Muuda prioriteeti hinde järgi (filmidel 0.0 kuni 1.0 ainult)</translation>
     </message>
     <message>
         <location filename="../programs/mythfrontend/custompriority.cpp" line="193"/>
         <source>Priority when shown once (complete example)</source>
-        <translation type="unfinished"></translation>
+        <translation>Ükskord juba nähtud saate prioriteet (täielik näide)</translation>
     </message>
     <message>
         <location filename="../programs/mythfrontend/custompriority.cpp" line="195"/>
         <source>Prefer a host for a storage group (complete example)</source>
-        <translation type="unfinished"></translation>
+        <translation>Salvestusgrupi serveri eelistamine (täielik näide)</translation>
     </message>
     <message>
         <location filename="../programs/mythfrontend/custompriority.cpp" line="199"/>
         <source>Priority for HD shows under two hours (complete example)</source>
-        <translation type="unfinished"></translation>
+        <translation>Üle kahetunniste HD saadete prioriteet (täielik näide)</translation>
     </message>
     <message>
         <location filename="../programs/mythfrontend/custompriority.cpp" line="203"/>
         <source>Priority for movies by the year of release (complete example)</source>
-        <translation type="unfinished"></translation>
+        <translation>Etteantud aastal linastunud filmide prioriteet (täielik näide)</translation>
     </message>
     <message>
         <location filename="../programs/mythfrontend/custompriority.cpp" line="206"/>
         <source>Prefer movies when shown at night (complete example)</source>
-        <translation type="unfinished"></translation>
+        <translation>Öösel näidatatavate filmide eelistamine (täielik näide)</translation>
     </message>
     <message>
         <location filename="../programs/mythfrontend/custompriority.cpp" line="210"/>
@@ -752,22 +753,22 @@
     <message>
         <location filename="../programs/mythfrontend/custompriority.cpp" line="214"/>
         <source>Avoid poor signal quality (complete example)</source>
-        <translation type="unfinished"></translation>
+        <translation>Halva vastuvõtukvaliteedi vältimine (täielik näide)</translation>
     </message>
     <message>
         <location filename="../programs/mythfrontend/custompriority.cpp" line="362"/>
         <source>An error was found when checking</source>
-        <translation type="unfinished">Kontrollimisel leiti viga</translation>
+        <translation>Kontrollimisel leiti viga</translation>
     </message>
     <message>
         <location filename="../programs/mythfrontend/custompriority.cpp" line="364"/>
         <source>The database error was</source>
-        <translation type="unfinished">Andembaasi viga oli</translation>
+        <translation>Andembaasi viga oli</translation>
     </message>
     <message>
         <location filename="../programs/mythfrontend/custompriority.cpp" line="450"/>
         <source>Power Priority</source>
-        <translation type="unfinished"></translation>
+        <translation>Võimas prioritiseerimine</translation>
     </message>
 </context>
 <context>
@@ -790,12 +791,12 @@
     <message>
         <location filename="../libs/libmythtv/videosource.cpp" line="2908"/>
         <source>Could not open card %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Ei saa avada kaarti %1</translation>
     </message>
     <message>
         <location filename="../libs/libmythtv/videosource.cpp" line="2909"/>
         <source>Could not get card info for card %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Ei saa infot kaardilt %1</translation>
     </message>
 </context>
 <context>
@@ -996,7 +997,7 @@
     <message>
         <location filename="../libs/libmythtv/diseqcsettings.cpp" line="501"/>
         <source>Rotor Position Map</source>
-        <translation type="unfinished">Rootori asendikaart</translation>
+        <translation>Rootori asendikaart</translation>
     </message>
     <message>
         <location filename="../libs/libmythtv/diseqcsettings.cpp" line="518"/>
@@ -1131,7 +1132,7 @@
     <message>
         <location filename="../libs/libmythtv/diseqcsettings.cpp" line="1122"/>
         <source>DiSEqC Device Tree</source>
-        <translation type="unfinished">Lülitite ühendused</translation>
+        <translation>DiSEqC lülitite ühendused</translation>
     </message>
     <message>
         <location filename="../libs/libmythtv/diseqcsettings.cpp" line="1141"/>
@@ -1196,12 +1197,12 @@
     <message>
         <location filename="../libs/libmythtv/diseqcsettings.cpp" line="1235"/>
         <source>Western</source>
-        <translation type="unfinished">Vestern</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../libs/libmythtv/diseqcsettings.cpp" line="151"/>
         <source>Voltage</source>
-        <translation type="unfinished"></translation>
+        <translation>Pinge</translation>
     </message>
     <message>
         <location filename="../libs/libmythtv/diseqcsettings.cpp" line="153"/>
@@ -1211,12 +1212,12 @@
     <message>
         <location filename="../libs/libmythtv/diseqcsettings.cpp" line="194"/>
         <source>Address of switch</source>
-        <translation type="unfinished"></translation>
+        <translation>Lüliti aadress</translation>
     </message>
     <message>
         <location filename="../libs/libmythtv/diseqcsettings.cpp" line="195"/>
         <source>The DiSEqC address of the switch.</source>
-        <translation type="unfinished"></translation>
+        <translation>Lüliti DiSEqC aadress.</translation>
     </message>
 </context>
 <context>
@@ -1234,12 +1235,12 @@
     <message>
         <location filename="../programs/mythfrontend/proglist.cpp" line="1902"/>
         <source>Movies</source>
-        <translation type="unfinished"></translation>
+        <translation>Filmid</translation>
     </message>
     <message>
         <location filename="../programs/mythfrontend/proglist.cpp" line="1904"/>
         <source>Series</source>
-        <translation type="unfinished">Seriaalid</translation>
+        <translation>Seriaalid</translation>
     </message>
     <message>
         <location filename="../programs/mythfrontend/proglist.cpp" line="1906"/>
@@ -1249,17 +1250,17 @@
     <message>
         <location filename="../programs/mythfrontend/proglist.cpp" line="1908"/>
         <source>Sports</source>
-        <translation type="unfinished">Sport</translation>
+        <translation>Sport</translation>
     </message>
     <message>
         <location filename="../programs/mythfrontend/proglist.cpp" line="1914"/>
         <source>(Any Genre)</source>
-        <translation type="unfinished"></translation>
+        <translation>(iga žanr)</translation>
     </message>
     <message>
         <location filename="../programs/mythfrontend/proglist.cpp" line="1942"/>
         <source>(Any Channel)</source>
-        <translation type="unfinished"></translation>
+        <translation>(iga kanal)</translation>
     </message>
 </context>
 <context>
@@ -1267,42 +1268,42 @@
     <message>
         <location filename="../programs/mythfrontend/exitprompt.cpp" line="93"/>
         <source>Do you really want to exit MythTV?</source>
-        <translation type="unfinished"></translation>
+        <translation>Oled sa kindel, et soovid MythTV sulgeda</translation>
     </message>
     <message>
         <location filename="../programs/mythfrontend/exitprompt.cpp" line="102"/>
         <source>No</source>
-        <translation type="unfinished">Ei</translation>
+        <translation>Ei</translation>
     </message>
     <message>
         <location filename="../programs/mythtv-setup/exitprompt.cpp" line="41"/>
         <source>If this is the master backend server, please run &apos;mythfilldatabase&apos; to populate the database with channel information.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kui see on peamine taustaserver, tuleb kanalite info laialijagamiseks käivitada &quot;mythfilldatabase&quot;</translation>
     </message>
     <message>
         <location filename="../programs/mythtv-setup/exitprompt.cpp" line="50"/>
         <source>OK</source>
-        <translation type="unfinished">Valmis</translation>
+        <translation>Valmis</translation>
     </message>
     <message>
         <location filename="../programs/mythtv-setup/exitprompt.cpp" line="70"/>
         <source>Do you want to fix these problems?</source>
-        <translation type="unfinished"></translation>
+        <translation>Kas soovid need probleemid parandada?</translation>
     </message>
     <message>
         <location filename="../programs/mythtv-setup/exitprompt.cpp" line="72"/>
         <source>Do you want to fix this problem?</source>
-        <translation type="unfinished"></translation>
+        <translation>Kas soovid selle probleemi parandada?</translation>
     </message>
     <message>
         <location filename="../programs/mythtv-setup/exitprompt.cpp" line="82"/>
         <source>Yes please</source>
-        <translation type="unfinished"></translation>
+        <translation>Jah</translation>
     </message>
     <message>
         <location filename="../programs/mythtv-setup/exitprompt.cpp" line="83"/>
         <source>No, I know what I am doing</source>
-        <translation type="unfinished"></translation>
+        <translation>Ei, ma tean mis teen</translation>
     </message>
 </context>
 <context>
@@ -1310,7 +1311,7 @@
     <message>
         <location filename="../libs/libmythtv/videosource.cpp" line="1276"/>
         <source>Description</source>
-        <translation type="unfinished">Kirjeldus</translation>
+        <translation>Kirjeldus</translation>
     </message>
 </context>
 <context>
@@ -1326,17 +1327,17 @@
     <message>
         <location filename="../libs/libmythtv/videosource.cpp" line="1583"/>
         <source>Probed info</source>
-        <translation type="unfinished">Tuvastatud info</translation>
+        <translation>Tuvastatud info</translation>
     </message>
     <message>
         <location filename="../libs/libmythtv/videosource.cpp" line="1598"/>
         <source>Failed to open</source>
-        <translation type="unfinished">Ei õnnestunud avada</translation>
+        <translation>Ei õnnestunud avada</translation>
     </message>
     <message>
         <location filename="../libs/libmythtv/videosource.cpp" line="1604"/>
         <source>Failed to probe</source>
-        <translation type="unfinished">Ei õnnestunud tuvastada</translation>
+        <translation>Ei õnnestunud tuvastada</translation>
     </message>
 </context>
 <context>
@@ -1344,62 +1345,62 @@
     <message>
         <location filename="../programs/mythfrontend/playbackbox.cpp" line="4368"/>
         <source>Commercials are flagged</source>
-        <translation type="unfinished">Reklaamid on märgistatud</translation>
+        <translation>Reklaamid on märgistatud</translation>
     </message>
     <message>
         <location filename="../programs/mythfrontend/playbackbox.cpp" line="4369"/>
         <source>An editing cutlist is present</source>
-        <translation type="unfinished">Redigeerimise lõiked olemas</translation>
+        <translation>Redigeerimise lõiked olemas</translation>
     </message>
     <message>
         <location filename="../programs/mythfrontend/playbackbox.cpp" line="4370"/>
         <source>The program is able to auto-expire</source>
-        <translation type="unfinished">Programm saab automaatselt aeguda</translation>
+        <translation>Programm saab automaatselt aeguda</translation>
     </message>
     <message>
         <location filename="../programs/mythfrontend/playbackbox.cpp" line="4371"/>
         <source>Commercials are being flagged</source>
-        <translation type="unfinished">Reklaame hakatakse märgistama</translation>
+        <translation>Reklaame hakatakse märgistama</translation>
     </message>
     <message>
         <location filename="../programs/mythfrontend/playbackbox.cpp" line="4372"/>
         <source>A bookmark is set</source>
-        <translation type="unfinished">Järjehoidja määratud</translation>
+        <translation>Järjehoidja määratud</translation>
     </message>
     <message>
         <location filename="../programs/mythfrontend/playbackbox.cpp" line="4373"/>
         <source>Recording is in use</source>
-        <translation type="unfinished">Salvestis on kasutusel</translation>
+        <translation>Salvestis on kasutusel</translation>
     </message>
     <message>
         <location filename="../programs/mythfrontend/playbackbox.cpp" line="4374"/>
         <source>Recording has been transcoded</source>
-        <translation type="unfinished">Salvestis on transkodeeritud</translation>
+        <translation>Salvestis on transkodeeritud</translation>
     </message>
     <message>
         <location filename="../programs/mythfrontend/playbackbox.cpp" line="4376"/>
         <source>Recording is in Mono</source>
-        <translation type="unfinished"></translation>
+        <translation>Salvestisel on monoheli</translation>
     </message>
     <message>
         <location filename="../programs/mythfrontend/playbackbox.cpp" line="4377"/>
         <source>Recording is in Stereo</source>
-        <translation type="unfinished">Salvestisel on stereoheli</translation>
+        <translation>Salvestisel on stereoheli</translation>
     </message>
     <message>
         <location filename="../programs/mythfrontend/playbackbox.cpp" line="4378"/>
         <source>Recording is in Surround Sound</source>
-        <translation type="unfinished"></translation>
+        <translation>Salvestisel on Surround heli</translation>
     </message>
     <message>
         <location filename="../programs/mythfrontend/playbackbox.cpp" line="4379"/>
         <source>Recording is in Dolby Surround Sound</source>
-        <translation type="unfinished"></translation>
+        <translation>Salvestisel on Dolby Surround heli</translation>
     </message>
     <message>
         <location filename="../programs/mythfrontend/playbackbox.cpp" line="4381"/>
         <source>Recording is Closed Captioned</source>
-        <translation type="unfinished">Salvestisel on teleteksti subtiitrid</translation>
+        <translation>Salvestisel on teleteksti subtiitrid</translation>
     </message>
     <message>
         <location filename="../programs/mythfrontend/playbackbox.cpp" line="4382"/>
@@ -1414,22 +1415,22 @@
     <message>
         <location filename="../programs/mythfrontend/playbackbox.cpp" line="4385"/>
         <source>Recording is in High Definition</source>
-        <translation type="unfinished">Salvestis on kõrgeresulutsiooniline</translation>
+        <translation>Salvestis on kõrgresulutsiooniline</translation>
     </message>
     <message>
         <location filename="../programs/mythfrontend/playbackbox.cpp" line="4386"/>
         <source>Recording is in WideScreen</source>
-        <translation type="unfinished"></translation>
+        <translation>Salvestis on laiekraanformaadis</translation>
     </message>
     <message>
         <location filename="../programs/mythfrontend/playbackbox.cpp" line="4388"/>
         <source>Recording has been watched</source>
-        <translation type="unfinished"></translation>
+        <translation>Salvestist on vaadatud</translation>
     </message>
     <message>
         <location filename="../programs/mythfrontend/playbackbox.cpp" line="4389"/>
         <source>Recording is preserved</source>
-        <translation type="unfinished">Salvestis on säilitatud</translation>
+        <translation>Salvestis on säilitatud</translation>
     </message>
 </context>
 <context>
@@ -1447,32 +1448,32 @@
     <message>
         <location filename="../libs/libmythtv/iptv/iptvchannelfetcher.cpp" line="136"/>
         <source>Adding Channels</source>
-        <translation type="unfinished"></translation>
+        <translation>Kanalite lisamine</translation>
     </message>
     <message>
         <location filename="../libs/libmythtv/iptv/iptvchannelfetcher.cpp" line="144"/>
         <source>Channel #%1 : %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Kanal number %1: %2</translation>
     </message>
     <message>
         <location filename="../libs/libmythtv/iptv/iptvchannelfetcher.cpp" line="149"/>
         <source>Adding %1</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 lisamine</translation>
     </message>
     <message>
         <location filename="../libs/libmythtv/iptv/iptvchannelfetcher.cpp" line="158"/>
         <source>Updating %1</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 uuendamine</translation>
     </message>
     <message>
         <location filename="../libs/libmythtv/iptv/iptvchannelfetcher.cpp" line="168"/>
         <source>Done</source>
-        <translation type="unfinished"></translation>
+        <translation>Valmis</translation>
     </message>
     <message>
         <location filename="../libs/libmythtv/iptv/iptvchannelfetcher.cpp" line="268"/>
         <source>ERROR: M3U channel list is malformed</source>
-        <translation type="unfinished"></translation>
+        <translation>VIGA: M3U kanalite nimekiri on vigane</translation>
     </message>
     <message>
         <location filename="../libs/libmythtv/iptv/iptvchannelfetcher.cpp" line="293"/>
@@ -1482,7 +1483,7 @@
     <message>
         <location filename="../libs/libmythtv/iptv/iptvchannelfetcher.cpp" line="299"/>
         <source>Parsing Channel #%1 : %2 : %3</source>
-        <translation type="unfinished"></translation>
+        <translation>Kanali number %1 töötlemine: %2 :%3</translation>
     </message>
 </context>
 <context>
@@ -1490,7 +1491,7 @@
     <message>
         <location filename="../libs/libmythtv/scanwizardhelpers.cpp" line="323"/>
         <source>Input</source>
-        <translation type="unfinished">Sisend</translation>
+        <translation>Sisend</translation>
     </message>
 </context>
 <context>
@@ -1518,32 +1519,33 @@
     <message>
         <location filename="../libs/libmythtv/jobqueue.cpp" line="2123"/>
         <source>Commercial Flagging Starting</source>
-        <translation type="unfinished"></translation>
+        <translation>Algab reklaamide märgistamine</translation>
     </message>
     <message>
         <location filename="../libs/libmythtv/jobqueue.cpp" line="2155"/>
         <source>Unable to find mythcommflag</source>
-        <translation type="unfinished"></translation>
+        <translation>Ei leia mythcommflag&apos;i</translation>
     </message>
     <message>
         <location filename="../libs/libmythtv/jobqueue.cpp" line="2161"/>
         <source>Aborted by user</source>
-        <translation type="unfinished"></translation>
+        <translation>Kasutaja katkestatud</translation>
     </message>
     <message>
         <location filename="../libs/libmythtv/jobqueue.cpp" line="2167"/>
         <source>Unable to open file or init decoder</source>
-        <translation type="unfinished"></translation>
+        <translation>Ei saa avada faili või initsialiseerida dekoodrit</translation>
     </message>
     <message>
         <location filename="../libs/libmythtv/jobqueue.cpp" line="2173"/>
         <source>Failed with exit status %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Ebaõnnestumise staatus %1</translation>
     </message>
     <message numerus="yes">
         <location filename="../libs/libmythtv/jobqueue.cpp" line="2179"/>
         <source>%n commercial break(s)</source>
-        <translation type="unfinished">
+        <translation>
+            <numerusform>%n reklaamipaus(i)</numerusform>
             <numerusform></numerusform>
         </translation>
     </message>
@@ -1551,7 +1553,7 @@
         <location filename="../libs/libmythtv/jobqueue.cpp" line="2190"/>
         <source>Commercial Flagging %1</source>
         <comment>Job ID</comment>
-        <translation type="unfinished"></translation>
+        <translation>Reklaamide märkimine %1</translation>
     </message>
 </context>
 <context>
@@ -1559,32 +1561,32 @@
     <message>
         <location filename="../programs/mythfrontend/keygrabber.cpp" line="48"/>
         <source>Press A Key</source>
-        <translation type="unfinished"></translation>
+        <translation>Vajuta soovitud klahvi</translation>
     </message>
     <message>
         <location filename="../programs/mythfrontend/keygrabber.cpp" line="49"/>
         <source>Waiting for key press</source>
-        <translation type="unfinished"></translation>
+        <translation>Klahvivajutuse ootamine</translation>
     </message>
     <message>
         <location filename="../programs/mythfrontend/keygrabber.cpp" line="52"/>
         <source>Ok</source>
-        <translation type="unfinished"></translation>
+        <translation>Valmis</translation>
     </message>
     <message>
         <location filename="../programs/mythfrontend/keygrabber.cpp" line="53"/>
         <source>Cancel</source>
-        <translation type="unfinished">Tühista</translation>
+        <translation>Tühista</translation>
     </message>
     <message>
         <location filename="../programs/mythfrontend/keygrabber.cpp" line="111"/>
         <source>Pressed key not recognized</source>
-        <translation type="unfinished"></translation>
+        <translation>Tundmatu klahv</translation>
     </message>
     <message>
         <location filename="../programs/mythfrontend/keygrabber.cpp" line="116"/>
         <source>Add key &apos;%1&apos;?</source>
-        <translation type="unfinished"></translation>
+        <translation>Lisan klahvi &quot;%1&quot;  ?</translation>
     </message>
 </context>
 <context>
@@ -1592,12 +1594,12 @@
     <message>
         <location filename="../programs/mythlcdserver/lcdprocclient.cpp" line="1930"/>
         <source>RECORDING</source>
-        <translation type="unfinished"></translation>
+        <translation>SALVESTAMINE</translation>
     </message>
     <message>
         <location filename="../programs/mythlcdserver/lcdprocclient.cpp" line="1958"/>
         <source>RECORDING|</source>
-        <translation type="unfinished"></translation>
+        <translation>SALVESTAMINE</translation>
     </message>
 </context>
 <context>
@@ -1641,52 +1643,52 @@
     <message>
         <location filename="../libs/libmyth/mythmediamonitor.cpp" line="164"/>
         <source>Cancel</source>
-        <translation type="unfinished">Tühista</translation>
+        <translation>Tühista</translation>
     </message>
     <message>
         <location filename="../libs/libmyth/mythmediamonitor.cpp" line="198"/>
         <source>Select removable media to eject or insert</source>
-        <translation type="unfinished"></translation>
+        <translation>Vali sisestatav või väljastatav seade</translation>
     </message>
     <message>
         <location filename="../libs/libmyth/mythmediamonitor.cpp" line="206"/>
         <source>No devices to eject</source>
-        <translation type="unfinished"></translation>
+        <translation>Pole midagi väljastada</translation>
     </message>
     <message>
         <location filename="../libs/libmyth/mythmediamonitor.cpp" line="240"/>
         <source>Failed to unmount %1</source>
-        <translation type="unfinished"></translation>
+        <translation>unount ebaõnnestus %1</translation>
     </message>
     <message>
         <location filename="../libs/libmyth/mythmediamonitor.cpp" line="254"/>
         <source>You may safely remove %1</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 võib nüüd eemaldada</translation>
     </message>
     <message>
         <location filename="../libs/libmyth/mythmediamonitor.cpp" line="258"/>
         <source>Failed to eject %1</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 väljastamine ebaõnnestus</translation>
     </message>
     <message>
         <location filename="../libs/libmyth/mythmediamonitor.cpp" line="796"/>
         <source>Select a CD drive</source>
-        <translation type="unfinished"></translation>
+        <translation>Vali CD seade</translation>
     </message>
     <message>
         <location filename="../libs/libmyth/mythmediamonitor.cpp" line="805"/>
         <source>Select a VCD drive</source>
-        <translation type="unfinished"></translation>
+        <translation>Vali VCD seade</translation>
     </message>
     <message>
         <location filename="../libs/libmyth/mythmediamonitor.cpp" line="814"/>
         <source>Select a DVD drive</source>
-        <translation type="unfinished"></translation>
+        <translation>Vali DCD seade</translation>
     </message>
     <message>
         <location filename="../libs/libmyth/mythmediamonitor.cpp" line="826"/>
         <source>Select a DVD writer</source>
-        <translation type="unfinished"></translation>
+        <translation>Vali DCD kirjutaja</translation>
     </message>
 </context>
 <context>
@@ -1702,17 +1704,18 @@
     <message>
         <location filename="../programs/mythfrontend/mythappearance.cpp" line="266"/>
         <source>Size: %1 x %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Suurur: %1 x %2</translation>
     </message>
     <message>
         <location filename="../programs/mythfrontend/mythappearance.cpp" line="267"/>
         <source>Offset: %1 x %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Nihe: %1 x %2</translation>
     </message>
     <message numerus="yes">
         <location filename="../programs/mythfrontend/mythappearance.cpp" line="268"/>
         <source>Change amount: %n pixel(s)</source>
         <translation type="unfinished">
+            <numerusform></numerusform>
             <numerusform></numerusform>
         </translation>
     </message>
@@ -1732,22 +1735,22 @@
     <message>
         <location filename="../libs/libmyth/mythcontext.cpp" line="1239"/>
         <source>This application is not compatible with the installed MythTV libraries. Please recompile after a make distclean</source>
-        <translation type="unfinished"></translation>
+        <translation>See rakendus pole installeeritud MythTV teekidega ühilduv. Tee &quot;make distclean&quot; ning kompileeri uuesti</translation>
     </message>
     <message>
         <location filename="../libs/libmyth/mythcontext.cpp" line="1377"/>
         <source>Could not connect to the master backend server -- is it running? Is the IP address set for it in the setup program correct?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ei õnnestunud ühenduda peamise taustserveriga -- kas see on ikka käivitatud?  Kas seadistamisprogrammis on õige IP aadress?</translation>
     </message>
     <message>
         <location filename="../libs/libmyth/mythcontext.cpp" line="1895"/>
         <source>The server uses network protocol version %1, but this client only understands version %2.  Make sure you are running compatible versions of the backend and frontend.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Server kasutab protokolli versiooni %1 kuid klient oskab vaid versiooni %2. Veendu, et taustaserveri ja frontendi versioon oleks sama</translation>
     </message>
     <message>
         <location filename="../libs/libmyth/mythcontext.cpp" line="1975"/>
         <source>Plugin %1 is not compatible with the installed MythTV libraries. Please recompile the plugin after a make distclean</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">See rakendus pole installeeritud MythTV teekidega ühilduv. Tee &quot;make distclean&quot; ning kompileeri uuesti</translation>
     </message>
 </context>
 <context>
@@ -1755,12 +1758,12 @@
     <message>
         <location filename="../programs/mythfrontend/mythcontrols.cpp" line="207"/>
         <source>Modify Action</source>
-        <translation type="unfinished"></translation>
+        <translation>Muuda tegevust</translation>
     </message>
     <message>
         <location filename="../programs/mythfrontend/mythcontrols.cpp" line="220"/>
         <source>Set Binding</source>
-        <translation type="unfinished"></translation>
+        <translation>Seo</translation>
     </message>
     <message>
         <location filename="../programs/mythfrontend/mythcontrols.cpp" line="221"/>
@@ -1926,6 +1929,7 @@ Tagasipöördumine eelmisesse menüüsse.</translation>
         <location filename="../libs/libmythui/mythdialogbox.cpp" line="547"/>
         <source>%n match(es)</source>
         <translation type="unfinished">
+            <numerusform></numerusform>
             <numerusform></numerusform>
         </translation>
     </message>
@@ -12537,6 +12541,7 @@ You may have to use the eject button under its tray.</source>
         <source>%n hour(s)</source>
         <translation type="unfinished">
             <numerusform></numerusform>
+            <numerusform></numerusform>
         </translation>
     </message>
     <message numerus="yes">
@@ -12544,12 +12549,14 @@ You may have to use the eject button under its tray.</source>
         <source>%n minute(s)</source>
         <translation type="unfinished">
             <numerusform></numerusform>
+            <numerusform></numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <location filename="../libs/libmythtv/programinfo.cpp" line="697"/>
         <source>%n star(s)</source>
         <translation type="unfinished">
+            <numerusform></numerusform>
             <numerusform></numerusform>
         </translation>
     </message>
@@ -13299,12 +13306,14 @@ Do you wish to continue watching?</source>
         <source>%n second(s)</source>
         <translation type="unfinished">
             <numerusform></numerusform>
+            <numerusform></numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <location filename="../libs/libmythtv/channelscan/channelimporter.cpp" line="120"/>
         <source>Found %n new non-conflicting %1 channel(s).</source>
         <translation type="unfinished">
+            <numerusform></numerusform>
             <numerusform></numerusform>
         </translation>
     </message>
@@ -13313,12 +13322,14 @@ Do you wish to continue watching?</source>
         <source>Found %n old %2 channel(s).</source>
         <translation type="unfinished">
             <numerusform></numerusform>
+            <numerusform></numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <location filename="../libs/libmythtv/channelscan/channelimporter.cpp" line="162"/>
         <source>Found %n new conflicting %2 channel(s).</source>
         <translation type="unfinished">
+            <numerusform></numerusform>
             <numerusform></numerusform>
         </translation>
     </message>
@@ -13327,6 +13338,7 @@ Do you wish to continue watching?</source>
         <source>Found %n conflicting old %2 channel(s).</source>
         <translation type="unfinished">
             <numerusform></numerusform>
+            <numerusform></numerusform>
         </translation>
     </message>
     <message numerus="yes">
@@ -13334,6 +13346,7 @@ Do you wish to continue watching?</source>
         <source>Found %n transport(s):
 </source>
         <translation type="unfinished">
+            <numerusform></numerusform>
             <numerusform></numerusform>
         </translation>
     </message>
@@ -13347,12 +13360,14 @@ Do you wish to continue watching?</source>
         <source>%n star(s), </source>
         <translation type="unfinished">
             <numerusform></numerusform>
+            <numerusform></numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <location filename="../libs/libmythtv/progdetails.cpp" line="585"/>
         <source>hour(s)</source>
         <translation type="unfinished">
+            <numerusform></numerusform>
             <numerusform></numerusform>
         </translation>
     </message>
@@ -13401,6 +13416,7 @@ Do you wish to continue watching?</source>
         <source> %n day(s),</source>
         <translation type="unfinished">
             <numerusform></numerusform>
+            <numerusform></numerusform>
         </translation>
     </message>
     <message numerus="yes">
@@ -13408,12 +13424,14 @@ Do you wish to continue watching?</source>
         <source> %n hour(s) and</source>
         <translation type="unfinished">
             <numerusform></numerusform>
+            <numerusform></numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <location filename="../programs/mythbackend/httpstatus.cpp" line="851"/>
         <source> %n minute(s)</source>
         <translation type="unfinished">
+            <numerusform></numerusform>
             <numerusform></numerusform>
         </translation>
     </message>
@@ -13433,6 +13451,7 @@ Do you wish to continue watching?</source>
         <location filename="../programs/mythcommflag/main.cpp" line="761"/>
         <source>Finished, %n break(s) found.</source>
         <translation type="unfinished">
+            <numerusform></numerusform>
             <numerusform></numerusform>
         </translation>
     </message>
@@ -13467,6 +13486,7 @@ Do you wish to continue watching?</source>
         <location filename="../programs/mythfrontend/statusbox.cpp" line="1004"/>
         <source>%n day(s)</source>
         <translation type="unfinished">
+            <numerusform></numerusform>
             <numerusform></numerusform>
         </translation>
     </message>
@@ -14289,12 +14309,14 @@ Rohkem andmeid pole</translation>
         <source>%n day(s)</source>
         <translation type="unfinished">
             <numerusform></numerusform>
+            <numerusform></numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <location filename="../programs/mythfrontend/statusbox.cpp" line="558"/>
         <source>%n standard rule(s) (is) defined</source>
         <translation type="unfinished">
+            <numerusform></numerusform>
             <numerusform></numerusform>
         </translation>
     </message>
@@ -14303,12 +14325,14 @@ Rohkem andmeid pole</translation>
         <source>%n search rule(s) are defined</source>
         <translation type="unfinished">
             <numerusform></numerusform>
+            <numerusform></numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <location filename="../programs/mythfrontend/statusbox.cpp" line="630"/>
         <source>%n matching showing(s)</source>
         <translation type="unfinished">
+            <numerusform></numerusform>
             <numerusform></numerusform>
         </translation>
     </message>
@@ -14318,6 +14342,7 @@ Rohkem andmeid pole</translation>
 </source>
         <translation type="unfinished">
             <numerusform></numerusform>
+            <numerusform></numerusform>
         </translation>
     </message>
     <message numerus="yes">
@@ -14326,6 +14351,7 @@ Rohkem andmeid pole</translation>
 </source>
         <translation type="unfinished">
             <numerusform></numerusform>
+            <numerusform></numerusform>
         </translation>
     </message>
     <message numerus="yes">
@@ -14333,6 +14359,7 @@ Rohkem andmeid pole</translation>
         <source>%1 (is) Deleted and consume(s) %2
 </source>
         <translation type="unfinished">
+            <numerusform></numerusform>
             <numerusform></numerusform>
         </translation>
     </message>
@@ -15490,6 +15517,7 @@ Select a Current Recording</source>
         <location filename="../libs/libmythtv/tv_play.cpp" line="9975"/>
         <source>%n minute(s)</source>
         <translation type="unfinished">
+            <numerusform></numerusform>
             <numerusform></numerusform>
         </translation>
     </message>
