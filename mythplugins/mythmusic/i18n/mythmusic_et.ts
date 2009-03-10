@@ -1,62 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS><TS version="1.1">
+<!DOCTYPE TS><TS version="1.1" language="et">
+<defaultcodec></defaultcodec>
 <context>
     <name>AlbumArtImages</name>
     <message>
         <location filename="../mythmusic/metadata.cpp" line="1658"/>
         <source>Unknown</source>
-        <translation type="unfinished">Tundmatu</translation>
+        <translation>Tundmatu</translation>
     </message>
     <message>
         <location filename="../mythmusic/metadata.cpp" line="1659"/>
         <source>Front Cover</source>
-        <translation type="unfinished"></translation>
+        <translation>Kaanepilt</translation>
     </message>
     <message>
         <location filename="../mythmusic/metadata.cpp" line="1660"/>
         <source>Back Cover</source>
-        <translation type="unfinished"></translation>
+        <translation>Tagumine pilt</translation>
     </message>
     <message>
         <location filename="../mythmusic/metadata.cpp" line="1661"/>
         <source>CD</source>
-        <translation type="unfinished"></translation>
+        <translation>CD</translation>
     </message>
     <message>
         <location filename="../mythmusic/metadata.cpp" line="1663"/>
         <source>Inlay</source>
-        <translation type="unfinished"></translation>
+        <translation>Sisemine pilt</translation>
     </message>
     <message>
         <location filename="../mythmusic/metadata.cpp" line="1673"/>
         <source>front</source>
-        <translation type="unfinished"></translation>
+        <translation>kaas</translation>
     </message>
     <message>
         <location filename="../mythmusic/metadata.cpp" line="1675"/>
         <source>back</source>
-        <translation type="unfinished"></translation>
+        <translation>põhi</translation>
     </message>
     <message>
         <location filename="../mythmusic/metadata.cpp" line="1677"/>
         <source>inlay</source>
-        <translation type="unfinished"></translation>
+        <translation>sisu</translation>
     </message>
     <message>
         <location filename="../mythmusic/metadata.cpp" line="1679"/>
         <source>cd</source>
-        <translation type="unfinished"></translation>
+        <translation>cd</translation>
     </message>
     <message>
         <location filename="../mythmusic/metadata.cpp" line="1681"/>
         <source>cover</source>
-        <translation type="unfinished"></translation>
+        <translation>pilt</translation>
     </message>
 </context>
 <context>
     <name>DatabaseBox</name>
     <message>
-        <location filename="" line="0"/>
         <source>The theme you are using does not contain a &apos;musictree&apos; element.  Please contact the theme creator and ask if they could please update it.&lt;br&gt;&lt;br&gt;The next screen will be empty.  Escape out of it to return to the menu.</source>
         <translation type="obsolete">Kasutatav kujundus ei sisalda &quot;musictree&quot; elementi.  Palun võta ühendust kujunduse autoriga ning palu tal kujundust uuendada.&lt;br&gt;&lt;br&gt;Järgmine ekraan on tühi. Menüüsse naasmiseks pead sealt väljuma.</translation>
     </message>
@@ -66,7 +66,6 @@
         <translation>Valmis</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
         <source>The theme you are using does not contain any info lines in the music element.  Please contact the theme creator and ask if they could please update it.&lt;br&gt;&lt;br&gt;The next screen will be empty.  Escape out of it to return to the menu.</source>
         <translation type="obsolete">Kasutatav kujundus ei sisalda ühtegi muusikaelemendi inforida.  Palun võta ühendust kujunduse autoriga ning palu tal kujundust uuendada.&lt;br&gt;&lt;br&gt;Järgmine ekraan on tühi. Menüüsse naasmiseks pead sealt väljuma.</translation>
     </message>
@@ -193,7 +192,7 @@
     <message>
         <location filename="../mythmusic/databasebox.cpp" line="100"/>
         <source>The theme you are using does not contain any info lines in the music element. Please contact the theme creator and ask if they could please update it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kasutatavas kujunduses puuduvad muusika info elemendid. Võta ühendust kujunduse autoriga ning palu tal need sinna lisada.</translation>
     </message>
 </context>
 <context>
@@ -201,22 +200,22 @@
     <message>
         <location filename="../mythmusic/directoryfinder.cpp" line="145"/>
         <source>OK</source>
-        <translation type="unfinished">Valmis</translation>
+        <translation>Valmis</translation>
     </message>
     <message>
         <location filename="../mythmusic/directoryfinder.cpp" line="153"/>
         <source>Cancel</source>
-        <translation type="unfinished">Tühista</translation>
+        <translation>Tühista</translation>
     </message>
     <message>
         <location filename="../mythmusic/directoryfinder.cpp" line="161"/>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation>Tagasi</translation>
     </message>
     <message>
         <location filename="../mythmusic/directoryfinder.cpp" line="169"/>
         <source>Home</source>
-        <translation type="unfinished"></translation>
+        <translation>Algusesse</translation>
     </message>
 </context>
 <context>
@@ -227,7 +226,6 @@
         <translation>Tehtud</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
         <source>DB Statistics</source>
         <translation type="obsolete">DB statistika</translation>
     </message>
@@ -294,27 +292,27 @@
     <message>
         <location filename="../mythmusic/editmetadata.cpp" line="387"/>
         <source>Track Info.</source>
-        <translation type="unfinished"></translation>
+        <translation>Raja info.</translation>
     </message>
     <message>
         <location filename="../mythmusic/editmetadata.cpp" line="394"/>
         <source>Album Art</source>
-        <translation type="unfinished"></translation>
+        <translation>Albumi kujundus</translation>
     </message>
     <message>
         <location filename="../mythmusic/editmetadata.cpp" line="401"/>
         <source>Statistics</source>
-        <translation type="unfinished"></translation>
+        <translation>Statistika</translation>
     </message>
     <message>
         <location filename="../mythmusic/editmetadata.cpp" line="624"/>
         <source>Save Changes</source>
-        <translation type="unfinished"></translation>
+        <translation>Salvesta muudatused</translation>
     </message>
     <message>
         <location filename="../mythmusic/editmetadata.cpp" line="729"/>
         <source>Change Image Type</source>
-        <translation type="unfinished"></translation>
+        <translation>Muuda pildi tüüpi</translation>
     </message>
 </context>
 <context>
@@ -322,52 +320,52 @@
     <message>
         <location filename="../mythmusic/importmusic.cpp" line="923"/>
         <source>Copy</source>
-        <translation type="unfinished"></translation>
+        <translation>Kopeeri</translation>
     </message>
     <message>
         <location filename="../mythmusic/importmusic.cpp" line="930"/>
         <source>Exit</source>
-        <translation type="unfinished">Välju</translation>
+        <translation>Välju</translation>
     </message>
     <message>
         <location filename="../mythmusic/importmusic.cpp" line="1091"/>
         <source>Front Cover</source>
-        <translation type="unfinished"></translation>
+        <translation>Kaanepilt</translation>
     </message>
     <message>
         <location filename="../mythmusic/importmusic.cpp" line="1093"/>
         <source>Back Cover</source>
-        <translation type="unfinished"></translation>
+        <translation>Tagumine pilt</translation>
     </message>
     <message>
         <location filename="../mythmusic/importmusic.cpp" line="1097"/>
         <source>CD</source>
-        <translation type="unfinished"></translation>
+        <translation>CD</translation>
     </message>
     <message>
         <location filename="../mythmusic/importmusic.cpp" line="1095"/>
         <source>Inlay</source>
-        <translation type="unfinished"></translation>
+        <translation>Sisemine pilt</translation>
     </message>
     <message>
         <location filename="../mythmusic/importmusic.cpp" line="1099"/>
         <source>&lt;Unknown&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;tundmatu&gt;</translation>
     </message>
     <message>
         <location filename="../mythmusic/importmusic.cpp" line="1066"/>
         <source>File Already Exists</source>
-        <translation type="unfinished"></translation>
+        <translation>Fail on juba olemas</translation>
     </message>
     <message>
         <location filename="../mythmusic/importmusic.cpp" line="1068"/>
         <source>New File</source>
-        <translation type="unfinished"></translation>
+        <translation>Uus fail</translation>
     </message>
     <message>
         <location filename="../mythmusic/importmusic.cpp" line="1072"/>
         <source>Non Found</source>
-        <translation type="unfinished"></translation>
+        <translation>Puudub</translation>
     </message>
 </context>
 <context>
@@ -375,82 +373,82 @@
     <message>
         <location filename="../mythmusic/importmusic.cpp" line="149"/>
         <source>New File</source>
-        <translation type="unfinished"></translation>
+        <translation>Uus fail</translation>
     </message>
     <message>
         <location filename="../mythmusic/importmusic.cpp" line="154"/>
         <source>All Ready in Database</source>
-        <translation type="unfinished"></translation>
+        <translation>Andmebaas on valmis</translation>
     </message>
     <message>
         <location filename="../mythmusic/importmusic.cpp" line="160"/>
         <source>Non found</source>
-        <translation type="unfinished"></translation>
+        <translation>Puudub</translation>
     </message>
     <message>
         <location filename="../mythmusic/importmusic.cpp" line="281"/>
         <source>Search</source>
-        <translation type="unfinished">Otsimine</translation>
+        <translation>Otsimine</translation>
     </message>
     <message>
         <location filename="../mythmusic/importmusic.cpp" line="288"/>
         <source>Cover Art</source>
-        <translation type="unfinished"></translation>
+        <translation>Kaanepilt</translation>
     </message>
     <message>
         <location filename="../mythmusic/importmusic.cpp" line="308"/>
         <source>Play</source>
-        <translation type="unfinished"></translation>
+        <translation>Mängi</translation>
     </message>
     <message>
         <location filename="../mythmusic/importmusic.cpp" line="315"/>
         <source>Next New</source>
-        <translation type="unfinished"></translation>
+        <translation>Järgmine uus</translation>
     </message>
     <message>
         <location filename="../mythmusic/importmusic.cpp" line="322"/>
         <source>Add</source>
-        <translation type="unfinished">Lisa</translation>
+        <translation>Lisa</translation>
     </message>
     <message>
         <location filename="../mythmusic/importmusic.cpp" line="329"/>
         <source>Add All New</source>
-        <translation type="unfinished"></translation>
+        <translation>Lisa kõik uued</translation>
     </message>
     <message>
         <location filename="../mythmusic/importmusic.cpp" line="414"/>
         <source>Copy Failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Kopeerimine ebaõnnestus</translation>
     </message>
     <message>
         <location filename="../mythmusic/importmusic.cpp" line="415"/>
         <source>Could not copy file to:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ei saa faili kopeerida:</translation>
     </message>
     <message>
         <location filename="../mythmusic/importmusic.cpp" line="444"/>
         <source>Duplicate Track</source>
-        <translation type="unfinished"></translation>
+        <translation>Korduv rada</translation>
     </message>
     <message>
         <location filename="../mythmusic/importmusic.cpp" line="445"/>
         <source>This track is already in the database</source>
-        <translation type="unfinished"></translation>
+        <translation>See rada on juba andmebaasis</translation>
     </message>
     <message>
         <location filename="../mythmusic/importmusic.cpp" line="475"/>
         <source>Add Tracks</source>
-        <translation type="unfinished"></translation>
+        <translation>Lisa rajad</translation>
     </message>
     <message>
         <location filename="../mythmusic/importmusic.cpp" line="476"/>
         <source>%1 new tracks were added to the database</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 rada lisatud andmebaasi</translation>
     </message>
     <message>
         <location filename="../mythmusic/importmusic.cpp" line="615"/>
         <source>Save Defaults</source>
-        <translation type="unfinished"></translation>
+        <translation>Salvesta vaikimisi sätted</translation>
     </message>
     <message>
         <location filename="../mythmusic/importmusic.cpp" line="627"/>
@@ -460,37 +458,37 @@
     <message>
         <location filename="../mythmusic/importmusic.cpp" line="629"/>
         <source>Change Compilation Artist</source>
-        <translation type="unfinished"></translation>
+        <translation>Muuda teose koostajat</translation>
     </message>
     <message>
         <location filename="../mythmusic/importmusic.cpp" line="631"/>
         <source>Change Artist</source>
-        <translation type="unfinished"></translation>
+        <translation>Muuda esinejat</translation>
     </message>
     <message>
         <location filename="../mythmusic/importmusic.cpp" line="633"/>
         <source>Change Album</source>
-        <translation type="unfinished"></translation>
+        <translation>Muuda albumit</translation>
     </message>
     <message>
         <location filename="../mythmusic/importmusic.cpp" line="635"/>
         <source>Change Genre</source>
-        <translation type="unfinished"></translation>
+        <translation>Salvesta žanri</translation>
     </message>
     <message>
         <location filename="../mythmusic/importmusic.cpp" line="637"/>
         <source>Change Year</source>
-        <translation type="unfinished"></translation>
+        <translation>Salvesta aastat</translation>
     </message>
     <message>
         <location filename="../mythmusic/importmusic.cpp" line="639"/>
         <source>Change Rating</source>
-        <translation type="unfinished"></translation>
+        <translation>Muuda reitingut</translation>
     </message>
     <message>
         <location filename="../mythmusic/importmusic.cpp" line="643"/>
         <source>Cancel</source>
-        <translation type="unfinished">Tühista</translation>
+        <translation>Tühista</translation>
     </message>
 </context>
 <context>
@@ -498,77 +496,77 @@
     <message>
         <location filename="../mythmusic/miniplayer.cpp" line="58"/>
         <source>Stopped</source>
-        <translation type="unfinished"></translation>
+        <translation>Peatatud</translation>
     </message>
     <message>
         <location filename="../mythmusic/miniplayer.cpp" line="254"/>
         <source>Mute: On</source>
-        <translation type="unfinished"></translation>
+        <translation>Hääletu</translation>
     </message>
     <message>
         <location filename="../mythmusic/miniplayer.cpp" line="256"/>
         <source>Mute: Off</source>
-        <translation type="unfinished"></translation>
+        <translation>Häälega</translation>
     </message>
     <message>
         <location filename="../mythmusic/miniplayer.cpp" line="352"/>
         <source>kbps</source>
-        <translation type="unfinished">kbit/sek</translation>
+        <translation>kbit/sek</translation>
     </message>
     <message>
         <location filename="../mythmusic/miniplayer.cpp" line="358"/>
         <source>kHz</source>
-        <translation type="unfinished">kHz</translation>
+        <translation>kHz</translation>
     </message>
     <message>
         <location filename="../mythmusic/miniplayer.cpp" line="358"/>
         <source>ch</source>
-        <translation type="unfinished">kanal</translation>
+        <translation>kanal</translation>
     </message>
     <message>
         <location filename="../mythmusic/miniplayer.cpp" line="618"/>
         <source>Shuffle Mode: </source>
-        <translation type="unfinished"></translation>
+        <translation>Segamise viis:</translation>
     </message>
     <message>
         <location filename="../mythmusic/miniplayer.cpp" line="622"/>
         <source>Smart</source>
-        <translation type="unfinished"></translation>
+        <translation>Tark</translation>
     </message>
     <message>
         <location filename="../mythmusic/miniplayer.cpp" line="627"/>
         <source>Rand</source>
-        <translation type="unfinished"></translation>
+        <translation>Suvaline</translation>
     </message>
     <message>
         <location filename="../mythmusic/miniplayer.cpp" line="632"/>
         <source>Album</source>
-        <translation type="unfinished">Album</translation>
+        <translation>Album</translation>
     </message>
     <message>
         <location filename="../mythmusic/miniplayer.cpp" line="637"/>
         <source>Artist</source>
-        <translation type="unfinished">Esineja</translation>
+        <translation>Esineja</translation>
     </message>
     <message>
         <location filename="../mythmusic/miniplayer.cpp" line="673"/>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation>Puudub</translation>
     </message>
     <message>
         <location filename="../mythmusic/miniplayer.cpp" line="659"/>
         <source>Repeat Mode: </source>
-        <translation type="unfinished"></translation>
+        <translation>Kordamise viis:</translation>
     </message>
     <message>
         <location filename="../mythmusic/miniplayer.cpp" line="663"/>
         <source>All</source>
-        <translation type="unfinished">kõik</translation>
+        <translation>Kõik</translation>
     </message>
     <message>
         <location filename="../mythmusic/miniplayer.cpp" line="668"/>
         <source>Track</source>
-        <translation type="unfinished"></translation>
+        <translation>Rada</translation>
     </message>
     <message>
         <location filename="../mythmusic/miniplayer.cpp" line="690"/>
@@ -578,27 +576,27 @@
     <message>
         <location filename="../mythmusic/miniplayer.cpp" line="692"/>
         <source>On</source>
-        <translation type="unfinished"></translation>
+        <translation>Sees</translation>
     </message>
     <message>
         <location filename="../mythmusic/miniplayer.cpp" line="694"/>
         <source>Off</source>
-        <translation type="unfinished"></translation>
+        <translation>Väljas</translation>
     </message>
     <message>
         <location filename="../mythmusic/miniplayer.cpp" line="710"/>
         <source>Volume: </source>
-        <translation type="unfinished"></translation>
+        <translation>Helitugevus:</translation>
     </message>
     <message>
         <location filename="../mythmusic/miniplayer.cpp" line="713"/>
         <source>(muted)</source>
-        <translation type="unfinished"></translation>
+        <translation>(hääletu)</translation>
     </message>
     <message>
         <location filename="../mythmusic/miniplayer.cpp" line="748"/>
         <source>Speed: </source>
-        <translation type="unfinished"></translation>
+        <translation>Kiirus:</translation>
     </message>
 </context>
 <context>
@@ -606,7 +604,7 @@
     <message>
         <location filename="../mythmusic/musicplayer.cpp" line="624"/>
         <source>playlist root</source>
-        <translation type="unfinished">lugude nimekirja juurikas</translation>
+        <translation>lugude nimekirja juurikas</translation>
     </message>
 </context>
 <context>
@@ -672,67 +670,54 @@
         <translation>Selle aasta rajad</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
         <source>1 Shuffle: Smart</source>
         <translation type="obsolete">1 Segamine: nutikas</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
         <source>Shuffle: Smart</source>
         <translation type="obsolete">Segamine: nutikas</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
         <source>1 Shuffle: Rand</source>
         <translation type="obsolete">1 Segamine: suvaline</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
         <source>Shuffle: Rand</source>
         <translation type="obsolete">Segamine: suvaline</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
         <source>1 Shuffle: None</source>
         <translation type="obsolete">1 Segamine: puudub</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
         <source>Shuffle: None</source>
         <translation type="obsolete">Segamine: puudub</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
         <source>2 Repeat: All</source>
         <translation type="obsolete">2 Kordamine: kõik</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
         <source>Repeat: All</source>
         <translation type="obsolete">Kordamine: kõik</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
         <source>2 Repeat: Track</source>
         <translation type="obsolete">2 Kordamine: rada</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
         <source>Repeat: Track</source>
         <translation type="obsolete">Kordamine: rada</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
         <source>2 Repeat: None</source>
         <translation type="obsolete">2 Kordamine: puudub</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
         <source>Repeat: None</source>
         <translation type="obsolete">Kordamine: puudub</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
         <source>playlist root</source>
         <translation type="obsolete">lugude nimekirja juurikas</translation>
     </message>
@@ -792,12 +777,10 @@
         <translation>Filtri muutmine</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
         <source>1 Shuffle: Album</source>
         <translation type="obsolete">1 Segamine: Album</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
         <source>Shuffle: Album</source>
         <translation type="obsolete">Segamine: Album</translation>
     </message>
@@ -844,83 +827,84 @@
     <message>
         <location filename="../mythmusic/playbackbox.cpp" line="354"/>
         <source>Visualization: </source>
-        <translation type="unfinished"></translation>
+        <translation>Visualiseerija:</translation>
     </message>
     <message>
         <location filename="../mythmusic/playbackbox.cpp" line="411"/>
         <source>Exiting Music Player
 Do you want to continue playing in the background?</source>
-        <translation type="unfinished"></translation>
+        <translation>Muusikamängijast väljumine
+Kas sa soovid muusikat taustal edasi kuulata?</translation>
     </message>
     <message>
         <location filename="../mythmusic/playbackbox.cpp" line="412"/>
         <source>No - Exit, Stop Playing</source>
-        <translation type="unfinished"></translation>
+        <translation>Ei, välju ja lõpeta mängimine</translation>
     </message>
     <message>
         <location filename="../mythmusic/playbackbox.cpp" line="413"/>
         <source>Yes - Exit, Continue Playing</source>
-        <translation type="unfinished"></translation>
+        <translation>Jah, välju ja jätka mängimist</translation>
     </message>
     <message>
         <location filename="../mythmusic/playbackbox.cpp" line="414"/>
         <source>Cancel</source>
-        <translation type="unfinished">Tühista</translation>
+        <translation>Tühista</translation>
     </message>
     <message>
         <location filename="../mythmusic/playbackbox.cpp" line="634"/>
         <source>Tracks with same Title</source>
-        <translation type="unfinished"></translation>
+        <translation>Sama pealkirjaga rajad</translation>
     </message>
     <message>
         <location filename="../mythmusic/playbackbox.cpp" line="1275"/>
         <source>Speed: </source>
-        <translation type="unfinished"></translation>
+        <translation>Kiirus:</translation>
     </message>
     <message>
         <location filename="../mythmusic/playbackbox.cpp" line="1574"/>
         <source>Smart</source>
-        <translation type="unfinished"></translation>
+        <translation>Tark</translation>
     </message>
     <message>
         <location filename="../mythmusic/playbackbox.cpp" line="1579"/>
         <source>Rand</source>
-        <translation type="unfinished"></translation>
+        <translation>Suvaline</translation>
     </message>
     <message>
         <location filename="../mythmusic/playbackbox.cpp" line="1584"/>
         <source>Album</source>
-        <translation type="unfinished">Album</translation>
+        <translation>Album</translation>
     </message>
     <message>
         <location filename="../mythmusic/playbackbox.cpp" line="1589"/>
         <source>Artist</source>
-        <translation type="unfinished">Esineja</translation>
+        <translation>Esineja</translation>
     </message>
     <message>
         <location filename="../mythmusic/playbackbox.cpp" line="1683"/>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation>Puudub</translation>
     </message>
     <message>
         <location filename="../mythmusic/playbackbox.cpp" line="1613"/>
         <source>Shuffle</source>
-        <translation type="unfinished"></translation>
+        <translation>Segamine</translation>
     </message>
     <message>
         <location filename="../mythmusic/playbackbox.cpp" line="1673"/>
         <source>All</source>
-        <translation type="unfinished">kõik</translation>
+        <translation>Kõik</translation>
     </message>
     <message>
         <location filename="../mythmusic/playbackbox.cpp" line="1678"/>
         <source>Track</source>
-        <translation type="unfinished"></translation>
+        <translation>Rada</translation>
     </message>
     <message>
         <location filename="../mythmusic/playbackbox.cpp" line="1703"/>
         <source>Repeat</source>
-        <translation type="unfinished"></translation>
+        <translation>Kordamine</translation>
     </message>
 </context>
 <context>
@@ -966,7 +950,6 @@ Do you want to continue playing in the background?</source>
         <translation>Heliseade</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
         <source>Audio Device used for playback.</source>
         <translation type="obsolete">Mahamängimiseks kasutatav heliseade.</translation>
     </message>
@@ -1006,7 +989,6 @@ Do you want to continue playing in the background?</source>
         <translation>Failinime formaat</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
         <source>Directory and filename Format used to grab information if no ID3 information is found.</source>
         <translation type="obsolete">Kataloogi ja failinime formaat, mida kasutatakse infona juhul kui puudub ID3 silt.</translation>
     </message>
@@ -1116,17 +1098,14 @@ Do you want to continue playing in the background?</source>
         <translation>Failisalvestusasukoht</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
         <source>Defines the location/name for new songs. Valid tokens are: GENRE, ARTIST, ALBUM, TRACK, TITLE, YEAR, / and -. &apos;-&apos; will be replaced by the Token separator</source>
         <translation type="obsolete">Määrab uute lugude asukoha/.nime. Märgistena saab kasutada: &quot;GENRE&quot; (žanr), &quot;ARTIST&quot; (esineja), &quot;ALBUM&quot; (album), &quot;TRACK&quot; (rada), &quot;TITLE&quot; (pealkiri), &quot;YEAR&quot; (aasta), &quot;/&quot; ja  &quot;-&quot;. &quot;-&quot; asendatakse märgiste eraldajaga</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
         <source>Token separator</source>
         <translation type="obsolete">Märgiste eraldaja</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
         <source>Filename tokens will be separated by this string.</source>
         <translation type="obsolete">Märgised failinimes eraldatakse selle stringiga.</translation>
     </message>
@@ -1236,7 +1215,6 @@ Do you want to continue playing in the background?</source>
         <translation>Kogu muusikapuu näitamine</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
         <source>If selected, you can navigate your entire music tree from the playing screen.</source>
         <translation type="obsolete">Märkimisel saab mängimisekraanil kogu muusika puus liikuda.</translation>
     </message>
@@ -1261,7 +1239,6 @@ Do you want to continue playing in the background?</source>
         <translation>Tark</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
         <source>Starting shuffle mode for the player.  Can be either normal, random, or intelligent (random).</source>
         <translation type="obsolete">Suvalises järjekorras mängimine.  Võib olla kas &quot;normaalne&quot;, &quot;suvaline&quot; või &quot;tark&quot; (suvaline).</translation>
     </message>
@@ -1281,7 +1258,6 @@ Do you want to continue playing in the background?</source>
         <translation>Visualiseerija muutmine iga looga</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
         <source>Change the visualizer when the song change.</source>
         <translation type="obsolete">Visualiseerijat vahetatakse loo vahetumisel.</translation>
     </message>
@@ -1306,47 +1282,38 @@ Do you want to continue playing in the background?</source>
         <translation>Visualiseerijad</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
         <source>List of visualizations to use during playback. Possible values are space-separated list of </source>
         <translation type="obsolete">Mahamängimise ajal kasutatavate visualiseerijate nimekiri. Võimalikud tühikuga eraldatud väärtused on </translation>
     </message>
     <message>
-        <location filename="" line="0"/>
         <source>MonoScope</source>
         <translation type="obsolete">MonoScope</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
         <source>StereoScope</source>
         <translation type="obsolete">StereoScope</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
         <source>Spectrum</source>
         <translation type="obsolete">Spectrum</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
         <source>Goom</source>
         <translation type="obsolete">Goom</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
         <source>Synaesthesia</source>
         <translation type="obsolete">Synaesthesia</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
         <source>Gears</source>
         <translation type="obsolete">Gears</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
         <source>and</source>
         <translation type="obsolete">ja</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
         <source>Blank</source>
         <translation type="obsolete">Blank</translation>
     </message>
@@ -1431,7 +1398,6 @@ Do you want to continue playing in the background?</source>
         <translation>Puhastamise meetod. &quot;Kiire&quot; võtab umbes minuti, &quot;Täielik&quot; võtab kuni 20 minutit.</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
         <source>General Settings</source>
         <translation type="obsolete">Üldised sätted</translation>
     </message>
@@ -1468,17 +1434,17 @@ Do you want to continue playing in the background?</source>
     <message>
         <location filename="../mythmusic/importmusic.cpp" line="509"/>
         <source>Searching for music files</source>
-        <translation type="unfinished">Muusikafailide otsimine</translation>
+        <translation>Muusikafailide otsimine</translation>
     </message>
     <message>
         <location filename="../mythmusic/filescanner.cpp" line="636"/>
         <source>Scanning music files</source>
-        <translation type="unfinished">Muusikafailide skaneerimine</translation>
+        <translation>Muusikafailide skaneerimine</translation>
     </message>
     <message>
         <location filename="../mythmusic/filescanner.cpp" line="566"/>
         <source>Updating music database</source>
-        <translation type="unfinished">Muusikaandmebaasi uuendamine</translation>
+        <translation>Muusikaandmebaasi uuendamine</translation>
     </message>
     <message>
         <location filename="../mythmusic/playbackbox.cpp" line="1016"/>
@@ -1596,12 +1562,10 @@ Do you want to continue playing in the background?</source>
         <translation>Mahamängimisel kasutatav heliseade. &quot;vaikimisi&quot; seade kasutab MythTV määratud heliseadet</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
         <source>Only Import new music.</source>
         <translation type="obsolete">Ainult uue muusika import</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
         <source>Checks the database for duplicates when importing/ripping CDs.</source>
         <translation type="obsolete">Kontrollib CD importimisel või rippimisel andembaasist duplikaatide olemasolu.</translation>
     </message>
@@ -1618,182 +1582,182 @@ Do you want to continue playing in the background?</source>
     <message>
         <location filename="../mythmusic/cdrip.cpp" line="179"/>
         <source>Importing </source>
-        <translation type="unfinished">Importimine </translation>
+        <translation>Importimine</translation>
     </message>
     <message>
         <location filename="../mythmusic/globalsettings.cpp" line="119"/>
         <source>Directory and filename Format used to grab information if no ID3 information is found. Accepts GENRE, ARTIST, ALBUM, TITLE, ARTIST_TITLE and TRACK_TITLE.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kataloogi ja failinimede formaat info leidmiseks juhul kui ID3 puudub. Lubatud variandid: GENRE, ARTIST, ALBUM, TITLE, ARTIST_TITLE and TRACK_TITLE.</translation>
     </message>
     <message>
         <location filename="../mythmusic/globalsettings.cpp" line="139"/>
         <source>Tag Encoding</source>
-        <translation type="unfinished"></translation>
+        <translation>Märksõnade kodeerimine</translation>
     </message>
     <message>
         <location filename="../mythmusic/globalsettings.cpp" line="140"/>
         <source>UTF-16</source>
-        <translation type="unfinished"></translation>
+        <translation>UTF-16</translation>
     </message>
     <message>
         <location filename="../mythmusic/globalsettings.cpp" line="141"/>
         <source>UTF-8</source>
-        <translation type="unfinished"></translation>
+        <translation>UTF-8</translation>
     </message>
     <message>
         <location filename="../mythmusic/globalsettings.cpp" line="142"/>
         <source>ASCII</source>
-        <translation type="unfinished"></translation>
+        <translation>ASCII</translation>
     </message>
     <message>
         <location filename="../mythmusic/globalsettings.cpp" line="143"/>
         <source>Some mp3 players don&apos;t understand tags encoded in UTF8 or UTF16, this setting allows you to change the encoding format used. Currently applies only to ID3 tags.</source>
-        <translation type="unfinished"></translation>
+        <translation>Mõned MP3 mängijad ei saa aru UTF-8 või UTF-16 kodeeringus märksõnadest. Mõjub ainult ID3 märksõnadele.</translation>
     </message>
     <message>
         <location filename="../mythmusic/globalsettings.cpp" line="223"/>
         <source>Defines the location/name for new songs. Valid tokens are: GENRE, ARTIST, ALBUM, TRACK, TITLE, YEAR</source>
-        <translation type="unfinished"></translation>
+        <translation>Määrab uute lugude asukoha/nime. Võimalikud märgid on: GENRE, ARTIST, ALBUM, TRACK, TITLE, YEAR</translation>
     </message>
     <message>
         <location filename="../mythmusic/globalsettings.cpp" line="310"/>
         <source>Maximum Search Results</source>
-        <translation type="unfinished"></translation>
+        <translation>Otsitulemuste hulk</translation>
     </message>
     <message>
         <location filename="../mythmusic/globalsettings.cpp" line="313"/>
         <source>Used to limit the number of results returned when using the search feature.</source>
-        <translation type="unfinished"></translation>
+        <translation>Otsinguga tagastatavate tulemuste maksimaalne arv.</translation>
     </message>
     <message>
         <location filename="../mythmusic/globalsettings.cpp" line="379"/>
         <source>Resume mode</source>
-        <translation type="unfinished"></translation>
+        <translation>jätkamise viis</translation>
     </message>
     <message>
         <location filename="../mythmusic/globalsettings.cpp" line="380"/>
         <source>Off</source>
-        <translation type="unfinished"></translation>
+        <translation>Väljas</translation>
     </message>
     <message>
         <location filename="../mythmusic/globalsettings.cpp" line="381"/>
         <source>Track</source>
-        <translation type="unfinished"></translation>
+        <translation>Rada</translation>
     </message>
     <message>
         <location filename="../mythmusic/globalsettings.cpp" line="382"/>
         <source>Exact</source>
-        <translation type="unfinished"></translation>
+        <translation>Sama koht</translation>
     </message>
     <message>
         <location filename="../mythmusic/globalsettings.cpp" line="385"/>
         <source>Resume playback at either the beginning of the active play queue, the beginning of the last track, an exact point within the last track.</source>
-        <translation type="unfinished"></translation>
+        <translation>Mahamängimise jätkamine kas lugude järjekorra algusest, raja algusest või viimati mängitud raja poolelijäänud kohast.</translation>
     </message>
     <message>
         <location filename="../mythmusic/globalsettings.cpp" line="644"/>
         <source>Playback Settings (2)</source>
-        <translation type="unfinished"></translation>
+        <translation>Mahamängimise sätted (2)</translation>
     </message>
     <message>
         <location filename="../mythmusic/databasebox.cpp" line="76"/>
         <source>The theme you are using does not contain the %1 element. Please contact the theme creator and ask if they could please update it.&lt;br&gt;&lt;br&gt;The next screen will be empty. Escape out of it to return to the menu.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kasutatavas kujunduses puudub element &quot;%1&quot;. Palun võta ühendust kujunduse autoriga ning palu tal kujundust uuendada.&lt;br&gt;&lt;br&gt;Järgmine ekraan on tühi. Menüüsse naasmiseks pead sealt väljuma.</translation>
     </message>
     <message>
         <location filename="../mythmusic/globalsettings.cpp" line="320"/>
         <source>Number of Artists Tree Groups</source>
-        <translation type="unfinished"></translation>
+        <translation>Esitajate gruppide hulk</translation>
     </message>
     <message>
         <location filename="../mythmusic/globalsettings.cpp" line="321"/>
         <source>Few</source>
-        <translation type="unfinished"></translation>
+        <translation>Väike</translation>
     </message>
     <message>
         <location filename="../mythmusic/globalsettings.cpp" line="322"/>
         <source>Average</source>
-        <translation type="unfinished"></translation>
+        <translation>Keskmine</translation>
     </message>
     <message>
         <location filename="../mythmusic/globalsettings.cpp" line="323"/>
         <source>Many</source>
-        <translation type="unfinished"></translation>
+        <translation>Suur</translation>
     </message>
     <message>
         <location filename="../mythmusic/globalsettings.cpp" line="327"/>
         <source>Determines how many groups we have in the artist tree.  Few gives &apos;A B C D&apos; as per the old behaviour, average gives two letters per group, many gives one letter per group.</source>
-        <translation type="unfinished"></translation>
+        <translation>Määrab artistide nimekirjas olevate gruppide hulga. &quot;Väike&quot; grupeerib &quot;A B C D&quot; nagu vanasti, &quot;Keskmine&quot; kasutab kahte tähte grupi kohta ning &quot;Suur&quot; teeb igale tähele oma grupi.</translation>
     </message>
     <message>
         <location filename="../mythmusic/globalsettings.cpp" line="357"/>
         <source>If selected, you can navigate your entire music tree from the playing screen. N.B. Does not work with accelerated buttons disabled</source>
-        <translation type="unfinished"></translation>
+        <translation>Märkimisel on võimalik liikuda mängimise ajal kogu muusikakataloogis. NB! kiirvalikuklahvid peavad olema lubatud</translation>
     </message>
     <message>
         <location filename="../mythmusic/globalsettings.cpp" line="370"/>
         <source>Album</source>
-        <translation type="unfinished">Album</translation>
+        <translation>Album</translation>
     </message>
     <message>
         <location filename="../mythmusic/globalsettings.cpp" line="372"/>
         <source>Starting shuffle mode for the player.  Can be either normal, random, intelligent (random), or Album.</source>
-        <translation type="unfinished"></translation>
+        <translation>Algne mängija segamisviis. Võib olla kas &quot;Tavaline&quot;, &quot;Segamini&quot;, &quot;Intelligentne (segamini)&quot; või &quot;Album&quot;.</translation>
     </message>
     <message>
         <location filename="../mythmusic/globalsettings.cpp" line="416"/>
         <source>Change the visualizer when the song changes.</source>
-        <translation type="unfinished"></translation>
+        <translation>Visualiseerijat vahetatakse loo vahetumisel.</translation>
     </message>
     <message>
         <location filename="../mythmusic/globalsettings.cpp" line="423"/>
         <source>Show Album Art at the start of each song</source>
-        <translation type="unfinished"></translation>
+        <translation>Mahamängimisel näidatakse albumi kujundust</translation>
     </message>
     <message>
         <location filename="../mythmusic/globalsettings.cpp" line="426"/>
         <source>When the song changes and the new song has an album art image display it in the visualizer for a short period.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kui uuel lool on salvestatud albumi kujundus, siis näita seda lühikest aega ka visualiseerijas.</translation>
     </message>
     <message>
         <location filename="../mythmusic/globalsettings.cpp" line="433"/>
         <source>Randomize Visualizer order</source>
-        <translation type="unfinished"></translation>
+        <translation>Visualiseerijae järjekorra segamine</translation>
     </message>
     <message>
         <location filename="../mythmusic/globalsettings.cpp" line="436"/>
         <source>On changing the visualizer pick a new one at random.</source>
-        <translation type="unfinished"></translation>
+        <translation>Visualiseerija vahetamisel valitakse suvaline uus.</translation>
     </message>
     <message>
         <location filename="../mythmusic/globalsettings.cpp" line="471"/>
         <source>List of visualizations to use during playback. Click the button below to edit this list</source>
-        <translation type="unfinished"></translation>
+        <translation>Mahamängimise ajal kasutatavate visualiseerijate nimekiri. Nimekirja muutmiseks vajuta järnevat nuppu</translation>
     </message>
     <message>
         <location filename="../mythmusic/globalsettings.cpp" line="479"/>
         <source>Edit Visualizations</source>
-        <translation type="unfinished"></translation>
+        <translation>Visualiseerijate muutmine</translation>
     </message>
     <message>
         <location filename="../mythmusic/globalsettings.cpp" line="480"/>
         <source>Edit the list of visualizations to use during playback.</source>
-        <translation type="unfinished"></translation>
+        <translation>Mahamängimise ajal kasutatavate visualiseerijate nimekirja muutmine.</translation>
     </message>
     <message>
         <location filename="../mythmusic/globalsettings.cpp" line="601"/>
         <source>General Settings (1)</source>
-        <translation type="unfinished"></translation>
+        <translation>Üldised sätted (1)</translation>
     </message>
     <message>
         <location filename="../mythmusic/globalsettings.cpp" line="611"/>
         <source>General Settings (2)</source>
-        <translation type="unfinished"></translation>
+        <translation>Üldised sätted (2)</translation>
     </message>
     <message>
         <location filename="../mythmusic/avfdecoder.cpp" line="389"/>
         <source>Windows Media Audio</source>
-        <translation type="unfinished"></translation>
+        <translation>Windows Media heli</translation>
     </message>
     <message>
         <location filename="../mythmusic/cddecoder-darwin.cpp" line="424"/>
@@ -1808,42 +1772,42 @@ Do you want to continue playing in the background?</source>
     <message>
         <location filename="../mythmusic/filescanner.cpp" line="335"/>
         <source>Cleaning music database</source>
-        <translation type="unfinished"></translation>
+        <translation>Muusikaandmebaasi puhastamine</translation>
     </message>
     <message>
         <location filename="../mythmusic/filescanner.cpp" line="707"/>
         <source>Scanning Album Artwork</source>
-        <translation type="unfinished"></translation>
+        <translation>Albumi kujunduse skaneerimine</translation>
     </message>
     <message>
         <location filename="../mythmusic/globalsettings.cpp" line="392"/>
         <source>Action on exit</source>
-        <translation type="unfinished"></translation>
+        <translation>Väljumise tegevus</translation>
     </message>
     <message>
         <location filename="../mythmusic/globalsettings.cpp" line="393"/>
         <source>Prompt</source>
-        <translation type="unfinished"></translation>
+        <translation>Küsi alati</translation>
     </message>
     <message>
         <location filename="../mythmusic/globalsettings.cpp" line="394"/>
         <source>Stop Playing</source>
-        <translation type="unfinished"></translation>
+        <translation>Peata mängimine</translation>
     </message>
     <message>
         <location filename="../mythmusic/globalsettings.cpp" line="395"/>
         <source>Keep Playing</source>
-        <translation type="unfinished"></translation>
+        <translation>Jätka mängimist</translation>
     </message>
     <message>
         <location filename="../mythmusic/globalsettings.cpp" line="396"/>
         <source>Specify what action to take when exiting mythmusic plugin.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vali mythmusic moodulist väljumise viis.</translation>
     </message>
     <message>
         <location filename="../mythmusic/treebuilders.cpp" line="275"/>
         <source>Artists</source>
-        <translation type="unfinished"></translation>
+        <translation>Esinejad</translation>
     </message>
 </context>
 <context>
@@ -1851,29 +1815,28 @@ Do you want to continue playing in the background?</source>
     <message>
         <location filename="../mythmusic/cdrip.cpp" line="1579"/>
         <source>Are you sure you want to cancel ripping the CD?</source>
-        <translation type="unfinished"></translation>
+        <translation>Kas soovid CD rippimise katkestada?</translation>
     </message>
     <message>
         <location filename="../mythmusic/cdrip.cpp" line="1584"/>
         <source>Cancelled by the user</source>
-        <translation type="unfinished"></translation>
+        <translation>Kasutaja polt katkestatud</translation>
     </message>
     <message>
         <location filename="../mythmusic/cdrip.cpp" line="1664"/>
         <source>The encoder failed to create the file.
 Do you have write permissions for the music directory?</source>
-        <translation type="unfinished"></translation>
+        <translation>Enkooder ei saa faili luua.
+Kas muusikakataloogile kirjutamise õigus on olemas?</translation>
     </message>
 </context>
 <context>
     <name>Ripper</name>
     <message>
-        <location filename="" line="0"/>
         <source>Please select a quality level and check the album information below:</source>
         <translation type="obsolete">Vali kvaliteedi tase ning albumi info:</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
         <source>Quality: </source>
         <translation type="obsolete">Kvaliteet: </translation>
     </message>
@@ -1898,69 +1861,56 @@ Do you have write permissions for the music directory?</source>
         <translation>perfektne</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
         <source>Artist: </source>
         <translation type="obsolete">Esineja: </translation>
     </message>
     <message>
-        <location filename="" line="0"/>
         <source>Album: </source>
         <translation type="obsolete">Album: </translation>
     </message>
     <message>
-        <location filename="" line="0"/>
         <source>Genre: </source>
         <translation type="obsolete">Žanr: </translation>
     </message>
     <message>
-        <location filename="" line="0"/>
         <source>Multi-Artist?</source>
         <translation type="obsolete">Mitu esinejat?</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
         <source>Switch Titles &amp;&amp; Artists</source>
         <translation type="obsolete">Pealkirjade ja esinejate vahetamine</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
         <source>Title</source>
         <translation type="obsolete">Pealkiri</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
         <source>Artist</source>
         <translation type="obsolete">Esineja</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
         <source>Length</source>
         <translation type="obsolete">Pikkus</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
         <source>Import this CD</source>
         <translation type="obsolete">Impordi see CD</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
         <source>Importing CD:
 </source>
         <translation type="obsolete">CD importimine:
 </translation>
     </message>
     <message>
-        <location filename="" line="0"/>
         <source>Ripping...</source>
         <translation type="obsolete">Rippimine...</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
         <source>Importing </source>
         <translation type="obsolete">Importimine </translation>
     </message>
     <message>
-        <location filename="" line="0"/>
         <source>Copying from CD:
 </source>
         <translation type="obsolete">CD pealt kopeerimine:
@@ -1969,17 +1919,17 @@ Do you have write permissions for the music directory?</source>
     <message>
         <location filename="../mythmusic/cdrip.cpp" line="537"/>
         <source>Switch Titles</source>
-        <translation type="unfinished"></translation>
+        <translation>Vaheta pealkirju</translation>
     </message>
     <message>
         <location filename="../mythmusic/cdrip.cpp" line="545"/>
         <source>Scan CD</source>
-        <translation type="unfinished"></translation>
+        <translation>Skaneeri CD</translation>
     </message>
     <message>
         <location filename="../mythmusic/cdrip.cpp" line="553"/>
         <source>Rip CD</source>
-        <translation type="unfinished"></translation>
+        <translation>Ripi CD</translation>
     </message>
     <message>
         <location filename="../mythmusic/cdrip.cpp" line="754"/>
@@ -1989,54 +1939,61 @@ Track: %3
 
 This track is already in the database. 
 Do you want to remove the existing track?</source>
-        <translation type="unfinished"></translation>
+        <translation>Esineja: %1
+Album: %2
+Rada: %3
+
+See rada on juba andmebaasis.
+Kas soovid olemasoleva info kustutada?</translation>
     </message>
     <message>
         <location filename="../mythmusic/cdrip.cpp" line="1216"/>
         <source>No tracks</source>
-        <translation type="unfinished"></translation>
+        <translation>Pole radu</translation>
     </message>
     <message>
         <location filename="../mythmusic/cdrip.cpp" line="1217"/>
         <source>There are no tracks to rip?</source>
-        <translation type="unfinished"></translation>
+        <translation>Pole radu, mida rippida</translation>
     </message>
     <message>
         <location filename="../mythmusic/cdrip.cpp" line="1230"/>
         <source>Success</source>
-        <translation type="unfinished"></translation>
+        <translation>Õnnestus</translation>
     </message>
     <message>
         <location filename="../mythmusic/cdrip.cpp" line="1231"/>
         <source>Rip completed successfully.</source>
-        <translation type="unfinished"></translation>
+        <translation>Rippimine õnnestus.</translation>
     </message>
     <message>
         <location filename="../mythmusic/cdrip.cpp" line="1250"/>
         <source>Ejecting CD. Please Wait ...</source>
-        <translation type="unfinished"></translation>
+        <translation>CD väljastamine. Palun oota ...</translation>
     </message>
     <message>
         <location filename="../mythmusic/cdrip.cpp" line="1400"/>
         <source>Select an Artist</source>
-        <translation type="unfinished">Esitaja valimine</translation>
+        <translation>Esitaja valimine</translation>
     </message>
     <message>
         <location filename="../mythmusic/cdrip.cpp" line="1415"/>
         <source>Select an Album</source>
-        <translation type="unfinished">Albumi valimine</translation>
+        <translation>Albumi valimine</translation>
     </message>
     <message>
         <location filename="../mythmusic/cdrip.cpp" line="1433"/>
         <source>Select a Genre</source>
-        <translation type="unfinished">Žanri valimine</translation>
+        <translation>Žanri valimine</translation>
     </message>
     <message>
         <location filename="../mythmusic/cdrip.cpp" line="1239"/>
         <source>Encoding failed with the following error:-
 
 </source>
-        <translation type="unfinished"></translation>
+        <translation>Kodeerimine ebaõnnestumise põhjus:
+
+</translation>
     </message>
 </context>
 <context>
@@ -2044,22 +2001,22 @@ Do you want to remove the existing track?</source>
     <message>
         <location filename="../mythmusic/search.cpp" line="19"/>
         <source>Search Music Database</source>
-        <translation type="unfinished"></translation>
+        <translation>Otsi muusikaandmebaasist</translation>
     </message>
     <message>
         <location filename="../mythmusic/search.cpp" line="49"/>
         <source>OK</source>
-        <translation type="unfinished">Valmis</translation>
+        <translation>Valmis</translation>
     </message>
     <message>
         <location filename="../mythmusic/search.cpp" line="50"/>
         <source>Cancel</source>
-        <translation type="unfinished">Tühista</translation>
+        <translation>Tühista</translation>
     </message>
     <message>
         <location filename="../mythmusic/search.cpp" line="222"/>
         <source>Search Music Database (%1 matches)</source>
-        <translation type="unfinished"></translation>
+        <translation>Muusikaandmebaasi otsimine (%1 tulemust)</translation>
     </message>
 </context>
 <context>
@@ -2423,7 +2380,6 @@ Do you want to remove the existing track?</source>
 <context>
     <name>ThemeUI</name>
     <message>
-        <location filename="" line="0"/>
         <source>Please Wait...</source>
         <translation type="obsolete">Palun oota...</translation>
     </message>
@@ -2490,152 +2446,152 @@ Do you want to remove the existing track?</source>
     <message>
         <location filename="themestrings.h" line="2"/>
         <source>Please Wait ...</source>
-        <translation type="unfinished"></translation>
+        <translation>Palun oota...</translation>
     </message>
     <message>
         <location filename="themestrings.h" line="40"/>
         <source>Comp. Artist:</source>
-        <translation type="unfinished"></translation>
+        <translation>Koostaja: </translation>
     </message>
     <message>
         <location filename="themestrings.h" line="16"/>
         <source>Album Art</source>
-        <translation type="unfinished"></translation>
+        <translation>Albumi kujundus</translation>
     </message>
     <message>
         <location filename="themestrings.h" line="17"/>
         <source>No Album Art Found</source>
-        <translation type="unfinished"></translation>
+        <translation>Albumi kujundus puudub</translation>
     </message>
     <message>
         <location filename="themestrings.h" line="19"/>
         <source>Type:</source>
-        <translation type="unfinished"></translation>
+        <translation>Tüüp:</translation>
     </message>
     <message>
         <location filename="themestrings.h" line="21"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="themestrings.h" line="22"/>
         <source>Please select a quality level and check the album information below:</source>
-        <translation type="unfinished">Vali kvaliteedi tase ning albumi info:</translation>
+        <translation>Vali kvaliteedi tase ning albumi info:</translation>
     </message>
     <message>
         <location filename="themestrings.h" line="23"/>
         <source>Quality:</source>
-        <translation type="unfinished"></translation>
+        <translation>Kvaliteet: </translation>
     </message>
     <message>
         <location filename="themestrings.h" line="27"/>
         <source>Multi-Artist:</source>
-        <translation type="unfinished"></translation>
+        <translation>Mitu esinejat:</translation>
     </message>
     <message>
         <location filename="themestrings.h" line="56"/>
         <source>Track</source>
-        <translation type="unfinished"></translation>
+        <translation>Rada</translation>
     </message>
     <message>
         <location filename="themestrings.h" line="53"/>
         <source>Title</source>
-        <translation type="unfinished">Pealkiri</translation>
+        <translation>Pealkiri</translation>
     </message>
     <message>
         <location filename="themestrings.h" line="51"/>
         <source>Artist</source>
-        <translation type="unfinished">Esineja</translation>
+        <translation>Esineja</translation>
     </message>
     <message>
         <location filename="themestrings.h" line="32"/>
         <source>Length</source>
-        <translation type="unfinished">Pikkus</translation>
+        <translation>Pikkus</translation>
     </message>
     <message>
         <location filename="themestrings.h" line="33"/>
         <source>Rip CD</source>
-        <translation type="unfinished"></translation>
+        <translation>Ripi CD</translation>
     </message>
     <message>
         <location filename="themestrings.h" line="34"/>
         <source>Importing CD</source>
-        <translation type="unfinished"></translation>
+        <translation>CD importimine</translation>
     </message>
     <message>
         <location filename="themestrings.h" line="35"/>
         <source>Encoding Track</source>
-        <translation type="unfinished"></translation>
+        <translation>Raja kodeerimine</translation>
     </message>
     <message>
         <location filename="themestrings.h" line="36"/>
         <source>Import Music</source>
-        <translation type="unfinished"></translation>
+        <translation>Muusika importimine</translation>
     </message>
     <message>
         <location filename="themestrings.h" line="58"/>
         <source>Location:</source>
-        <translation type="unfinished"></translation>
+        <translation>Asukoht:</translation>
     </message>
     <message>
         <location filename="themestrings.h" line="65"/>
         <source>123 of 345</source>
-        <translation type="unfinished"></translation>
+        <translation>123 345-st</translation>
     </message>
     <message>
         <location filename="themestrings.h" line="66"/>
         <source>All ready in database</source>
-        <translation type="unfinished"></translation>
+        <translation>Andmebaasis on kõik valmis</translation>
     </message>
     <message>
         <location filename="themestrings.h" line="64"/>
         <source>/some/file/goes/here/test.mp3</source>
-        <translation type="unfinished"></translation>
+        <translation>/siia/tuleb/mingi/fail.mp3</translation>
     </message>
     <message>
         <location filename="themestrings.h" line="50"/>
         <source>Compilation Artist</source>
-        <translation type="unfinished"></translation>
+        <translation>Koostaja</translation>
     </message>
     <message>
         <location filename="themestrings.h" line="52"/>
         <source>Album</source>
-        <translation type="unfinished">Album</translation>
+        <translation>Album</translation>
     </message>
     <message>
         <location filename="themestrings.h" line="54"/>
         <source>Genre</source>
-        <translation type="unfinished">Žanr</translation>
+        <translation>Žanr</translation>
     </message>
     <message>
         <location filename="themestrings.h" line="55"/>
         <source>Year</source>
-        <translation type="unfinished">Aasta</translation>
+        <translation>Aasta</translation>
     </message>
     <message>
         <location filename="themestrings.h" line="57"/>
         <source>Directory Finder</source>
-        <translation type="unfinished"></translation>
+        <translation>Kataloogi otsija</translation>
     </message>
     <message>
         <location filename="themestrings.h" line="59"/>
         <source>Import Cover Art</source>
-        <translation type="unfinished"></translation>
+        <translation>Impordi kaanepilt</translation>
     </message>
     <message>
         <location filename="themestrings.h" line="60"/>
         <source>File:</source>
-        <translation type="unfinished"></translation>
+        <translation>Fail:</translation>
     </message>
     <message>
         <location filename="themestrings.h" line="61"/>
         <source>Destination:</source>
-        <translation type="unfinished"></translation>
+        <translation>Sihtkoht:</translation>
     </message>
     <message>
         <location filename="themestrings.h" line="62"/>
         <source>Image Type:</source>
-        <translation type="unfinished"></translation>
+        <translation>Pildi tüüp:</translation>
     </message>
 </context>
 <context>
@@ -2643,47 +2599,47 @@ Do you want to remove the existing track?</source>
     <message>
         <location filename="../mythmusic/globalsettings.cpp" line="712"/>
         <source>Visualizations</source>
-        <translation type="unfinished">Visualiseerijad</translation>
+        <translation>Visualiseerijad</translation>
     </message>
     <message>
         <location filename="../mythmusic/globalsettings.cpp" line="724"/>
         <source>Selected Visualizations</source>
-        <translation type="unfinished"></translation>
+        <translation>Valitud visualiseerijad</translation>
     </message>
     <message>
         <location filename="../mythmusic/globalsettings.cpp" line="729"/>
         <source>Available Visualizations</source>
-        <translation type="unfinished"></translation>
+        <translation>Olemasolevad visualiseerijad</translation>
     </message>
     <message>
         <location filename="../mythmusic/globalsettings.cpp" line="752"/>
         <source>Name</source>
-        <translation type="unfinished"></translation>
+        <translation>Nimi</translation>
     </message>
     <message>
         <location filename="../mythmusic/globalsettings.cpp" line="753"/>
         <source>Provider</source>
-        <translation type="unfinished"></translation>
+        <translation>Pakkuja</translation>
     </message>
     <message>
         <location filename="../mythmusic/globalsettings.cpp" line="769"/>
         <source>Move Up</source>
-        <translation type="unfinished">Nihuta üles</translation>
+        <translation>Nihuta üles</translation>
     </message>
     <message>
         <location filename="../mythmusic/globalsettings.cpp" line="776"/>
         <source>Move Down</source>
-        <translation type="unfinished">Nihuta alla</translation>
+        <translation>Nihuta alla</translation>
     </message>
     <message>
         <location filename="../mythmusic/globalsettings.cpp" line="795"/>
         <source>OK</source>
-        <translation type="unfinished">Valmis</translation>
+        <translation>Valmis</translation>
     </message>
     <message>
         <location filename="../mythmusic/globalsettings.cpp" line="803"/>
         <source>Cancel</source>
-        <translation type="unfinished">Tühista</translation>
+        <translation>Tühista</translation>
     </message>
 </context>
 </TS>
