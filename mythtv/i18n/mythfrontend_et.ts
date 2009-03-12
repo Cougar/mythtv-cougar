@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="et_EE">
-<defaultcodec></defaultcodec>
 <context>
     <name>@default</name>
     <message>
@@ -341,7 +340,7 @@
     <message>
         <location filename="../programs/mythtv-setup/channeleditor.cpp" line="167"/>
         <source>All</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Kõik</translation>
     </message>
     <message>
         <location filename="../programs/mythtv-setup/channeleditor.cpp" line="179"/>
@@ -371,17 +370,17 @@
     <message>
         <location filename="../programs/mythtv-setup/channeleditor.cpp" line="520"/>
         <source>Channel Options</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Kanalite valikud</translation>
     </message>
     <message>
         <location filename="../programs/mythtv-setup/channeleditor.cpp" line="530"/>
         <source>Edit</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Redigeeri</translation>
     </message>
     <message>
         <location filename="../programs/mythtv-setup/channeleditor.cpp" line="531"/>
         <source>Delete</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Kustuta</translation>
     </message>
 </context>
 <context>
@@ -1257,7 +1256,7 @@
         <location filename="../libs/libmythtv/diseqcsettings.cpp" line="423"/>
         <source>W</source>
         <comment>Western Hemisphere</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Laius</translation>
     </message>
     <message>
         <location filename="../libs/libmythtv/diseqcsettings.cpp" line="595"/>
@@ -3331,17 +3330,17 @@ Oled sa kindel, et soovid kustutada:</translation>
     <message>
         <location filename="../libs/libmythtv/proglist_qt.cpp" line="747"/>
         <source>&lt;New Phrase&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">&lt;Uus fraas&gt;</translation>
     </message>
     <message>
         <location filename="../libs/libmythtv/proglist_qt.cpp" line="820"/>
         <source>Select Search</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Vali osting</translation>
     </message>
     <message>
         <location filename="../libs/libmythtv/proglist_qt.cpp" line="823"/>
         <source>&lt;New Search&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">&lt;Uus osting&gt;</translation>
     </message>
     <message>
         <location filename="../libs/libmythtv/proglist_qt.cpp" line="888"/>
@@ -3371,22 +3370,22 @@ Oled sa kindel, et soovid kustutada:</translation>
     <message>
         <location filename="../libs/libmythtv/proglist_qt.cpp" line="966"/>
         <source>(Any Program Type)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">(iga saate tüüp)</translation>
     </message>
     <message>
         <location filename="../libs/libmythtv/proglist_qt.cpp" line="1387"/>
         <source>Movies</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Filmid</translation>
     </message>
     <message>
         <location filename="../libs/libmythtv/proglist_qt.cpp" line="973"/>
         <source>Show</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Saated</translation>
     </message>
     <message>
         <location filename="../libs/libmythtv/proglist_qt.cpp" line="981"/>
         <source>(Any Genre)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">(iga žanr)</translation>
     </message>
     <message>
         <location filename="../libs/libmythtv/proglist_qt.cpp" line="1007"/>
@@ -3396,7 +3395,7 @@ Oled sa kindel, et soovid kustutada:</translation>
     <message>
         <location filename="../libs/libmythtv/proglist_qt.cpp" line="1189"/>
         <source>Delete &apos;%1&apos; %2 rule?</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Kustutan &quot;%1&quot; %2 reegli?</translation>
     </message>
     <message>
         <location filename="../libs/libmythtv/proglist_qt.cpp" line="1384"/>
@@ -11265,7 +11264,7 @@ You may have to use the eject button under its tray.</source>
         <location filename="../libs/libmythtv/programinfo.cpp" line="3371"/>
         <source>W</source>
         <comment>RecTypeChar kWeekslotRecord</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Laius</translation>
     </message>
     <message>
         <location filename="../libs/libmythtv/programinfo.cpp" line="3373"/>
@@ -12623,7 +12622,7 @@ name can not be blank.</source>
     <message>
         <location filename="../programs/mythfrontend/globalsettings.cpp" line="1449"/>
         <source>Error</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Viga</translation>
     </message>
     <message>
         <location filename="../programs/mythfrontend/globalsettings.cpp" line="1565"/>
@@ -13288,7 +13287,7 @@ name can not be blank.</source>
     <message>
         <location filename="../programs/mythfrontend/playbackbox.cpp" line="196"/>
         <source>^(The |A |An )</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">^(The |A |An )</translation>
     </message>
     <message>
         <location filename="../programs/mythfrontend/statusbox.cpp" line="984"/>
@@ -15629,7 +15628,7 @@ Select a Current Recording</source>
     <message>
         <location filename="../libs/libmythtv/tv_play.cpp" line="10598"/>
         <source>Error</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Viga</translation>
     </message>
     <message>
         <location filename="../libs/libmythtv/tv_play.cpp" line="10756"/>
