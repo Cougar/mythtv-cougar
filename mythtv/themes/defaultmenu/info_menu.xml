@@ -108,6 +108,7 @@
         <type>WEATHER</type>
         <text>Weather Station</text>
         <text lang="DE">Wetterstation</text>
+        <text lang="ET">Ilmajaam</text>
         <description></description>
         <action>PLUGIN mythwstation</action>
         <depends>mythwstation</depends>
@@ -215,6 +216,7 @@
         <text lang="IT">Videosorveglianza</text>
         <text lang="PL">Strażnik</text>
         <text lang="FI">ZoneMinder</text>
+        <text lang="ET">Videovalve</text>
         <description>Home surveillance</description>
         <action>PLUGIN mythzoneminder</action>
         <depends>mythzoneminder</depends>
@@ -223,6 +225,7 @@
     <button>
         <type>SMOLT</type>
         <text>Hardware profile</text>
+        <text lang="ET">Riistvara profiil</text>
         <description>Tell us what hardware you have so we can support it</description>
         <action>PLUGIN mythsmolt</action>
         <depends>mythsmolt</depends>

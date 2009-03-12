@@ -17,7 +17,7 @@
         <text lang="FI">Sään Asetukset</text>
         <text lang="ZH_TW">天氣報告設定</text>
         <text lang="SL">Nastavitve vremena</text>
-        <text lang="ET">Ilmateate sätted</text>
+        <text lang="ET">Ilmateate seadistused</text>
         <text lang="NB">Innstillinger for vær</text>
         <text lang="CS">Nastavení počasí</text>
         <text lang="RU">Настройки погоды</text>
@@ -32,6 +32,7 @@
         <type>SETTINGS_WEATHER</type>
         <text>Weather Station Settings</text>
         <text lang="DE">Wetterstation</text>
+        <text lang="ET">Ilmajaama seadistused</text>
         <description>???</description>
         <action>CONFIGPLUGIN mythwstation</action>
         <depends>mythwstation</depends>
@@ -52,7 +53,7 @@
         <text lang="FI">Uutisten Asetukset</text>
         <text lang="ZH_TW">網上新聞設定</text>
         <text lang="SL">Nastavitve novic</text>
-        <text lang="ET">Uudiste sätted</text>
+        <text lang="ET">Uudiste seadistused</text>
         <text lang="NB">Innstillinger for nyheter</text>
         <text lang="DA">Nyheds Indstillingen</text>
         <text lang="PT">Configurar Notícias</text>
@@ -72,7 +73,7 @@
         <text lang="IT">Impostazioni Orari</text>
         <text lang="FI">Elokuvahaun Asetukset</text>
         <text lang="SL">Nastavitve kino programa</text>
-        <text lang="ET">Filmiaegade sätted</text>
+        <text lang="ET">Filmiaegade seadistused</text>
         <text lang="FR">Paramètres des films</text>
         <text lang="SV">Biotider</text>
         <text lang="DA">Biograf Indstillinger</text>
@@ -98,7 +99,7 @@
         <text lang="DE">NetFlix</text>
         <text lang="FR">Paramètres Loc. films</text>
         <text lang="ES">NetFlix</text>
-        <text lang="ET">NetFlix sätted</text>
+        <text lang="ET">NetFlix seadistused</text>
         <text lang="NL">NetFlix Instellingen</text>
         <text lang="JA">NetFlix設定</text>
         <text lang="RU">Настройки NetFlix</text>
@@ -123,7 +124,7 @@
         <text lang="FI">Nettiasetukset</text>
         <text lang="ZH_TW">互聯網設定</text>
         <text lang="SL">Spletne nastavitve</text>
-        <text lang="ET">Veebi sätted</text>
+        <text lang="ET">Veebi seadistused</text>
         <text lang="NB">Innstilinger for nettleser</text>
         <text lang="DA">Web-indstillinger</text>
         <text lang="ES">Configurar Web</text>
@@ -149,7 +150,7 @@
         <text lang="IS">Stillingar uppskrifta</text>
         <text lang="NL">Recepten Instellingen</text>    
         <text lang="SL">Nastavitve receptov</text>
-        <text lang="ET">Retseptide sätted</text>    
+        <text lang="ET">Retseptide seadistused</text>
         <text lang="NB">Innstillinger for oppskrifter</text>
         <text lang="DA">Opskrifts Indstillinger</text>
         <text lang="ES">Recetas</text>

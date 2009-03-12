@@ -91,6 +91,7 @@
         <text lang="HE">תצוגה בזמן הסרטה</text>
         <text lang="FI">OSD Asetukset</text>
         <text lang="DE">Wiedergabe OSD</text>
+        <text lang="ET">Mahamängimise OSD</text>
         <description>Theme and settings for OSD</description>
         <action>SETTINGS OSD</action>
     </button>
@@ -98,6 +99,7 @@
   <button>
         <type>TV_SETTINGS_OSD_MENU_EDITOR</type>
         <text>OSD Menu Editor</text>
+        <text lang="ET">OSD redaktor</text>
         <action>OSDMENUEDITOR</action>
   </button>
     <button>

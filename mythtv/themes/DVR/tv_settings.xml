@@ -73,6 +73,7 @@
     <button>
         <type>TV_SETTINGS_PLAYBACK_OSD</type>
         <text>Playback OSD</text>
+        <text lang="ET">Mahamängimise OSD</text>
         <description>Theme and settings for OSD</description>
         <action>SETTINGS OSD</action>
     </button>
@@ -80,6 +81,7 @@
     <button>
         <type>TV_SETTINGS_OSD_MENU_EDITOR</type>
         <text>OSD Menu Editor</text>
+        <text lang="ET">OSD redaktor</text>
         <action>OSDMENUEDITOR</action>
     </button>
 

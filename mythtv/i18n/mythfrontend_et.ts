@@ -776,7 +776,7 @@
     <message>
         <location filename="../libs/libmythtv/videosource.cpp" line="3122"/>
         <source>Recording Options</source>
-        <translation>Salvestamissätted</translation>
+        <translation>Salvestamisseadistused</translation>
     </message>
     <message>
         <location filename="../libs/libmythtv/videosource.cpp" line="3118"/>
@@ -786,7 +786,7 @@
     <message>
         <location filename="../libs/libmythtv/videosource.cpp" line="3119"/>
         <source>Input and satellite settings.</source>
-        <translation>Sisendite ning satelliidi sätted.</translation>
+        <translation>Sisendite ning satelliidi seadistused.</translation>
     </message>
     <message>
         <location filename="../libs/libmythtv/videosource.cpp" line="2908"/>
@@ -920,7 +920,7 @@
     <message>
         <location filename="../libs/libmythtv/diseqcsettings.cpp" line="246"/>
         <source>Switch Configuration</source>
-        <translation>Lüliti sätted</translation>
+        <translation>Lüliti seadistused</translation>
     </message>
     <message>
         <location filename="../libs/libmythtv/diseqcsettings.cpp" line="299"/>
@@ -1002,7 +1002,7 @@
     <message>
         <location filename="../libs/libmythtv/diseqcsettings.cpp" line="518"/>
         <source>Rotor Configuration</source>
-        <translation>Rootori sätted</translation>
+        <translation>Rootori seadistused</translation>
     </message>
     <message>
         <location filename="../libs/libmythtv/diseqcsettings.cpp" line="532"/>
@@ -1012,7 +1012,7 @@
     <message>
         <location filename="../libs/libmythtv/diseqcsettings.cpp" line="533"/>
         <source>Rotor position setup.</source>
-        <translation>Rootori asendite sätted.</translation>
+        <translation>Rootori asendite seadistused.</translation>
     </message>
     <message>
         <location filename="../libs/libmythtv/diseqcsettings.cpp" line="586"/>
@@ -1122,7 +1122,7 @@
     <message>
         <location filename="../libs/libmythtv/diseqcsettings.cpp" line="819"/>
         <source>LNB Configuration</source>
-        <translation>Pea sätted</translation>
+        <translation>Pea seadistused</translation>
     </message>
     <message>
         <location filename="../libs/libmythtv/diseqcsettings.cpp" line="976"/>
@@ -2256,12 +2256,12 @@ Tagasipöördumine eelmisesse menüüsse.</translation>
     <message>
         <location filename="../programs/mythfrontend/playbackbox.cpp" line="2476"/>
         <source>Storage Options</source>
-        <translation>Hoidlasätted</translation>
+        <translation>Hoidlaseadistused</translation>
     </message>
     <message>
         <location filename="../programs/mythfrontend/playbackbox.cpp" line="2478"/>
         <source>Recording Options</source>
-        <translation>Salvestamissätted</translation>
+        <translation>Salvestamisseadistused</translation>
     </message>
     <message>
         <location filename="../programs/mythfrontend/playbackbox.cpp" line="4019"/>
@@ -3661,7 +3661,7 @@ Are you sure you want to delete:</source>
     <message>
         <location filename="../libs/libmythtv/recordingprofile.cpp" line="347"/>
         <source>Bitrate Settings</source>
-        <translation>Bitikiiruse sätted</translation>
+        <translation>Bitikiiruse seadistused</translation>
     </message>
     <message>
         <location filename="../libs/libmythtv/recordingprofile.cpp" line="399"/>
@@ -4088,7 +4088,7 @@ Enamus kaarte suudab selle automaatselt tuvastada. Muuda vaid juhul, kui see mui
     <message>
         <location filename="../libs/libmythtv/transporteditor.cpp" line="685"/>
         <source>Transport Options</source>
-        <translation type="unfinished">Transpordi sätted</translation>
+        <translation type="unfinished">Transpordi seadistused</translation>
     </message>
     <message>
         <location filename="../libs/libmythtv/scheduledrecording.cpp" line="243"/>
@@ -4175,7 +4175,7 @@ Enamus kaarte suudab selle automaatselt tuvastada. Muuda vaid juhul, kui see mui
     <message>
         <location filename="../libs/libmythtv/videosource.cpp" line="743"/>
         <source>Video source setup</source>
-        <translation>Video allika sätted</translation>
+        <translation>Video allika seadistused</translation>
     </message>
     <message>
         <location filename="../libs/libmythtv/videosource.cpp" line="810"/>
@@ -4260,7 +4260,7 @@ Enamus kaarte suudab selle automaatselt tuvastada. Muuda vaid juhul, kui see mui
     <message>
         <location filename="../libs/libmythtv/videosource.cpp" line="1618"/>
         <source>Capture Card Setup</source>
-        <translation>Salvestuskaardi sätted</translation>
+        <translation>Salvestuskaardi seadistused</translation>
     </message>
     <message>
         <location filename="../libs/libmythtv/videosource.cpp" line="1803"/>
@@ -4335,7 +4335,7 @@ Enamus kaarte suudab selle automaatselt tuvastada. Muuda vaid juhul, kui see mui
     <message>
         <location filename="../libs/libmythtv/videosource.cpp" line="3079"/>
         <source>Recorder Options</source>
-        <translation>Salvestaja sätted</translation>
+        <translation>Salvestaja seadistused</translation>
     </message>
     <message>
         <location filename="../libs/libmythtv/tv_play.cpp" line="747"/>
@@ -4875,12 +4875,12 @@ Enamus kaarte suudab selle automaatselt tuvastada. Muuda vaid juhul, kui see mui
     <message>
         <location filename="../libs/libmythtv/sr_root.cpp" line="68"/>
         <source>Save these settings</source>
-        <translation>Salvesta need sätted</translation>
+        <translation>Salvesta need seadistused</translation>
     </message>
     <message>
         <location filename="../libs/libmythtv/sr_items.cpp" line="10"/>
         <source>Scheduling Options</source>
-        <translation>Planeerimissätted</translation>
+        <translation>Planeerimisseadistused</translation>
     </message>
     <message>
         <location filename="../libs/libmythtv/sr_items.cpp" line="74"/>
@@ -4890,7 +4890,7 @@ Enamus kaarte suudab selle automaatselt tuvastada. Muuda vaid juhul, kui see mui
     <message>
         <location filename="../libs/libmythtv/sr_items.cpp" line="102"/>
         <source>Storage Options</source>
-        <translation>Hoidlasätted</translation>
+        <translation>Hoidlaseadistused</translation>
     </message>
     <message>
         <location filename="../libs/libmythtv/sr_items.cpp" line="189"/>
@@ -4915,7 +4915,7 @@ Enamus kaarte suudab selle automaatselt tuvastada. Muuda vaid juhul, kui see mui
     <message>
         <location filename="../libs/libmyth/dbsettings.cpp" line="167"/>
         <source>Database Configuration</source>
-        <translation>Andmebaasi sätted</translation>
+        <translation>Andmebaasi seadistused</translation>
     </message>
     <message>
         <location filename="../libs/libmyth/dbsettings.cpp" line="90"/>
@@ -5255,7 +5255,7 @@ Enamus kaarte suudab selle automaatselt tuvastada. Muuda vaid juhul, kui see mui
     <message>
         <location filename="../programs/mythtv-setup/backendsettings.cpp" line="693"/>
         <source>Host Address Backend Setup</source>
-        <translation>Masinaspetsiifilised taustaserveri sätted</translation>
+        <translation>Masinaspetsiifilised taustaserveri seadistused</translation>
     </message>
     <message>
         <location filename="../programs/mythtv-setup/backendsettings.cpp" line="752"/>
@@ -6035,7 +6035,7 @@ Enamus kaarte suudab selle automaatselt tuvastada. Muuda vaid juhul, kui see mui
     <message>
         <location filename="../programs/mythfrontend/globalsettings.cpp" line="2669"/>
         <source>Video Mode Settings</source>
-        <translation>Videorežiimi sätted</translation>
+        <translation>Videorežiimi seadistused</translation>
     </message>
     <message>
         <location filename="../programs/mythfrontend/globalsettings.cpp" line="2734"/>
@@ -6860,7 +6860,7 @@ Enamus kaarte suudab selle automaatselt tuvastada. Muuda vaid juhul, kui see mui
     <message>
         <location filename="../programs/mythfrontend/globalsettings.cpp" line="4837"/>
         <source>Mac OS X video settings</source>
-        <translation>Mac OS X video sätted</translation>
+        <translation>Mac OS X video seadistused</translation>
     </message>
     <message>
         <location filename="../programs/mythfrontend/globalsettings.cpp" line="4983"/>
@@ -6870,7 +6870,7 @@ Enamus kaarte suudab selle automaatselt tuvastada. Muuda vaid juhul, kui see mui
     <message>
         <location filename="../programs/mythfrontend/globalsettings.cpp" line="5041"/>
         <source>Screen settings</source>
-        <translation>Ekraani sätted</translation>
+        <translation>Ekraani seadistused</translation>
     </message>
     <message>
         <location filename="../programs/mythfrontend/globalsettings.cpp" line="5084"/>
@@ -8110,7 +8110,7 @@ Enamus kaarte suudab selle automaatselt tuvastada. Muuda vaid juhul, kui see mui
     <message>
         <location filename="../programs/mythwelcome/welcomesettings.cpp" line="98"/>
         <source>MythWelcome Settings</source>
-        <translation>MythWelcome sätted</translation>
+        <translation>MythWelcome seadistused</translation>
     </message>
     <message>
         <location filename="../programs/mythwelcome/welcomesettings.cpp" line="133"/>
@@ -8495,7 +8495,7 @@ Enamus kaarte suudab selle automaatselt tuvastada. Muuda vaid juhul, kui see mui
     <message>
         <location filename="../programs/mythwelcome/welcomesettings.cpp" line="206"/>
         <source>MythShutdown/MythWelcome Settings</source>
-        <translation>MythShutdown/MythWelcome sätted</translation>
+        <translation>MythShutdown/MythWelcome seadistused</translation>
     </message>
     <message>
         <location filename="../libs/libmythtv/progdetails.cpp" line="294"/>
@@ -9583,12 +9583,12 @@ Enamus kaarte suudab selle automaatselt tuvastada. Muuda vaid juhul, kui see mui
     <message>
         <location filename="../programs/mythfrontend/globalsettings.cpp" line="4996"/>
         <source>Scheduler Options</source>
-        <translation>Planeerija sätted</translation>
+        <translation>Planeerija seadistused</translation>
     </message>
     <message>
         <location filename="../programs/mythfrontend/globalsettings.cpp" line="5009"/>
         <source>Recording Type Priority Settings</source>
-        <translation>Salvestustüüpide prioriteetide sätted</translation>
+        <translation>Salvestustüüpide prioriteetide seadistused</translation>
     </message>
     <message>
         <location filename="../programs/mythfrontend/playbackbox.cpp" line="196"/>
@@ -14891,7 +14891,7 @@ Directory From Storage Group?</source>
     <message>
         <location filename="../libs/libmythtv/tv_play.cpp" line="1886"/>
         <source>%1 Settings</source>
-        <translation>%1 sätted</translation>
+        <translation>%1 seadistused</translation>
     </message>
     <message>
         <location filename="../libs/libmythtv/tv_play.cpp" line="6246"/>

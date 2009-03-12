@@ -147,6 +147,7 @@
         <text lang="HE">הוצא מדיה</text>
         <text lang="FI">Poista Media</text>
         <text lang="DE">Medien auswerfen</text>
+        <text lang="ET">Plaadi väljastamine</text>
         <description>Eject CD or DVD from drive</description>
         <action>EJECT</action>
     </button>

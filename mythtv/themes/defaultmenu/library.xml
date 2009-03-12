@@ -125,6 +125,7 @@
         <type>STREAM</type>
         <text>Play Online Streams</text>
         <text lang="HE">נגן מדיה מכוונת</text>
+        <text lang="ET">Võrguvoo mängimine</text>
         <description></description>
         <action>PLUGIN mythstream</action>
         <depends>mythstream</depends>

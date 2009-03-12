@@ -15,7 +15,7 @@
       <text lang="JA">全般設定</text>
       <text lang="FI">Yleiset Asetukset</text>
       <text lang="SL">Splošne nastavitve</text>
-      <text lang="ET">Üldised sätted</text>
+      <text lang="ET">Üldised seadistused</text>
       <text lang="RU">Общие настройки</text>
       <text lang="PL">Ustawienia ogólne</text>
       <action>MUSIC_SET_GENERAL</action>
@@ -36,7 +36,7 @@
       <text lang="JA">プレイヤー設定</text>
       <text lang="FI">Soittoasetukset</text>
       <text lang="SL">Nastavitve predvajanja</text>
-      <text lang="ET">Mängija sätted</text>
+      <text lang="ET">Mängija seadistused</text>
       <text lang="RU">Настройки проигрывателя</text>
       <text lang="PL">Ustaw odtwarzacz</text>
       <action>MUSIC_SET_PLAYER</action>
@@ -55,7 +55,7 @@
       <text lang="JA">リッパー設定</text>
       <text lang="FI">Tuontiasetukset</text>
       <text lang="SL">Nastavitve ripanja</text>
-      <text lang="ET">Rippija sätted</text>
+      <text lang="ET">Rippija seadistused</text>
       <text lang="RU">Настройки импорта</text>
       <text lang="PL">Ustaw zrzucanie CD</text>
       <action>MUSIC_SET_RIPPER</action>

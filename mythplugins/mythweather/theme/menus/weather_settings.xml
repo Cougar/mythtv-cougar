@@ -5,6 +5,7 @@
       <text>Global Settings</text>
       <text lang="PL">Ogólne</text>
       <text lang="FI">Yleiset Sääasetukset</text>
+      <text lang="ET">Globaalsed seadistused</text>
       <action>SETTINGS_GENERAL</action>
    </button>
 
@@ -13,6 +14,7 @@
       <text>Screen Settings</text>
       <text lang="PL">Ustaw Ekran</text>
       <text lang="FI">Sääasetukset</text>
+      <text lang="ET">Ekraani seadistused</text>
       <action>SETTINGS_SCREEN</action>
    </button>
 
@@ -21,6 +23,7 @@
       <text>Source Settings</text>
       <text lang="PL">Ustaw źródło</text>
       <text lang="FI">Sääasetusten Lähteet</text>
+      <text lang="ET">Allika seadistused</text>
       <action>SETTINGS_SOURCE</action>
    </button>
 

@@ -72,7 +72,9 @@
         <text>Custom Priority</text>
         <text lang="IT">Personalizzate</text>
         <text lang="PL">Dostosuj priorytety</text>
+        <text lang="ET">Kohandatud prioriteedid</text>
         <alttext>Custom Priority</alttext>
+        <alttext lang="ET">Kohandatud prioriteedid</alttext>
         <description>???</description>
         <action>SETTINGS CUSTOMPRIORITY</action>
     </button>

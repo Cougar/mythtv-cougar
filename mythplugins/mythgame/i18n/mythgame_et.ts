@@ -155,7 +155,7 @@ Oled sa ikka kindel, et soovid seda?</translation>
     </message>
     <message>
         <source>MythGame Settings -- General</source>
-        <translation>MythGame sätted -- Üldine</translation>
+        <translation>MythGame seadistused -- Üldine</translation>
     </message>
     <message>
         <source>Allow games to span multiple roms/disks</source>
@@ -217,7 +217,7 @@ Oled sa ikka kindel, et soovid seda?</translation>
     </message>
     <message>
         <source>Game Player Setup</source>
-        <translation>Mängija sätted</translation>
+        <translation>Mängija seadistused</translation>
     </message>
     <message>
         <source>(New Game Player)</source>

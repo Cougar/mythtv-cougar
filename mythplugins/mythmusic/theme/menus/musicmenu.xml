@@ -71,6 +71,7 @@
        <text lang="PL">Importuj muzykę</text>
        <text lang="FI">Tuo Tiedostoja</text>
        <text lang="DE">Datei-Import</text>
+       <text lang="ET">Failide importimine</text>
        <action>MUSIC_IMPORT</action>
    </button>
 

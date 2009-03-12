@@ -77,7 +77,9 @@
         <text lang="IT">Personalizzate</text>
         <text lang="SL">Poljubne prioritete</text>
         <text lang="FI">Muokatut Prioriteetit</text>
+        <text lang="ET">Kohandatud prioriteedid</text>
         <alttext>Custom Priority</alttext>
+        <alttext lang="ET">Kohandatud prioriteedid</alttext>
         <description>???</description>
         <action>SETTINGS CUSTOMPRIORITY</action>
     </button>

@@ -371,7 +371,7 @@
     <message>
         <location filename="" line="81"/>
         <source>MythGallery Settings</source>
-        <translation type="obsolete">MythGallery sätted</translation>
+        <translation type="obsolete">MythGallery seadistused</translation>
     </message>
     <message>
         <location filename="" line="81"/>
@@ -401,12 +401,12 @@
     <message>
         <location filename="../mythgallery/gallerysettings.cpp" line="185"/>
         <source>MythGallery Settings (Slideshow)</source>
-        <translation>MythGallery sätted (slaidiprogramm)</translation>
+        <translation>MythGallery seadistused (slaidiprogramm)</translation>
     </message>
     <message>
         <location filename="../mythgallery/gallerysettings.cpp" line="215"/>
         <source>MythGallery Settings (General)</source>
-        <translation>MythGallery sätted (üldine)</translation>
+        <translation>MythGallery seadistused (üldine)</translation>
     </message>
 </context>
 <context>

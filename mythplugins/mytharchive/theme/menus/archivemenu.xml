@@ -70,6 +70,7 @@
        <text>Archive Utilities</text>
        <text lang="SL">Pripomočki za arhiviranje</text>
        <text lang="FI">Lisätoiminnot</text>
+       <text lang="ET">Utiliidid</text>
        <action>MENU archiveutils.xml</action>
    </button>
 

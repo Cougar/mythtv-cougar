@@ -61,7 +61,9 @@
     <button>
         <type>TV_RECPRIORITIES_CUSTOM</type>
         <text>Custom Priority</text>
+        <text lang="ET">Kohandatud prioriteedid</text>
         <alttext>Custom Priority</alttext>
+        <alttext lang="ET">Kohandatud prioriteedid</alttext>
         <description>???</description>
         <action>SETTINGS CUSTOMPRIORITY</action>
     </button>

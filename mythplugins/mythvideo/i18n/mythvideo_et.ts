@@ -309,11 +309,11 @@
     </message>
     <message>
         <source>General Settings (1/2)</source>
-        <translation type="obsolete">Üldised sätted (1/2)</translation>
+        <translation type="obsolete">Üldised seadistused (1/2)</translation>
     </message>
     <message>
         <source>General Settings (2/2)</source>
-        <translation type="obsolete">Üldised sätted (2/2)</translation>
+        <translation type="obsolete">Üldised seadistused (2/2)</translation>
     </message>
     <message>
         <source>Video Manager</source>
@@ -325,7 +325,7 @@
     </message>
     <message>
         <source>Player Settings</source>
-        <translation>Mängija sätted</translation>
+        <translation>Mängija seadistused</translation>
     </message>
     <message>
         <source>Parental Pin:</source>
@@ -430,7 +430,7 @@ VCD mängija käsku pole määratud.</translation>
     </message>
     <message>
         <source>OK, I&apos;ll go run Setup</source>
-        <translation>OK, avan sätted</translation>
+        <translation>OK, avan seadistused</translation>
     </message>
     <message>
         <source>
@@ -486,7 +486,7 @@ DVD seadet pole määratud.</translation>
     </message>
     <message>
         <source>General Settings</source>
-        <translation type="obsolete">Üldised sätted</translation>
+        <translation type="obsolete">Üldised seadistused</translation>
     </message>
     <message>
         <source>DVD Player Command</source>
@@ -506,11 +506,11 @@ DVD seadet pole määratud.</translation>
     </message>
     <message>
         <source>DVD Player Settings</source>
-        <translation type="obsolete">DVD mängija sätted</translation>
+        <translation type="obsolete">DVD mängija seadistused</translation>
     </message>
     <message>
         <source>VCD Player Settings</source>
-        <translation type="obsolete">VCD mängija sätted</translation>
+        <translation type="obsolete">VCD mängija seadistused</translation>
     </message>
     <message>
         <source>Directory to hold temporary files</source>
@@ -602,11 +602,11 @@ DVD seadet pole määratud.</translation>
     </message>
     <message>
         <source>DVD Ripper Settings</source>
-        <translation>DVD rippija sätted</translation>
+        <translation>DVD rippija seadistused</translation>
     </message>
     <message>
         <source>MTD Settings</source>
-        <translation>MTD sätted</translation>
+        <translation>MTD seadistused</translation>
     </message>
     <message>
         <source>Waiting For Access to DVD</source>
@@ -682,7 +682,7 @@ DVD seadet pole määratud.</translation>
     </message>
     <message>
         <source>General Settings (%1/%2)</source>
-        <translation>Üldised sätted (%1/%2)</translation>
+        <translation>Üldised seadistused (%1/%2)</translation>
     </message>
     <message>
         <source>NR</source>

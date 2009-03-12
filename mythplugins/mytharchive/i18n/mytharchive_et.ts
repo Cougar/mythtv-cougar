@@ -449,11 +449,11 @@ Vajuta &quot;Valmis&quot;</translation>
     </message>
     <message>
         <source>MythArchive Settings</source>
-        <translation>MythArchive sätted</translation>
+        <translation>MythArchive seadistused</translation>
     </message>
     <message>
         <source>MythArchive Settings (2)</source>
-        <translation>MythArchive sätted (2)</translation>
+        <translation>MythArchive seadistused (2)</translation>
     </message>
     <message>
         <source>MythArchive External Commands (1)</source>

@@ -202,6 +202,7 @@
         <text>Stored Searches</text>
         <text lang="SL">Shranjena iskanja</text>
         <text lang="PL">Znaleziony zapamiętany</text>
+        <text lang="ET">Salvestatud otsingud</text>
         <description>Results of searches you have saved</description>
         <action>TV_SEARCH_STORED</action>
     </button>

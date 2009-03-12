@@ -15,7 +15,7 @@
       <text lang="IT">Generale</text>
       <text lang="SL">Splošne nastavitve</text>
       <text lang="FI">Yleiset Asetukset</text>
-      <text lang="ET">Üldised sätted</text>
+      <text lang="ET">Üldised seadistused</text>
       <text lang="RU">Общие настройки</text>
       <text lang="PL">Ustawienia ogólne</text>
       <action>SETTINGS_GENERAL</action>
@@ -36,7 +36,7 @@
       <text lang="IT">Player</text>
       <text lang="SL">Nastavitve predvajalnika</text>
       <text lang="FI">Toistoasetukset</text>
-      <text lang="ET">Mängija sätted</text>
+      <text lang="ET">Mängija seadistused</text>
       <text lang="RU">Настройки проигрывателя</text>
       <text lang="PL">Ustaw odtwarzacz</text>
       <action>SETTINGS_PLAYER</action>
@@ -77,7 +77,7 @@
       <text lang="NL">DVD RIP instellingen</text>
       <text lang="JA">再生設定</text>
       <text lang="FI">Aseta DVD-Kopionti</text>
-      <text lang="ET">Rippimise sätted</text>
+      <text lang="ET">Rippimise seadistused</text>
       <text lang="RU">Настройки импорта</text>
       <text lang="PL">Ustaw zrzucanie DVD</text>
       <action>DVD_SETTINGS_RIP</action>

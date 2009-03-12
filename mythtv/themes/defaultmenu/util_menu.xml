@@ -109,6 +109,7 @@
     <button>
         <type>MENU_UTILITIES_SETUP</type>
         <text>Save or Restore settings</text>
+        <text lang="ET">Sätete salvestamine ja taastamine</text>
         <description>Save or restore settings settings for MythTV</description>
         <action>settings_profile</action>
     </button>

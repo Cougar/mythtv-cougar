@@ -448,7 +448,7 @@
     <message>
         <location filename="../mythmusic/importmusic.cpp" line="615"/>
         <source>Save Defaults</source>
-        <translation>Salvesta vaikimisi sätted</translation>
+        <translation>Salvesta vaikimisi seadistused</translation>
     </message>
     <message>
         <location filename="../mythmusic/importmusic.cpp" line="627"/>
@@ -1399,32 +1399,32 @@ Kas sa soovid muusikat taustal edasi kuulata?</translation>
     </message>
     <message>
         <source>General Settings</source>
-        <translation type="obsolete">Üldised sätted</translation>
+        <translation type="obsolete">Üldised seadistused</translation>
     </message>
     <message>
         <location filename="../mythmusic/globalsettings.cpp" line="620"/>
         <source>CD Recording Settings</source>
-        <translation>CD salvestamise sätted</translation>
+        <translation>CD salvestamise seadistused</translation>
     </message>
     <message>
         <location filename="../mythmusic/globalsettings.cpp" line="633"/>
         <source>Playback Settings</source>
-        <translation>Mahamängimise sätted</translation>
+        <translation>Mahamängimise seadistused</translation>
     </message>
     <message>
         <location filename="../mythmusic/globalsettings.cpp" line="652"/>
         <source>Visualization Settings</source>
-        <translation>Visualiseerijate sätted</translation>
+        <translation>Visualiseerijate seadistused</translation>
     </message>
     <message>
         <location filename="../mythmusic/globalsettings.cpp" line="684"/>
         <source>CD Ripper Settings</source>
-        <translation>CD rippimise sätted</translation>
+        <translation>CD rippimise seadistused</translation>
     </message>
     <message>
         <location filename="../mythmusic/globalsettings.cpp" line="693"/>
         <source>CD Ripper Settings (part 2)</source>
-        <translation>CD rippimise sätted (2 osa)</translation>
+        <translation>CD rippimise seadistused (2 osa)</translation>
     </message>
     <message>
         <location filename="../mythmusic/maddecoder.cpp" line="572"/>
@@ -1657,7 +1657,7 @@ Kas sa soovid muusikat taustal edasi kuulata?</translation>
     <message>
         <location filename="../mythmusic/globalsettings.cpp" line="644"/>
         <source>Playback Settings (2)</source>
-        <translation>Mahamängimise sätted (2)</translation>
+        <translation>Mahamängimise seadistused (2)</translation>
     </message>
     <message>
         <location filename="../mythmusic/databasebox.cpp" line="76"/>
@@ -1747,12 +1747,12 @@ Kas sa soovid muusikat taustal edasi kuulata?</translation>
     <message>
         <location filename="../mythmusic/globalsettings.cpp" line="601"/>
         <source>General Settings (1)</source>
-        <translation>Üldised sätted (1)</translation>
+        <translation>Üldised seadistused (1)</translation>
     </message>
     <message>
         <location filename="../mythmusic/globalsettings.cpp" line="611"/>
         <source>General Settings (2)</source>
-        <translation>Üldised sätted (2)</translation>
+        <translation>Üldised seadistused (2)</translation>
     </message>
     <message>
         <location filename="../mythmusic/avfdecoder.cpp" line="389"/>

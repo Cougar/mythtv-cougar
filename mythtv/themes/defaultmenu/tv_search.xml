@@ -112,6 +112,7 @@
         <text lang="HE">חיפושים שמורים</text>
         <text lang="FI">Tallennetut Haut</text>
         <text lang="DE">Gespeicherte Suche</text>
+        <text lang="ET">Salvestatud otsingud</text>
         <description>Results of searches you have saved</description>
         <action>TV_SEARCH_STORED</action>
     </button>

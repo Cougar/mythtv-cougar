@@ -13,7 +13,7 @@
     <message>
         <location filename="../mythbookmarkmanager/bookmarkmanager.cpp" line="245"/>
         <source>MythBrowser Bookmarks Settings</source>
-        <translation>MythBrowseri järjehoidjate sätted</translation>
+        <translation>MythBrowseri järjehoidjate seadistused</translation>
     </message>
     <message>
         <location filename="../mythbookmarkmanager/bookmarkmanager.cpp" line="256"/>
