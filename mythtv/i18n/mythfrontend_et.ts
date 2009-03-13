@@ -5045,12 +5045,12 @@ Enamus kaarte suudab selle automaatselt tuvastada. Muuda vaid juhul, kui see mui
     <message>
         <location filename="../libs/libmyth/dbsettings.cpp" line="94"/>
         <source>Myth could not connect to the database. Please verify your database settings below.</source>
-        <translation>Myth ei saa luua ühendust andmebaasiga. Palun kontrolli oma andmebaasi sätteid.</translation>
+        <translation type="unfinished">Myth ei saa ühendust andmebaasiga. Kontrolli andmebaasi seadistusi.</translation>
     </message>
     <message>
         <location filename="../libs/libmyth/dbsettings.cpp" line="103"/>
         <source>The host name or IP address of the machine hosting the database. This information is required.</source>
-        <translation>Andmebaasimasina nimi või IP aadress (kohustuslik).</translation>
+        <translation>Andmebaasiserveri nimi või IP aadress (kohustuslik).</translation>
     </message>
     <message>
         <location filename="../libs/libmyth/dbsettings.cpp" line="134"/>
@@ -5060,7 +5060,7 @@ Enamus kaarte suudab selle automaatselt tuvastada. Muuda vaid juhul, kui see mui
     <message>
         <location filename="../libs/libmyth/dbsettings.cpp" line="138"/>
         <source>User</source>
-        <translation>Kasutaja</translation>
+        <translation>Kasutajanimi</translation>
     </message>
     <message>
         <location filename="../libs/libmyth/dbsettings.cpp" line="141"/>
@@ -7035,7 +7035,7 @@ Enamus kaarte suudab selle automaatselt tuvastada. Muuda vaid juhul, kui see mui
     <message>
         <location filename="../libs/libmythtv/profilegroup.h" line="68"/>
         <source>Hostname</source>
-        <translation>Masinanimi</translation>
+        <translation>Serveri nimi</translation>
     </message>
     <message>
         <location filename="../libs/libmythtv/profilegroup.h" line="80"/>
@@ -10219,17 +10219,17 @@ Kontrolli, kas video on olemas</translation>
     <message>
         <location filename="../libs/libmyth/dbsettings.cpp" line="98"/>
         <source>Database Server Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Andmebaasi seadistused</translation>
     </message>
     <message>
         <location filename="../libs/libmyth/dbsettings.cpp" line="110"/>
         <source>Ping test server?</source>
-        <translation type="unfinished"></translation>
+        <translation>Serveri ping-i kontroll</translation>
     </message>
     <message>
         <location filename="../libs/libmyth/dbsettings.cpp" line="114"/>
         <source>Test basic host connectivity using the ping command. Turn off if your host or network don&apos;t support ping (ICMP ECHO) packets</source>
-        <translation type="unfinished"></translation>
+        <translation>Serveri kättesaadavuse test ping käsuga. Keela juhul kui server või võrk ei toeta ping-i (ICMP ECHO)</translation>
     </message>
     <message>
         <location filename="../programs/mythtv-setup/backendsettings.cpp" line="60"/>
@@ -10239,7 +10239,7 @@ Kontrolli, kas video on olemas</translation>
     <message>
         <location filename="../libs/libmyth/dbsettings.cpp" line="128"/>
         <source>The port number the database is running on.  Leave blank if using the default port (3306).</source>
-        <translation type="unfinished"></translation>
+        <translation>Andmebaasiserveri pordi number. Numbri puudumisel kasutatakse vaikimisi porti 3306.</translation>
     </message>
     <message>
         <location filename="../libs/libmyth/dbsettings.cpp" line="132"/>
@@ -10249,27 +10249,29 @@ Kontrolli, kas video on olemas</translation>
     <message>
         <location filename="../libs/libmyth/dbsettings.cpp" line="196"/>
         <source>Enable Database Server Wakeup</source>
-        <translation type="unfinished"></translation>
+        <translation>Andmebaasiserveri käivitamine</translation>
     </message>
     <message>
         <location filename="../libs/libmyth/dbsettings.cpp" line="199"/>
         <source>If checked, the frontend will use database wakeup parameters to reconnect to the database server.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kasutajaliides üritab ise andmebaasiserverit käivitada ning proovib uuesti ühenduda.</translation>
     </message>
     <message>
         <location filename="../libs/libmyth/dbsettings.cpp" line="217"/>
         <source>The command executed on this frontend to wake up the database server (eg. sudo /etc/init.d/mysql restart).</source>
-        <translation type="unfinished"></translation>
+        <translation>Andembaasi käivitamiseks kasutatav käsk selles kasutajaliideses (nt. sudo /etc/init.d/mysql restart).</translation>
     </message>
     <message>
         <location filename="../libs/libmyth/dbsettings.cpp" line="244"/>
         <source>Required fields are marked with an asterisk (*).</source>
-        <translation type="unfinished"></translation>
+        <translation>Kohustuslikud väljad on märgitud tärniga (*)</translation>
     </message>
     <message>
         <location filename="../libs/libmyth/mythcontext.cpp" line="800"/>
         <source>Cannot find (ping) database host %1 on the network</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Ei leia serverit
+%1
+(ei pingi)</translation>
     </message>
     <message>
         <location filename="../libs/libmyth/mythcontext.cpp" line="810"/>
