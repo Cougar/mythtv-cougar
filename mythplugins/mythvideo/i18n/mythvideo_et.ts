@@ -7,25 +7,25 @@
         <location filename="../mythvideo/globalsettings.cpp" line="647"/>
         <source>G</source>
         <comment>PL 1 default search string.</comment>
-        <translation>Pere</translation>
+        <translation>G</translation>
     </message>
     <message>
         <location filename="../mythvideo/globalsettings.cpp" line="649"/>
         <source>PG</source>
         <comment>PL 2 default search string.</comment>
-        <translation>MS</translation>
+        <translation>PG</translation>
     </message>
     <message>
         <location filename="../mythvideo/globalsettings.cpp" line="651"/>
         <source>PG-13</source>
         <comment>PL3 default search string.</comment>
-        <translation>MS-13</translation>
+        <translation>PG-13</translation>
     </message>
     <message>
         <location filename="../mythvideo/globalsettings.cpp" line="653"/>
         <source>R:NC-17</source>
         <comment>PL4 default search string.</comment>
-        <translation>K-17</translation>
+        <translation>R:NC-17</translation>
     </message>
     <message>
         <location filename="../mythvideo/videodlg.cpp" line="105"/>
