@@ -4,25 +4,25 @@
 <context>
     <name>@default</name>
     <message>
-        <location filename="../mythvideo/globalsettings.cpp" line="653"/>
+        <location filename="../mythvideo/globalsettings.cpp" line="647"/>
         <source>G</source>
         <comment>PL 1 default search string.</comment>
         <translation>Pere</translation>
     </message>
     <message>
-        <location filename="../mythvideo/globalsettings.cpp" line="655"/>
+        <location filename="../mythvideo/globalsettings.cpp" line="649"/>
         <source>PG</source>
         <comment>PL 2 default search string.</comment>
         <translation>MS</translation>
     </message>
     <message>
-        <location filename="../mythvideo/globalsettings.cpp" line="657"/>
+        <location filename="../mythvideo/globalsettings.cpp" line="651"/>
         <source>PG-13</source>
         <comment>PL3 default search string.</comment>
         <translation>MS-13</translation>
     </message>
     <message>
-        <location filename="../mythvideo/globalsettings.cpp" line="659"/>
+        <location filename="../mythvideo/globalsettings.cpp" line="653"/>
         <source>R:NC-17</source>
         <comment>PL4 default search string.</comment>
         <translation>K-17</translation>
@@ -417,7 +417,7 @@
         <translation type="obsolete">Üldised seadistused (2/2)</translation>
     </message>
     <message>
-        <location filename="../mythvideo/globalsettings.cpp" line="754"/>
+        <location filename="../mythvideo/globalsettings.cpp" line="748"/>
         <source>Video Manager</source>
         <translation>Videohaldur</translation>
     </message>
@@ -426,7 +426,7 @@
         <translation type="obsolete">Video galerii</translation>
     </message>
     <message>
-        <location filename="../mythvideo/globalsettings.cpp" line="799"/>
+        <location filename="../mythvideo/globalsettings.cpp" line="793"/>
         <source>Player Settings</source>
         <translation>Mängija seadistused</translation>
     </message>
@@ -575,7 +575,7 @@ DVD seadet pole määratud.</translation>
         <translation>VCD seade asukoht</translation>
     </message>
     <message>
-        <location filename="../mythvideo/globalsettings.cpp" line="348"/>
+        <location filename="../mythvideo/globalsettings.cpp" line="342"/>
         <source>This device must exist, and the user running MythDVD needs to have read permission on the device.</source>
         <translation>Seade peab eksisteerima ning olema MythDVD käivitanud kasutajale loetav.</translation>
     </message>
@@ -585,32 +585,32 @@ DVD seadet pole määratud.</translation>
         <translation>DVD seade asukoht</translation>
     </message>
     <message>
-        <location filename="../mythvideo/globalsettings.cpp" line="355"/>
+        <location filename="../mythvideo/globalsettings.cpp" line="349"/>
         <source>On DVD insertion</source>
         <translation>DVD sisestamisel</translation>
     </message>
     <message>
-        <location filename="../mythvideo/globalsettings.cpp" line="356"/>
+        <location filename="../mythvideo/globalsettings.cpp" line="350"/>
         <source>Display mythdvd menu</source>
         <translation>Kuva mythdvd menüü</translation>
     </message>
     <message>
-        <location filename="../mythvideo/globalsettings.cpp" line="357"/>
+        <location filename="../mythvideo/globalsettings.cpp" line="351"/>
         <source>Do nothing</source>
         <translation>Ära tee midagi</translation>
     </message>
     <message>
-        <location filename="../mythvideo/globalsettings.cpp" line="358"/>
+        <location filename="../mythvideo/globalsettings.cpp" line="352"/>
         <source>Play DVD</source>
         <translation>Mängi DVD</translation>
     </message>
     <message>
-        <location filename="../mythvideo/globalsettings.cpp" line="359"/>
+        <location filename="../mythvideo/globalsettings.cpp" line="353"/>
         <source>Rip DVD</source>
         <translation>Ripi DVD</translation>
     </message>
     <message>
-        <location filename="../mythvideo/globalsettings.cpp" line="361"/>
+        <location filename="../mythvideo/globalsettings.cpp" line="355"/>
         <source>Media Monitoring should be turned on to allow this feature (Setup -&gt; General -&gt; CD/DVD Monitor</source>
         <translation>Selle võimaluse kasutamiseks peab meedia jälgimine olema sisse lülitatud (Sätted -&gt; Üldine -&gt; CD/DVD jälgimine)</translation>
     </message>
@@ -619,7 +619,7 @@ DVD seadet pole määratud.</translation>
         <translation type="obsolete">Üldised seadistused</translation>
     </message>
     <message>
-        <location filename="../mythvideo/globalsettings.cpp" line="430"/>
+        <location filename="../mythvideo/globalsettings.cpp" line="424"/>
         <source>DVD Player Command</source>
         <translation>DVD mängija käsk</translation>
     </message>
@@ -628,12 +628,12 @@ DVD seadet pole määratud.</translation>
         <translation type="obsolete">Suvaline käks DVD mängija käivitamiseks (näiteks MPlayer, ogle, xine jne). Käsureal olev %d asendatakse DVD seadme nimega (nt. /dev/dvd).</translation>
     </message>
     <message>
-        <location filename="../mythvideo/globalsettings.cpp" line="441"/>
+        <location filename="../mythvideo/globalsettings.cpp" line="435"/>
         <source>VCD Player Command</source>
         <translation>VCD mängija käsk</translation>
     </message>
     <message>
-        <location filename="../mythvideo/globalsettings.cpp" line="445"/>
+        <location filename="../mythvideo/globalsettings.cpp" line="439"/>
         <source>This can be any command to launch a VCD player (e.g. MPlayer, xine, etc.). If present, %d will be substituted for the VCD device (e.g. /dev/cdrom).</source>
         <translation>Suvaline käks VCD mängija käivitamiseks (näiteks MPlayer, xine jne). Käsureal olev %d asendatakse VCD seadme nimega (nt. /dev/dvd).</translation>
     </message>
@@ -646,122 +646,122 @@ DVD seadet pole määratud.</translation>
         <translation type="obsolete">VCD mängija seadistused</translation>
     </message>
     <message>
-        <location filename="../mythvideo/globalsettings.cpp" line="454"/>
+        <location filename="../mythvideo/globalsettings.cpp" line="448"/>
         <source>Directory to hold temporary files</source>
         <translation>Kataloog ajutiste failide hoidmiseks</translation>
     </message>
     <message>
-        <location filename="../mythvideo/globalsettings.cpp" line="462"/>
+        <location filename="../mythvideo/globalsettings.cpp" line="456"/>
         <source>This directory must exist, and the user running MythDVD needs to have write permission to the directory.</source>
         <translation>See kataloog peab eksisteerima ning MythDVD kasutajal peab olema sinna kataloogi kirjutamisõigus.</translation>
     </message>
     <message>
-        <location filename="../mythvideo/globalsettings.cpp" line="469"/>
+        <location filename="../mythvideo/globalsettings.cpp" line="463"/>
         <source>Title Playing Command</source>
         <translation>Pealkirja mängimise käsk</translation>
     </message>
     <message>
-        <location filename="../mythvideo/globalsettings.cpp" line="475"/>
+        <location filename="../mythvideo/globalsettings.cpp" line="469"/>
         <source>This is a command used to preview a given title on a DVD. If present %t will be set to the title, %d for device, %a for audio track, %c for audio channels.</source>
         <translation>Seda käsku kasutatakse etteantud pealkirja eelvaateks DVD pealt. Käsureal olev %t asendatakse pealkirjaga, %d seadme nimega, %a heliraja numbriga ning %c helikanaliga.</translation>
     </message>
     <message>
-        <location filename="../mythvideo/globalsettings.cpp" line="482"/>
+        <location filename="../mythvideo/globalsettings.cpp" line="476"/>
         <source>Subtitle arguments:</source>
         <translation>Subtiitrite argumendid:</translation>
     </message>
     <message>
-        <location filename="../mythvideo/globalsettings.cpp" line="487"/>
+        <location filename="../mythvideo/globalsettings.cpp" line="481"/>
         <source>If you choose any subtitles for ripping, this command is added to the end of the Title Play Command to allow previewing of subtitles. If  present %s will be set to the subtitle track. </source>
         <translation>Kui subtiitrid on valitud rippimiseks, lisatakse see käsk subtiitrite eelvaateks pealkirja mängimise käsu lõppu. Käsureas olev %s asendatakse subtiitriraja numbriga.</translation>
     </message>
     <message>
-        <location filename="../mythvideo/globalsettings.cpp" line="494"/>
+        <location filename="../mythvideo/globalsettings.cpp" line="488"/>
         <source>Base transcode command</source>
         <translation>Transkodeerimise käsk</translation>
     </message>
     <message>
-        <location filename="../mythvideo/globalsettings.cpp" line="497"/>
+        <location filename="../mythvideo/globalsettings.cpp" line="491"/>
         <source>This is the base (without arguments) command to run transcode on your system.</source>
         <translation>See on transkodeerimise käsk (ilma argumentideta).</translation>
     </message>
     <message>
-        <location filename="../mythvideo/globalsettings.cpp" line="504"/>
+        <location filename="../mythvideo/globalsettings.cpp" line="498"/>
         <source>MTD port number</source>
         <translation>MTD pordi number</translation>
     </message>
     <message>
-        <location filename="../mythvideo/globalsettings.cpp" line="508"/>
+        <location filename="../mythvideo/globalsettings.cpp" line="502"/>
         <source>The port number that should be used for communicating with the MTD (Myth Transcoding Daemon)</source>
         <translation>MTD-ga (Myth Transcoding Daemon) ühendumiseks kasutatav port</translation>
     </message>
     <message>
-        <location filename="../mythvideo/globalsettings.cpp" line="515"/>
+        <location filename="../mythvideo/globalsettings.cpp" line="509"/>
         <source>MTD logs to terminal window</source>
         <translation>MTD logib terminaliaknasse</translation>
     </message>
     <message>
-        <location filename="../mythvideo/globalsettings.cpp" line="520"/>
+        <location filename="../mythvideo/globalsettings.cpp" line="514"/>
         <source>If set, the MTD (Myth Transcoding Daemon) will log to the window it is started from. Otherwise, it will write to a file called  mtd.log in the top level ripping directory.</source>
         <translation>Märkimisel logib MTD (Myth Transcoding Daemon) aknasse, kus ta käivitati. Märkimatajätmisel kirjutatakse logi rippimise tipptaseme kataloogis asuvasse faili mtd.log.</translation>
     </message>
     <message>
-        <location filename="../mythvideo/globalsettings.cpp" line="527"/>
+        <location filename="../mythvideo/globalsettings.cpp" line="521"/>
         <source>Transcode AC3 Audio</source>
         <translation>Transkodeeri AC3 heli</translation>
     </message>
     <message>
-        <location filename="../mythvideo/globalsettings.cpp" line="531"/>
+        <location filename="../mythvideo/globalsettings.cpp" line="525"/>
         <source>If set, the MTD (Myth Transcoding Daemon) will, by default, preserve AC3 (Dolby Digital) audio in transcoded files. </source>
         <translation>Märkimisel säilitab MTD (Myth Transcoding Daemon) transkodeeritud failis AC3 (Dolby Digital) heli.</translation>
     </message>
     <message>
-        <location filename="../mythvideo/globalsettings.cpp" line="538"/>
+        <location filename="../mythvideo/globalsettings.cpp" line="532"/>
         <source>Use xvid rather than divx</source>
         <translation>Kasuta divx asemel xvid-i</translation>
     </message>
     <message>
-        <location filename="../mythvideo/globalsettings.cpp" line="542"/>
+        <location filename="../mythvideo/globalsettings.cpp" line="536"/>
         <source>If set, mythdvd will use the (open, free) xvid codec rather than divx whenever possible.</source>
         <translation>Märkimisel kasutatakse võimalusel divx asemel xvid avatud koodekit.</translation>
     </message>
     <message>
-        <location filename="../mythvideo/globalsettings.cpp" line="560"/>
+        <location filename="../mythvideo/globalsettings.cpp" line="554"/>
         <source>Nice level for MTD</source>
         <translation>MTD viisakuse aste</translation>
     </message>
     <message>
-        <location filename="../mythvideo/globalsettings.cpp" line="564"/>
+        <location filename="../mythvideo/globalsettings.cpp" line="558"/>
         <source>This determines the priority of the Myth Transcoding Daemon. Higher numbers mean lower priority (more CPU to other tasks).</source>
         <translation>Määrab Myth Transcoding Daemon&apos;i prioriteedi. Suurem number tähendab madalamat prioriteeti (rohkem protsessoriaega teistele protsessidele).</translation>
     </message>
     <message>
-        <location filename="../mythvideo/globalsettings.cpp" line="571"/>
+        <location filename="../mythvideo/globalsettings.cpp" line="565"/>
         <source>Simultaneous Transcode Jobs</source>
         <translation>Samaaegsed transkodeerimistööd</translation>
     </message>
     <message>
-        <location filename="../mythvideo/globalsettings.cpp" line="575"/>
+        <location filename="../mythvideo/globalsettings.cpp" line="569"/>
         <source>This determines the number of simultaneous transcode jobs. If set at 1 (the default), there will only be one active job at a time.</source>
         <translation>Määrab samaaegsete transkodeerimiste arvu. Vaikimisi on 1 ehk tehakse vaid üks transkodeerimine korraga.</translation>
     </message>
     <message>
-        <location filename="../mythvideo/globalsettings.cpp" line="582"/>
+        <location filename="../mythvideo/globalsettings.cpp" line="576"/>
         <source>Ripped video segments</source>
         <translation>Ripitud videolõigud</translation>
     </message>
     <message>
-        <location filename="../mythvideo/globalsettings.cpp" line="588"/>
+        <location filename="../mythvideo/globalsettings.cpp" line="582"/>
         <source>If set to something other than 0, ripped video titles will be broken up into files of this size (in MB). Applies to both perfect quality recordings and intermediate files used for transcoding.</source>
         <translation>Kui on erinev nullist, tükeldatakse videopealkirjad sellise suurusega failideks (MB). Kehtib nii tulemuse kui ka vahepealsetel ettappidel tekkivate failide kohta.</translation>
     </message>
     <message>
-        <location filename="../mythvideo/globalsettings.cpp" line="810"/>
+        <location filename="../mythvideo/globalsettings.cpp" line="804"/>
         <source>DVD Ripper Settings</source>
         <translation>DVD rippija seadistused</translation>
     </message>
     <message>
-        <location filename="../mythvideo/globalsettings.cpp" line="819"/>
+        <location filename="../mythvideo/globalsettings.cpp" line="813"/>
         <source>MTD Settings</source>
         <translation>MTD seadistused</translation>
     </message>
@@ -833,27 +833,27 @@ DVD seadet pole määratud.</translation>
         <translation type="obsolete">Kustuta DVD järjehoidjad, mis on vanemad kui päevades antud number</translation>
     </message>
     <message>
-        <location filename="../mythvideo/globalsettings.cpp" line="392"/>
+        <location filename="../mythvideo/globalsettings.cpp" line="386"/>
         <source>Enable DVD Bookmark Support</source>
         <translation>Kasuta DVD järjehoidjaid</translation>
     </message>
     <message>
-        <location filename="../mythvideo/globalsettings.cpp" line="399"/>
+        <location filename="../mythvideo/globalsettings.cpp" line="393"/>
         <source>DVD Bookmark Prompt</source>
         <translation>DVD järjehoidja viip</translation>
     </message>
     <message>
-        <location filename="../mythvideo/globalsettings.cpp" line="402"/>
+        <location filename="../mythvideo/globalsettings.cpp" line="396"/>
         <source>Display a prompt to choose whether to play the DVD from the beginning or from the bookmark</source>
         <translation>Algusest või järjehoidjast alates DVD mängimiseks küsimise viip</translation>
     </message>
     <message>
-        <location filename="../mythvideo/globalsettings.cpp" line="434"/>
+        <location filename="../mythvideo/globalsettings.cpp" line="428"/>
         <source>This can be any command to launch a DVD  player (e.g. MPlayer, ogle, etc.). If present, %d will be substituted for the DVD device (e.g. /dev/dvd).</source>
         <translation>Suvaline käsk, mis käivitab DVD mängija (nt. MPlayer, ogle, jne.). DVD seadme nime (nt. /dev/dvd) või asendada %d.</translation>
     </message>
     <message>
-        <location filename="../mythvideo/globalsettings.cpp" line="789"/>
+        <location filename="../mythvideo/globalsettings.cpp" line="783"/>
         <source>General Settings (%1/%2)</source>
         <translation>Üldised seadistused (%1/%2)</translation>
     </message>
@@ -972,7 +972,7 @@ Kas kustutada ka andmebaasist?</translation>
         <translation>Mitme kataloogi kasutamisel tuleb need eraldada kooloniga. Kõik kataloogid peavad eksisteerima ning olema MythVideo kasutajale loetavad.</translation>
     </message>
     <message>
-        <location filename="../mythvideo/globalsettings.cpp" line="378"/>
+        <location filename="../mythvideo/globalsettings.cpp" line="372"/>
         <source>DVD Drive Speed</source>
         <translation>DVD seadme kiirus</translation>
     </message>
@@ -981,32 +981,32 @@ Kas kustutada ka andmebaasist?</translation>
         <translation type="obsolete">DVD sedame kiirus filmide mahamängimisel. Kiirus on 177 KB/sek kordaja</translation>
     </message>
     <message>
-        <location filename="../mythvideo/globalsettings.cpp" line="549"/>
+        <location filename="../mythvideo/globalsettings.cpp" line="543"/>
         <source>Let transcode determine frame rate</source>
         <translation>Transkodeerija määrab kaadrisageduse</translation>
     </message>
     <message>
-        <location filename="../mythvideo/globalsettings.cpp" line="553"/>
+        <location filename="../mythvideo/globalsettings.cpp" line="547"/>
         <source>If set, transcode will determine the frame rate automatically. If not set, 23.976 is assumed.</source>
         <translation>Märkimisel llubatakse transkodeerijal määrata kaadrisagedus automaatselt. Vastasel juhul eeldatakse 23.976.</translation>
     </message>
     <message>
-        <location filename="../mythvideo/globalsettings.cpp" line="642"/>
+        <location filename="../mythvideo/globalsettings.cpp" line="636"/>
         <source>Enable automatic Parental Level from rating</source>
         <translation>Kasuta reitingut vanemliku taseme määramiseks</translation>
     </message>
     <message>
-        <location filename="../mythvideo/globalsettings.cpp" line="646"/>
+        <location filename="../mythvideo/globalsettings.cpp" line="640"/>
         <source>If enabled, searches will automatically set the Parental Level to the one matching the rating below.</source>
         <translation>Märkimisel seatakse vanemlik tase reitingu alusel automaatselt.</translation>
     </message>
     <message>
-        <location filename="../mythvideo/globalsettings.cpp" line="668"/>
+        <location filename="../mythvideo/globalsettings.cpp" line="662"/>
         <source>Level %1</source>
         <translation>Tase %1</translation>
     </message>
     <message>
-        <location filename="../mythvideo/globalsettings.cpp" line="672"/>
+        <location filename="../mythvideo/globalsettings.cpp" line="666"/>
         <source>Ratings containing these strings (separated by :) will be assigned to Parental Level %1.</source>
         <translation>Alljärgnevaid sõnu (eraldatud koolonitega) sisaldavad reitingud määravad vanemlikuks tasemeks %1.</translation>
     </message>
@@ -1109,37 +1109,37 @@ Kontrolli videohalduse sätteid</translation>
         <translation>Treilerite kataloog</translation>
     </message>
     <message>
-        <location filename="../mythvideo/globalsettings.cpp" line="368"/>
+        <location filename="../mythvideo/globalsettings.cpp" line="362"/>
         <source>Remove DVD Bookmarks Older than (days)</source>
         <translation>Vanemate DVD järjehoidjate kustutamine (päevades)</translation>
     </message>
     <message>
-        <location filename="../mythvideo/globalsettings.cpp" line="371"/>
+        <location filename="../mythvideo/globalsettings.cpp" line="365"/>
         <source>Delete DVD Bookmarks that are older than the Number of days specified</source>
         <translation>Kustuta DVD järjehoidjad, mis on vanemad kui antud number päeva</translation>
     </message>
     <message>
-        <location filename="../mythvideo/globalsettings.cpp" line="383"/>
+        <location filename="../mythvideo/globalsettings.cpp" line="377"/>
         <source>Set DVD Drive Speed during DVD Playback. Speed is in multiples of 177KB/s. Slower speeds may reduce drive noise but in some cases it causes playback to stutter.</source>
         <translation>DVD seadme mahamängimiskiirus. Kiirus on 177 KB/sek kordaja. Väiksem kiirus vähendab DVD seadme müra kuid võib põhjustada hüplikut mahamängimist.</translation>
     </message>
     <message>
-        <location filename="../mythvideo/globalsettings.cpp" line="695"/>
+        <location filename="../mythvideo/globalsettings.cpp" line="689"/>
         <source>Enable random trailers before videos</source>
         <translation>Mängi ennem videot juhuslikke treilereid</translation>
     </message>
     <message>
-        <location filename="../mythvideo/globalsettings.cpp" line="700"/>
+        <location filename="../mythvideo/globalsettings.cpp" line="694"/>
         <source>If set, this will enable a button called &quot;Watch With Trailers&quot; which will play a user-specified number of trailers before the movie.</source>
         <translation>Märkimisel lisandub menüüsse nupp &quot;Vaata koos treileritega&quot;.</translation>
     </message>
     <message>
-        <location filename="../mythvideo/globalsettings.cpp" line="708"/>
+        <location filename="../mythvideo/globalsettings.cpp" line="702"/>
         <source>Number of trailers to play</source>
         <translation>Mängitavate treilerite arv</translation>
     </message>
     <message>
-        <location filename="../mythvideo/globalsettings.cpp" line="711"/>
+        <location filename="../mythvideo/globalsettings.cpp" line="705"/>
         <source>The number of trailers to play before playing the film itself </source>
         <translation>Enne filmi mängitavate juhuslike treilerite arv</translation>
     </message>
@@ -1442,7 +1442,7 @@ Kontolli videohalduse seadeid</translation>
     <message>
         <location filename="themestrings.h" line="63"/>
         <source>Aucune video</source>
-        <translation type="unfinished"></translation>
+        <translation>Aucune video</translation>
     </message>
     <message>
         <location filename="themestrings.h" line="68"/>
@@ -1779,31 +1779,31 @@ Kontolli videohalduse seadeid</translation>
         <translation>Faili kustutamine ebaõnnestus</translation>
     </message>
     <message>
-        <location filename="../mythvideo/videodlg.cpp" line="2875"/>
+        <location filename="../mythvideo/videodlg.cpp" line="2880"/>
         <source>Poster download finished: %1 %2</source>
         <translation>Plakati allalaadimine on lõppenud: %1 %2</translation>
     </message>
     <message>
-        <location filename="../mythvideo/videodlg.cpp" line="2880"/>
+        <location filename="../mythvideo/videodlg.cpp" line="2885"/>
         <source>A poster exists for this item but could not be retrieved within the timeout period.
 </source>
         <translation>Plakat on küll olemas kuid ei suuda mõistliku ajaga alla laadida.
 </translation>
     </message>
     <message>
-        <location filename="../mythvideo/videodlg.cpp" line="2969"/>
+        <location filename="../mythvideo/videodlg.cpp" line="2974"/>
         <source>Fanart download finished: %1 %2</source>
         <translation>&quot;fanart&quot;-i allalaadimine on lõppenud: %1 %2</translation>
     </message>
     <message>
-        <location filename="../mythvideo/videodlg.cpp" line="2974"/>
+        <location filename="../mythvideo/videodlg.cpp" line="2979"/>
         <source>Fanart exists for this item but could not be retrieved within the timeout period.
 </source>
         <translation>&quot;fanart&quot; on küll olemas kuid ei suuda mõistliku ajaga alla laadida.
 </translation>
     </message>
     <message>
-        <location filename="../mythvideo/videodlg.cpp" line="3148"/>
+        <location filename="../mythvideo/videodlg.cpp" line="3153"/>
         <source>No matches were found.</source>
         <translation>Vasteid ei leidunud.</translation>
     </message>
